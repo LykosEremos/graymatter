@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="page-heading" style="color:black;">文章</div>
+  
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="post-list-title">
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </div >
+      </li>
+    {% endfor %}
+  </ul>
+ 
+</div>
