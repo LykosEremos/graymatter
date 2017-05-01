@@ -1,7 +1,0 @@
----
-layout: post
-title:  "第一周进程"
-date:   2014-04-23 20:31:19 -0400
-categories: jekyll testing
----
-第一周进程

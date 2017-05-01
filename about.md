@@ -1,15 +1,10 @@
 ---
 layout: page
-title: About
+title: 使用须知
 permalink: /about/
 ---
+这是APG IV 词源标注计划的官方网站。在使用本站时，请注意以下两点：
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+* 为了确保信息的时效性，本站是持续更新的。
+* 本站可能含一些错字笔误。这些错误会在将来的更新中逐渐修复。
+* 如果要以任何形式引用本文中的内容，请以符合标准规范、符合学术道德的方式为之。
