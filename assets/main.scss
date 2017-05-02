@@ -69,23 +69,24 @@ line-height:175%;
 
 
 .post-meta { 
-	font-size: 1em; 
-	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.8em; 
+	font-family: Arial,'Microsoft YaHei';
 	color: #828282; 
 }
 
 .page-heading { font-size: 2.1em; color: #828282}
 
 
-.post-header { margin-bottom: 30px; 
+.post-header { 
+margin-bottom: 30px; 
 				line-height: 300%;}
 
 .post-title{
 font-family:"SimHei";
-font-size: 2em;
+font-size: 2.5em;
 }
   
-  
+
 
   
 .maintext{line-height: 175%;}
@@ -160,6 +161,7 @@ h2{
 .footer-box   
 {
 	margin-right: auto; 
+	text-align: justify;
 	margin-left: auto;
 	font-family: serifRoman,'Microsoft YaHei';
 	color:#828282;
@@ -182,11 +184,24 @@ h2{
     background-color: #4CAF50;
     color: white;
 	opacity: 1;
+	border-radius: 3px 3px 3px 3px;
     padding: 8px;
 	padding-left: 8px;
 	padding-right: 8px;
     border: none;
     cursor: pointer;
+}
+
+.header-menu{
+	padding:0.5em;
+	font-size:1.1em;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 5em;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	right:0;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -204,7 +219,41 @@ h2{
 	width: 14px;
     height: 2px;
     background-color: white;
-    margin: 2.4px 0;
+    margin: 2.4px;
+}
+
+.navigation
+{
+	float: right;
+	line-height: 56px;
+}
+.navigation .page-link {
+	color: #111; 
+	text-align: justify; 
+	line-height: 1.5; font-size:1.1em;font-weight:300; 
+	margin-left: 20px;
+}
+
+.navigation .page-link:hover {
+    color: #227c41;
+	text-decoration: none;
+}
+
+
+.navigation ul
+{
+	list-style:none;
+}
+
+.header-button
+{
+	position:relative;
+	right:0;
+}
+
+
+.header-button .bar-div{
+    background-color: black;
 }
 
 /* Show the dropdown menu on hover */
@@ -218,16 +267,41 @@ h2{
     background-color:#227c41;
 }
 
+.normal{
+    display: block;
+}
 
-.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+.mobile
+{
+	display: none;
+}
+
+
+/*-webkit-calc(1000px - (30px * 2)); max-width: calc(1000px - (30px * 2))*/
+
+.wrapper { max-width:-webkit-calc(900px - (30px * 2)); max-width: calc(900px - (30px * 2)) ; margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 @media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }   
    
    
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
+
+.normal{
+	display: none;
+}
+
+.mobile
+{
+	display: block;
+}
+
+}
+   
+   
+@media screen and (max-width: 900px) {
+
 .dropbtn {
 	opacity: 0.15;
 }
-	
 	
 	
 .dropdown {
@@ -238,6 +312,7 @@ h2{
 .dpd-content {
 	right:0;
 }
+
 }
 
    
