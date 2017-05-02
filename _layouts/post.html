@@ -68,7 +68,7 @@ else{document.getElementById("toc").innerHTML =str;}
 <script>
 function toggleToc()
 {
-if (window.innerWidth < 800) {
+if (window.innerWidth < 1000) {
 var tgButton=document.getElementById('tg-button');
 var tgMenu=document.getElementById('tg-menu');
     if (tgMenu.style.display === 'none') {
@@ -78,6 +78,7 @@ var tgMenu=document.getElementById('tg-menu');
         tgMenu.style.display = 'none';
 		tgButton.style.opacity = 0.15;
     }
+}
 }
 </script>
 
