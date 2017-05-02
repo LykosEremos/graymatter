@@ -3,21 +3,26 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="table-of-contents">
-<div style="text-align:center;font-weight:normal;padding-bottom:0.5em;">忠实的导航栏</div>
-<div id="toc"></div>
-</div>
+<!-- <div class="table-of-contents">
+</div> -->
 
 <div class="page-heading" style="font-weight:300;"> 文章 / </div>
   <header class="post-header">
 	<div class="post-title" itemprop="name headline">{{ page.title | escape }}</div>
-    <div class="post-meta">本文首发于 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-	</div>
+    <div class="post-meta">本文首发于 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}
+	</time>
+  </div>
   </header>
+  
  
- 
- 
- 
+
+ <div class="dropdown">
+  <button class="dropbtn">导航</button>
+  <div class="dpd-content">
+   <div id="toc">  </div>
+  </div>
+  </div>
+
   <div class="maintext" itemprop="articleBody">
     {{ content }}
   </div>
