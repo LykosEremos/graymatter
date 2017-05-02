@@ -202,6 +202,11 @@ h2{
 }
 
 
+.dropdown:focus .dropbtn {
+    background-color:#227c41;
+	opacity: 0.15;
+}
+
 /* Show the dropdown menu on hover */
 .dropdown:hover .dpd-content {
     display: block;
