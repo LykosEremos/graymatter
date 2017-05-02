@@ -17,8 +17,8 @@ layout: default
  
 
  <div class="dropdown">
-  <button class="dropbtn">导航</button>
-  <div class="dpd-content">
+  <button onclick="toggleToc()" class="dropbtn">导航</button>
+  <div class="dpd-content" id="tg-menu">
    <div id="toc">  </div>
   </div>
   </div>
@@ -64,6 +64,17 @@ else
 
 if(str===""){document.getElementById("toc").innerHTML ="<div style=\"font-size: 0.8em;\">（本文没有内部分节）</div>";}
 else{document.getElementById("toc").innerHTML =str;}
+</script>
+<script>
+function toggleToc()
+{
+var tgMenu=document.getElementById('tg-menu');
+    if (tgMenu.style.display === 'none') {
+        tgMenu.style.display = 'block';
+    } else {
+        tgMenu.style.display = 'none';
+    }
+}
 </script>
 
   {% if site.disqus.shortname %}
