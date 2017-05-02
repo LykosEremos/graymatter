@@ -15,7 +15,7 @@
     </div>
   
   <div class="mobile">
-    <button onclick="toggleHd()" class="header-button"><div class="bar-div"></div><div class="bar-div"></div><div class="bar-div"></div></button>
+    <button class="header-button" onclick="toggleHd()"><div class="bar-div"></div><div class="bar-div"></div><div class="bar-div"></div></button>
     <div class="header-menu" id="hd-menu">
 	<ul>
     {% for my_page in site.pages %}
@@ -35,12 +35,13 @@
 function toggleHd()
 {
 var menu=document.getElementById('hd-menu');
-    if (menu.style.display === 'none') {
-        menu.style.display = 'block';
-    } else {
+
+    if (menu.style.display === 'block') {
         menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
     }
-} 
- </script> 
+}
+</script> 
 
 </header>

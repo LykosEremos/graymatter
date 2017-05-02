@@ -71,12 +71,12 @@ function toggleToc()
 if (window.innerWidth < 1000) {
 var tgButton=document.getElementById('tg-button');
 var tgMenu=document.getElementById('tg-menu');
-    if (tgMenu.style.display === 'none') {
-        tgMenu.style.display = 'block';
-		tgButton.style.opacity = 1;
-    } else {
+    if (tgMenu.style.display === 'block') {
         tgMenu.style.display = 'none';
 		tgButton.style.opacity = 0.15;
+    } else {
+        tgMenu.style.display = 'block';
+		tgButton.style.opacity = 1;
     }
 }
 }
