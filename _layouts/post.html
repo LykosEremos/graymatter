@@ -17,7 +17,7 @@ layout: default
  
 
  <div class="dropdown">
-  <button onclick="toggleToc()" class="dropbtn">导航</button>
+  <button onclick="toggleToc()" class="dropbtn" id="tg-button">导航</button>
   <div class="dpd-content" id="tg-menu">
    <div id="toc">  </div>
   </div>
@@ -68,12 +68,14 @@ else{document.getElementById("toc").innerHTML =str;}
 <script>
 function toggleToc()
 {
+var tgButton=document.getElementById('tg-button');
 var tgMenu=document.getElementById('tg-menu');
     if (tgMenu.style.display === 'none') {
         tgMenu.style.display = 'block';
+		tgButton.style.opacity = 1;
     } else {
         tgMenu.style.display = 'none';
-		tgMenu.style.opacity = 0.15;
+		tgButton.style.opacity = 0.15;
     }
 }
 </script>
