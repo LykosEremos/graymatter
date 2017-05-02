@@ -181,7 +181,7 @@ h2{
 .dropbtn {
     background-color: #4CAF50;
     color: white;
-	opacity: 0.15;
+	opacity: 1;
     padding: 8px;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -197,7 +197,7 @@ h2{
     position: absolute;
     background-color: #f9f9f9;
     min-width: 7em;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 .bar-div{
@@ -209,13 +209,13 @@ h2{
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dpd-content {
-    display: block;
+	display:block;
+	opacity:1;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color:#227c41;
-	opacity: 1;
 }
 
 
@@ -224,6 +224,12 @@ h2{
    
    
 @media screen and (max-width: 1000px) {
+.dropbtn {
+	opacity: 0.15;
+}
+	
+	
+	
 .dropdown {
 	top:6.5em;
 	left:85%;

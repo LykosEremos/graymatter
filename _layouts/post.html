@@ -17,9 +17,7 @@ layout: default
  
 
  <div class="dropdown">
-  <button onclick="toggleToc()" class="dropbtn" id="tg-button"><div class="bar-div"></div>
-<div class="bar-div"></div>
-<div class="bar-div"></div></button>
+  <button onclick="toggleToc()" class="dropbtn" id="tg-button"><div class="bar-div"></div><div class="bar-div"></div><div class="bar-div"></div></button>
   <div class="dpd-content" id="tg-menu">
    <div id="toc">  </div>
   </div>
@@ -70,6 +68,7 @@ else{document.getElementById("toc").innerHTML =str;}
 <script>
 function toggleToc()
 {
+if (window.innerWidth < 800) {
 var tgButton=document.getElementById('tg-button');
 var tgMenu=document.getElementById('tg-menu');
     if (tgMenu.style.display === 'none') {
