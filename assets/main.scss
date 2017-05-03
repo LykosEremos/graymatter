@@ -248,12 +248,17 @@ h2{
 .header-button
 {
 	position:relative;
-	right:0;
+	padding-top:1.09em;
+	padding-bottom:1.15em;
+	right:1em;
 }
 
 
 .header-button .bar-div{
     background-color: black;
+	width: 20.02px;
+    height: 2.86px;
+    margin: 3.432px;
 }
 
 /* Show the dropdown menu on hover */
