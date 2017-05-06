@@ -13,10 +13,44 @@ body {
 	font-family: serifRoman,'Microsoft YaHei';
 	counter-reset: h1counter;
 	margin-bottom:12em;
+	-webkit-font-smoothing:antialiased;
 	}
 	
 	
-	
+.notes{
+	font-size:0.8em;
+	padding:1em;
+	line-height:135%;
+	background:rgb(248,248,248);
+}	
+
+.note-tag{
+	font-size:0.6em;
+	padding-left:0.2em;
+	color:gray;
+}
+.paradigm{
+	list-style-type: none;
+	font-size:1.2em;
+	font-weight:600;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+.paradigm li{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	display: inline-block;
+	text-align: center;
+	background-color:#f2f2f2;
+}
+.paradigm li:nth-child(odd) {
+    background-color: #e1e1e1;
+}
+
+
 	
 @font-face {
   font-family: serifRoman;
@@ -103,6 +137,9 @@ i{
 	font-style: italic;	
 }
 
+ul li{
+	padding: 0em;
+}
 
 h1{
 	font-size: 1.6em;
@@ -198,10 +235,10 @@ h2{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 5em;
+    min-width: 3em;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
     z-index: 1;
-	right:0;
+	right:1em;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -242,7 +279,24 @@ h2{
 
 .navigation ul
 {
+	text-align: justify; 
+	font-size:1.1em;
+	font-weight:300; 
 	list-style:none;
+	line-height:2em;
+	margin-left:15px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.navigation ul a
+{
+	color: #111; 
+}
+
+.navigation ul a:hover {
+    color: #227c41;
+	text-decoration: none;
 }
 
 .header-button
@@ -258,7 +312,7 @@ h2{
     background-color: black;
 	width: 20.02px;
     height: 2.86px;
-    margin: 3.432px;
+    margin: 3.6px;
 }
 
 /* Show the dropdown menu on hover */
@@ -302,7 +356,7 @@ h2{
 }
    
    
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
 
 .dropbtn {
 	opacity: 0.15;
