@@ -15,32 +15,7 @@ body {
 	margin-bottom:12em;
 	-webkit-font-smoothing:antialiased;
 	}
-	
-	
-.paradigm{
-	list-style-type: none;
-	font-size:1.2em;
-	font-weight:600;
-	margin-top:1em;
-	margin-bottom:1em;
-	color:#4f4f4f;
-}
-
-.paradigm li{
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-top:0.5em;
-	padding-bottom:0.5em;
-	display: inline-block;
-	text-align: center;
-	background-color:#f6f6f6;
-}
-.paradigm li:nth-child(odd) {
-    background-color: #eaeaea;
-}
-
-
-	
+		
 @font-face {
   font-family: serifRoman;
   src: local('Times New Roman');
@@ -50,7 +25,6 @@ body {
 .site-header
 {
 	position:absolute;
-    
     top:0;
 	height:3em;
 	border-top: 3px solid #227c41;
@@ -71,7 +45,6 @@ a:hover {
 {		
 	position: absolute;
 	bottom:0;
-	
 	min-height: 4em;
 	width: 100%;
 	margin-top:4em;
@@ -113,9 +86,7 @@ font-size: 2.5em;
 
   
 .maintext{line-height: 175%;}
-	  
-	  
-	  
+	    
 	  
 p{
 	text-indent: 2em;
@@ -126,8 +97,29 @@ i{
 	font-style: italic;	
 }
 
-ul li{
-	padding: 0em;
+.maintext ul{
+	list-style-type: none;
+}
+
+.maintext ul li{
+	text-indent:-1.5em;
+	margin-bottom:0.25em;
+}
+
+.maintext li::before {
+  content: "•";
+  font-size:1.25em;
+  padding-right: 0.85em;
+}
+
+.maintext ul ul{
+	list-style-type: none;
+}
+
+.maintext ul ul li::before {
+  content: "◦";
+  font-size:1.25em;
+  padding-right: 0.8em;
 }
 
 h1 {
@@ -203,6 +195,35 @@ h2{
 	padding-left:0.2em;
 	color:gray;
 }
+
+
+.paradigm{
+	font-size:1.2em;
+	font-family:serifRoman,'KaiTi','BiauKai','Microsoft YaHei';
+	margin-top:1em;
+	margin-bottom:1em;
+	color:black;
+}
+
+
+.paradigm ul li{
+	text-indent:0;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	display: inline-block;
+	text-align: center;
+	background-color:#f6f6f6;
+}
+.paradigm ul li:nth-child(odd) {
+    background-color: #eaeaea;
+}
+
+.paradigm ul li::before {
+  content: "";
+  padding-right: 0;
+}
    
    
    
@@ -230,6 +251,7 @@ h2{
 
 .dropbtn {
     background-color: #47b84b;
+	font-family:'Microsoft YaHei';
     color: white;
 	opacity: 1;
 	border-radius: 3px 3px 3px 3px;
@@ -245,22 +267,21 @@ h2{
 	font-size:1.1em;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #fbfbfb;
     min-width: 3em;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.4);
     z-index: 1;
 	right:1em;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dpd-content {
 	padding:1em;
 	font-size:1.5em;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #fbfbfb;
     min-width: 7em;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.4);
     z-index: 1;
 }
 .bar-div{

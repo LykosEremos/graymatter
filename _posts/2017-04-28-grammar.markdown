@@ -68,7 +68,7 @@ categories: resources
 
 五种名词变格法每一种都有自己特征性的单数属格结尾（genitive endings），分别是 -ae, -ī，-ĭs，-ūs，-eī。因此，只要知道一个词的gen.sg.形式就能推断出它所从属的变格法。下面我举一些例子，每个词语将会以
 
-<ul class="paradigm"><li>sg. nom.</li><li>sg. gen.</li><li>词性</li><li>“词意”</li> </ul>
+<div class="paradigm"><ul><li>sg. nom.</li><li>sg. gen.</li><li>词性</li><li>“词意”</li> </ul></div>
 
 <p style="text-indent: 0;">的方式写出，这也是大部分拉丁字典记录词汇的方式：</p>
 
@@ -121,7 +121,7 @@ categories: resources
 
 可见，动词的变位比名词、形容词的的变格要复杂得多，变位一个动词所需要的信息也更多。除了一些含语法缺陷的动词，所有的动词都有三个词干，即现在时词干（present stem），完成时词干（perfect stem）以及分词词干（supine stem）。这三个词干都是在同一个词根的基础上通过修饰构成的，以词根 voc 为例子，加上屈折后缀 -s 形成第三变格法名词 vox, vocis, f.“声音”，而加上 -ā，-āv，-āt，则分别构成动词 voco“呼，叫”的三个词干。根据现在时词干末尾元音的不同，动词分为四个变位法（在下文中以 1C-4C 的缩写称之），其现在时词干末尾元音分别是  -ā，-ē，-ĕ，-ī，对应的不定式形式是通过在这些元音后加 -re 构成的。
 动词在词典中给出的形式一般是
-<ul class="paradigm"><li>1st. sg. act. pres. ind.</li><li>pres. inf.</li><li>1st. sg. act. pres. perf.</li><li>PPP</li><li>“词意”</li></ul>
+<div class="paradigm"><ul><li>1st. sg. act. pres. ind.</li><li>pres. inf.</li><li>1st. sg. act. pres. perf.</li><li>PPP</li><li>“词意”</li></ul></div>
 这是因为：
 
 * 绝大多数动词的 1st. sg. act. pres. ind. 都是通过给现在时词基（和名词词基一样，现在时词基是一个词屈折变化中不变的部分，通过把现在时词干的元音去掉得到）加 ō 形成的，因此提供 1st. sg. act. pres. ind. 似乎是多余的。其实不然。3C 有一亚类动词，有着 -ĕre 的典型 3C 不定式结尾，但 1st. sg. act. pres. ind. 的形态和一些时态的变位规律却又近似 4C。一个著名的例子就是格言 carpe diem“抓紧时间（及时行乐）”里的 capiō, capere, cēpī, captus“抓住”， 如果你看过电影《死亡诗社》的话，对这个动词应该不陌生。这类动词一般称为 3C-iō 动词，而 1st. sg. act. pres. ind. 可以指示一个动词是不是3C-iō动词。
