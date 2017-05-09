@@ -105,7 +105,7 @@ categories: resources
 * 大部分形容词最高级是通过给形容词的词基加 -issimus, -a, -um 形成的。两个常见的例外是 nom.sg. 以 -er 结尾的形容词（如 miser, -a, -um“悲惨的”），其最高级通过给 nom.sg. 加 -rimus,-a,-um 构成，以及 nom.sg. 以 -lis 结尾的部分形容词（如 facilis, facile“容易的”），其最高级通过给  nom.sg. 加 -limus,-a,-um  构成。这些后缀使最高级变成了变格起来很简单的第一/第二变格法形容词。同上，最高级也可直接译作“非常…的”，指形容词所形容的性质的程度非常高。
 * 还可以把形容词和副词 magis“很”或 maxime“非常”连用来表示形容词比较关系，但这在构词中不会出现。
 
-命名法规第18.1、19.1、19.3条条例规定，科、亚科、族、亚族分类单位的学名是复数形容词作名词并加上指示阶元等级的后缀形成的。此外，第20.1条也允许把单数主格的形容词当属名。这反映了拉丁语中将形容词作名词使用的用法（substantive）。一般来说，阳性形容词作名词时可以译成“….的人”，而中性形容词作名词可以译成“…的物”。凤仙花属属名 <i>Impatiens</i>，即一结尾形容词 impatiens, impatientis“不耐烦的，无法忍受的”，就是形容词做名词用的一个例子。之所以叫这个名词是因为凤仙花的蒴果在受外力时会从顶部爆炸开裂，利用内部组织贮存的弹性势能把种子弹射出去（此即植物学上的 explosive dehiscence。鼠李科的美洲茶属 <i>Ceanothus</i> 也有类似的种子散布机制）。
+命名法规第18.1、19.1、19.3条条例规定，科、亚科、族、亚族分类单位的学名是复数形容词作名词并加上指示阶元等级的后缀形成的。此外，第20.1条也允许把单数主格的形容词当属名。这反映了拉丁语中将形容词作名词使用的用法（substantive）。一般来说，阳性形容词作名词时可以译成“….的人”，而中性形容词作名词可以译成“…的物”。凤仙花属属名 <i>Impatiens</i>，即一结尾形容词 impatiens, impatientis“不耐烦的，无法忍受的”，就是形容词做名词用的一个例子。凤仙花的蒴果在受外力时会从顶部爆炸开裂，利用内部组织贮存的弹性势能把种子弹射出去（此即植物学上的 explosive dehiscence。鼠李科的美洲茶属 <i>Ceanothus</i> 也有类似的种子散布机制）。
 
 <a name="动词"></a>
 <h2 class="hd">动词</h2>
@@ -173,8 +173,8 @@ categories: resources
 <a name="参考文献"></a>
 <h1 class="hd">参考文献</h1>
 <ul class="citation">
-<li><a href="#allen1973" name="allen1973s">Allen, W. S. (1973). Accent and rhythm: Prosodic features of Latin and Greek : a study in theory and reconstruction.</a></li>
-<li><a href="#allen1978" name="allen1978s">Allen, W. S. (1978). Vox Latina: A guide to the pronunciation of classical Latin (2nd ed.). Cambridge: Cambridge University Press.</a></li>
+<li><a href="#allen1973" name="allen1973s">Allen, W. S. (1973). Accent and rhythm: Prosodic features of Latin and Greek : a study in theory and reconstruction. Cambridge, England: University Press.</a></li>
+<li><a href="#allen1978" name="allen1978s">Allen, W. S. (1978). Vox Latina: A guide to the pronunciation of classical Latin (2nd ed.). Cambridge, England: University Press.</a></li>
 <li><a href="#bandc" name="bandcs">Baldi, P., & Cuzzolin, P. (Eds.). (2010). New perspectives on historical Latin syntax: constituent syntax : adverbial phrases, adverbs, mood, tense (Vol. 2). Berlin, Germany: Walter de Gruyter GmbH.</a></li>
 <li><a href="#devaan" name="devaans">de Vaan, M. (2008). Etymological dictionary of Latin and the other Italic languages. Leiden, Netherlands: Brill.</a></li>
 <li><a href="#gree" name="grees">Greenough, J. B., Kittredge, G. L., Howard, A. A., & D'ooge, B. L. (Eds.). (1903). Allen and Greenough's new Latin grammar for schools and colleges. Boston, MA: Ginn & Company.</a></li>
