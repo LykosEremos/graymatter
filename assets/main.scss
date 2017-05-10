@@ -10,7 +10,6 @@ html{
 
 body {
 	margin-top:3.5em;
-	font-family: serifRoman,'Microsoft YaHei';
 	counter-reset: h1counter;
 	margin-bottom:12em;
 	-webkit-font-smoothing:antialiased;
@@ -54,7 +53,6 @@ line-height:175%;
 }
 
 .post-list-title{
-	font-family: serifRoman,'Microsoft YaHei';
 	font-size: 2em;
 }
 
@@ -62,7 +60,7 @@ line-height:175%;
 
 .post-meta { 
 	font-size: 0.8em; 
-	font-family: Arial,'Microsoft YaHei';
+	font-family: Arial,'Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
 	color: #828282; 
 }
 
@@ -166,7 +164,6 @@ h2{
 
 
 .table-of-contents{
-	font-family:'Microsoft YaHei';
 	font-weight:300;
 	position:fixed;
 	top:8em;
@@ -213,7 +210,7 @@ h2{
 
 .paradigm{
 	font-size:1.2em;
-	font-family:serifRoman,'KaiTi','BiauKai','Microsoft YaHei';
+	font-family:serifRoman,'KaiTi','BiauKai','Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
 	margin-top:1em;
 	margin-bottom:1em;
 	color:black;
@@ -246,16 +243,15 @@ h2{
 	margin-right: auto; 
 	text-align: justify;
 	margin-left: auto;
-	font-family: serifRoman,'Microsoft YaHei';
 	color:#828282;
 	font-size:0.9em;
+	font-family: 'Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
 } 
 
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     display: inline-block;
-	font-family:'Microsoft YaHei';
 	font-weight:300;
 	counter-reset: toch1counter;
 	position:fixed;
@@ -265,8 +261,7 @@ h2{
 
 .dropbtn {
     background-color: #227c41;
-	font-family:'Microsoft YaHei';
-    color: white;
+	color: white;
 	opacity: 1;
 	border-radius: 5px 5px 5px 5px;
     padding: 8px;
@@ -414,12 +409,33 @@ h2{
 
 /*-webkit-calc(1000px - (30px * 2)); max-width: calc(1000px - (30px * 2))*/
 
-.wrapper { max-width:-webkit-calc(900px - (30px * 2)); max-width: calc(900px - (30px * 2)) ; margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
-@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }   
-   
-   
-@media screen and (max-width: 800px) {
+.wrapper { 
+	max-width:-webkit-calc(900px - (30px * 2)); 
+	max-width: calc(900px - (30px * 2)) ; 
+	margin-right: auto; 
+	margin-left: auto; 
+	padding-right: 30px; 
+	padding-left: 30px; 
+	font-family: serifRoman,'Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
+}
 
+
+@media screen and (max-width: 600px) {
+
+#des {
+	display:none;
+}
+}
+
+@media screen and (max-width: 800px) { 
+
+.wrapper { 
+	max-width: -webkit-calc(800px - (30px)); 
+	max-width: calc(800px - (30px)); 
+	padding-right: 15px; 
+	padding-left: 15px; 
+	}
+	
 .normal{
 	display: none;
 }
@@ -428,7 +444,6 @@ h2{
 {
 	display: block;
 }
-
 }
    
    
