@@ -31,21 +31,17 @@ body {
     width: 100%;
 }
 
-
-/* mouse over link */
 a:hover {
     color: #227c41;
 	text-decoration: none;
 }
 
-
-
-
 .site-footer
 {		
 	position: absolute;
+	border-top: 0px;
 	bottom:0;
-	min-height: 4em;
+	min-height: 1em;
 	width: 100%;
 	margin-top:4em;
 	background:rgb(245,245,245);
@@ -95,6 +91,24 @@ p{
 i{
 	font-family:'Times New Roman';
 	font-style: italic;	
+}
+
+#btn{
+	display:block;
+	width:100px; 
+	margin:0 auto;
+	margin-top:4em;
+	padding:10px 20px;
+	background-color: #227c41;
+	color: white;
+}
+#btn:hover {
+    background-color:#1a5d31;
+}
+
+.maintext a:hover {
+    color: #227c41;
+	text-decoration: underline;
 }
 
 .maintext ul{
@@ -250,14 +264,12 @@ h2{
 }
 
 .dropbtn {
-    background-color: #47b84b;
+    background-color: #227c41;
 	font-family:'Microsoft YaHei';
     color: white;
 	opacity: 1;
-	border-radius: 3px 3px 3px 3px;
+	border-radius: 5px 5px 5px 5px;
     padding: 8px;
-	padding-left: 8px;
-	padding-right: 8px;
     border: none;
     cursor: pointer;
 }
@@ -363,13 +375,22 @@ h2{
 	color:#0b3a78;
 }
 
-a:hover {
+
+.citation a:hover {
     color: #227c41;
 	text-decoration: underline;
 }
 
+.home p{
+	max-width:650px;
+	margin:0 auto;
+	margin-bottom:1em;
+	line-height:180%;
+	font-size:1em;
+}
 
-/* Show the dropdown menu on hover */
+
+@media screen and (min-width: 800px) {
 .dropdown:hover .dpd-content {
 	display:block;
 	opacity:1;
@@ -377,7 +398,8 @@ a:hover {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color:#227c41;
+    background-color:#1a5d31;
+}
 }
 
 .normal{

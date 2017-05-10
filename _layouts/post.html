@@ -6,7 +6,10 @@ layout: default
 <!-- <div class="table-of-contents">
 </div> -->
 
-<div class="page-heading" style="font-weight:300;"> 文章列表 / </div>
+<div class="page-heading" style="font-weight:300;margin-bottom:0.1em;"><a style="color:#828282;" href="{{ site.baseurl }}/list">文章列表</a> / </div>
+
+
+
   <header class="post-header">
 	<div class="post-title" itemprop="name headline">{{ page.title | escape }}</div>
     <div class="post-meta">本文首发于 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}
@@ -68,16 +71,18 @@ else{document.getElementById("toc").innerHTML =str;}
 <script>
 function toggleToc()
 {
-if (window.innerWidth < 1000) {
 var tgButton=document.getElementById('tg-button');
 var tgMenu=document.getElementById('tg-menu');
+if (window.innerWidth < 1000) {
+	document.documentElement.className += " no-hover"
     if (tgMenu.style.display === 'block') {
-        tgMenu.style.display = 'none';
+	    tgMenu.style.display = 'none';
 		tgButton.style.opacity = 0.15;
     } else {
         tgMenu.style.display = 'block';
 		tgButton.style.opacity = 1;
     }
+	
 }
 }
 </script>
