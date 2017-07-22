@@ -239,17 +239,17 @@ h2{
 }
 .suffixt tr:nth-child(odd){
 	text-indent:1em;
-	font-family:Arial,'SimHei','BiauKai','Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
+	font-family:Arial,'Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
 	font-size:1.05em;
 }
 
 .suffixt tr:nth-child(odd) td{
-    padding-top:1em;
-	padding-bottom:0.2em;
-	
+ font-weight:bold;
 }
 
 .suffixt tr:nth-child(even) td{
+	padding-top:0.2em;
+	padding-bottom:1em;
 	border-bottom:2px;
 }
 

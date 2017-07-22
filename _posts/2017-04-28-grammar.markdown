@@ -157,9 +157,9 @@ categories: resources
 
 在拉丁语中，指小往往是通过把后缀 -ulus, -olus, -culus, -ellus, -illus（及它们对应的阴性和中性的形式，即把 -us 分别换成 -a 和 -um 的形式）加在名词词基或词干上达到的。可见加上指小后缀后形成的名词都是第一或第二变格法的名词。
 
-* 英文植物学名词 ovule“胚珠”即是 ovum, ovi, n. “卵”的词基 ov- 加上 -ulum 形成 ovulum，再传到英语中形成的。耳状报春花 (<i>Primula auricula</i>) 的种小名 auricula“小耳朵”来自 3D 的 auris, auris, f.“耳朵”的词干 auri-，得名于其叶形。
+* 英文植物学名词 ovule“胚珠”即是 ovum, ovī, n. “卵”的词基 ov- 加上 -ulum 形成 ovulum，再传到英语中形成的。耳状报春花 (<i>Primula auricula</i>) 的种小名 auricula“小耳朵”来自 3D 的 auris, auris, f.“耳朵”的词干 auri-，得名于其叶形。
 * 有些时候指小形式的形成并不那么规则。罗马诗人卡图卢斯的诗集 <i>Libellus</i>“小书”是 liber, librī, m.“小书”的指小形式，但不是从词基或词干衍生来的，而是 lib-ellus。认知科学的课本上有时可以见到的 “皮质矮人”(cortical homunculus) 比喻中的 homunculus“矮人”来自 homō, hominis, m.“人”，它的形成也不规则。
-* 后缀 -olus 适用于所接的词语组分结尾是元音的情况。两个例子一是解剖学名词 alveolus“肺泡”，来自 alvus, alvi, f. (m. pl.)“空洞”的  alve-olus，二是细胞生物学名词 centriole“中心粒”，来自 centrum, centri, n.“中心”的 centri-olum。
+* 后缀 -olus 适用于所接的词语组分结尾是元音的情况。两个例子一是解剖学名词 alveolus“肺泡”，来自 alvus, alvī, f. (m. pl.)“空洞”的  alve-olus，二是细胞生物学名词 centriole“中心粒”，来自 centrum, centrī, n.“中心”的 centri-olum。
 * 后缀为 -culus 的指小形式在英语中往往被缩成 -cle，比如 cuticle“表皮”，follicle“【动物学】卵泡，【植物学】蓇葖果”，ventricle“心室”，等等。c 和 l 中间的那个 u 会出现在对应的英语形容词中，如 cuticular，follicular，ventricular。
 * 形容词的指小可以减轻形容词的修饰力度，相当于在中文翻译前加了一个“有点”。
 <a name="父名后缀"></a>
@@ -182,7 +182,7 @@ categories: resources
 除了指小后缀、父名后缀以外，拉丁语中还有很多其他类型的后缀可以添加在词干后面，如给动词 v 词干加 -ilis 可以形成意为“倾向于被 v 的...” 的形容词，给名词 n 词干 -ōsus 形成意为“充满 n 的...”的形容词，加 -ēnsis 形成表示归属的形容词等。
 <a name="分类阶元后缀"></a>
 <h2 class="hd">分类阶元后缀</h2>
-ICN 规定了一套从亚族到门的分类阶元的标准学名结尾 (termination)。这些结尾并不是原创的，而是对之前常规的标准化，毕竟这些结尾中有一些在林奈之前就已经被古代的学者采用了。这套结尾不是无意义的字符串，一些是拉丁语中原生的表示亲缘关系的后缀，另一些是从古希腊语中引进的后缀，还有一些是古希腊语的词语在新拉丁语（New Latin，即近代欧洲学者使用的拉丁语）中形成的后缀。
+ICN 规定了一套从亚族到门的分类阶元的标准学名结尾 (termination)。这些结尾并不是原创的，而是对之前常规的标准化，毕竟这些结尾中有一些在林奈之前就已经被古代的学者采用了。这套结尾不是无意义的字符串，一些是拉丁语中原生的表示亲缘关系的后缀，另一些是从古希腊语中引进的后缀，还有一些是古希腊语的词语在新拉丁语（New Latin，即近代欧洲学者使用的拉丁语）中形成的后缀。下面，我将逐个分析这些标准学名结尾的词源和含义，分类阶元和相应词缀将以<b>粗体</b>写出。
 
 <table class="suffixt">
 <tr> <td>门 (Division/Phylum) -phyta</td> </tr>
@@ -191,7 +191,7 @@ ICN 规定了一套从亚族到门的分类阶元的标准学名结尾 (terminat
 <tr><td>亚门 (Subdivision/Subphylum) -phytina</td> </tr>
 <tr><td>有两种可能的构成方式：一是将 phyta 视作词基为 phyt- 的拉丁语 2D 名词 phytum 的复数，并加上表从属的拉丁语形容词后缀 -īnus 的 n.nom. pl. 形态 -īna，二是取 φυτόν 的词基 φυτ- 加上表示组成、来源的后缀 -ινος 的 n.nom. pl. 形态 -ινα<sup class="note-tag"><a href="#注2" name="lab2">注</a></sup>。
 <div class="notes">
-<a name="注2" href="#lab2">注</a>：-inus 和 -ινος 这一对后缀实际上是把名词变为形容词的形容词后缀，但形成的词在分类学中作名词使用。 它们形态类似，虽然前者不一定来自于后者，但是在语言学上同源的。这对后缀更常见的一种用法，是接在表示地区的专有名词后，表示来自这个地区或者这个地区的人，例如 Ligurinus“利古里亚人”。用地名给一群人的集体命名，在比较老的语法书中称为 gentile substantive，而现代的书中更常见的是 demonym。
+<a name="注2" href="#lab2">注</a>：-īnus 和 -ινος 这一对后缀实际上是把名词变为形容词的形容词后缀，但形成的词在分类学中作名词使用。 它们形态类似，虽然前者不一定来自于后者，但是在语言学上同源的。这对后缀更常见的一种用法，是接在表示地区的专有名词后，表示来自这个地区或者这个地区的人，例如 Ligurīnus“利古里亚人”。用地名给一群人的集体命名，在比较老的语法书中称为 gentile substantive，而现代的书中更常见的是 demonym。
 </div>
 </td></tr>
 
@@ -206,28 +206,28 @@ ICN 规定了一套从亚族到门的分类阶元的标准学名结尾 (terminat
 <tr><td>-idae 是父名后缀 -ίδης, -ίδου 的拉丁化后的 nom. pl. 形式。注意拉丁化并不是转写，而是尽量将词语当拉丁词来处理，因此 nom. pl. 的结尾是拉丁 1D 的 -ae 而不是希腊 1D 的 -αι。注意在动物学命名上，-idae 是科级单位的后缀。</td></tr>
 
 <tr> <td>目 (Order) -ales</td>  </tr>
-<tr><td>拉丁语中原生的表示“和...有关的”的 3D 二结尾形容词后缀 -ālis, -āle，这里取其 f. pl. 的形式 -ālēs。在古典拉丁语中，-ālis 的结构其实是以后缀 -lis 加在 -a 结尾词干后形成的，但在分类学中以整体作为后缀。</td></tr>
+<tr><td>拉丁语中原生的表示“和...有关的”的 3D 二结尾形容词后缀 -ālis, -āle，这里取其 f. pl. 的形式 -ālēs。-ālis 的结构其实是后缀 -lis 和一个 -a 词干结尾组合形成的，但以其整体作为后缀。</td></tr>
 
 <tr><td>亚目 (Suborder) -ineae</td> </tr>
 <tr><td>表示从属的 -ineus,-inea,-ineum 是晚期拉丁语（即古典时代后一直到中世纪前这段时间内流行的拉丁语）中出现的词缀，这里取其 f. pl. 的形式 -ineae。</td>
 </tr>
 
 <tr><td>科 (Family) -aceae</td></tr>
-<tr><td>表示从属或质地的 1/2D 形容词后缀 -āceus, -ācea, -āceum，取其 f. pl. 的形式 -āceae。在古典拉丁语中，其实是词干以 -āc 结尾的词语加上表示从属或质地的形容词后缀 -eus, -ea, -eum 形成的，在分类学中以整体作为后缀 (<a name="gree" href="#grees">Greenough et al. 1903</a>)。</td>
+<tr><td>表示从属或质地的 1/2D 形容词后缀 -āceus, -ācea, -āceum，取其 f. pl. 的形式 -āceae。结构其实是词干 -ā 结尾加上一个修饰性的 -c- 后，再表示从属或质地的形容词后缀 -eus, -ea, -eum 形成的，但以整体作为后缀 (<a name="gree" href="#grees">Greenough et al. 1903</a>)。</td>
 </tr>
 
 <tr> <td>亚科 (Subfamily) -oideae</td> </tr>
-<tr><td>来自古希腊语中表示近似的形容词后缀 -οειδής, -οειδου，应按希腊语 1D 变格，但以三类相近的形式进入新拉丁语。第一类将其视作3D一结尾形容词词缀，即 -oides, -oidis，第二类将其视为3D二结尾形容词词缀，即 -oidalis, -oidale，这两种形式常在种小名中出现，如大叶虎尾兰 (<i>Sansevieria hyacinthoides</i>) 的种小名 hyacinthoides“像风信子的”还有鹿蹄草叶白珠 (<i>Gaultheria pyroloides</i>) 的 pyroloides“像鹿蹄草的”。第三类则将其视作 1/2D 形容词词缀来变格，即 -oideus, -oidea, -oideum，不单也在种小名中出现，也是解剖学中的常见词，如人头部的两块骨骼，蝶骨和筛骨的学名 os sphenoideum“楔形的骨头”和 os ethmoideum“像筛子的骨头”。这里的情况显然是后一类 f. pl. 的形式 -oideae。</td>
+<tr><td>来自古希腊语中表示近似的形容词后缀 -οειδής, -οειδου，应按希腊语 1D 变格，但以三类相近的形式进入新拉丁语。第一类将其视作3D一结尾形容词词缀，即 -oides, -oidis，第二类将其视为3D二结尾形容词词缀，即 -oidalis, -oidale，这两种形式常在种小名中出现，如大叶虎尾兰 (<i>Sansevieria hyacinthoides</i>) 的种小名 hyacinthoides“像风信子的”还有鹿蹄草叶白珠 (<i>Gaultheria pyroloides</i>) 的 pyroloides“像鹿蹄草的”。第三类则将其视作 1/2D 形容词词缀来变格，即 -oideus, -oidea, -oideum，不单也在种小名中出现，也是解剖学中的常见词，如人头部的两块骨骼，蝶骨和筛骨的学名 os sphenoideum“楔形的骨头”和 os ethmoideum“像筛子的骨头”。这里的情况显然是第三类的 f. pl. 的形式 -oideae。</td>
 </tr>
 
 <tr><td>族 (Tribe) -eae</td></tr>
-<tr><td>上面提到过的表示从属或质地的 1/2D 形容词后缀 -eus, -ea, -eum，取其 f. pl. 的形式 -eae</td></tr>
+<tr><td>上面提到过的表示从属或质地的 1/2D 形容词后缀 -eus, -ea, -eum，取其 f. pl. 的形式 -eae。</td></tr>
 
 <tr><td>亚族 (Subtribe) -inae</td>  </tr>
-<tr><td>表示从属的 1/2D 形容词后缀 -īnus, -īna, -īnum，取其 f. pl. 的形式 -īnae。和在上面提到的 -ινος 同源。在动物学命名上，-inae 是亚科的后缀。</td></tr>
+<tr><td>表示从属的 1/2D 形容词后缀 -īnus, -īna, -īnum，取其 f. pl. 的形式 -īnae。本质上是词干结尾的 -ī 和 -nus 结合形成的，以整体作为后缀。和在上面提到的 -ινος 同源。在动物学命名上，-inae 是亚科的后缀。</td></tr>
 </table>
 
-除了这些规范化的后缀外，在 Takhtajan 系统中出现但在 Cronquist 系统中没有的总目阶元 (superorder) 的后缀 -anae 也值得一记。
+除了这些规范化的后缀外，在 Takhtajan 系统中有但在 Cronquist 系统中没有的总目阶元 (superorder) 的后缀 -anae 也值得一记。这个后缀来自于和 -īnus, -īna, -īnum 在语意上等价的，只不过元音不同的 -ānus, -āna, -ānum。 
 <a name="前缀"></a>
 <h2 class="hd">前缀</h2>
 
@@ -237,7 +237,7 @@ ICN 规定了一套从亚族到门的分类阶元的标准学名结尾 (terminat
 * 形为 in- 的前缀是不同源的。in-(1) 是印欧语中常见的否定前缀，两个同源形式包括英语中的 un- 和希腊语中的 ἀ-（接辅音）和 ἀν-（接元音）。另有一形态相同的前缀 in-(2) 由介词 in 派生，和希腊语介词 ἐν 同源，在修饰动词时强调动词的方向性或单纯地强调动作的强度（in-venio, venire, veni, ventus“发现”，in-tono, tonare, tonavi, tonatus“打雷”都是in-(2)）。二者的原始印欧语词根完全不同，这种不同源性导致了 in- 在词义上的分歧。
 * in-(1) 和 in-(2) 在和不少辅音开头的词语组合的时候都会发生语音上的同化 (assimilation)。本来 n 发鼻音的 in- 在塞音 b/p/m 前同化成了含塞音的 im-，在清辅音 l 和 r 之前分别同化为 il- 和 ir-，在 g 前有时是 i-，这些不同的形态很多都传到了英语词汇中，比如 imperative，imbibe，immense，illiterate，irrelevant，ignoble。
 * 单从前缀的形态来推测其词源发展的细节有时是困难和不准确的。in- 在比较早期的拉丁语中，由同义的 endo- 和 indu /i- 表现，这个前缀是来自于意义相同，形态也相近的的希腊语前缀 ἐνδο-（内吞作用 endocytosis 的前缀就是希腊语的 ἐνδο-，而不是拉丁语的 endo-），还是仅和其同源，又或是独立形成但又受希腊语借词影响，还是有争议的 (<a name="devaan" href="#devaans">de Vaan 2008</a>)。
-* 前面提到的凤仙花属的词源形容词 impatiens, impatientis，就是动词 patior, pati, passus sum“忍受”这个动词的 PAP 加上同化了的 in-(1) 形成的（这个动词同时还是一个异相动词）。
+* 前面提到的凤仙花属的词源形容词 impatiens, impatientis，就是动词 patior, pati, passus sum“忍受”这个动词的 PAP 加上同化了的 in-(1) 形成的。这个动词同时还是一个异相动词。
 
 类似的前缀还有 ab-, ad- 等。总之，前缀的语意和词源并不是一张总表能完全概括的，所以在正文中，我会具体地分析。
 
