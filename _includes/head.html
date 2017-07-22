@@ -5,34 +5,21 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <link rel="stylesheet" href="{{"/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{'/assets/main.css' | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}" >
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}" >
   
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl }}/assets/fav/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/assets/fav/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/assets/fav/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/fav/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.baseurl }}/assets/fav/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.baseurl }}/assets/fav/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.baseurl }}/assets/fav/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/assets/fav/apple-touch-icon-152x152.png">
-
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/fav/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/fav/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/fav/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/fav/favicon-128.png" sizes="128x128">
-
-
-
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png?v=vMOkoGp26G">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/fav/favicon-32x32.png?v=vMOkoGp26G">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/fav/favicon-16x16.png?v=vMOkoGp26G">
+<link rel="manifest" href="/assets/fav/manifest.json?v=vMOkoGp26G">
+<link rel="mask-icon" href="/assets/fav/safari-pinned-tab.svg?v=vMOkoGp26G" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/fav/favicon.ico?v=vMOkoGp26G">
+<meta name="msapplication-config" content="/assets/fav/browserconfig.xml?v=vMOkoGp26G">
+<meta name="theme-color" content="#ffffff">
+  
 <meta name="application-name" content="APG IV词源标注计划"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="{{ site.baseurl }}/assets/fav/mstile-144x144.png">
-<meta name="msapplication-square70x70logo" content="{{ site.baseurl }}/assets/fav/mstile-70x70.png">
-<meta name="msapplication-square150x150logo" content="{{ site.baseurl }}/assets/fav/mstile-150x150.png">
-<meta name="msapplication-wide310x150logo" content="{{ site.baseurl }}/assets/fav/mstile-310x150.png">
-<meta name="msapplication-square310x310logo" content="{{ site.baseurl }}/assets/fav/mstile-310x310.png">
-  
+
   
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
