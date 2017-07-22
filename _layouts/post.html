@@ -73,15 +73,28 @@ function toggleToc()
 {
 var tgButton=document.getElementById('tg-button');
 var tgMenu=document.getElementById('tg-menu');
+	
+if (window.innerWidth < 1050) 
+{
+if (tgMenu.style.display === 'block') {
+	    tgMenu.style.display = 'none';
+		tgButton.style.opacity = 0.15;
+    } else {
+        tgMenu.style.display = 'block';
+		tgButton.style.opacity = 1;
+    }
+}
 
-    if (tgMenu.style.display === 'block') {
+else
+{
+if (tgMenu.style.display === 'block') {
 	    tgMenu.style.display = 'none';
 		tgButton.style.opacity = 0.75;
     } else {
         tgMenu.style.display = 'block';
 		tgButton.style.opacity = 1;
     }
-	
+}
 
 }
 </script>
