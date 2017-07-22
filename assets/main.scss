@@ -406,24 +406,6 @@ h2{
 	font-size:1em;
 }
 
-
-/*
-@media screen and (min-width: 800px) {
-
-.dropdown:hover .dpd-content {
-	display:block;
-	opacity:1;
-
-}
-
-Change the background color of the dropdown button when the dropdown content is shown 
-
-.dropdown:hover .dropbtn {
-    background-color:#1a5d31;
-}
-}
-*/
-
 .normal{
     display: block;
 }
@@ -432,9 +414,6 @@ Change the background color of the dropdown button when the dropdown content is 
 {
 	display: none;
 }
-
-
-/*-webkit-calc(1000px - (30px * 2)); max-width: calc(1000px - (30px * 2))*/
 
 .wrapper { 
 	max-width:-webkit-calc(900px - (30px * 2)); 
