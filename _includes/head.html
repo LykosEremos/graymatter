@@ -8,31 +8,26 @@
   
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-
-  
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ "_site/assets/fav/apple-touch-icon-57x57.png" | relative_url }}">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ "_site/assets/fav/apple-touch-icon-114x114.png" | relative_url }}">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ "_site/assets/fav/apple-touch-icon-72x72.png" | relative_url }}">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "_site/assets/fav/apple-touch-icon-144x144.png" | relative_url }}">
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ "_site/assets/fav/apple-touch-icon-60x60.png" | relative_url }}">
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ "_site/assets/fav/apple-touch-icon-120x120.png" | relative_url }}">
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ "_site/assets/fav/apple-touch-icon-76x76.png" | relative_url }}">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ "_site/assets/fav/apple-touch-icon-152x152.png" | relative_url }}">
-<link rel="icon" type="image/png" href="{{ "_site/assets/fav/favicon-196x196.png" sizes="196x196" | relative_url }}">
-<link rel="icon" type="image/png" href="{{ "_site/assets/fav/favicon-96x96.png" sizes="96x96" | relative_url }}">
-<link rel="icon" type="image/png" href="{{ "_site/assets/fav/favicon-32x32.png" sizes="32x32" | relative_url }}">
-<link rel="icon" type="image/png" href="{{ "_site/assets/fav/favicon-16x16.png" sizes="16x16" | relative_url }}">
-<link rel="icon" type="image/png" href="{{ "_site/assets/fav/favicon-128.png" sizes="128x128" | relative_url }}">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.url }}{{ site.baseurl }}/assets/fav/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}{{ site.baseurl }}/assets/fav/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}{{ site.baseurl }}/assets/fav/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}{{ site.baseurl }}/assets/fav/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.url }}{{ site.baseurl }}/assets/fav/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.url }}{{ site.baseurl }}/assets/fav/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.url }}{{ site.baseurl }}/assets/fav/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.url }}{{ site.baseurl }}/assets/fav/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/fav/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/fav/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/fav/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/fav/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/fav/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="APG IV 词源标注计划"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="{{"_site/assets/fav/mstile-144x144.png" | relative_url }}">
-<meta name="msapplication-square70x70logo" content="{{"_site/assets/fav/mstile-70x70.png" | relative_url }}">
-<meta name="msapplication-square150x150logo" content="{{"_site/assets/fav/mstile-150x150.png" | relative_url }}">
-<meta name="msapplication-wide310x150logo" content="{{"_site/assets/fav/mstile-310x150.png" | relative_url }}">
-<meta name="msapplication-square310x310logo" content="{{"_site/assets/fav/mstile-310x310.png" | relative_url }}">
-
-
+<meta name="msapplication-TileImage" content="{{ site.url }}{{ site.baseurl }}/assets/fav/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="{{ site.url }}{{ site.baseurl }}/assets/fav/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="{{ site.url }}{{ site.baseurl }}/assets/fav/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="{{ site.url }}{{ site.baseurl }}/assets/fav/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="{{ site.url }}{{ site.baseurl }}/assets/fav/mstile-310x310.png" />
 
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
