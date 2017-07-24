@@ -60,7 +60,7 @@ categories: resources
 	* 主格的名词往往表示句子中的主语。命名法规第20.1条规定属名必须是一个主格的名词性的词。此外，主格名词还可以在种小名中以同位语的方式修饰属名。
 	* 属格的名词往往表示物主关系。在分类学中，变为属格的名词 n 往往用在种小名表示“n 的…”的意思，如果 n 是人名，那么中文俗名大多可译为“n 氏…”，如约氏笛鲷 (<i>Lutjanus johni</i>)。属格的名词也可以是国家或地理位置的名称，如加拿大猞猁 (<i>Lynx canadensis</i>)。请注意，日本鬼鲉 (<i>Inimicus japonicus</i>) 的种小名虽然也有“日本的”的意思，但它并不是一个属格名词，而是一个形容词。
 	* 宾格的名词往往表示句子中的直接宾语，与格的名词往往表示句子中的间接宾语。因为物种的学名不是一个句子结构，所以宾格和与格都不会出现在物种的学名中，但有可能会出现在对物种性状的拉丁文描述中。
-	* 夺格可谓是格中的万金油。夺格的名词可作处所状语 (ablative of place where)，时间状语 (ablative of time when)，或和介词连用、在被动语态的句子中指示施动者 (ablative of agent) 等等。在对物种性状的段落描述中，夺格非常普遍，往往起着性质夺格 (ablative of quality) 的功能，比如林奈在《植物种志》中给美人蕉 (Canna indica) 写的检索 [Canna] foliis ovatis...“美人蕉属植物，叶卵形...”，其中表示“叶卵形”的短语“foliis ovatis”即是性质夺格 (Linnaeus 1753)。但夺格在学名中不会出现，且命名法规第23.1条明确规定，变为夺格的形容词/名词短语不能作为合法的种小名。
+	* 夺格可谓是格中的万金油。夺格的名词可作处所状语 (ablative of place where)，时间状语 (ablative of time when)，或和介词连用、在被动语态的句子中指示施动者 (ablative of agent) 等等。在对物种性状的段落描述中，夺格非常普遍，往往起着性质夺格 (ablative of quality) 的功能，比如林奈在《植物种志》中给美人蕉 (Canna indica) 写的检索 [Canna] foliis ovatis...“美人蕉属植物，叶卵形...”，其中表示“叶卵形”的短语“foliis ovatis”即是性质夺格 (<a name="l1753" href="#l1753s">Linnaeus 1753</a>)。但夺格在学名中不会出现，且命名法规第23.1条明确规定，变为夺格的形容词/名词短语不能作为合法的种小名。
 	* 除以上五个格以外，拉丁语还有呼格和位格。呼格是直接称呼名词时使用的格，所以显然不会用在物种的学名上。位格虽然在古文中时能见到，但它的形式和其他的格重复，其功能不但局限（只适用于城镇和小岛及一些习语用法）而且也和做处所状语的夺格重复，在语言演化的过程中很大程度地被夺格吸收，因此也不会在学名中出现。
 	* 拉丁语的工具格 (instrumental) 名词只在个别副词形式中出现，除此之外完全被夺格替代，所以拉丁语是没有工具格的。
 	* 上述的八个格是原始印欧语 (Proto-Indo-European) 屈折规律中存在的格态，印欧语中语言形态比较保守的印度-伊朗语族的梵语和阿维斯陀语仍然保留着上述八个格。
@@ -196,7 +196,7 @@ ICN 规定了一套从亚族到门的分类阶元的标准学名结尾 (terminat
 </td></tr>
 
 <tr><td>纲 (Class) -opsida</td></tr>
-<tr> <td>-opsida 是新拉丁语（即近代学者使用的拉丁语）引进古希腊语词 ὄψις, f.“外貌”形成的，表示和该后缀所接学名指示的植物相似。ὄψις 的属格有 ὄψεως （阿提卡方言）和 ὄψιος （爱奥尼亚方言）两种形式，是一个词干结尾是 -ι 的第三变格法词语<sup class="note-tag"><a href="#注3" name="lab3">注</a></sup>。因此，如果要把这个词移植到拉丁语中来，应该是形如 opsis, opsis, f. 的拉丁语 3D 词干 -i 结尾亚类词语。但在使用初期，使用者误将 ὄψις 当作希腊语 3D -δ 结尾词语（这是因为这类词语有很多 nom. sg. 的结尾为 -ις，如 ἀσπίς, ἀσπίδος“盾”），以为 opsis 的词干是 opsid-。虽然这个词原来的性是阴性，但在作学名的后缀时这已经不作数了，因此后缀 -opsida 由 -opsid- 加拉丁语中性 nom.pl. 通用的 -a 组成。后缀 -opsis 和它的衍生词在植物学命名中非常普遍。
+<tr> <td>-opsida 是新拉丁语（即近代学者使用的拉丁语）引进古希腊语词 ὄψις, f.“外貌”形成的，表示和该后缀所接学名指示的植物相似 (<a href="#david2003s" name="david2003">David 2003</a>)。ὄψις 的属格有 ὄψεως （阿提卡方言）和 ὄψιος （爱奥尼亚方言）两种形式，是一个词干结尾是 -ι 的第三变格法词语<sup class="note-tag"><a href="#注3" name="lab3">注</a></sup>。因此，如果要把这个词移植到拉丁语中来，应该是形如 opsis, opsis, f. 的拉丁语 3D 词干 -i 结尾亚类词语。但在使用初期，使用者误将 ὄψις 当作希腊语 3D -δ 结尾词语（这是因为这类词语有很多 nom. sg. 的结尾为 -ις，如 ἀσπίς, ἀσπίδος“盾”），以为 opsis 的词干是 opsid-。虽然这个词原来的性是阴性，但在作学名的后缀时这已经不作数了，因此后缀 -opsida 由 -opsid- 加拉丁语中性 nom.pl. 通用的 -a 组成。后缀 -opsis 和它的衍生词在植物学命名中非常普遍。
 <div class="notes">
 <a name="注3" href="#lab3">注</a>：希腊语的 3D 比拉丁语复杂得多，这里不会细说，但在理解上千万不能拿拉丁语 3D 的规则去套：阿提卡方言中词干结尾是 -ι 的 3D 名词，在 nom.sg., acc.sg. 和 voc.sg. 以外的格态中结尾 ι 会被 ε 替代，且 gen. sg. 的结尾是 -ως；在爱奥尼亚方言中 ι 保留，并且 -ος 中 ο 不拉长成 ω，注意这个词不是希腊语 2D 的词语）。
 </div>
@@ -217,7 +217,7 @@ ICN 规定了一套从亚族到门的分类阶元的标准学名结尾 (terminat
 </tr>
 
 <tr> <td>亚科 (Subfamily) -oideae</td> </tr>
-<tr><td>来自古希腊语中表示近似的形容词后缀 -οειδής, -οειδου，应按希腊语 1D 变格，但以三类相近的形式进入新拉丁语。第一类将其视作3D一结尾形容词词缀，即 -oides, -oidis，第二类将其视为3D二结尾形容词词缀，即 -oidalis, -oidale，这两种形式常在种小名中出现，如大叶虎尾兰 (<i>Sansevieria hyacinthoides</i>) 的种小名 hyacinthoides“像风信子的”还有鹿蹄草叶白珠 (<i>Gaultheria pyroloides</i>) 的 pyroloides“像鹿蹄草的”。第三类则将其视作 1/2D 形容词词缀来变格，即 -oideus, -oidea, -oideum，不单也在种小名中出现，也是解剖学中的常见词，如人头部的两块骨骼，蝶骨和筛骨的学名 os sphenoideum“楔形的骨头”和 os ethmoideum“像筛子的骨头”。这里的情况显然是第三类的 f. pl. 的形式 -oideae。</td>
+<tr><td>来自古希腊语中表示近似的形容词后缀 -οειδής, -οειδου，应按希腊语 1D 变格，但以三类相近的形式进入新拉丁语 (<a href="#stearn1991s" name="stearn1991">Stearn 1991</a>)。第一类将其视作3D一结尾形容词词缀，即 -oides, -oidis，第二类将其视为3D二结尾形容词词缀，即 -oidalis, -oidale，这两种形式常在种小名中出现，如大叶虎尾兰 (<i>Sansevieria hyacinthoides</i>) 的种小名 hyacinthoides“像风信子的”还有鹿蹄草叶白珠 (<i>Gaultheria pyroloides</i>) 的 pyroloides“像鹿蹄草的”。第三类则将其视作 1/2D 形容词词缀来变格，即 -oideus, -oidea, -oideum，不单也在种小名中出现，也是解剖学中的常见词，如人头部的两块骨骼，蝶骨和筛骨的学名 os sphenoideum“楔形的骨头”和 os ethmoideum“像筛子的骨头”。这里的情况显然是第三类的 f. pl. 的形式 -oideae。</td>
 </tr>
 
 <tr><td>族 (Tribe) -eae</td></tr>
@@ -246,11 +246,17 @@ ICN 规定了一套从亚族到门的分类阶元的标准学名结尾 (terminat
 <ul class="citation">
 <li><a href="#allen1973" name="allen1973s">Allen, W. S. (1973). Accent and rhythm: Prosodic features of Latin and Greek : a study in theory and reconstruction. Cambridge, England: University Press.</a></li>
 <li><a href="#allen1978" name="allen1978s">Allen, W. S. (1978). Vox Latina: A guide to the pronunciation of classical Latin (2nd ed.). Cambridge, England: University Press.</a></li>
+<li>Baldi, P. (2002). The foundations of Latin. Berlin: Mouton de Gruyter.</li>
 <li><a href="#bandc" name="bandcs">Baldi, P., & Cuzzolin, P. (Eds.). (2010). New perspectives on historical Latin syntax: constituent syntax : adverbial phrases, adverbs, mood, tense (Vol. 2). Berlin, Germany: Walter de Gruyter GmbH.</a></li>
+<li><a href="#david2003" name="david2003s">David, J. C. (2003). Orthographic conundrums: The problem of -opsis and -botrys. Taxon, 52, 603-608.</a></li>
 <li><a href="#devaan" name="devaans">de Vaan, M. (2008). Etymological dictionary of Latin and the other Italic languages. Leiden, Netherlands: Brill.</a></li>
 <li><a href="#gree" name="grees">Greenough, J. B., Kittredge, G. L., Howard, A. A., & D'ooge, B. L. (Eds.). (1903). Allen and Greenough's new Latin grammar for schools and colleges. Boston, MA: Ginn & Company.</a></li>
 <li>Lewis, C. T., & Short, C. (1879). A Latin dictionary. Oxford: Clarendon Press.</li>
+<li>Liddell, H. G., & Scott, R. (1996). A Greek-English lexicon (9th New Supplement added ed.). Oxford: Oxford University Press.</li>
+<li><a href="#l1753" name="l1753s">Linnaeus, C. (1753). Species plantarum, exhibentes plantas rite cognitas, ad genera relatas, cum differentiis specificis, nominibus trivialibus, synonymis selectis, locis natalibus, secundum systema sexuale digestas (Vol. 1). Stockholm: Laurentius Salvius.</a></li>
 <li><a href="#ICN" name="ICNs">McNeill, J., Barrie, F. R., Buck, W. R., Demoulin, V., Greuter, W., Hawksworth, D. L., . . . Turland, N. J. (Eds.). (2012). International code of nomenclature for algae, fungi, and plants: (Melbourne code) ; adopted by the eighteenth International Botanical Congress, Melbourne, Australia, July 2011. Königstein: Koeltz Scientific Books.</a></li>
 <li><a href="#sihl" name="sihls">Sihler, A. L. (2008). New comparative grammar of Greek and Latin. Oxford: Oxford Univ. Press.</a></li>
+<li>Sophocles, E. A. (1861). A Greek grammar, for the use of schools and colleges. Philadelphia: Hartford, W. J. Hamersley.</li>
 <li><a href="#old" name="olds">Souter, A., Glare, P. G. W., Wyllie, J. M., Edwards, W. M., Brink, C. O., Craig, J. D., . . . Lee, G. M. (Eds.). (1968). Oxford latin dictionary. Oxford: Oxford University Press.</a></li>
+<li><a href="#stearn1991" name="stearn1991s">Stearn, W. T. (1991). Botanical Latin: History, grammar, syntax, terminology and vocabulary (3rd Rev. ed.). Newton Abbott: David and Charles.</a></li>
 </ul>
