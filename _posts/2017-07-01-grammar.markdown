@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "词法参考"
+title:  "分类学拉丁语词法参考"
 date:   2017-07-23 22:31:19 -0400
 categories: resources
 ---
@@ -166,7 +166,7 @@ ICN 第18.1、19.1、19.3条条例规定，科、亚科、族、亚族分类单�
 * 英文植物学名词 ovule“胚珠”即是 ovum, ovī, n. “卵”的词基 ov- 加上 -ulum 形成 ovulum，再传到英语中形成的。耳状报春花 (<i>Primula auricula</i>) 的种小名 auricula“小耳朵”来自 3D 的 auris, auris, f.“耳朵”的词干 auri-，得名于其叶形。
 * 有些时候指小形式的形成并不那么规则。罗马诗人卡图卢斯的诗集 <i>Libellus</i>“小书”是 liber, librī, m.“小书”的指小形式，但不是从词基或词干衍生来的，而是 lib-ellus。认知科学的课本上有时可以见到的 “皮质矮人”(cortical homunculus) 比喻中的 homunculus“矮人”来自 homō, hominis, m.“人”，它的形成也不规则。
 * 后缀 -olus 适用于所接的词语组分结尾是元音的情况。如解剖学名词 alveolus“肺泡”，来自 alvus, alvī, f. (m. pl.)“空洞”的 alve-olus，以及细胞生物学名词 centriole“中心粒”，来自 centrum, centrī, n.“中心”的 centri-olum。
-* 后缀为 -culus 的指小形式在英语中往往被缩成 -cle，比如 cuticle“表皮”，follicle“【动物学】卵泡，【植物学】蓇葖果”，ventricle“心室”，等等。c 和 l 中间的那个 u 会出现在对应的英语形容词中，如 cuticular, follicular, ventricular。
+* 后缀为 -culus 的指小形式在英语中往往被缩成 -cle，比如 cuticle“表皮角质层”，follicle“【动物学】卵泡，【植物学】蓇葖果”，ventricle“心室”，等等。c 和 l 中间的那个 u 会出现在对应的英语形容词中，如 cuticular, follicular, ventricular。
 * 形容词的指小可以减轻形容词的修饰力度，相当于在中文翻译前加了一个“有点”。
 <a name="父名后缀"></a>
 <h2 class="hd">父名后缀</h2>
