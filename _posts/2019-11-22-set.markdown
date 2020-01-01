@@ -195,7 +195,7 @@ $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
 $$\begin{align*}
 ()&=\varnothing, \\
 (a)&=((),a)=\{()\}, \{(),a\}\}=\{\{\varnothing\}, \{\varnothing,a\}\}, \\
-(a,b)&=((a),b)=\{\{\{\varnothing\}, \{\varnothing,a\}\}\}, \{\{\{\varnothing\}, \{\varnothing,a\}\},b\}\}\\
+(a,b)&=((a),b)\\
 (a,b,c)&=((a,b),c)\\
 \end{align*}
 $$
@@ -223,7 +223,6 @@ $$
 <h3 class="hd">正规公理</h3>
 如果说分类公理是为了解决 Russell 悖论而生的，那么正规公理存在的目的是排除 “病态” 的元素包容关系：
 <div class='axiom'>（正规公理）对任何非空的集合 $A$，都存在 $a\in A$，满足 $a\cap A=\varnothing$.</div> 
-
 我们排除的 “病态” 包容关系是那些包含自己为元素的集合：
 <div class='theorem-macro'>
 <button class="toggle-proof" ></button>
@@ -275,7 +274,6 @@ $$
 <div class='proof'>我们需要借助分类公理证明笛卡尔积是某个集的子集. 
 
 <p>对任意元素 $a\in A$ 和 $b\in B$，根据定义，有序对 $(a,b)=\{\{a\},\{a,b\}\}$. 因 $a\in A$，$a\in A\cup B$ 且有 $\{a\} \in \mathcal{P}(A\cup B)$；类似地有 $\{a, b\} \in \mathcal{P}(A\cup B)$. 那么 $(a,b) \subseteq \mathcal{P}(A\cup B)$，或 $(a,b)\in \mathcal{P}(\mathcal{P}(A\cup B))$. </p>
-
 <p>因此根据分类公理该集存在.</p>
 </div>
 </div>
@@ -284,7 +282,6 @@ $$
 <h1 class="hd">关系与函数</h1>
 <a name="基本定义"></a>
 <h2 class="hd">基本定义</h2>
-
 因为笛卡尔积存在，我们可以取笛卡尔积的特定子集，并赋予它们特殊的意义：
 
 <div class='definition'> 对任意集合 $A$ 和 $B$，定义 $R\subseteq A\times B$ 为<span class='concept'>二元关系（binary relation）</span>. 若 $(a,b)\in R$，可以把 $R$ 作为中缀写成 $aRb$，并称 $a, b$ 满足 $R$.
@@ -550,7 +547,6 @@ Peano 公理定义的自然数是从 $0$ 而不是 $1$ 开始的. 你或许会�
 <p>根据无穷公理，$\mathcal{N}$ 非空. 根据归纳集定义，任意归纳集都含 $\omega$ 为元素，因此必有 $\varnothing\in \omega$.</p> 
 
 <p>假设 $n\in \omega$，那么 $n$ 必在所有归纳集内，根据归纳集定义, $n^+$ 也在所有归纳集内，因此 $n^+\in\omega$. 因此 $\omega$ 也是归纳集.</p>
-
 <p>为证明 $\omega$ 满足 Peano 公理，我们首先定义 $e=\varnothing \in \omega$ 和 $\sigma=\{ (n,n^+) \mid n\in \omega\}$. 显然根据定理 19，$\sigma$ 满足 Peano 公理的前两条. 考虑任意 $S\subseteq \omega$. 如果 $S$ 满足 $e\in S$ 且对任意 $k\in S$, $\sigma(k)\in S$，那么 $S$ 是归纳集；又因为 $\omega$ 是所有归纳集的并集，有 $\omega\subseteq S$，因此 $\omega=S$.</p>
 </div>
 </div>
@@ -659,7 +655,6 @@ $+_n(m)$ 和 $+(n, m)$ 之间的关系近似于函数式语言中柯里化的概
 代数结构的定义，同样也是外延性的：如果一个集合和运算的组合满足某个代数结构的定义即代数结构公理），那么就可以说它就 “是” 那个代数结构. 当然，这里的 “是” 并非集论的 “相等”，因为代数结构是概念，而不是具体的集合，所以不能说集合等于它. 这正如那句著名的英谚：
 
 <blockquote>If it looks like a duck, swims like a duck, and quacks like a duck, then it is a duck.</blockquote>
-
 我们可以定义一些基本代数结构的名称和它们相应的公理：
 <div class='definition'>
 对集合 $G$ 和二元运算$\phi:G \times G\to G$ 和 $\psi:G\times G\to G$，
@@ -717,9 +712,7 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 </ol>
 
 <p>因此 $(\mathbb{N},+)$ 是交换半幺群. 乘法的规律的证明是完全相似的. 乘法的单位元是 $\sigma(0)=1$. </p>
-
 <p>证明乘法在加法上分配：给定 $b,c$，在 $a$ 的取值上归纳: </p>
-
 <ul>
 <li>当 $a=0$，显然 $0(b+c)=0=0+0=0b+0c$. </li>
 <li>假设当 $a=k$，$k(b+c)=kb+kc$ 成立，那么对 $a=\sigma(k)$，有 $\sigma(k)(b+c)=(b+c)\sigma(k)=\cdot_{b+c}\sigma(k)=\cdot_{b+c}\sigma(k)=\sigma(kb+kc)=\sigma(k)b+\sigma(k)c$</li>
@@ -884,7 +877,6 @@ $$x +k = y$$
 
 <a name="有限和无限"></a>
 <h2 class="hd">有限和无限</h2>
-
 既然自然数是无限的，那么也就代表着我们有了区分有限和无限的基准：给定一个集合，如果我们能用自然数给这个集合中的元素 “编号”，那么这个集合就是和自然数 “一样大” 的：
 
 <div class='definition'>一个非空集合 $A$ 是
@@ -930,16 +922,20 @@ $$x +k = y$$
 对集合 $A, B, C, \mathcal{B}, \mathcal{C}$, 
 <ol>
 <li>交和并的交换律 
-$$A\cup B=B\cup A\qquad \qquad A \cap B = B \cap A$$
+$$A\cup B=B\cup A$$
+$$A \cap B = B \cap A$$
 </li>
 <li> 交和并的结合律
-$$A \cup (B \cup C) = (A \cup B) \cup C\qquad \qquad A \cap (B \cap C) = (A \cap B) \cap C$$
+$$A \cup (B \cup C) = (A \cup B) \cup C$$
+$$A \cap (B \cap C) = (A \cap B) \cap C$$
 </li>
 <li> 交和并的分配律 ($\mathcal{D}\neq \varnothing$) 
-$$A \cap \bigcup \mathcal{C} =\bigcup_{C\in \mathcal{C}} A\cap C\qquad \qquad A \cup \bigcap \mathcal{D} = \bigcap_{D\in \mathcal{D}} A\cup D$$
+$$A \cap \bigcup \mathcal{C} =\bigcup_{C\in \mathcal{C}} A\cap C$$
+$$A \cup \bigcap \mathcal{D} = \bigcap_{D\in \mathcal{D}} A\cup D$$
 </li>
 <li>补的德摩根律
-$$B - \bigcup \mathcal{A} = \bigcap_{A\in \mathcal{A}} B -A\qquad \qquad B - \bigcap \mathcal{A} = \bigcup_{A \in \mathcal{A}}B - A$$
+$$B - \bigcup \mathcal{A} = \bigcap_{A\in \mathcal{A}} B -A$$
+$$B - \bigcap \mathcal{A} = \bigcup_{A \in \mathcal{A}}B - A$$
 </li>
 <li>子集的性质
 <ol>
@@ -955,6 +951,7 @@ $$B - \bigcup \mathcal{A} = \bigcap_{A\in \mathcal{A}} B -A\qquad \qquad B - \bi
 <div class='proof'>所有运算关系都可以用交、并、补的定义及 “逻辑与证明” 中的相应规律证明.
 </div>
 </div>
+<a name="函数复合集合代数的运算规律"></a>
 <h2 class="hd">函数复合集合代数的运算规律</h2>
 <div class='theorem-macro'>
 <button class="toggle-proof" ></button>

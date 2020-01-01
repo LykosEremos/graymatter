@@ -153,7 +153,8 @@ h3 {
 .theorem-macro {
 	counter-increment: theorem;
 	counter-reset: corollary;
-	display: inline-block;
+	display: block;
+	width: 100%;
 	padding: 0.8em 0.8em 0.8em 0.8em;
 	font-size: 0.9em;
 	background-color: $bx-col;
@@ -217,6 +218,7 @@ h3 {
 
 .lemma {
 	display: block;
+	width: 100%;
 	margin: 12px 0;
 	margin-left: 3em;
 	& ::before {
@@ -228,7 +230,8 @@ h3 {
 
 .definition {
 	counter-increment: definition;
-	display: inline-block;
+	display: block;
+	width: 100%;
 	font-size: 0.9em;
 	background: $bx-col;
 	padding: 0.8em 0.8em 0.8em 0.8em;
@@ -258,6 +261,7 @@ h3 {
 }
 
 .axiom {
+	width: 100%;
 	counter-increment: axiom;
 	display: block;
 	font-size: 0.9em;
@@ -486,7 +490,6 @@ footer {
 	display: block;
 	counter-reset: toch1counter;
 	position: fixed;
-	font-weight: lighter;
 	bottom: 15%;
 	left: 85%;
 	z-index: 2;
