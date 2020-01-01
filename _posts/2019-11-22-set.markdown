@@ -635,14 +635,17 @@ Peano 公理的第三则描述的是自然数的<span class='concept'>数学归�
 <div class='theorem'>给定一个自然数 $n$，都存在一个独特的映射 $+_n: \mathbb{N} \to \mathbb{N}$ 和 $\cdot_n: \mathbb{N}\to \mathbb{N}$ 满足： 
 对任意 $m\in\mathbb{N}$，
 <ol>
-<li>$$+_n(0)=n,\quad\quad\quad +_n(\sigma(m))=\sigma(+_n(m))$$
+<li>$$+_n(0)=n$$
+$$+_n(\sigma(m))=\sigma(+_n(m))$$
 </li>
-<li>$$\cdot_n(0)=0,\quad\quad\quad \cdot_n(\sigma(m))=+_n(\cdot_n(m))$$
+<li>$$\cdot_n(0)=0$$
+$$\cdot_n(\sigma(m))=+_n(\cdot_n(m))$$
 </li>
 </ol>
 利用 $+_n$，可定义映射<span class='concept'>自然数加法 $+: \mathbb{N}\times \mathbb{N} \to \mathbb{N}$</span>  和<span class='concept'>自然数乘法 $\cdot:  \mathbb{N}\times \mathbb{N}\to \mathbb{N}$</span> ，对 $m,n\in\mathbb{N}$ 有
 
-$$m+n=+(m,n)=+_m(n)\quad\quad\quad m\cdot n=\cdot(m,n)=\cdot_m(n)$$
+$$m+n=+(m,n)=+_m(n)$$
+$$m\cdot n=\cdot(m,n)=\cdot_m(n)$$
 </div>
 <div class='proof'> <p> $+_n$ 的存在性和独特性只需要在定理 22 中带入 $f(n)=\sigma(n)$ 就可以直接得出. 因为 $+_n$ 是映射，$+$ 也是映射.</p> 
 <p> $\cdot_n$ 的存在性和独特性只在定理 22 中带入 $f(m)=+_n$ 就可以直接得出. 类似地 $\cdot$ 也是映射.</p>
