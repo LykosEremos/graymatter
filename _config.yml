@@ -17,7 +17,7 @@ title: 灰质
 email:
 description: 个人博客 # this means to ignore newlines until "baseurl:"
 baseurl: "/graymatter" # the subpath of your site, e.g. /blog
-url: "https://lykos-eremos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lykoseremos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username: Lykos-Eremos
 

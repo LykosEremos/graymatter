@@ -76,7 +76,6 @@ body {
 .maintext {
 	line-height: 165%;
 	text-indent: 0px;
-
 	font-size: 15.5px;
 }
 
@@ -202,7 +201,7 @@ h3 {
 	transition: 0.35s;
 	&::after {
 		content: "\276F";
-		font-size: 1.25em;
+		font-size: 15px;
 		display: inline;
 		text-align: left;
 		font-family: inherit;
