@@ -31,6 +31,7 @@ categories: resources
 $\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的食物”（喜欢吃的东西可以是不同的）显然和 “有食物令每个人都喜欢吃”（每个人都必须喜欢吃同一种东西） 是意义上不同的两个句子. 我们约定一个量词所限定的<span class='concept'>范围（scope）</span>是它的冒号右侧一直到断言句尾.
 
 同时，我们约定如果量词取值的范围内不含任何物件，那么我们约定此时谓词是真的，称为<span class='concept'>空真（vacuously true）</span>的.
+<a name="推理规则"></a>
 <h2 class="hd">推理规则</h2>
 我们的游戏的主要目标是运用推理规则，从一些简单的真断言来到更加复杂的真断言. 如果我们能从真断言 $P$ 和一些其他的条件推导出另一个断言 $Q$，那么我们可以写 $P\Rightarrow Q$. 如果 $P \Rightarrow Q$ 和 $Q\Rightarrow P$，那么我们可以写 $P\Leftrightarrow Q$. 注意，$\to$ 和 $\Rightarrow$，$\leftrightarrow$ 和 $\Leftrightarrow$ 并非同样的意思：$\to$ 和 $\leftrightarrow$ 是构造新断言用的连接符，$\Rightarrow$ 和 $\Leftrightarrow$ 指示的是推导过程中由一个断言得出另一个断言的逻辑先后关系.
 
@@ -63,6 +64,7 @@ $\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的�
 ZFC 是德国人 Ernst Zermelo 和 Abraham Fraenkel 在认识到 Cantor 的朴素集合论的不足之后总结形成的，Zermelo (<a href="#zermelo1908s" name="zermelo1908">1908</a>，<a href="#zermelo1930s" name="zermelo1930">1930</a>) 贡献了其中的7条公理和分类公理模式，<a href="#fraenkel1922s" name="fraenkel1922">Fraenkel (1922)</a> 又添加了置换公理模式，最后形成现在的形式. 这并不是唯一的集合论公理系统：类似的还有 NBG 系统和 W. V. Quine 的新基础（New Foundation，NF）系统. 因 ZFC 的普适性，ZFC 是 CADMUS 选定的集论基础.
 
 如果我们把 ZFC 的公理作为真断言，我们可以通过我们的数学游戏推导出大部分人在乎的大部分数学知识. 在接下来的章节中我们将引入 ZFC 的公理来一步步构建我们的数学宇宙. 选择公理和置换公理在目前并无需要，因此留给将来的章节.
+<a name="集论的公理基础"></a>
 <h1 class="hd">集论的公理基础</h1>
 <a name="集与元素"></a>
 <h2 class="hd">集与元素</h2>
@@ -181,7 +183,7 @@ $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
 <div class='proof'> 应用配对公理，存在 $\{A,A\}=\{A\}$
 </div>
 </div>
-一个常见的误区：$\varnothing\neq \\{\varnothing\\}$. 
+一个常见的误区是 $\varnothing\neq \\{\varnothing\\}$： 
 <ul>
 <li> $\varnothing$ 是根据分类公理存在且唯一的空集；</li>
 <li>$\{\varnothing\}$ 是仅含空集为元素的单元素集，所以有 $\varnothing\in\{\varnothing\}$（注意这里 $\varnothing$ 是元素，而不是子集），因此它不是空集.</li>
@@ -893,7 +895,7 @@ $$x +k = y$$
 根据自然数的定义，每个自然数都含比它小的所有自然数为元素；因为我们的自然数含 0，因此有 $n$ 个比 $n$ 小的元素. 那么，存在双射函数 $f:A\to n$ 的意思 $A$ 中的元素可以通过 $f$ 和 $n$ 个元素一一对应，即被这 $n$ 个元素 “编号”. 因此称 $A$ 含 $n$ 个元素. 
 
 
-可数无限的意思是，如果给集合 $A$ 中的每一个元素编号，自然数是够用的. 虽然这听起来不是很合常理，毕竟无限的东西有什么不够用的？但在将来，我们会遇到自然数不够用的情况，即不可数无限的集合.
+可数无限的意思是，如果给集合 $A$ 中的每一个元素编号，自然数是够用的. 虽然这听起来不是很合常理（毕竟无限的东西有什么不够用的？）但在将来，我们会遇到自然数不够用的情况，即不可数无限的集合.
 
 对于自然数来说，每个给定的自然数都是有限的，但是全体自然数的集合是可数无限的. 这可以用归纳法证明：
 <div class='theorem-macro'>
