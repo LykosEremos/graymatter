@@ -1,496 +1,670 @@
 ---
 ---
+
 @charset "utf-8";
 @import "minima";
-html{
-	position:relative; 
-	min-height:100%;
-	overflow-y:scroll;
+
+$bg-col: #292929;
+$lk-col: #5eb5ed;
+$lk-hov-col: #5eb5ed;
+$lk-vst-col: #5eb5ed;
+$tx-col: whitesmoke;
+$bx-col: #303030;
+$em-col: #eda15e;
+$nv-col: rgba(49, 49, 49, 0.6);
+$demph-col: #a3a3a3;
+$menu-col:#3a3a3a;
+
+html {
+	position: relative;
+	min-height: 100%;
+	overflow-y: scroll;
+	background-color: $bg-col;
 }
+
+.site-title {
+		position: relative;
+}
+
+.home {
+	height: 100%;
+	background-image: url("amoya.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.list {
+	min-height: 100%;
+	background-image: url("hippocampus.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about {
+	min-height: 100%;
+	background-image: url("about.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
 
 body {
-	margin-top:3.5em;
+	margin-top: 5em;
 	counter-reset: h1counter;
-	margin-bottom:12em;
-	-webkit-font-smoothing:antialiased;
-	}
-		
+	margin-bottom: 12em;
+	-webkit-font-smoothing: antialiased;
+	color: $tx-col;
+	font-size: 0.95em;
+	counter-reset: definition;
+	counter-reset: theorem;
+	counter-reset: lemma;
+	counter-reset: axiom;
+	background-color: transparent;
+}
+
 @font-face {
-  font-family: serifRoman;
-  src: local('Times New Roman');
-  unicode-range: U+0020-201B,U+201E-FFFF;
+	font-family: serif;
+	src: local("Microsoft YaHei");
+	unicode-range: U+0020-201B, U+201E-FFFF;
+	font-size: 1em;
 }
 
-.site-header
-{
-	position:absolute;
-    top:0;
-	height:3em;
-	border-top: 3px solid #227c41;
-    width: 100%;
+.maintext {
+	line-height: 165%;
+	text-indent: 0px;
+
+	font-size: 15.5px;
 }
 
-a:hover {
-    color: #227c41;
+ol li {
+	padding-left: 0.5em;
+}
+
+a:link{
+  color:$lk-col;
+}
+a:visited{
+  color:$lk-vst-col;;
+}
+a:hover{
 	text-decoration: none;
+  color:$lk-hov-col;
 }
-
-.site-footer
-{		
-	position: absolute;
-	border-top: 0px;
-	bottom:0;
-	min-height: 1em;
-	width: 100%;
-	margin-top:4em;
-	background:rgb(245,245,245);
-}
-
-
-/** article page content */
-.post-list {
-line-height:175%;
-}
-
-.post-list-title{
-	font-size: 2em;
+a:visited:hover{
+  color:$lk-hov-col;
 }
 
 
 
-.post-meta { 
-	font-size: 0.8em; 
-	font-family: Arial,'Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
-	color: #828282; 
-}
-
-.page-heading { font-size: 2.1em; color: #828282;}
-
-
-.post-header { 
-margin-bottom: 30px; 
-				line-height: 300%;}
-
-.post-title
-{
-font-family:"SimHei";
-font-size: 2.5em;
-}
-  
-
-
-  
-.maintext{line-height: 165%;}
-	    
-	  
-p{
+p {
 	text-indent: 2em;
 }
 
-i{
-	font-family:'Times New Roman';
-	font-style: italic;	
-}
-
-#btn{
-	display:block;
-	width:100px; 
-	margin:0 auto;
-	margin-top:4em;
-	padding:10px 20px;
-	background-color: #227c41;
-	color: white;
-}
-#btn:hover {
-    background-color:#1a5d31;
-}
-
-.maintext a:hover {
-    color: #227c41;
-	text-decoration: underline;
-}
-
-.maintext ul{
-	list-style-type: none;
-}
-
-.maintext ul li{
-	text-indent:-1.5em;
-	margin-bottom:0.25em;
-}
-
-.maintext li::before {
-  content: "•";
-  font-size:1.25em;
-  padding-right: 0.85em;
-}
-
-.maintext ul ul{
-	list-style-type: none;
-}
-
-.maintext ul ul li::before {
-  content: "◦";
-  font-size:1.25em;
-  padding-right: 0.8em;
+i {
+	font-family: "Times New Roman";
+	font-style: italic;
 }
 
 h1 {
+	counter-increment: h1counter;
 	font-size: 1.6em;
+	font-weight: bold;
 	counter-reset: h2counter;
-	margin-top:1.4em;
-	margin-bottom:1em;
+	margin-top: 1.4em;
+	margin-bottom: 1em;
 }
 
-h1:nth-child(2)
-{
-	margin-top:0em;
+h1:nth-child(2) {
+	margin-top: 0em;
 }
 
-h2{
+h2 {
+	counter-increment: h2counter;
+	font-weight: bold;
 	font-size: 1.3em;
-	margin-top:1.4em;
+	margin-top: 1.4em;
 }
 
- h1:before {
-        content: counter(h1counter) ".\0000a0\0000a0";
-        counter-increment: h1counter;
-    }
- h2:before {
-        counter-increment: h2counter;
-		content: counter(h1counter) "." counter(h2counter) ".\0000a0\0000a0"; 
-
-   }
-
-
-.table-of-contents{
-	font-weight:300;
-	position:fixed;
-	top:8em;
-	left:2.5em;
-	width:7em;
-	counter-reset: toch1counter;
-	padding:1.2em;
-	background:rgb(245,245,245);
-	padding-top:0.5em;
-	border-top: 3px solid #227c41;
+h1:before {
+	content: counter(h1counter) ".\0000a0\0000a0 ";
+}
+h2:before {
+	content: counter(h1counter) "." counter(h2counter) ".\0000a0\0000a0 ";
 }
 
-.toch1{
-	font-size: 0.8em;
-	font-weight:normal;
-	counter-reset: toch2counter;
-}
-.toch2{
-	font-size: 0.7em;
-}
-  
-   
-.toch1:before {
-		content: counter(toch1counter) ".\0000a0\0000a0";
-        counter-increment: toch1counter;
-    }
-.toch2:before {
-        counter-increment: toch2counter;
-		content: counter(toch1counter) "." counter(toch2counter) ".\0000a0\0000a0"; 
-   }
-
-.notes{
-	font-size:0.8em;
-	padding:1em;
-	line-height:145%;
-	background:rgb(248,248,248);
-	text-indent:0em;
-}	
-
-.note-tag{
-	font-size:0.6em;
-	padding-left:0.2em;
-	color:gray;
+h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 1.4em;
 }
 
+//math environments
 
-.paradigm{
-	font-family:serifRoman,'KaiTi','BiauKai','Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
-	margin-top:1em;
-	margin-bottom:1em;
-	color:black;
+.concept {
+	display: inline;
+	color: $em-col;
+	font-weight: bold;
 }
 
-
-.paradigm ul li{
-	text-indent:0;
-	padding-left: 0.6em;
-	padding-right: 0.6em;
-	padding-top:0.6em;
-	padding-bottom:0.6em;
-	display: inline-block;
-	text-align: center;
-	background-color:#f6f6f6;
-}
-.paradigm ul li:nth-child(odd) {
-    background-color: #eaeaea;
+.theorem-macro {
+	counter-increment: theorem;
+	counter-reset: corollary;
+	display: block;
+	padding: 0.8em 0.8em 0.8em 0.8em;
+	font-size: 0.9em;
+	background-color: $bx-col;
+	justify-content: left;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
 }
 
-.suffixt {
+.theorem-macro ol {
+	margin-left: 2em;
+}
+
+.theorem {
+	display: inline;
+	margin-bottom: 1em;
+}
+.theorem:before {
+	content: "定理 " counter(theorem) ". ";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.corollary:before {
+	content: "结论 " counter(theorem) "." counter(corollary) ". ";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.corollary {
+	counter-increment: corollary;
+	display: inline;
+}
+
+.toggle-proof {
+	cursor: pointer;
 	text-align: left;
-	text-indent: 2em;
-	margin-top:1em;
-	margin-bottom:1em;
+	color: $tx-col;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	transition: all 0.35s;
+	&::after {
+		content: "\276F";
+		text-align: center;
+		font-family: inherit;
+	}
 }
-.suffixt tr:nth-child(odd){
-	text-indent:1em;
-	font-family:Arial,'Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
-	font-size:1.05em;
-}
-
-.suffixt tr:nth-child(odd) td{
- font-weight:bold;
-}
-
-.suffixt tr:nth-child(even) td{
-	padding-top:0.2em;
-	padding-bottom:1em;
-	border-bottom:2px;
+.proof {
+	margin-top: 1em;
+	display: none;
 }
 
-
-.paradigm ul li::before {
-  content: "";
-  padding-right: 0;
+.proof p {
+	text-indent: 0px;
 }
-   
-   
-   
-.footer-box   
-{
-	margin-right: auto; 
+
+.proof::before {
+	content: "证明. ";
+	font-style: italic;
+}
+
+.lemma {
+	display: block;
+	margin: 12px 0;
+	margin-left: 3em;
+	& ::before {
+		content: "引理.";
+		font-weight: bold;
+		font-style: normal;
+	}
+}
+
+.definition {
+	counter-increment: definition;
+	display: block;
+	font-size: 0.9em;
+	background: $bx-col;
+	padding: 0.8em 0.8em 0.8em 0.8em;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+}
+
+
+.definition ol {
+	margin-left: 2em;
+}
+
+.suggest {
+	counter-increment: definition;
+	display: block;
+	font-size: 0.9em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	background: #055e1d;
+	padding: 1em 1em 1em 1em;
+	margin-bottom: 1em;
+}
+
+.definition::before {
+	content: "定义 " counter(definition) ". ";
+	font-weight: bold;
+}
+
+.axiom {
+	counter-increment: axiom;
+	display: block;
+	font-size: 0.9em;
+	background: $bx-col;
+	padding: 1em 1em 1em 1em;
+	margin-bottom: 0.5em;
+}
+
+.axiom::before {
+	content: "公理 " counter(axiom) ". ";
+	font-weight: bold;
+}
+
+.notes {
+	font-size: 0.8em;
+	padding: 1em;
+	line-height: 180%;
+	background: #2d2d2d;
+	text-indent: 0em;
+	margin-bottom: 1em;
+}
+blockquote{
+	font-style: normal;
+	font-size: 1em;
+	color: $tx-col;
+}
+
+.note-tag {
+	font-size: 0.6em;
+	padding-left: 0.2em;
+	color: gray;
+}
+
+//hyperlink
+
+.post-link a {
+	color: $lk-col;
+}
+
+.post-link a:hover {
+	color: $lk-hov-col;
+	text-decoration: none;
+}
+
+.maintext a:hover {
+	color: $lk-hov-col;
+	text-decoration: none;
+}
+
+//header and footer
+
+#site-icon{
+	float: left;
+	margin-top: 1.15em;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.site-title{
+	margin-left: 0.5em;
+	float: left;
+}
+
+.header-mobile{
+	position: relative;
+}
+
+.header-button {
+	padding-top: 1.09em;
+	padding-bottom: 1.15em;
+	position: relative;
+	z-index: 3;
+	cursor: pointer;
+}
+
+.header-menu {
+	padding: 0.3em;
+	top: 3.5em;
+	right: -50%;
+	font-size: 1.1em;
+	display: none;
+	position: absolute;
+	color: $tx-col;
+	background-color: rgb(54, 54, 54);
+	min-width: 6em;
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
+	z-index: 4;
+}
+
+.site-header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	padding-top: 0.5em;
+	height: 4em;
+	border-bottom: 0px solid #ebebeb;
+	width: 100%;
+	background: $nv-col;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	padding: 10px;
+	a {
+		color: #aa8888;
+	}
+}
+
+.site-footer {
+	position: absolute;
+	border-top: 0px;
+	bottom: 0;
+	min-height: 1em;
+	width: 100%;
+	background: $nv-col;
+}
+
+.navbar-wrapper {
+	position:relative;
+	margin-right: auto;
 	text-align: justify;
 	margin-left: auto;
-	color:#828282;
-	font-size:0.9em;
-	font-family: 'Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
-} 
+	color: white;
+	font-size: 0.9em;
+	font-family: "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
+}
 
+/** article page content */
+.post-list {
+	line-height: 175%;
+}
+.post-header {
+	margin-bottom: 30px;
+	line-height: 300%;
+}
+.page-heading {
+	font-size: 2.1em;
+	color: $lk-col;
+}
+.post-list-title {
+	font-size: 2em;
+}
+
+.post-meta {
+	font-size: 0.8em;
+	font-family: Arial, "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
+	color: $demph-col;
+}
+
+.post-title {
+	font-family: "微软雅黑", "SimHei";
+	font-size: 2.5em;
+	color: #f3f3f3;
+}
+
+//cosmetics
+
+.title-box{
+	width: 50%;
+	position: absolute;
+}
+
+.home body {
+	background-color: none;
+}
+
+#btn {
+	font-size: 30px;
+	font-weight: 600;
+	border-style: solid;
+	text-align: center;
+
+	width: 70px;
+
+	border-color: $tx-col;
+	color: $tx-col;
+
+	border-width: 3.5px;
+	padding: 10px;
+
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+	margin-top: 6em;
+	color: white;
+}
+#btn:hover {
+	background-color: $tx-col;
+	color: $bx-col;
+	transition: all 0.25s;
+}
+
+//floating toc
+.table-of-contents {
+	font-family: Arial, "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
+	counter-reset: toch1counter;
+	margin: 5em;
+	padding-top: 0.5em;
+	border-top: 3px solid #227c41;
+	max-width: 10em;
+	display: inline-block;
+}
+
+.toch1 {
+	display: block;
+	font-size: 0.75em;
+	font-weight: bold;
+	counter-reset: toch2counter;
+}
+.toch2 {
+	display: block;
+	font-size: 0.65em;
+}
+
+.toch1:before {
+	content: counter(toch1counter) ".\0000a0\0000a0";
+	counter-increment: toch1counter;
+}
+.toch2:before {
+	counter-increment: toch2counter;
+	content: "\00a0\00a0"counter(toch1counter) "." counter(toch2counter) ".\0000a0\0000a0";
+}
 
 .dropdown {
-    display: inline-block;
-	font-weight:300;
+	display: block;
 	counter-reset: toch1counter;
-	position:fixed;
-	top:8em;
-	left:5%;
+	position: fixed;
+	font-weight: lighter;
+	bottom: 15%;
+	left: 85%;
+	z-index: 2;
 }
 
-.dropbtn {
-    background-color: #227c41;
+.dropdown-button {
+	background-color: $nv-col;
 	color: white;
-	opacity: 0.75;
-	border-radius: 5px 5px 5px 5px;
-    padding: 8px;
-    border: none;
-    cursor: pointer;
+	border-radius: 10%;
+	padding: 6px 6px 6px 6px;
+	border: none;
+	position: relative;
+	z-index:2;
+	cursor: pointer;
+	font-family: "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
 }
 
-.header-menu{
-	padding:0.5em;
-	font-size:1.1em;
-    display: none;
-    position: absolute;
-    background-color: #fbfbfb;
-    min-width: 3em;
-    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.4);
-    z-index: 1;
-	right:1em;
+.dropdown-menu {
+	top:-900%;
+	right: -25%;
+	padding: 1em;
+	font-size: 1.3em;
+	position: absolute;
+	display: none;
+	background-color: $menu-col;
+	min-width: 12em;
+	min-height: 15em;
+	max-height: 60%;
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
+	overflow-y: scroll;
+	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+	a {
+		color: $tx-col;
+	}
+	a:hover{
+		color: $lk-hov-col;
+	}
+	a:visited:hover{
+		color: $tx-col;
+	}
+	a:visited:hover{
+		color: $lk-hov-col;
+	}
+
 }
 
-.dpd-content {
-	padding:1em;
-	font-size:1.3em;
-    display: none;
-    position: absolute;
-    background-color: #fbfbfb;
-    min-width: 9em;
-    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.4);
-    z-index: 1;
+.dropdown-menu::-webkit-scrollbar {
+	width: 6px;
 }
-.bar-div{
-	width: 14px;
-    height: 2px;
-    background-color: white;
-    margin: 2.4px;
+.dropdown-menu::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
 }
 
-.navigation
-{
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bar-div {
+	width: 15px;
+	height: 3px;
+	background-color: $tx-col;
+	margin: 3px;
+}
+
+.navigation {
 	float: right;
 	line-height: 56px;
 }
 .navigation .page-link {
-	color: #111; 
-	text-align: justify; 
-	line-height: 1.5em; font-size:1.1em;font-weight:300; 
+	color: #e8e8e8;
+	text-align: justify;
+	line-height: 1.5em;
+	font-size: 1.1em;
+	font-weight: 300;
 	margin-left: 20px;
 }
 
 .navigation .page-link:hover {
-    color: #227c41;
 	text-decoration: none;
 }
 
-
-.navigation ul
-{
-	text-align: justify; 
-	font-size:1.1em;
-	font-weight:300; 
-	list-style:none;
-	line-height:2em;
-	margin-left:15px;
-	margin-right:5px;
-	margin-bottom:5px;
+.navigation ul {
+	text-align: justify;
+	font-size: 1.1em;
+	font-weight: 300;
+	list-style: none;
+	line-height: 2em;
+	margin-left: 15px;
+	margin-right: 5px;
+	margin-bottom: 5px;
 }
 
-.navigation ul a
-{
-	color: #111; 
+.navigation ul a {
+	color: #e8e8e8;
 }
 
 .navigation ul a:hover {
-    color: #227c41;
 	text-decoration: none;
 }
 
-.header-button
-{
-	position:relative;
-	padding-top:1.09em;
-	padding-bottom:1.15em;
-	right:1em;
-}
 
 
-.header-button .bar-div{
-    background-color: black;
-	width: 20.02px;
-    height: 2.86px;
-    margin: 3.6px;
+.citation {
+	list-style-type: none;
+	line-height: 150%;
+}
+.citation li {
+	text-indent: -2em;
+	margin-bottom: 1em;
 }
 
-.citation
-{
-	list-style-type:none;
-	line-height:150%;
+.citation li a {
+	color: $lk-col;
 }
-.citation li
-{
-	
-	text-indent:-2em;
-	margin-bottom:1em;
-}
-
-.citation li a{
-	color:#0b3a78;
-}
-
 
 .citation a:hover {
-    color: #227c41;
-	text-decoration: underline;
+	color: $lk-hov-col;
+	text-decoration: none;
 }
 
-.home p{
-	max-width:650px;
-	margin:0 auto;
-	margin-bottom:1em;
-	line-height:180%;
-	font-size:1em;
+.home p {
+	max-width: 650px;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	line-height: 180%;
+	font-size: 1em;
 }
 
-
-/*
-@media screen and (min-width: 800px) {
-
-.dropdown:hover .dpd-content {
-	display:block;
-	opacity:1;
-
+.normal {
+	display: block;
 }
 
-Change the background color of the dropdown button when the dropdown content is shown 
-
-.dropdown:hover .dropbtn {
-    background-color:#1a5d31;
-}
-}
-*/
-
-.normal{
-    display: block;
-}
-
-.mobile
-{
+.mobile {
 	display: none;
 }
-
 
 /*-webkit-calc(1000px - (30px * 2)); max-width: calc(1000px - (30px * 2))*/
 
-.wrapper { 
-	max-width:-webkit-calc(900px - (30px * 2)); 
-	max-width: calc(900px - (30px * 2)) ; 
-	margin-right: auto; 
-	margin-left: auto; 
-	padding-right: 30px; 
-	padding-left: 30px; 
-	font-family: serifRoman,'Microsoft YaHei',"微软雅黑", 'STXihei', "华文细黑";
+.wrapper {
+	max-width: -webkit-calc(900px - (30px * 2));
+	max-width: calc(900px - (30px * 2));
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-family: "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
+	color: white;
+	position: float;
 }
-
 
 @media screen and (max-width: 600px) {
-
-#des {
-	display:none;
-}
-}
-
-@media screen and (max-width: 800px) { 
-
-.wrapper { 
-	max-width: -webkit-calc(800px - (30px)); 
-	max-width: calc(800px - (30px)); 
-	padding-right: 15px; 
-	padding-left: 15px; 
+	#des {
+		display: none;
 	}
-	
-.normal{
-	display: none;
 }
 
-.mobile
-{
-	display: block;
+@media screen and (max-width: 800px) {
+	.wrapper {
+		max-width: -webkit-calc(800px - (30px));
+		max-width: calc(800px - (30px));
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.normal {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
 }
-}
-   
-   
+
 @media screen and (max-width: 1050px) {
-
-.dropbtn {
-	opacity: 0.15;
+	.dropdown-button {
+		opacity: 0.15;
+	}
 }
-	
-	
-.dropdown {
-	top:6.5em;
-	left:85%;
-}	
-	
-.dpd-content {
-	right:0;
-}
-
-}
-
-   

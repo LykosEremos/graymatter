@@ -4,26 +4,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="https://corvus-helio.github.io/etyAPG4/assets/fav/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://corvus-helio.github.io/etyAPG4/assets/fav/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://corvus-helio.github.io/etyAPG4/assets/fav/favicon-16x16.png">
-<link rel="manifest" href="https://corvus-helio.github.io/etyAPG4/assets/fav/manifest.json">
-<link rel="mask-icon" href="https://corvus-helio.github.io/etyAPG4/assets/fav/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="https://corvus-helio.github.io/etyAPG4/assets/fav/favicon.ico">
-<meta name="msapplication-config" content="https://corvus-helio.github.io/etyAPG4/assets/fav/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-	
-    
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="theme-color" content="#ffffff">
+
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <link rel="stylesheet" href="{{'/assets/main.css' | relative_url }}">
+
+  <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}" >
-  
-   
+
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
