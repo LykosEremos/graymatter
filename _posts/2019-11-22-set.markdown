@@ -193,7 +193,7 @@ $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
 <div class='theorem'> 对任意集合 $a, b, c$，定义
 $$\begin{align*}
 ()&=\varnothing, \\
-(a)&=((),a)=\{()\}, \{(),a\}\}=\{\{\varnothing\}, \{\varnothing,a\}\}, \\
+(a)&=((),a)=\{\{()\}, \{(),a\}\}, \\
 (a,b)&=((a),b)\\
 (a,b,c)&=((a,b),c)\\
 \end{align*}
