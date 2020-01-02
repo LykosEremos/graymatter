@@ -37,7 +37,7 @@ layout: default
 
 		</script>
 		<script>
-		var coll = document.getElementsByClassName("toggle-proof");
+		var coll = document.getElementsByClassName("theorem");
 		var i;
 
 		for (i = 0; i < coll.length; i++) {
@@ -45,10 +45,12 @@ layout: default
 		  this.classList.toggle("active");
 		  var content = this.nextElementSibling;
 		  if (content.style.display === "block") {
-		    this.style.webkitTransform = 'rotate(0deg)';
+		   // this.style.webkitTransform = 'rotate(0deg)';
+			 	this.style.borderBottom = "2px solid #414141;"
 		    content.style.display = "none";
 		  } else {
-		    this.style.webkitTransform = 'rotate(90deg)';
+		   // this.style.webkitTransform = 'rotate(90deg)';
+			 	this.style.borderBottom = "2px solid #606060;"
 		    content.style.display = "block";
 		  }
 		});

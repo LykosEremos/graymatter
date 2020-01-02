@@ -166,8 +166,11 @@ h3 {
 }
 
 .theorem {
+	cursor: pointer;
 	display: block;
+	padding-bottom: 1em;
 	margin-bottom: 0.5em;
+	border-bottom: 3.5px dotted #414141;
 }
 .theorem:before {
 	content: "定理 " counter(theorem) ". ";
@@ -194,6 +197,8 @@ h3 {
 .toggle-proof {
 	cursor: pointer;
 	text-align: left;
+	position: relative;
+	margin-right: 0;
 	color: $tx-col;
 	background-color: transparent;
 	outline: none;
@@ -517,7 +522,7 @@ footer {
 	position: absolute;
 	display: none;
 	background-color: $menu-col;
-	min-width: 15em;
+	min-width: 12.5em;
 	min-height: 15em;
 	max-height: 60%;
 	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
