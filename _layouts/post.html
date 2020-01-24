@@ -4,9 +4,17 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 		<!-- <div class="table-of-contents">
 </div> -->
+
+
+<div class='side-bar' id = 'tgMenu'>
+	<div id="toc"></div>
+</div>
+
+
 		<div class="page-heading" style="font-weight:300;margin-bottom:0.1em;">
 			<a href="{{ site.baseurl }}/list" style="color:#828282;">海马体/</a>
 		</div>
+
 		<header class="post-header">
 			<div class="post-title" itemprop="name headline">
 				{{ page.title | escape }}
@@ -15,18 +23,26 @@ layout: default
 				首发于 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
 			</div>
 		</header>
+
+
 		<div class="dropdown">
-			<button class="dropdown-button" id="tg-button" onclick="toggle_toc()">
-			<div class='bar-div'></div>
-			<div class='bar-div'></div>
-			<div class='bar-div'></div></button>
-			<div class="dropdown-menu" id="tg-menu">
-				<div id="toc"></div>
-			</div>
-		</div>
+					<button class="dropdown-button" id="tg-button" onclick="toggle_toc()">
+					<div class='bar-div'></div>
+					<div class='bar-div'></div>
+					<div class='bar-div'></div></button>
+					<div class="dropdown-menu" id="tg-menu">
+						<div id="toc"></div>
+					</div>
+				</div>
+
+
+
 		<div class="maintext" itemprop="articleBody">
 			{{ content }}
 		</div>
+
+
+
 		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
 		MathJax.Hub.Config({
 		   tex2jax: {
@@ -57,72 +73,62 @@ layout: default
 		}
 		</script>
 		<script>
-		var h1c = document.getElementsByClassName("hd");
-		var str = "";
-		var ifnested = false;
-		for (i=0;i<h1c.length;i++)
-		{
-      if(ifnested)
-      {
-        if(h1c[i].tagName==="H1")
-        {
-          ifnested=false;
-          str+="<a class=\"toch1\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a>";
-        }
-		else if(h1c[i].tagName==="H2")
-    {
-      str+="<a class=\"toch2\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a>";
-		}
-		}
+				var h1c = document.getElementsByClassName("hd");
+				var str = "";
+				var ifnested = false;
+				for (i=0;i<h1c.length;i++)
+				{
+					if(ifnested)
+					{
+						if(h1c[i].tagName==="H1")
+						{
+							ifnested=false;
+							str+="<a class=\"toch1\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a> \n";
+						}
+				else if(h1c[i].tagName==="H2")
+				{
+					str+="<a class=\"toch2\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a> \n";
+				}
+				}
 
-		else
-		{
-		if(h1c[i].tagName==="H1")
-		{
-		str+="<a class=\"toch1\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a>";
-		}
-		else if(h1c[i].tagName==="H2")
-		{
-		ifnested=true;
-		str+="<a class=\"toch2\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a>";
-		}
-		}
-		}
-		if(str===""){document.getElementById("toc").innerHTML ="<div style=\"font-size: 0.8em;\">（本文没有内部分节）<\/div>";}
-		else{
-      document.getElementById("toc").innerHTML =str;
-    }
-		</script>
-		<script>
-		function toggle_toc()
-		{
-		var tgButton=document.getElementById('tg-button');
-		var tgMenu=document.getElementById('tg-menu');
+				else
+				{
+				if(h1c[i].tagName==="H1")
+				{
+				str+="<a class=\"toch1\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a> \n";
+				}
+				else if(h1c[i].tagName==="H2")
+				{
+				ifnested=true;
+				str+="<a class=\"toch2\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a> \n";
+				}
+				}
+				}
+				if(str===""){document.getElementById("toc").innerHTML ="<div style=\"font-size: 0.8em;\">（本文没有内部分节）<\/div>";
+				}
+				else{
+					document.getElementById("toc").innerHTML =str;
 
-		if (window.innerWidth < 1050)
-		{
-		if (tgMenu.style.display === 'block') {
-		      tgMenu.style.display = 'none';
-		      tgButton.style.opacity = 0.15;
-		  } else {
-		      tgMenu.style.display = 'block';
-		      tgButton.style.opacity = 1;
-		  }
-		}
+				}
+				</script>
+				<script>
+				function toggle_toc()
+				{
+				var tgButton=document.getElementById('tg-button');
+				var tgMenu=document.getElementById('tgMenu');
 
-		else
-		{
-		if (tgMenu.style.display === 'block') {
-		      tgMenu.style.display = 'none';
-		      tgButton.style.opacity = 0.75;
-		  } else {
-		      tgMenu.style.display = 'block';
-		      tgButton.style.opacity = 1;
-		  }
-		}
+				if (tgButton.style.opacity == 0.15) {
+							tgMenu.style.transform = "translateX(-100%)";
+							tgButton.style.opacity = 0.75;
+					} else {
+							tgMenu.style.transform = "translateX(100%)";
+							tgButton.style.opacity = 0.15;
+					}
 
-		}
-		</script>
+
+				}
+				</script>
+
     {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
 	</article>
 </body>

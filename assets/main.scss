@@ -20,6 +20,7 @@ html {
 	min-height: 100%;
 	overflow-y: scroll;
 	background-color: $bg-col;
+	font-family: "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
 }
 
 .site-title {
@@ -53,6 +54,8 @@ html {
 
 
 body {
+	margin: 0;
+	padding: 0;
 	margin-top: 5em;
 	counter-reset: h1counter;
 	margin-bottom: 12em;
@@ -64,6 +67,8 @@ body {
 	counter-reset: lemma;
 	counter-reset: axiom;
 	background-color: transparent;
+	font-family: Arial, "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
+
 }
 
 @font-face {
@@ -77,11 +82,18 @@ body {
 	line-height: 165%;
 	text-indent: 0px;
 	font-size: 15.5px;
+	font-family: "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
 }
 
 ol li {
 	padding-left: 0.5em;
 }
+
+ul li {
+	padding: 0.7em 0.5em 0.7em 0.5em;
+
+}
+
 
 a:link{
   color:$lk-col;
@@ -320,6 +332,47 @@ blockquote{
 
 //header and footer
 
+.side-bar{
+	font-family: Arial, "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
+	position: fixed;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
+
+	top: 6em;
+	left: -230px;
+	bottom: 20px;
+	width: 200px;
+
+	padding: 1em;
+	font-size: 1.2em;
+	margin-right: 50px;
+	background-color: $bx-col;
+	overflow-y: auto;
+
+	z-index: 2;
+	transition: transform 0.5s ease-in-out;
+	counter-reset: toch1counter;
+
+	a {
+		color: $tx-col;
+	}
+	a:hover{
+		color: $lk-hov-col;
+	}
+	a:visited:hover{
+		color: $tx-col;
+	}
+	a:visited:hover{
+		color: $lk-hov-col;
+	}
+}
+
+.side-bar::-webkit-scrollbar {
+	width: 4px;
+}
+.side-bar::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
 #site-icon{
 	float: left;
 	margin-top: 1.15em;
@@ -464,23 +517,27 @@ footer {
 
 //floating toc
 .table-of-contents {
-	font-family: Arial, "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
-	counter-reset: toch1counter;
+
 	margin: 5em;
 	padding-top: 0.5em;
 	border-top: 3px solid #227c41;
 	max-width: 10em;
 	display: inline-block;
+	float:left;
 }
 
 .toch1 {
 	display: block;
+float: left;
+clear: left;
 	font-size: 0.75em;
 	font-weight: bold;
 	counter-reset: toch2counter;
 }
 .toch2 {
 	display: block;
+float: left;
+clear: left;
 	font-size: 0.65em;
 }
 
@@ -489,13 +546,12 @@ footer {
 	counter-increment: toch1counter;
 }
 .toch2:before {
-	counter-increment: toch2counter;
 	content: "\00a0\00a0"counter(toch1counter) "." counter(toch2counter) ".\0000a0\0000a0";
+	counter-increment: toch2counter;
 }
 
 .dropdown {
 	display: block;
-	counter-reset: toch1counter;
 	position: fixed;
 	bottom: 15%;
 	left: 85%;
@@ -505,6 +561,8 @@ footer {
 .dropdown-button {
 	background-color: $nv-col;
 	color: white;
+	opacity: 75%;
+
 	border-radius: 10%;
 	padding: 6px 6px 6px 6px;
 	border: none;
@@ -528,20 +586,6 @@ footer {
 	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
 	overflow-y: scroll;
 	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-
-	a {
-		color: $tx-col;
-	}
-	a:hover{
-		color: $lk-hov-col;
-	}
-	a:visited:hover{
-		color: $tx-col;
-	}
-	a:visited:hover{
-		color: $lk-hov-col;
-	}
-
 }
 
 .dropdown-menu::-webkit-scrollbar {
@@ -647,34 +691,33 @@ img {
 	padding-left: 30px;
 	font-family: "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
 	color: white;
-	position: float;
 }
+
+
 
 @media screen and (max-width: 600px) {
 	#des {
 		display: none;
 	}
+
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px){
 	.wrapper {
 		max-width: -webkit-calc(800px - (30px));
 		max-width: calc(800px - (30px));
+		margin-left: auto;
+		margin-right:auto;
 		padding-right: 15px;
 		padding-left: 15px;
 	}
-
 	.normal {
 		display: none;
 	}
 
+
+
 	.mobile {
 		display: block;
-	}
-}
-
-@media screen and (max-width: 1050px) {
-	.dropdown-button {
-		opacity: 0.15;
 	}
 }

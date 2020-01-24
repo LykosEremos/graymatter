@@ -8,11 +8,11 @@ categories: resources
 <h1 class="hd">逻辑与证明</h1>
 <a name="断言"></a>
 <h2 class="hd">断言</h2>
-数学是一场逻辑游戏：我们假设某些在我们看来是基础或者自明的<span class='concept'>公理（axiom）</span>为真断言，然后利用给定的一些推理规则（rules of inference），去得到或者发现其他的真断言. 因此，在撸起袖子解数学题之前，有必要先谈谈这场游戏的规则. 
+数学是一场逻辑游戏：我们假设某些看来是基础或者自明的<span class='concept'>公理（axiom）</span>为真断言，然后利用给定的一些推理规则（rules of inference），去得到或者发现其他的真断言. 因此，在撸起袖子解数学题之前，有必要先谈谈这场游戏的规则. 
 
-在这场游戏中，我们可以说一些句子，这些句子称为<span class='concept'>断言（sentence）</span>. 每个断言要么是真的，要么是假的. 我们可以用大写英文字母表记断言，比如 $P$，或 $Q$. 
+在这场游戏中，我们可以说一些句子，这些句子称为<span class='concept'>断言（sentence）</span>. 每个断言要么是真的，要么是假的. 可以用大写英文字母表记断言，比如 $P$，或 $Q$. 
 
-有的时候，我们希望把两个或者更多的断言合并起来形成新的断言，比如 “$x$ 是单数” 和 “$x$ 是双数” 可组合形成 “$x$ 是单数或 $x$ 是双数”，“明天下雪” 和 “学校停课” 可以组合成 “如果明天下雪，学校就停课”. 为了不重复地说 “或”，“如果……那么……”，我们引入一些简写：
+有的时候，我们希望把两个或者更多的断言合并起来形成新的断言，比如 “$x$ 是单数” 和 “$x$ 是双数” 可组合形成 “$x$ 是单数或 $x$ 是双数”，“明天下雪” 和 “学校停课” 可以组合成 “如果明天下雪，学校就停课”. 为了不重复地说 “或”，“如果……那么……”，我们可以引入一些简写：
 <ol>
 <li> “<span class='concept'>非（not）</span> $P$”，记作 $\neg P$.  </li>
 <li>“$P$ <span class='concept'>和（and）</span> $Q$”，记作 $P\wedge Q$. </li>
@@ -23,17 +23,18 @@ categories: resources
 
 断言中可以包含变量，这样的断言又可以称为<span class='concept'>谓词（predicate）</span>. 可以用 $P(x)$ 代表 “$x$ 是江苏省的省会” 这个谓词. 我们可以选择<span class='concept'>带入</span>特定的 $x$，使 $P(x)$ 有固定的真或者假的取值. 例如，如果把 “无锡” 带入 $x$，那么这个断言为假；如果把 “南京” 带入 $x$，那么为真.
 
-如果我们有谓词 $P(x)$，那么我们必须给出它的<span class='concept'>量词（quantifier）</span>. 量词限定了令谓词 $P(x)$ 为真的 $x$ 的值的范围，谓词也不能脱离量词而存在. 虽然在生活中可能会有各种各样的量词，但在数学中我们只讨论两种量词：
+如果我们有谓词 $P(x)$，那么必须给出它的<span class='concept'>量词（quantifier）</span>. 量词限定了令谓词 $P(x)$ 为真的 $x$ 的值的范围，谓词也不能脱离量词而存在. 虽然在生活中可能会有各种各样的量词，但在数学中只讨论两种量词：
 <ol>
 <li> <span class='concept'>全称量词（universal quantifier）</span>，记作 $\forall$. 若令 $P(x)$ 表示 “$x$ 是德国人”，而 $x$ 可以从全体作家的名字中取值，那么 $\forall x:P(x)$ 表示的是 “所有的作家都是德国人”. </li>
 <li> <span class='concept'>存在量词（existential quantifier）</span>，记作 $\exists$. 接上例，$\exists x: P(x)$ 表示，“存在作家是德国人”</li>
 </ol>
 $\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的食物”（喜欢吃的东西可以是不同的）显然和 “有食物令每个人都喜欢吃”（每个人都必须喜欢吃同一种东西） 是意义上不同的两个句子. 我们约定一个量词所限定的<span class='concept'>范围（scope）</span>是它的冒号右侧一直到断言句尾.
 
-同时，我们约定如果量词取值的范围内不含任何物件，那么我们约定此时谓词是真的，称为<span class='concept'>空真（vacuously true）</span>的.
+同时，我们约定如果量词取值的范围内不含任何物件，那么此时谓词是真的，称为<span class='concept'>空真（vacuously true）</span>的.
 <a name="推理规则"></a>
+
 <h2 class="hd">推理规则</h2>
-我们的游戏的主要目标是运用推理规则，从一些简单的真断言来到更加复杂的真断言. 如果我们能从真断言 $P$ 和一些其他的条件推导出另一个断言 $Q$，那么我们可以写 $P\Rightarrow Q$. 如果 $P \Rightarrow Q$ 和 $Q\Rightarrow P$，那么我们可以写 $P\Leftrightarrow Q$. 注意，$\to$ 和 $\Rightarrow$、$\leftrightarrow$ 和 $\Leftrightarrow$ 并非同样的意思：$\to$ 和 $\leftrightarrow$ 是构造新断言用的连接符，$\Rightarrow$ 和 $\Leftrightarrow$ 指示的是推导过程中由一个断言得出另一个断言的逻辑先后关系.
+我们的游戏的主要目标是运用推理规则，从一些简单的真断言来到更加复杂的真断言. 如果我们能从真断言 $P$ 和一些其他的条件推导出另一个断言 $Q$，那么可以写 $P\Rightarrow Q$. 如果 $P \Rightarrow Q$ 和 $Q\Rightarrow P$，那么我们可以写 $P\Leftrightarrow Q$. 注意，$\to$ 和 $\Rightarrow$、$\leftrightarrow$ 和 $\Leftrightarrow$ 并非同样的意思：$\to$ 和 $\leftrightarrow$ 是构造新断言用的连接符，$\Rightarrow$ 和 $\Leftrightarrow$ 指示的是推导过程中由一个断言得出另一个断言的逻辑先后关系.
 
 我们的推理规则其实就是俗话说的逻辑思维，具体地说，有以下几个规则；为了强调这些规则并非人造的规则，我用 “日常逻辑” 来示例它们的合理之处：
 <ol>
@@ -44,18 +45,18 @@ $\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的�
 <li>$P \Rightarrow P\vee Q$；如果 “明天下雨”，那么可以说 “明天下雨或明天是星期三”；“明天是星期三” 可以换成任意断言. </li>
 <li>$P\vee Q \Leftrightarrow Q\vee P$；“奶茶或咖啡是饮料” 等价于 “咖啡或奶茶是饮料”</li>
 <li>$\neg P \wedge (P\vee Q) \Rightarrow Q$；又称<span class='concept'>选言三段论（disjunctive syllogism）</span>. 如果 “奶茶或饼干是饮料” 且 “饼干不是饮料”，那么可推断 “奶茶是饮料”</li>
-<li>$Q \Rightarrow P\to Q$；$\neg P \Rightarrow P\to Q$；这条规则与其说是规则不如说是一个约定，如果我们知道 “奶茶是饮料” 是真的，那么我们可以选任何断言 $P$ 构成真断言 “如果 $P$，那么奶茶是饮料”；类似地，如果我们知道 “明天天会塌下来” 是假的，那么我们可以选任何 $Q$ 组成真断言 “如果明天天会塌下来，那么 $Q$”. 这和自然语言中隐含了因果关系的表述 “如果……那么……” 稍许不同.</li>
+<li>$Q \Rightarrow P\to Q$；$\neg P \Rightarrow P\to Q$；这条规则与其说是规则不如说是一个约定，如果我们知道 “奶茶是饮料” 是真的，那么可选任何断言 $P$ 构成真断言 “如果 $P$，那么奶茶是饮料”；类似地，如果我们知道 “明天天会塌下来” 是假的，那么可选任何 $Q$ 组成真断言 “如果明天天会塌下来，那么 $Q$”. 这和自然语言中隐含了因果关系的表述 “如果……那么……” 稍许不同.</li>
 <li>$P \wedge (P\to Q) \Rightarrow Q$；又称<span class='concept'>肯定前件（modus ponens）</span>规则；如果 “如果是人，那么就会死”，“苏格拉底是人”，那么可得 “苏格拉底会死”.</li>
 <li>$\neg Q \wedge (P\to Q) \Rightarrow \neg P$；又称<span class='concept'>否定后件（modus tollens）</span>规则；如果 “如果是人，那么就会死”，“花瓶不会死”，那么可得 “花瓶不是人”.</li>
 <li>$(P\Rightarrow Q) \Leftrightarrow (P\to Q)$；又称<span class='concept'>条件证明律（conditional proof）</span>，在数理逻辑中又称演绎定理. 如果我们可以从 $P$ 得到 $Q$，那么 $P\to Q$ 是真断言.</li>
 <li>$P\to Q, Q\to P \Leftrightarrow P\leftrightarrow Q$；“如果有考试就要熬夜” 和 “如果要熬夜就一定有考试” 可得 “熬夜当且仅当有考试”.</li>
 
 </ol>
-对于复杂的断言，我们用括号来指定复杂断言的构成顺序：在括号里的部分需要先进行组合，其优先级由嵌入括号的深度决定：例如，$(P\vee Q)\wedge W$ 应当解读为 “$P \vee Q$ 和 $W$” 而不是 “$P$ 或 $Q\wedge W$”. 若未标括号，那么默认从右往左组合.
+对于复杂的断言，用括号来指定复杂断言的构成顺序：在括号里的部分需要先进行组合，其优先级由嵌入括号的深度决定：例如，$(P\vee Q)\wedge W$ 应当解读为 “$P \vee Q$ 和 $W$” 而不是 “$P$ 或 $Q\wedge W$”. 若未标括号，那么默认从右往左组合.
 
-我们把推导的结果称为<span class='concept'>定理（theorem）</span>. 同时，我们也通过下<span class='concept'>定义（definition）</span>的方式来简化我们的表达. 定义只不过是语言上的简化，它们不需要证明.
+推导的结果称为<span class='concept'>定理（theorem）</span>. 同时，我们也通过下<span class='concept'>定义（definition）</span>的方式来简化我们的表达. 定义只不过是语言上的简化，它们不需要证明.
 
-我们不打算在这一节中发展数理逻辑（mathematical logic）中的任何结论，因此非正式地将逻辑作为一场“游戏”来讨论. 现代的数理逻辑需要集合论为基础：函数、关系都是数理逻辑重要的部分，但是它们的严格定义只出自集论，然而集合论本身也需要逻辑的形式来严谨地定义. 为了避免先有鸡还是先有蛋的问题，我们需要先像游戏一样地进行我们的逻辑演练，在我们形成了一个公理系统（集合论）之后，再利用其中的工具来严谨地 “模拟” 我们的逻辑过程，从而反过来证明，我们的游戏中的不存在矛盾或者存在无法利用推理规则达到的真断言，而这才是数理逻辑登场的时候. 
+我们不打算在这一节中发展数理逻辑（mathematical logic）中的任何结论，因此非正式地将逻辑作为一场“游戏”来讨论. 现代的数理逻辑需要集合论为基础：函数、关系都是数理逻辑重要的部分，但是它们的严格定义只出自集论，然而集合论本身也需要逻辑的形式来严谨地定义. 为了避免先有鸡还是先有蛋的问题，我们需要先像游戏一样地进行逻辑演练，在形成了一个公理系统（集合论）之后，再利用其中的工具来严谨地 “模拟” 我们走过的逻辑过程，从而反过来证明，我们的游戏中的不存在矛盾或者存在无法利用推理规则达到的真断言，而这才是数理逻辑登场的时候. 
 
 用电脑科学做一个比方：如果将数学比作一种程序语言，将我们的游戏比作它的编译器，那么发展数理逻辑就是用编程语言写它自己的编译器的自举（bootstrapping）的过程.
 
@@ -63,19 +64,20 @@ $\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的�
 
 ZFC 是德国人 Ernst Zermelo 和 Abraham Fraenkel 在认识到 Cantor 的朴素集合论的不足之后总结形成的，Zermelo (<a href="#zermelo1908s" name="zermelo1908">1908</a>，<a href="#zermelo1930s" name="zermelo1930">1930</a>) 贡献了其中的7条公理和分类公理模式，<a href="#fraenkel1922s" name="fraenkel1922">Fraenkel (1922)</a> 又添加了置换公理模式，最后形成现在的形式. 这并不是唯一的集合论公理系统：类似的还有 NBG 系统和 W. V. Quine 的新基础（New Foundation，NF）系统. 因 ZFC 的普适性，ZFC 是 CADMUS 选定的集论基础.
 
-如果我们把 ZFC 的公理作为真断言，我们可以通过我们的数学游戏推导出大部分人在乎的大部分数学知识. 在接下来的章节中我们将引入 ZFC 的公理来一步步构建我们的数学宇宙. 选择公理和置换公理在目前并无需要，因此留给将来的章节.
+如果我们把 ZFC 的公理作为真断言，我们可以通过我们的数学游戏推导出大部分人在乎的大部分数学知识. 在接下来的章节中我们将引入 ZFC 的公理来一步步构建数学宇宙. 选择公理和置换公理在目前并无需要，因此留给将来的章节.
 <a name="集论的公理基础"></a>
+
 <h1 class="hd">集论的公理基础</h1>
 <a name="集与元素"></a>
 <h2 class="hd">集与元素</h2>
-想象一个数学宇宙，里面存在且仅存在一种名为 “<span class='concept'>集合</span>” 的物件. 我们粗略地想象 “集合” 是一系列物件的汇集，正如现实生活中的集合一样，因此冠其名曰 “集合” . 我们不知道我们的数学宇宙有多少个 “集合” 也不知道已经存在的 “集合” 中的物件是什么. 但是在我们的假想中，这个宇宙中<em>存在至少一个“集合”</em> ，而且<em>不存在集合以外的东西</em> .
+想象一个数学宇宙，里面存在且仅存在一种名为 “<span class='concept'>集合</span>” 的物件. 我们粗略地想象 “集合” 是一系列物件的汇集，正如现实生活中的集合一样，因此冠其名曰 “集合” . 我们不知道数学宇宙有多少个 “集合” 也不知道已经存在的 “集合” 中的物件是什么. 但是在我们的假想中，这个宇宙中<em>存在至少一个“集合”</em> ，而且<em>不存在集合以外的东西</em> .
 
-从字面上看，“集合” 往往和 “收容” 联系起来. 我们希望数学宇宙和常识尽可能契合，因此给定一个集合 $a$，对于另一个集合 $A$，我们希望能够回答 “$a$ 是不是 $A$ 的<span class='concept'>元素</span>？” 这个问题. 如果 $a$ 的确是 $A$ 的元素，那么我们表记为 $a\in A$；如果不是，我们表记为 $a\notin A$. 
+从字面上看，“集合” 往往和 “收容” 联系起来. 我们希望数学宇宙和常识尽可能契合，因此给定一个集合 $a$，对于另一个集合 $A$，我们希望能够回答 “$a$ 是不是 $A$ 的<span class='concept'>元素</span>？” 这个问题. 如果 $a$ 的确是 $A$ 的元素，那么表记为 $a\in A$；如果不是，表记为 $a\notin A$. 
 
 <a name="部分 ZFC 公理"></a>
 <h2 class="hd">部分 ZFC 公理</h2>
 <h3 class="hd">分类公理</h3>
-到目前为止，我们只知道数学宇宙中存在 “集合”，却缺乏构建我们想要的集合的方法. 这是因为集合的构造不应该是随心所欲的——缺乏限制的集合构造容易导致悖论. 假想我们可以构建任意我们想要的集合，并因此造出了一个 “仅包含不在集合 $A$ 中的元素” 的集合 $A$，那么有两种可能：
+到目前为止，我们只知道数学宇宙中存在 “集合”，却缺乏构建我们想要的集合的方法. 这是因为集合的构造不应该是随心所欲的——缺乏限制的集合构造容易导致悖论. 假想我们可以构建任意想要的集合，并因此造出了一个 “仅包含不在集合 $A$ 中的元素” 的集合 $A$，那么有两种可能：
 <ol>
 <li>若 $A\in A$，那么 $A$ 是一个 “不在集合 $A$ 中的元素”，意味着 $A\notin A$，与假设矛盾.</li>
 <li>若 $A\notin A$，那么 $A$ 不在 $A$ 中，因此 $A$ 符合包含在 $A$ 内的标准，同样矛盾.</li>
@@ -120,7 +122,7 @@ $$\forall x :x\in A\to x\in B$$
 $$x\in \bigcap\mathcal{C} \Leftrightarrow \forall C \in \mathcal{C}: x \in C$$
 </p>
 </div>
- 
+
 <div class='proof'> 通过分类公理直接证明.
 </div>
 </div>
@@ -131,7 +133,7 @@ $$x\in \bigcap\mathcal{C} \Leftrightarrow \forall C \in \mathcal{C}: x \in C$$
 <div class='theorem'> 
 对集合 $A$ 和集合 $B$，定义 $B$ 相对于 $A$ 的<span class='concept'>补集</span>为$A-B=\{x \in A\mid x\notin B\}$. 补集存在.
 </div>
- 
+
 <div class='proof'> 通过分类公理直接证明.
 </div>
 </div>
@@ -157,7 +159,7 @@ $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
 <li>若 $A \subseteq B$ 且 $B \subseteq A$，那么 $A=B$</li>
 </ol>
 </div>
- 
+
 <div class='proof'> 
 <ol>
 <li>假设有另一个空集 $\varnothing'$，那么断言 $\forall a:a\in \varnothing\leftrightarrow a\in \varnothing'$ 是空真的，因此有 $\varnothing'= \varnothing$.</li>
@@ -182,7 +184,7 @@ $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
 <div class='theorem-macro'>
 <div class='theorem'> 对任意集合 $A$，存在集合 $\{A\}$；即，给定任何集合 $A$，都存在另一个集合，使这个新集合仅包含 $A$ 为元素，称为 $A$ 的<span class='concept'>单元素集</span>. 
 </div>
- 
+
 <div class='proof'> 应用配对公理，存在 $\{A,A\}=\{A\}$
 </div>
 </div>
@@ -206,7 +208,7 @@ $$
 <p>称 $(a,b)$ 为<span class='concept'>有序对</span>，称 $(a,b,c)$ 为3维数组. </p>
 上述定义的集合都存在.
 </div>
- 
+
 <div class='proof'> <p>显然 $\varnothing$ 存在，那么 $()$ 是有定义的. </p>
 <p>若 $a$ 和 $b$ 存在，那么应用配对公理，存在 $\{a,b\}$. 在 $a$ 上应用配对定理两次，可见 $\{\{a\}\}$ 存在. 因此二者的并集 $\{a,b\}\cup\{\{a\}\}=\{\{a\}, \{a, b\}\}$ 也存在.</p>
 <p>那么根据定义 $(a)=((),a)$，$(a,b)=((a),b)$，$(a,b,c)=((a,b),c)$ 都存在.</p>
@@ -216,7 +218,7 @@ $$
 <div class='theorem-macro'>
 <div class='theorem'> 对任意有序对 $(a,b)$ 和 $(c,d)$，$$(a,b)=(c,d) \Leftrightarrow a=c, b=d$$
 </div>
- 
+
 <div class='proof'>
 <ul>
 <li>$\Rightarrow$：反证法：假设 $a\neq c$，那么根据外延公理和单元素集的定义，$\{a\}\neq \{c\}$，那么通过配对公理构成的 $\{\{\varnothing\}, \{a\}\}\neq \{\{\varnothing\}, \{c\}\}$，那么 $(a)\neq (c)$. 根据定义，$\{(a)\}$ 和 $\{(a),b\}$ 是 $(a,b)$ 唯二的元素，$\{(c)\}$ 和 $\{(c),d\}$ 是 $(c,d)$ 唯二的元素，必有 $\{(a)\}=\{(c),d\}$，$\{(c)\}=\{(a),b\}$，蕴含 $(c)=(a)$，矛盾. </li>
@@ -235,7 +237,7 @@ $$
  <li>不存在集合满足 $A\in B$ 且 $B\in A$.</li>
 </ol> 
 </div>
- 
+
 <div class='proof'> 
 <ol> <li>反证法： 假设存在集合 $A$ 满足 $A\in A$. 根据配对公理，单元素集 $\{A\}$ 存在，且 $A\in \{A\}$. $\{A\}$ 显然非空，因此根据正规公理，存在一个 $a\in \{A\}$ 满足 $a\cap \{A\}=\varnothing$. 因 $A$ 是单元素集，一定有 $a=A$，因此 $A=\varnothing$. 但因为 $A\in A$，$A\neq \varnothing$，形成矛盾.</li>
 <li>反证法：假设满足条件的 $A,B$ 存在. 根据配对公理，集合 $C=\{A,B\}$ 存在. 对 $A\in C$，根据正规公理，必有（1）$C\cap A =\varnothing$ 或（2）$C\cap B =\varnothing$. 不失一般性地假设（1）为真，那么显然 $B\notin A$.
@@ -258,7 +260,7 @@ $$x\in \bigcup \mathcal{C} \Leftrightarrow  \exists C\in \mathcal{C} : x \in C$$
 <div class='theorem'> 
 任何给定集合的并集是独特的.
 </div>
- 
+
 <div class='proof'> 
 由定义和外延公理直接证明.
 </div>
@@ -275,12 +277,11 @@ $$
 <div class='theorem-macro'>
 <div class='theorem'> 对任意集合 $A$ 和 $B$，定义$A$ 和 $B$ 的<span class='concept'>笛卡尔积</span> $A\times B$ 为 $\{(a,b) \mid a\in A \wedge b\in B \}$. 笛卡尔积存在.
 </div>
- 
+
 <div class='proof'>我们需要借助分类公理证明笛卡尔积是某个集的子集. 
 <p>我们先要证明对 $a\in A'$, $b\in B'$，$\{\{a\},\{a,b\}\} \in \mathcal{P}(\mathcal{P}(A'\cup B'))$. 因 $a\in A'$，$a\in A'\cup B'$ 且有 $\{a\} \in \mathcal{P}(A'\cup B')$；类似地有 $\{a, b\} \in \mathcal{P}(A'\cup B')$. 那么 $\{\{a\},\{a,b\}\} \subseteq \mathcal{P}(A'\cup B')$，或 $\{\{a\},\{a,b\}\}\in \mathcal{P}(\mathcal{P}(A'\cup B'))$. </p>
 
 <p>可见，对 $a\in A$，$(a)=\{\{\varnothing\},\{\varnothing,a\}\}$，有 $(a)\in \mathcal{P}(\mathcal{P}(\{\varnothing\}\cup A))=T$，根据幂集公理这是一个有良好定义的集合. 对 $b\in B$，$(a,b)=((a),b)=\{\{(a)\},\{(a),b\}\}$，有 $(a,b)\in \mathcal{P}(\mathcal{P}(T\cup B))$，根据幂集公理这也是一个有良好定义的集合.</p>
-
 <p>因此根据分类公理该集存在.</p>
 </div>
 </div>
@@ -305,7 +306,7 @@ $$
 </ol>
 $R$ 的定义域、值域、域、反关系，限制都是集合.
 </div>
- 
+
 <div class='proof'>
 <p>对任意 $(a,b)\in R$，因为 $\{(a)\}\in (a,b)$，$(a,b)\in R$，有 $\{(a)\}\in \bigcup R$. 又因为 $(a)\in \{(a)\}$，那么 $(a)\in \bigcup\bigcup R$. 又有 $\{\varnothing,a\}\in (a)$，所以 $\{\varnothing,a\} \in \bigcup\bigcup\bigcup R$. 最后，$a\in \{\varnothing,a\}$，因此 $a\in \bigcup\bigcup\bigcup\bigcup R$. 类似地也有 $b\in \bigcup\bigcup\bigcup\bigcup R$. 那么定义域，值域和域都是 $\bigcup\bigcup\bigcup \bigcup R$ 的子集，因此根据分类公理它们都是集合. </p>
 <p>$R^{-1}\in \mathrm{ran}(f)\times \mathrm{dom}(f)$, $R\restriction C\subseteq R$，因此根据分类公理它们也都是集合.</p>
@@ -329,7 +330,7 @@ $R$ 的定义域、值域、域、反关系，限制都是集合.
 </ol>
 像，原像，复合都是集合.
 </div>
- 
+
 <div class='proof'>显然 $f(X)\subseteq \mathrm{ran}(f)$, $f^{-1}(Y)\subseteq \mathrm{dom}(f)$，因此根据分类公理它们都是集合. 显然 $f\circ g \subseteq \mathrm{dom} (f) \times \mathrm{ran}(g)$
 </div>
 </div>
@@ -341,7 +342,7 @@ $R$ 的定义域、值域、域、反关系，限制都是集合.
 $$(g f h)(x,y)=g(x)fh(y))$$
 </p>
 </div>
-  
+
 <div class='proof'>显然 $\mathbb{ran}(gfh) \subseteq \mathbb{ran}(f) \subseteq A$，且 $\mathbb{dom}(gfh)\subseteq \mathbb{dom}(g)\times \mathbb{dom}(h)\subseteq B\times C$，且 $gfh$ 的定义中不含对自身的引用. 因此根据分类公理其存在.
 </div>
 </div>
@@ -366,7 +367,7 @@ $$(g f h)(x,y)=g(x)fh(y))$$
 <li>对单射函数 $f: A\to B$ 和 $g: B\to C$，$g\circ f$ 也是单射.</li>
 </ol>
 </div>
-  
+
 <div class='proof'>
 
 <ol><li>反证法：假设 $f^{-1}$ 不是函数，那么对 $y\in \mathrm{dom}(f^{-1})$，存在 $x, x'\in\mathrm{ran}(f^{-1})$，$x\neq x'$ 满足 $yf^{-1}x$ 和 $yf^{-1}x'$，即 $xfy$ 和 $x'fy$，与 $f$ 的单射性矛盾.</li>
@@ -399,7 +400,7 @@ $$(g f h)(x,y)=g(x)fh(y))$$
 <li>映射 $\pi(x)=[x]$ 存在，称为 $R$ 的<span class='concept'>规范投影映射（canonical projection map）</span></li>
 </ol>
 </div>
- 
+
 <div class='proof'>
 <ol>
 <li>对任意 $x\in X$, 每一个等价类 $[x]$ 都是 $\mathrm{ran} R=X$ 的子集，因此据分类公理是集合. </li>
@@ -427,7 +428,7 @@ $$g=\{([x], [f(x)])\mid x\in X\}$$
 类似地，若函数 $f:X \times X\to X$ 与 $R$ 相容，那么存在映射 $g:(X/R\times X/R)\to X/R$，其定义如下：
 $$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
 </div>
- 
+
 <div class='proof'>
 <p>显然 $g\subseteq X/R \times X/R$ 根据分类公理是集合.</p> 
 <p>须反证 $g$ 是映射. 若 $g$ 不是映射，那么对某个 $[x]$，存在 $[f(x)]\neq [f(x)]'$，满足 $([x],[f(x)]), ([x],[f(x)])\in g$. $[f(x)]\neq [f(x)]'$ 蕴含 $[f(x)]\cap [f(x)]' =\varnothing$，蕴含存在独特的 $y\in [f(x)]$ 和 $y'\in [f(x)]'$ 满足 $xfy$, $xfy'$. 这和 $f$ 是映射的前提相悖. 因此 $[f(x)]=[f(x)]'$.</p>
@@ -449,7 +450,7 @@ $$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
 排序关系有以下性质.
 <div class='theorem-macro'>
 <div class='theorem'> 若 $R\subseteq X \times X$ 是排序关系，那么它有<span class='concept'>反反身性（irreflexive）</span>；那么对任意 $a\in R$，$aRa$ 恒假. </div>
- 
+
 <div class='proof'>反证法：显然 $a=a$ 恒真. 若 $aRa$ 为真，那么根据三分性 $a=a$ 为假，显然矛盾.
 </div>
 </div>
@@ -524,7 +525,7 @@ Peano 公理定义的自然数是从 $0$ 而不是 $1$ 开始的. 你或许会�
 <div class='theorem-macro'>
 <div class='theorem'> 一个集合 $A$ 的<span class='concept'>后继集</span>为 $A\cup \{A\}$，记 $$A^+=A\cup \{A\}$$
 </div>
- 
+
 <div class='proof'> 对给定集合 $A\in \mathcal{A}$，显然 $a\in \mathcal{P}(A)$，$\{A\} \subseteq \mathcal{P}$ 或 $\{A\} \in \mathcal{P}(\mathcal{P}(A))$，因此 $f\subseteq \mathcal{P}\times \{A\} \in \mathcal{P}(\mathcal{P}(A))$，根据分类公理 $f$ 是集合.
 </div>
 </div>
@@ -552,7 +553,7 @@ Peano 公理定义的自然数是从 $0$ 而不是 $1$ 开始的. 你或许会�
 无穷公理其实是比我们需要的更强的命题：它保证了归纳集的存在，但是可能存在许许多多结构臃肿的归纳集. 这些归纳集不一定都能满足 Peano 公理. 所以，不妨考虑以下这个 “最小” 的归纳集：
 <div class='theorem-macro'>
 <div class='theorem'>所有归纳集的集合 $\mathcal{N}$ 的交集 $\omega =\bigcap\mathcal{N}$ 也是归纳集. $\omega$ 满足 Peano 公理.</div>
- 
+
 <div class='proof'> 
 <p>根据无穷公理，$\mathcal{N}$ 非空. 根据归纳集定义，任意归纳集都含 $\omega$ 为元素，因此必有 $\varnothing\in \omega$.</p> 
 
@@ -594,7 +595,7 @@ Peano 公理的第三则描述的是自然数的<span class='concept'>数学归�
 <li>对所有 $n\in \mathbb{N}$, $h(\sigma(n)) = f(h(n))$.</li>
 </ol>
 </div>
- 
+
 <div class='proof'>我们不知道有没有类似的函数存在，因此最好的证明 $h$ 存在的方式是构造法. 因此定义一系列辅助函数 $h_k: \mathbb{N}\to \mathbb{N}$, $k\in\mathbb{N}$ 满足以下性质：
 
 <ol>
@@ -660,7 +661,7 @@ $$\cdot_n(\sigma(m))=+_n(\cdot_n(m))$$
 $$m+n=+(m,n)=+_m(n)$$
 $$m\cdot n=\cdot(m,n)=\cdot_m(n)$$
 </div>
- 
+
 <div class='proof'> <p> $+_n$ 的存在性和独特性只需要在定理 22 中带入 $f(n)=\sigma(n)$ 就可以直接得出. 因为 $+_n$ 是映射，$+$ 也是映射.</p> 
 <p> $\cdot_n$ 的存在性和独特性只在定理 22 中带入 $f(m)=+_n$ 就可以直接得出. 类似地 $\cdot$ 也是映射.</p>
 </div>
@@ -772,7 +773,7 @@ $+_n(m)$ 和 $+(n, m)$ 之间的关系近似于函数式语言中柯里化的概
 通过幺半群的公理，我们可以得到以下定理：
 <div class='theorem-macro'>
 <div class='theorem'>对幺半群 $(G,\phi)$，$\phi$ 的单位元是唯一的</div>
- 
+
 <div class='proof'>若 $\phi$ 有独特单位元 $e, e'$，对任意 $a\in A$ 满足 $\phi(a,e)=\phi(e,a)=\phi(a,e')=\phi(e',a)=a$. 那么一定 $\phi(e,e')=\phi(e',e)=e=e'$，那么 $e=e'$，和独特性假设相悖.
 </div>
 </div>
@@ -832,7 +833,7 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 <li>对任意 $a,b \in\mathbb{N}$ 和 $c\neq 0$，$ac=bc$ 当且仅当 $a=b$</li>
 </ol>
 </div>
- 
+
 <div class='proof'>
 <ol>
 <li>在 $a$ 的取值上归纳：
@@ -871,7 +872,7 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 <li>对任意 $x, y\in \mathbb{N}$，若 $x\neq y$，那么存在自然数 $m\neq 0$ 满足 $x+m=y$ 或 $y+m=x$.</li>
 </ol>
 </div>
- 
+
 <div class='proof'> 
 <ol>
 
@@ -933,7 +934,7 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 $$x +k = y$$
 <p>$<$ 是排序关系.</p>
 </div>
- 
+
 <div class='proof'> 
 <ul>
 <li>
@@ -957,7 +958,7 @@ $$x +k = y$$
 <li>对任意 $a,b\in\mathbb{N}$ 和自然数 $c\neq 0$，$ac< bc$  当且仅当 $a<b$</li>
 </ol>
 </div>
- 
+
 <div class='proof'>
 <ol>
 <li>显然存在 $1=\sigma(0)\neq 0$ 有 $0 + 1= 1$</li>
@@ -1048,7 +1049,7 @@ $$B - \bigcap \mathcal{A} = \bigcup_{A \in \mathcal{A}}B - A$$
 </li>
 </ol>
 </div>
- 
+
 <div class='proof'>所有运算关系都可以用交、并、补的定义及 “逻辑与证明” 中的相应规律证明.
 </div>
 </div>
@@ -1065,7 +1066,7 @@ $$B - \bigcap \mathcal{A} = \bigcup_{A \in \mathcal{A}}B - A$$
 <li>补集的原像等于原像的补集：$$f^{-1}(B)-f^{-1}(A) = f^{-1}(B-A)$$</li>
 </ol>
 </div>
- 
+
 <div class='proof'>
 <ol>
 <li>根据定义，$y\in f(\bigcup \mathcal{C})$ 当且仅当存在 $x\in \bigcup \mathcal{C}$ 满足 $f(x)=y$，当且仅当存在 $C\in \mathcal{C}$ 令 $x\in C$ 满足 $f(x)=y$，当且仅当 $y\in f(C)$ 对某 $C\in \mathcal{C}$. </li>
