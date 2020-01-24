@@ -4,8 +4,8 @@ title:  "2019 武汉新型冠状病毒科学信息汇总（持续更新）"
 date:   2020-01-23 22:31:19 -0400
 categories: resources
 ---
-<a name="疫情监控与个人防护类资源"></a>
-<h1 class="hd">疫情监控与个人防护类资源</h1>
+<a name="疫情监控与个人防护"></a>
+<h1 class="hd">疫情监控与个人防护</h1>
 <ul>
 <li>
 <a href='https://3g.dxy.cn/newh5/view/pneumonia'>丁香园全国新型肺炎疫情实时动态</a>是目前最准确实时的疫情报告.</li>
@@ -55,7 +55,7 @@ categories: resources
 <li>
 <a href='https://artic.network/ncov-2019'>ARCTIC Network 发布的针对病毒测序的生物信息工具</a></li>
 </ul>
-<a name="流行病学参数预测"></a>
+<a name="流行病学参数预测">
 <h1 class="hd">流行病学参数预测</h1>
 <ul>
 <li>Imai et al. (Jan 22nd): <a href='https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a>，基于 IATA 数据的受感染人数预测，是 17 号 “1700人” 报告的跟进.</li>
