@@ -4,7 +4,7 @@ title:  "2019 武汉新型冠状病毒科学信息汇总（持续更新）"
 date:   2020-01-23 22:31:19 -0400
 categories: resources
 ---
-<a name="疫情监控"></a>
+<a name="疫情监控与个人防护类资源"></a>
 <h1 class="hd">疫情监控与个人防护类资源</h1>
 <ul>
 <li>
@@ -20,7 +20,7 @@ categories: resources
 <li>
 <a href='https://www.cdc.gov/coronavirus/2019-ncov/index.html'>美国疾控中心（CDC）的nCoV2019信息主页</a>.</li>
 </ul>
-
+<a name="病毒检测与病理"></a>
 <h1 class="hd">病毒检测与病理</h1>
 <ul>
 <li>Gralinski & Menachery：<a href='https://www.mdpi.com/1999-4915/12/2/135/pdf'>Return of the Coronavirus: 2019-nCoV</a>，nCoV-2019 病毒综述，作者称会更新.</li>
@@ -33,6 +33,7 @@ categories: resources
 
 <li>Zhou et al. (Jan. 23rd)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf'>Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>，nCoV-2019 的系统生成和免疫荧光显微分析，确认对 ACE2 的利用.</li>
 </ul>
+<a name="病例和临床数据"></a>
 <h1 class="hd">病例和临床数据</h1>
 <ul>
 <li>Huang et al. (Jan. 24th)：<a href='https://www.thelancet.com/pb-assets/Lancet/pdfs/S0140673620301835.pdf'>Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</a>，nCoV-2019 的临床特征.</li>
@@ -42,7 +43,7 @@ categories: resources
 <li>moritz.kraemer 在 Virological 上的流行病数据收集和分析报告：
 <a href=''>Epidemiological Data from the nCoV-2019 Outbreak: Early Descriptions from Publicly Available Data</a>. 含 Google Sheet 上的感染者基本数据（包括地理位置，旅行史）链接，不是特别实时，需要梯子.</li>
 </ul>
-
+<a name="基因组/信息学"></a>
 <h1 class="hd">基因组/信息学</h1>
 <ul>
 <li>
@@ -54,7 +55,7 @@ categories: resources
 <li>
 <a href='https://artic.network/ncov-2019'>ARCTIC Network 发布的针对病毒测序的生物信息工具</a></li>
 </ul>
-
+<a name="流行病学参数预测"></a>
 <h1 class="hd">流行病学参数预测</h1>
 <ul>
 <li>Imai et al. (Jan 22nd): <a href='https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a>，基于 IATA 数据的受感染人数预测，是 17 号 “1700人” 报告的跟进.</li>
