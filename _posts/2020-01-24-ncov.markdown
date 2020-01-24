@@ -13,7 +13,7 @@ categories: resources
 <li>
 <a href='http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/'>中国疾控中心的2019冠状病毒肺炎信息主页</a>，含个人防护，疫情动态等信息</li>
 
-<li><a href='http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/'>世卫组织（WHO）的nCoV2019肺炎信息主页</a>，含疫情报告，个人防护，出行建议等信息</li>
+<li><a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019'>世卫组织（WHO）的nCoV2019肺炎信息主页</a>，含疫情报告，个人防护，出行建议等信息</li>
 
 <li><a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?utm_source=dlvr.it&utm_medium=twitter#/bda7594740fd40299423467b48e9ecf6'>疫情的GIS可视化</a>，不是特别实时.</li>
 
