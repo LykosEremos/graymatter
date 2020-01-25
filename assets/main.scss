@@ -89,11 +89,6 @@ ol li {
 	padding-left: 0.5em;
 }
 
-ul li {
-	padding: 0.7em 0.5em 0.7em 0.5em;
-
-}
-
 
 a:link{
   color:$lk-col;
@@ -586,7 +581,9 @@ clear: left;
 	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
 	overflow-y: scroll;
 	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
+
 
 .dropdown-menu::-webkit-scrollbar {
 	width: 6px;

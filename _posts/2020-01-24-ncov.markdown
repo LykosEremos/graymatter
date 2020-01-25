@@ -1,66 +1,94 @@
 ---
 layout: post
-title:  "2019 武汉新型冠状病毒科学信息汇总（持续更新）"
+title:  "2019-nCoV 科学信息汇总（持续更新）"
 date:   2020-01-23 22:31:19 -0400
 categories: resources
 ---
 <a name="疫情监控与个人防护"></a>
 <h1 class="hd">疫情监控与个人防护</h1>
+
+<style>
+       li {
+	padding: 0.7em 0.5em 0.7em 0.5em;
+}
+    </style>
 <ul>
 <li>
 <a href='https://3g.dxy.cn/newh5/view/pneumonia'>丁香园全国新型肺炎疫情实时动态</a>是目前最准确实时的疫情报告.</li>
 
 <li>
-<a href='http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/'>中国疾控中心的2019冠状病毒肺炎信息主页</a>，含个人防护，疫情动态等信息</li>
+<a href='http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/'>中国疾控中心的 2019-nCoV 信息主页</a>，含个人防护，疫情动态等信息.</li>
 
-<li><a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019'>世卫组织（WHO）的nCoV2019肺炎信息主页</a>，含疫情报告，个人防护，出行建议等信息</li>
+<li><a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019'>世卫组织（WHO）的 2019-nCoV 信息主页</a>，含疫情报告，个人防护，出行建议等信息</li>
 
-<li><a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?utm_source=dlvr.it&utm_medium=twitter#/bda7594740fd40299423467b48e9ecf6'>疫情的GIS可视化</a>，不是特别实时.</li>
+<li>（日语）
+<a href='https://www.niid.go.jp/niid/ja/diseases/ka/corona-virus/2019-ncov/9325-manual.html'>厚劳省国立感染症研究所 2019-nCoV 疑患者采样与样本运输手册</a>.</li>
+
+
+<li>约翰斯霍普金斯大学系统科学和工程中心（JHU CSSE）制作的<a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?utm_source=dlvr.it&utm_medium=twitter#/bda7594740fd40299423467b48e9ecf6'>疫情的GIS可视化</a>，不是特别实时.</li>
 
 <li>
-<a href='https://www.cdc.gov/coronavirus/2019-ncov/index.html'>美国疾控中心（CDC）的nCoV2019信息主页</a>.</li>
+<a href='https://www.cdc.gov/coronavirus/2019-ncov/index.html'>美国疾控中心（CDC）的 2019-nCoV 信息主页</a>.</li>
 </ul>
 <a name="病毒检测与病理"></a>
 <h1 class="hd">病毒检测与病理</h1>
-<ul>
-<li>Gralinski & Menachery：<a href='https://www.mdpi.com/1999-4915/12/2/135/pdf'>Return of the Coronavirus: 2019-nCoV</a>，nCoV-2019 病毒综述，作者称会更新.</li>
+<ul  class='bulletin'>
+<li>Gralinski & Menachery：<a href='https://www.mdpi.com/1999-4915/12/2/135/pdf'>Return of the Coronavirus: 2019-nCoV</a>，2019-nCoV 病毒综述，作者称会更新.</li>
 
-<li>Corman et al. (Jan 13th)：<a href='https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf'>Diagnostic detection of Wuhan coronavirus 2019 by real-time RT-PCR</a>，nCoV-2019 的实时反转录 PCR 检测方案.</li>
+<li>Corman et al. (Jan. 13th)：<a href='https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf'>Diagnostic detection of Wuhan coronavirus 2019 by real-time RT-PCR</a>，从呼吸道样本中检测 2019-nCoV RdRP、E、N 基因 RNA 序列的 RT-qPCR 检测方案.</li>
 
-<li>Dong et al. (Jan. 20)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.20.913368v1.full.pdf'>Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China</a>，结构预测 nCoV2019 的 Spike 蛋白对 ACE2 的亲和性.</li>
+<li>Dong et al. (Jan. 20)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.20.913368v1.full.pdf'>Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China</a>，结构预测 2019-nCoV 的 Spike 蛋白对 ACE2 的亲和性.</li>
 
-<li>Letko & Munster (Jan. 22)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.22.915660v1.full.pdf'>Functional assessment of cell entry and receptor usage for lineage B β-coronaviruses, including 2019-nCoV</a>，发现表达嵌合体 Spike 蛋白的假病毒颗粒可利用 ACE2 进入细胞.</li>
+<li>Letko & Munster (Jan. 22nd)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.22.915660v1.full.pdf'>Functional assessment of cell entry and receptor usage for lineage B β-coronaviruses, including 2019-nCoV</a>，发现表达嵌合体 Spike 蛋白的假病毒颗粒可利用 ACE2 进入细胞.</li>
 
 <li>Zhou et al. (Jan. 23rd)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf'>Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>，nCoV-2019 的系统生成和免疫荧光显微分析，确认对 ACE2 的利用.</li>
 </ul>
 <a name="病例和临床数据"></a>
 <h1 class="hd">病例和临床数据</h1>
-<ul>
+<ul  class='bulletin'>
 <li>Huang et al. (Jan. 24th)：<a href='https://www.thelancet.com/pb-assets/Lancet/pdfs/S0140673620301835.pdf'>Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</a>，nCoV-2019 的临床特征.</li>
 
+<li>Chan et al. (Jan. 24th)：<a href='https://www.thelancet.com/pb-assets/Lancet/pdfs/S0140673620301549.pdf'>A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster</a>，从一个深圳家庭的案例（$n=6$，感染者来自同一个家庭）中看 nCoV-2019 的人际传播能力.</li>
+
 <li><a href='http://med.china.com.cn/content/pid/157096/tid/1021'>国家卫生健康委公布17例新型肺炎死亡病例病情</a>，有详细的患者健康病历、健康状况和治疗过程的信息.</li>
+
+<li>（日语）<a href='https://www.mhlw.go.jp/stf/newpage_08906.html'>关于神奈川患者的信息</a>.</li>
 
 <li>moritz.kraemer 在 Virological 上的流行病数据收集和分析报告：
 <a href=''>Epidemiological Data from the nCoV-2019 Outbreak: Early Descriptions from Publicly Available Data</a>. 含 Google Sheet 上的感染者基本数据（包括地理位置，旅行史）链接，不是特别实时，需要梯子.</li>
 </ul>
 <a name="基因组/信息学"></a>
 <h1 class="hd">基因组/信息学</h1>
-<ul>
+<ul  class='bulletin'>
+<li><a href='https://www.ncbi.nlm.nih.gov/nuccore/NC_045512'>GenBank 上 2019-nCoV 的全基因组数据</a>.</li>
 <li>
-<a href='https://www.ncbi.nlm.nih.gov/nuccore/NC_045512'>GenBank 上 nCoV2019 的全基因组数据</a>.</li>
+<a href='https://www.gisaid.org/'>GISAID 上的 2019-nCoV 的全基因组数据</a>，需要账户，使用前请参见须知.</li>
 <li>
-<a href='https://www.gisaid.org/'>GISAID 上的 nCoV2019 的全基因组数据</a>，需要账户，使用前请参见须知.</li>
-<li>
-<a href='https://nextstrain.org/narratives/ncov/sit-rep/2020-01-23?n=0'>Nextstrain 上 Bedford et al. 对基因组的研究报告</a>，含病毒支序分析的基础知识.</li>
-<li>
-<a href='https://artic.network/ncov-2019'>ARCTIC Network 发布的针对病毒测序的生物信息工具</a></li>
+<a href='https://nextstrain.org/narratives/ncov/sit-rep/2020-01-23?n=0'>Nextstrain 上 Bedford et al. 对基因组的研究报告</a>，含病毒支序分析的基础知识. 对移动端不友好.</li>
+
+
+<li>Ji et al. (Jan. 22nd)：<a href='https://onlinelibrary.wiley.com/doi/epdf/10.1002/jmv.25682'>Homologous recombination within the spike glycoprotein of the newly identified coronavirus 2019-nCoV may boostcross-species transmission from snake to human</a>，假设病毒和寄主的相对同义密码子使用度（RSCU<sup class="note-tag"><a href="#注" name="rscu">注</a></sup>）类似，通过计算每个密码子的 RSCU 作为特征进行聚类分析，指出蛇是 2019-nCoV 的可能寄主. 这篇文章的研究方法在两个层面上是有缺陷或是错的：
+<ol>
+<li>从演化生物学的角度来说，如果要假设病毒和寄主的 RSCU 是匹配的，则必须举出充分证据证明（1a）2019-nCoV 和蛇 RSCU 匹配的原因并不是漂变，（1b）存在迫使 2019-nCoV 在密码子偏好上做出适应性改变的选择压力。因此，要证明 2019-nCoV 在蛇的体内完成生活史的一部分（至少要在野蛇中采集到 2019-nCoV），而这在现在是无法做到的.</li>
+<li>从生物信息学的角度来说，计算编码序列所编码的蛋白质的氨基酸组分，这些被采样的编码序列的整体核苷酸偏好和GC比例，甚至这些编码序列的长度都会影响到 RSCU 的计算，因此 RSCU 是一个非常 “糙” 的特征，不能依赖它来做聚类.</li>
+</ol>
+<div class="notes">
+<a name="注" href="#rscu">注</a>：
+取特定氨基酸 $aa$ ，编码 $aa$ 的（同义）密码子的集合为 $S(aa)$. 若 $aa$ 在基因组 $G$ 中的频率是 $n$，密码子 $s\in S(aa)$ 在基因组中的频数为 $m$，那么 $RSCU(s, G)=\frac{m}{n/|S(aa)|}$。即 $s$ 的观测使用率，与其在无使用偏好的假设下（$aa$ 的每个密码子都等概率被使用）的期望频数的比值.
+</div>
+</li>
+
+<li><a href='https://artic.network/ncov-2019'>ARCTIC Network 发布的 Nanopore 平台测序流程的生物信息工具</a></li>
 </ul>
+
+
+
 <a name="流行病学参数预测">
 <h1 class="hd">流行病学参数预测</h1>
-<ul>
-<li>Imai et al. (Jan 22nd): <a href='https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a>，基于 IATA 数据的受感染人数预测，是 17 号 “1700人” 报告的跟进.</li>
+<ul  class='bulletin'>
+<li>Imai et al. (Jan. 22nd): <a href='https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a>，英国医学研究委员会基于 IATA 数据的感染者人数预测，是 17 号 “1700人” 报告的跟进.</li>
 
-<li>WHO (Jan. 23rd)：<a href='https://www.who.int/news-room/detail/23-01-2020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)'>Statement on the meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)</a>，给出了 R0（基本传染数 basic reproduction number：一位感染者在传染期 infective period 期间将病毒传播给的期望人数） 的预测.</li>
+<li>WHO (Jan. 23rd)：<a href='https://www.who.int/news-room/detail/23-01-2020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)'>Statement on the meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)</a>，给出了 R0（基本传染数 basic reproduction number：一位感染者在传染期期间将病毒传播给的期望人数） 的预测.</li>
 
 <li>Read et al. (Jan. 23rd)：<a href='https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v1'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a></li>
 
