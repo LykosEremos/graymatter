@@ -92,6 +92,8 @@ categories: resources
 
 <li>Read et al. (Jan. 23rd)：<a href='https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v1'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a></li>
 
+<li>Pullano et al. (Jan. 23rd)<a href='https://www.epicx-lab.com/uploads/9/6/9/4/9694133/inserm_2019ncov-importation-risk_20200123.pdf'>2019-nCoV importation risk to Europe</a></li> nCoV-2019 的欧洲引入风险（risk of importation：至少一例从中国来到欧洲）评估，同样是粗略估计.
+
 <li>Riou & Althaus：<a href='https://github.com/jriou/wcov'>模型与初步结果</a></li>
 
 <li>Majumder & Mandl (Jan. 24th)：<a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3524675'>Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China</a></li>
