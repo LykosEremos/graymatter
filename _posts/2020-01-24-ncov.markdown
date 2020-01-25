@@ -111,7 +111,7 @@ ul.ls li {
 
 <div class="notes">
 <a name="注" href="#r0">注</a>：
-$R_0$ 即基本传染数（basic reproduction number）描述的是一位感染者在传染期期间将病毒传播给的期望人数的预测. 一般来说，若 $R_0>1$，每个原发病例（index case）将产生更多的二代病例（secondary case），疫情将会扩散；若 $R_0<1$，那么疫情在有痊愈患者的情况下会逐渐随时间消减.
+$R_0$ 即基本传染数（basic reproduction number）描述的是一位感染者在传染期期间将病毒传播给的期望人数. 一般来说，若 $R_0>1$，每个原发病例（index case）将产生更多的二代病例（secondary case），疫情将会扩散；若 $R_0<1$，那么疫情在有痊愈患者的情况下会逐渐随时间消减.
 </div>
 
 <li>Read et al. (Jan. 23rd)：<a href='https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v1'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a> 通过流行病学中经典的 SEIR 的微分方程组模型给出了 $R_0=3.8$ (95% CI: 3.6-4.0) 的估计</li>
