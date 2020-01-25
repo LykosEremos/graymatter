@@ -14,7 +14,7 @@ categories: resources
     </style>
 <ul>
 <li>
-<a href='https://3g.dxy.cn/newh5/view/pneumonia'>丁香园全国新型肺炎疫情实时动态</a>是目前最准确实时的疫情报告.</li>
+<a href='https://3g.dxy.cn/newh5/view/pneumonia'>丁香园全国新型肺炎疫情实时动态</a>是目前最准确实时的疫情追踪平台.</li>
 
 <li>
 <a href='http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/'>中国疾控中心的 2019-nCoV 信息主页</a>，含个人防护，疫情动态等信息.</li>
@@ -25,7 +25,7 @@ categories: resources
 <a href='https://www.niid.go.jp/niid/ja/diseases/ka/corona-virus/2019-ncov/9325-manual.html'>厚劳省国立感染症研究所 2019-nCoV 疑患者采样与样本运输手册</a>.</li>
 
 
-<li>约翰斯霍普金斯大学系统科学和工程中心（JHU CSSE）制作的<a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?utm_source=dlvr.it&utm_medium=twitter#/bda7594740fd40299423467b48e9ecf6'>疫情的GIS可视化</a>，不是特别实时.</li>
+<li>约翰斯霍普金斯大学系统科学和工程中心（JHU CSSE）制作的疫情<a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?utm_source=dlvr.it&utm_medium=twitter#/bda7594740fd40299423467b48e9ecf6'>GIS可视化</a>，不是特别实时.</li>
 
 <li>
 <a href='https://www.cdc.gov/coronavirus/2019-ncov/index.html'>美国疾控中心（CDC）的 2019-nCoV 信息主页</a>.</li>
@@ -37,7 +37,7 @@ categories: resources
 
 <li>Corman et al. (Jan. 13th)：<a href='https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf'>Diagnostic detection of Wuhan coronavirus 2019 by real-time RT-PCR</a>，从呼吸道样本中检测 2019-nCoV RdRP、E、N 基因 RNA 序列的 RT-qPCR 检测方案.</li>
 
-<li>Dong et al. (Jan. 20)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.20.913368v1.full.pdf'>Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China</a>，结构预测 2019-nCoV 的 Spike 蛋白对 ACE2 的亲和性.</li>
+<li>Dong et al. (Jan. 20th)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.20.913368v1.full.pdf'>Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China</a>，结构预测 2019-nCoV 的 Spike 蛋白对 ACE2 的亲和性.</li>
 
 <li>Letko & Munster (Jan. 22nd)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.22.915660v1.full.pdf'>Functional assessment of cell entry and receptor usage for lineage B β-coronaviruses, including 2019-nCoV</a>，发现表达嵌合体 Spike 蛋白的假病毒颗粒可利用 ACE2 进入细胞.</li>
 
