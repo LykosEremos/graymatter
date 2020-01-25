@@ -100,8 +100,6 @@ ul.ls li {
 <li><a href='https://artic.network/ncov-2019'>ARCTIC Network 发布的 Nanopore 平台测序流程的生物信息工具</a></li>
 </ul>
 
-
-
 <a name="流行病学参数预测">
 <h1 class="hd">流行病学参数预测</h1>
 <ul  class='bulletin'>

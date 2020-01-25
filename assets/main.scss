@@ -295,7 +295,7 @@ h3 {
 	line-height: 180%;
 	background: #2d2d2d;
 	text-indent: 0em;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 blockquote{
 	font-style: normal;
@@ -580,8 +580,7 @@ clear: left;
 	max-height: 60%;
 	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
 	overflow-y: scroll;
-	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	transition: transform all 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 
