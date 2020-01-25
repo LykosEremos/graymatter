@@ -45,7 +45,7 @@ ul.ls li {
 
 <li>Letko & Munster (Jan. 22nd)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.22.915660v1.full.pdf'>Functional assessment of cell entry and receptor usage for lineage B β-coronaviruses, including 2019-nCoV</a>. 要点：发现表达嵌合体 Spike 蛋白的假病毒颗粒可利用 ACE2 进入细胞，并不会利用 DPP4（MERS 病毒的受体）或 AP-N（导致普通感冒的冠状病毒229E的受体）.</li>
 
-<li>Zhou et al. (Jan. 23rd)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf'>Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>. 要点：对 nCoV 进行系统发生，为其蝙蝠来源提供证据；并将其感染表达 ACE2 的细胞系后免疫荧光显微分析，确认对人、猪、蝙蝠、果子狸 ACE2 的利用，但无法利用小鼠的 ACE2.</li>
+<li>Zhou et al. (Jan. 23rd)：<a href='https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf'>Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>. 要点：对 nCoV 进行系统发生分析，为其蝙蝠来源提供支持；并将其感染表达 ACE2 的细胞系后免疫荧光显微分析，确认对人、猪、蝙蝠、果子狸 ACE2 的利用，但无法利用小鼠的 ACE2.</li>
 </ul>
 <a name="病例和临床数据"></a>
 <h1 class="hd">病例和临床数据</h1>
