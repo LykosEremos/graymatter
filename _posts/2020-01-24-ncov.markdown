@@ -20,7 +20,7 @@ ul.ls li {
 <li>（Chinese）
 <a href='https://3g.dxy.cn/newh5/view/pneumonia'>丁香园全国新型肺炎疫情实时动态</a>是目前最准确实时的疫情追踪平台.
 
-<p>Real-time update of disease status by DXY.cn. Currently the best up-to-date disease status tracker. The four numbers in blue are respectively <b>confirmed, suspected, death</b>, and <b>cured</b>.</p>
+<p>Real-time updates of disease status by DXY.cn. Currently the best real-time disease status source. The four numbers in blue are respectively <b>confirmed, suspected, death</b>, and <b>cured</b>.</p>
 </li> 
 
 <li>（Chinese）
