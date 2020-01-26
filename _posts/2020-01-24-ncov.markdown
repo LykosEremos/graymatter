@@ -123,19 +123,21 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 <li>从演化生物学的角度来说，如果要假设病毒和寄主的 RSCU 是匹配的，则必须举出充分证据证明（1a）nCoV 和蛇 RSCU 匹配的原因并不是漂变，（1b）存在迫使 nCoV 在密码子偏好上做出适应性改变的选择压力。因此，要证明 nCoV 在蛇的体内完成生活史的一部分（至少要在野蛇中采集到 nCoV），而这在现在是无法做到的.</li>
 <li>从生物信息学的角度来说，计算编码序列所编码的蛋白质的氨基酸组分，这些被采样的编码序列的整体核苷酸偏好和GC比例，甚至这些编码序列的长度都会影响到 RSCU 的计算，因此 RSCU 是一个非常 “糙” 的特征，不能依赖它来做聚类.</li>
 </ol>
-<div class="notes">
-<a name="注" href="#rscu">注</a>：
-取特定氨基酸 $aa$ ，编码 $aa$ 的（同义）密码子的集合为 $S(aa)$. 若 $aa$ 在基因组 $G$ 中的频数是 $n$，密码子 $s\in S(aa)$ 在 $G$ 中的频数为 $m$，那么 $RSCU(s, G)=\frac{m}{n/|S(aa)|}$。即 $s$ 的实际观测频数，与其在无使用偏好的假设下（$aa$ 的每个密码子都等概率被使用）的期望频数的比值.
-<p>For any amino acid $aa$ and let $S(aa)$ denote the set of its synonymous codons. If $n$ is the count of $aa$ in genome $G$, and $m$ is the count of a certain codon $s\in S(aa)$ in $G$, then $RSCU(s, G)=\frac{m}{n/|S(aa)|}$, which is the ratio between observed $s$ counts and the expected $s$ count (assuming all codons of $aa$ are equally likely used).
-</p>
-</div>
 
-<p>This is the "snake is a possible host" study that argues from the similarity between snake and nCoV relative synonymous codon usage (RSCU). It is wrong/inaccurate on two levels:</p>
+
+<p>This is the "snake is a possible host" study that argues from the similarity between snake and nCoV relative synonymous codon usage (RSCU<sup class="note-tag"><a href="#注" name="rscu">note</a></sup>). It is wrong/inaccurate on two levels:</p>
 <ol>
 <li>From an evolutionary perspective, to show that matching RSCU is a result of viral adaptation, one has to show that the selective pressure on the viral genome to match host codon usage bias. This requires discovery of nCoV in wild snake population, which we do not have at this point. So one cannot assume matching RSCU is a result of viral adaptation to the host.
 </li>
 <li>From a bioinformatics perspective, it is known that amino composition of the coding sequences used to calculate RSCU, as well as their overall nucleotide bias, GC percentage, and even sequence lengths affect RSCU calculation, so at the end of the day RSCU is a very rough feature and phylogenetic clustering shouldn't be done using it.</li>
 </ol>
+
+<div class="notes">
+<a name="注" href="#rscu">注 note</a>：
+取特定氨基酸 $aa$ ，编码 $aa$ 的（同义）密码子的集合为 $S(aa)$. 若 $aa$ 在基因组 $G$ 中的频数是 $n$，密码子 $s\in S(aa)$ 在 $G$ 中的频数为 $m$，那么 $RSCU(s, G)=\frac{m}{n/|S(aa)|}$。即 $s$ 的实际观测频数，与其在无使用偏好的假设下（$aa$ 的每个密码子都等概率被使用）的期望频数的比值.
+<p>For any amino acid $aa$ and let $S(aa)$ denote the set of its synonymous codons. If $n$ is the count of $aa$ in genome $G$, and $m$ is the count of a certain codon $s\in S(aa)$ in $G$, then $RSCU(s, G)=\frac{m}{n/|S(aa)|}$, which is the ratio between observed $s$ counts and the expected $s$ count (assuming all codons of $aa$ are equally likely used).
+</p>
+</div>
 </li>
 
 <li><a href='https://artic.network/ncov-2019'>ARCTIC Network 发布的 Nanopore 平台测序流程的生物信息工具</a>
@@ -152,11 +154,11 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 
 <li>WHO (Jan. 23rd)：<a href='https://www.who.int/news-room/detail/23-01-2020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)'>Statement on the meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)</a>，给出了 $R_0$=1.4-2.5<sup class="note-tag"><a href="#注" name="rscu">注</a></sup>的预测.
 
-<p>The WHO statement gives a $R_0$ estimate of 1.4-2.5. </p>
+<p>The WHO statement gives a $R_0$<sup class="note-tag"><a href="#note" name="rscu">注</a></sup> estimate of 1.4-2.5. </p>
 </li>
 
 <div class="notes">
-<a name="注" href="#r0">注</a>：
+<a name="注" href="#r0">注 note</a>：
 $R_0$ 即基本传染数（basic reproduction number）描述的是一位感染者在传染期期间将病毒传播给的期望人数. 一般来说，若 $R_0>1$，每个原发病例（index case）将产生更多的二代病例（secondary case），疫情将会扩散；若 $R_0<1$，那么疫情在有痊愈患者的情况下会逐渐随时间消减.
 
 <p>The $R_0$ or basic reproduction number is the expected number of secondary cases generated per index case; in otherwords, the average number of new infections generated from each infected individual. Generally speaking, if $R_0>1$ then we will see an increasing number of cases being generated and increased disease prevalence overtime; otherwise we expect to see decrease or stabilization of disease prevalence. </p>
