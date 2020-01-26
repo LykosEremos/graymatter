@@ -104,7 +104,7 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 </li>
 </ul>
 <a name="基因组/信息学"></a>
-<h1 class="hd">基因组/信息学</h1>
+<h1 class="hd">基因组/信息学 Genomics & Bioinformatics</h1>
 <ul  class='bulletin'>
 <li><a href='https://www.ncbi.nlm.nih.gov/nuccore/NC_045512'>GenBank 上 nCoV 的全基因组数据</a>.
 <p>Whole genome data of nCoV on GenBank.</p>
@@ -144,7 +144,7 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 </ul>
 
 <a name="流行病学参数预测">
-<h1 class="hd">流行病学参数预测</h1>
+<h1 class="hd">流行病学参数预测 Modeling of epidemiological parameters</h1>
 <ul  class='bulletin'>
 <li>Imai et al. (Jan. 22nd)：<a href='https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a>，英国医学研究委员会基于 IATA 数据的感染者人数预测，是 17 号 “1700人” 报告的跟进.
 <p>This is the "1700 infected" paper widely cited by Chinese media. The rough estimate is made using IATA data (flight data) and number of cases detected overseas. The Medical Research Council (MRC, source of the study) had since updated their estimate and it can be found in the link. </p>
