@@ -1,7 +1,9 @@
 <header class="site-header" role="banner">
 <div class="wrapper">
-    <img id='site-icon' src="{{site.baseurl}}/assets/gray.png"">
-    <a class="site-title" style='color: whitesmoke;' href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+
+    <a class="site-title" style='color: whitesmoke;' href="{{ "/" | relative_url}}">
+      <img id='site-icon' src="{{site.baseurl}}/assets/gray.png"">
+      {{ site.title | escape }}</a>
 
     <nav class="navigation">
     <div class="normal">

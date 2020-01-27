@@ -370,9 +370,10 @@ blockquote{
 
 #site-icon{
 	float: left;
-	margin-top: 1.15em;
-	width: 1.5em;
-	height: 1.5em;
+	margin-top: 0.6em;
+	margin-right: 0.5em;
+	width: 1.0em;
+	height: 1.0em;
 }
 
 .site-title{
@@ -526,6 +527,7 @@ footer {
 float: left;
 clear: left;
 	font-size: 0.75em;
+	margin-bottom: 0.5em;
 	font-weight: bold;
 	counter-reset: toch2counter;
 }

@@ -21,6 +21,8 @@ layout: default
 			</div>
 			<div class="post-meta">
 				首发于 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+				{% if page.modified %}，最后修改于 {{ page.modified | date: "%b %-d, %Y" }}{% endif %}
+
 			</div>
 		</header>
 
