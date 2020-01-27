@@ -5,7 +5,7 @@ date:   2020-01-23
 categories: resources
 modified: 2020-01-26
 ---
-<a name="疫情监控与个人防护"></a>
+<a name="疫情监控与个人防护 Surveillance and personal protection"></a>
 <h1 class="hd">疫情监控与个人防护 Surveillance and personal protection</h1>
 
 <style>
@@ -21,7 +21,7 @@ p.transl{
 margin-top:0.5em;
 text-indent: initial;
 }
-    </style>
+</style>
 <ul class='bulletin'>
 <li>(CN)
 <a href='https://3g.dxy.cn/newh5/view/pneumonia'>丁香园全国新型肺炎疫情实时动态</a>是目前最准确实时的疫情追踪平台. 因病毒的潜伏期以及初期与普通感冒难以区分的症状，和实际疫情的偏差无法避免.
@@ -50,7 +50,7 @@ text-indent: initial;
 <a href='https://www.cdc.gov/coronavirus/2019-ncov/index.html'>美国疾控中心（CDC）的 nCoV 信息主页</a>.
 <p   class='transl'>Information on nCoV by the US CDC. </p></li>
 </ul>
-<a name="病毒检测与病理"></a>
+<a name="病毒检测与病理 Virus detection and pathogenesis"></a>
 <h1 class="hd">病毒检测与病理 Virus detection and pathogenesis</h1>
 <ul  class='bulletin'>
 <li>Gralinski & Menachery: <a href='https://www.mdpi.com/1999-4915/12/2/135/pdf'>Return of the Coronavirus: 2019-nCoV</a>，nCoV 病毒综述，作者称会更新. 
@@ -69,7 +69,7 @@ text-indent: initial;
 <li>Zhou et al. (Jan. 23rd): <a href='https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf'>Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>. 要点：对 nCoV 进行系统发生分析，为其蝙蝠来源提供支持；并将其感染表达 ACE2 的细胞系后免疫荧光显微分析，确认对人、猪、蝙蝠、果子狸 ACE2 的利用，但无法利用小鼠的 ACE2. 
 <p  class='transl'>The study found support for the bat origin of nCoV via phylogenetic analysis and confirmed the necessity of ACE2 expression for nCoV's cell entry via microscopy. nCoV is able to utilize human, swine, bat, civet, but NOT mice ACE2. </p></li>
 </ul>
-<a name="病例和临床数据"></a>
+<a name="病例和临床数据 Clinical studies"></a>
 <h1 class="hd">病例和临床数据 Clinical studies</h1>
 <ul  class='bulletin'>
 <li>Huang et al. (Jan. 24th): <a href='https://www.thelancet.com/pb-assets/Lancet/pdfs/S0140673620301835.pdf'>Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</a>，截至一月二日入院治疗的患者（$n=41$）的临床特征. 要点：（1）病毒并非只对高龄、有潜在疾病的人群造成威胁（近一半患者年龄在 25-49之间，仅 32% 的患者有潜在疾病），但患者入住 ICU 的比例与年龄正相关；（2）发热、咳嗽、肌肉酸痛为发作初期最常见的症状，从病发初期到急性呼吸窘迫综合征（ARDS<sup class="note-tag"><a href="#注" name="ards">注</a></sup>）的发展有 8-14 天. 
@@ -115,7 +115,7 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 <p  class='transl'>An epidemiology database maintained by moritz.kraemer et al. on Virological. The data are hosted in a Google Sheet.</p>
 </li>
 </ul>
-<a name="基因组/信息学"></a>
+<a name="基因组/信息学 Genomics & Bioinformatics"></a>
 <h1 class="hd">基因组/信息学 Genomics & Bioinformatics</h1>
 <ul  class='bulletin'>
 <li><a href='https://www.ncbi.nlm.nih.gov/nuccore/NC_045512'>GenBank 上 nCoV 的全基因组数据</a>.
@@ -158,7 +158,7 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 </li>
 </ul>
 
-<a name="流行病学参数预测">
+<a name="流行病学参数预测 Modeling of epidemiological parameters">
 <h1 class="hd">流行病学参数预测 Modeling of epidemiological parameters</h1>
 <ul  class='bulletin'>
 <li>Imai et al. (Jan. 22nd): <a href='https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a>，英国医学研究委员会基于 IATA 数据的感染者人数预测，是 17 号 “1700人” 报告的跟进.
