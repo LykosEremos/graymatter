@@ -196,7 +196,7 @@ $R_0$ 即基本传染数（basic reproduction number）描述的是一位感染�
 <p  class='transl'>The study treats the number of secondary cases generated from each index case a negative binomial random variable with expectation $R_0$, and the generation time (time for the virus to reproduce) as a gamma random variable. The model parameters were estimated via stochastic sampling and the estimate it gives is $R_0$=2.2 (90% high density interval: 1.4-3.8). </p>
 </li>
 
-<li>Imai et al. (Jan. 24th): <a href='https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf'></a>用类似的轨迹分析方法进行模拟，并选择与截至一月十八日的感染人数可能取的几个值相容的 $R_0$ 估计.
+<li>Imai et al. (Jan. 24th): <a href='https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf'>用类似的轨迹分析方法</a>进行模拟，得出几个与一月十八日的感染人数值相容的 $R_0$ 估计.
 <p  class='transl'>The study adopts a similar trajectory simulation approach to Riou & Althaus and gives $R_0$ predictions compatible with several possbile values of the number of cases as of Jan. 18th. </p>
 </li>
 
