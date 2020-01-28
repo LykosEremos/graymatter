@@ -3,7 +3,7 @@ layout: post
 title:  "2019-nCoV 科学信息汇总 an aggregate of 2019-nCoV studies"
 date:   2020-01-23
 categories: resources
-modified: 2020-01-26
+modified: 2020-01-27
 ---
 <a name="疫情监控与个人防护 Surveillance and personal protection"></a>
 <h1 class="hd">疫情监控与个人防护 Surveillance and personal protection</h1>
