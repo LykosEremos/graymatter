@@ -66,7 +66,7 @@ text-indent: initial;
 <p  class='transl'>The study found that pseudotype particles carrying chimeric SARS-Spike+nCoV RBD can enter cells expressing ACE2 (and cannot for those that don't). The chimeric Spike protein however cannot utilize DPP4 (the receptor for MERS) or AP-N (the receptor for CoV-229E, one of the common cold viruses). This is good 'wet' evidence for similar nCoV and SARS viral behaviors. </p>
 </li>
 
-<li>Zhou et al. (Jan. 23rd): <a href='https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf'>Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>. 要点：对 nCoV 进行系统发生分析，为其蝙蝠来源提供支持；并将其感染表达 ACE2 的细胞系后免疫荧光显微分析，确认对人、猪、蝙蝠、果子狸 ACE2 的利用，但无法利用小鼠的 ACE2. 
+<li>Zhou et al. (Jan. 23rd): <a href='https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf'>Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>. 要点：对 nCoV 进行系统发生分析，发现其与蝙蝠 SARSr-CoV RaTG13（之前就是石正丽团队采集的，基因组直到最近才在GISAID上公开，所以这个结论只有这个组做得出来）的高度相似性，为其蝙蝠来源提供支持，且 RaTG13 和 nCoV 的 Symplot 展示了它并没有像CoVZC45 和 CoVZXC21（BLAST最近的两个结果）那样有和 nCoV 的序列同一度掉到沟里去的重组断点；并将其感染表达 ACE2 的细胞系后免疫荧光显微分析，确认对人、猪、蝙蝠、果子狸 ACE2 的利用，但无法利用小鼠的 ACE2. 
 <p  class='transl'>The study found support for the bat origin of nCoV via phylogenetic analysis and confirmed the necessity of ACE2 expression for nCoV's cell entry via microscopy. nCoV is able to utilize human, swine, bat, civet, but NOT mice ACE2. </p></li>
 </ul>
 <a name="病例和临床数据 Clinical studies"></a>
@@ -74,7 +74,7 @@ text-indent: initial;
 <ul  class='bulletin'>
 <li>Huang et al. (Jan. 24th): <a href='https://www.thelancet.com/pb-assets/Lancet/pdfs/S0140673620301835.pdf'>Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</a>，截至一月二日入院治疗的患者（$n=41$）的临床特征. 要点：（1）病毒并非只对高龄、有潜在疾病的人群造成威胁（近一半患者年龄在 25-49之间，仅 32% 的患者有潜在疾病），但患者入住 ICU 的比例与年龄正相关；（2）发热、咳嗽、肌肉酸痛为发作初期最常见的症状，从病发初期到急性呼吸窘迫综合征（ARDS<sup class="note-tag"><a href="#注" name="ards">注</a></sup>）的发展有 8-14 天. 
 
-<p  class='transl'>The studies examines the clinical features of 41 patients hospitalized as of Jan. 2nd. Some key takeways are that (1) Nearly half (49%) of the patients are aged 25-49 and only 32% has underlying diseases (hypertension, diabetes, and cardiovascular diseases), so the diseases poses a threat to non-elderly, healthy population as well, but the proportion of ICU admission does positively correlates with age; and that (2) fever, cough, and myaglia (muscle pain) are the main and most common clinical manifestations of disease onset. The development ARDS<sup class="note-tag"><a href="#注" name="ards">note</a></sup> takes 8-14 days from the onset.</p>
+<p  class='transl'>The studies examined the clinical features of 41 patients hospitalized as of Jan. 2nd. Some key takeways are that (1) Nearly half (49%) of the patients were aged 25-49 and only 32% had underlying diseases (hypertension, diabetes, and cardiovascular diseases), so nCoV poses a threat to non-elderly, healthy population as well, but the proportion of ICU admission does positively correlates with age; and that (2) fever, cough, and myaglia (muscle pain) are the main and most common clinical manifestations of disease onset. The development of ARDS<sup class="note-tag"><a href="#注" name="ards">note</a></sup> takes 8-14 days from the onset.</p>
 
 <div class="notes">
 <a name="注" href="#ards">注 note</a>：
@@ -133,9 +133,8 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 <li>Ji et al. (Jan. 22nd): <a href='https://onlinelibrary.wiley.com/doi/epdf/10.1002/jmv.25682'>Homologous recombination within the spike glycoprotein of the newly identified coronavirus 2019-nCoV may boostcross-species transmission from snake to human</a>，假设病毒和寄主的相对同义密码子使用度（RSCU<sup class="note-tag"><a href="#注" name="rscu">注</a></sup>）类似，通过计算每个密码子的 RSCU 作为特征进行聚类分析，指出蛇是 nCoV 的可能寄主. 这篇文章的研究方法在两个层面上是有缺陷或是错的：
 <ol>
 <li>从演化生物学的角度来说，如果要假设病毒和寄主的 RSCU 是匹配的，则必须举出充分证据证明（1a）nCoV 和蛇 RSCU 匹配的原因并不是漂变，（1b）存在迫使 nCoV 在密码子偏好上做出适应性改变的选择压力。因此，要证明 nCoV 在蛇的体内完成生活史的一部分（至少要在野蛇中采集到 nCoV），而这在现在是无法做到的.</li>
-<li>从生物信息学的角度来说，计算编码序列所编码的蛋白质的氨基酸组分，这些被采样的编码序列的整体核苷酸偏好和GC比例，甚至这些编码序列的长度都会影响到 RSCU 的计算，因此 RSCU 是一个非常 “糙” 的特征，不能依赖它来做聚类.</li>
+<li>从生物信息学的角度来说，计算编码序列所编码的蛋白质的氨基酸组分，这些被采样的编码序列的整体核苷酸偏好和GC比例，甚至这些编码序列的长度都会影响到 RSCU 的计算，因此 RSCU 是一个非常糙的特征，不能依赖它来做聚类.</li>
 </ol>
-
 
 <p  class='transl'>This is the "snake is a possible host" study that argues from the similarity between snake and nCoV relative synonymous codon usage (RSCU<sup class="note-tag"><a href="#注" name="rscu">note</a></sup>). It is wrong/inaccurate on two levels:
 <ol>
@@ -155,6 +154,14 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 
 <li><a href='https://artic.network/ncov-2019'>ARCTIC Network 发布的 Nanopore 平台测序流程的生物信息工具</a>
 <p  class='transl'>Bioinformatics tools by the ARCTIC Network for sequencing nCoV on the Nanopore platform.</p>
+</li>
+
+<li>Paraskevis et al. (Jan 26th): <a href='https://www.biorxiv.org/content/10.1101/2020.01.26.920249v1.full.pdf'>Full-genome evolutionary analysis of the novel corona virus (2019-nCoV) rejects the hypothesis of emergence as a result of a recent recombination event</a>，是比较纯粹的支序发生研究. 这篇文章没有什么新的信息，确认了石正丽团队得出的 nCoV 和 RaTG13 的近缘关系，指出病毒不太可能是近期重组事件的产物.
+<p  class='transl'>Verification of Zhou et al. (Jan. 23rd)'s result.</p>
+</li>
+
+<li>Zhao et al. (Jan 26th): <a href='https://www.biorxiv.org/content/10.1101/2020.01.26.919985v1.full.pdf'>Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov</a>，作者用八位肺部捐赠者的（五位非裔美国人，两位白人，一位亚洲人）单细胞 RNA-seq 数据试图说明 ACE2 表达上调是亚洲人感染 nCoV 的风险因子，但仅含一个亚洲人的样本就足以说明这个结论是没有说服力的. 剩下的部分是想展示 ACE2 和一些对病毒复制组装有利的基因集的共富集现象，但是没写方法所以（用的什么软件？基因集是哪里来的？p值多重比较矫正过没有，用什么方法矫正的？）；以及 ACE2 在 II 型肺泡细胞（AT2）中的特异性富集，但是这不是新的结论.
+<p  class='transl'>The authors observed higher proportion of ACE2-expressing cells in a single Asian patient compared to the rest of the dataset (2 Caucasians and 5 African Americans), which is not statistically meaningful. The rest of the paper described co-enrichment of viral process-related genes with ACE2 but did not include any information on how the GO analysis is done, and the specific enrichment of ACE2 in AT2 cells.</p>
 </li>
 </ul>
 
@@ -187,6 +194,10 @@ $R_0$ 即基本传染数（basic reproduction number）描述的是一位感染�
 
 <li>Riou & Althaus (Jan. 24th): <a href='https://github.com/jriou/wcov'></a>将每个原发病例所造成的二代病例的数量视作负二项分布（期望值为 $R_0$)，将病毒的世代长度视作 gamma 分布，通过模拟取样而计算的模型参数的概率密度函数，并选择使感染总人数在一月18日时落在 [1000, 9700] 的区间内的参数分布区间，给出了 $R_0$=2.2 (90% 高概率密度区间: 1.4-3.8) 的估计. 
 <p  class='transl'>The study treats the number of secondary cases generated from each index case a negative binomial random variable with expectation $R_0$, and the generation time (time for the virus to reproduce) as a gamma random variable. The model parameters were estimated via stochastic sampling and the estimate it gives is $R_0$=2.2 (90% high density interval: 1.4-3.8). </p>
+</li>
+
+<li>Imai et al. (Jan. 24th): <a href='https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf'></a>用类似的轨迹分析方法进行模拟，并选择与截至一月十八日的感染人数可能取的几个值相容的 $R_0$ 估计.
+<p  class='transl'>The study adopts a similar trajectory simulation approach to Riou & Althaus and gives $R_0$ predictions compatible with several possbile values of the number of cases as of Jan. 18th. </p>
 </li>
 
 <li>Majumder & Mandl (Jan. 24th): <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3524675'>Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China</a>通过拟合患病律衰减指数调整（IDEA）的单公式模型，给出 $R_0$=2.0-3.3 的估计.
