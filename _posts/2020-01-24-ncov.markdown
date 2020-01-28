@@ -192,7 +192,7 @@ $R_0$ 即基本传染数（basic reproduction number）描述的是一位感染�
 <p  class='transl'>The study examines the risk of importation (probability that at least one case from one of infected provinces arrives in Europe) using OAG data.</p>
 </li>
 
-<li>Riou & Althaus (Jan. 24th): <a href='https://github.com/jriou/wcov'></a>将每个原发病例所造成的二代病例的数量视作负二项分布（期望值为 $R_0$)，将病毒的世代长度视作 gamma 分布，通过模拟取样而计算的模型参数的概率密度函数，并选择使感染总人数在一月18日时落在 [1000, 9700] 的区间内的参数分布区间，给出了 $R_0$=2.2 (90% 高概率密度区间: 1.4-3.8) 的估计. 
+<li>Riou & Althaus (Jan. 24th): 将每个原发病例所造成的二代病例的数量视作负二项分布（期望值为 $R_0$)，将病毒的世代长度视作 gamma 分布，通过<a href='https://github.com/jriou/wcov'>模拟取样</a>而计算的模型参数的概率密度函数，并选择使感染总人数在一月18日时落在 [1000, 9700] 的区间内的参数分布区间，给出了 $R_0$=2.2 (90% 高概率密度区间: 1.4-3.8) 的估计. 
 <p  class='transl'>The study treats the number of secondary cases generated from each index case a negative binomial random variable with expectation $R_0$, and the generation time (time for the virus to reproduce) as a gamma random variable. The model parameters were estimated via stochastic sampling and the estimate it gives is $R_0$=2.2 (90% high density interval: 1.4-3.8). </p>
 </li>
 
