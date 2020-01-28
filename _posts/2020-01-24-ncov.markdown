@@ -160,7 +160,7 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 <p  class='transl'>Verification of Zhou et al. (Jan. 23rd)'s result.</p>
 </li>
 
-<li>Zhao et al. (Jan 26th): <a href='https://www.biorxiv.org/content/10.1101/2020.01.26.919985v1.full.pdf'>Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov</a>，作者用八位肺部捐赠者的（五位非裔美国人，两位白人，一位亚洲人）单细胞 RNA-seq 数据试图说明 ACE2 表达上调是亚洲人感染 nCoV 的风险因子，但仅含一个亚洲人的样本就足以说明这个结论是没有说服力的. 剩下的部分是想展示 ACE2 和一些对病毒复制组装有利的基因集的共富集现象，但是没写方法所以（用的什么软件？基因集是哪里来的？p值多重比较矫正过没有，用什么方法矫正的？）；以及 ACE2 在 II 型肺泡细胞（AT2）中的特异性富集，但是这不是新的结论.
+<li>Zhao et al. (Jan 26th): <a href='https://www.biorxiv.org/content/10.1101/2020.01.26.919985v1.full.pdf'>Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov</a>，作者用八位肺部捐赠者的（五位非裔美国人，两位白人，一位亚洲人）单细胞 RNA-seq 数据试图说明 ACE2 表达上调是亚洲人感染 nCoV 的风险因子，但仅含一个亚洲人的样本就足以说明这个结论是没有说服力的. 剩下的部分是想展示 ACE2 和一些对病毒复制组装有利的基因集的共富集现象，但是没写方法（用的什么软件？基因集是哪里来的？p值多重比较矫正过没有，用什么方法矫正的？）所以无法判断结论的质量；以及 ACE2 在 II 型肺泡细胞（AT2）中的特异性富集，这个也不是新的信息了.
 <p  class='transl'>The authors observed higher proportion of ACE2-expressing cells in a single Asian patient compared to the rest of the dataset (2 Caucasians and 5 African Americans), which is not statistically meaningful. The rest of the paper described co-enrichment of viral process-related genes with ACE2 but did not include any information on how the GO analysis is done, and the specific enrichment of ACE2 in AT2 cells.</p>
 </li>
 </ul>
