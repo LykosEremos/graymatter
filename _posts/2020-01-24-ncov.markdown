@@ -53,12 +53,19 @@ text-indent: initial;
 
 <li>Corman et al. (Jan. 13th): <a href='https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf'>Diagnostic detection of Wuhan coronavirus 2019 by real-time RT-PCR</a>，从呼吸道样本中检测 nCoV RdRP、E、N 基因 RNA 序列的 RT-qPCR 检测方案. 
 <p class='transl'>Protocol to screen for nCoV RdRP, E, N sequences via RT-qPCR from respiratory samples.</p></li>
+</ul>
+
+冠状病毒得名于其棘突（spike）状的包膜粒（peplomer）在电子显微镜下呈现出的冕状结构，组成这个结构的蛋白质由病毒基因组中的 S 基因编码。这种棘突会识别并结合寄主细胞表面的标志（“受体”）并触发病毒进入寄主细胞的过程。
+
+血管紧张素II转化酶（ACE2）是2003年非典危机期间发现的与SARS-CoV结合的受体，血管紧张素I转化酶（ACE）的类似物。在正常生理功能中，ACE和ACE2都是名为肾素-血管紧张素的激素系统中的组成部分：ACE 会将血管紧张素I（Ang I）转化为生理活性很强的血管紧张素II（Ang II），而ACE2会将 Ang I 和 Ang II 分别转换为生理活性较弱的 Ang-(1-9) 和 Ang-(1-7)，起到制衡 ACE 的作用。在小鼠模型中，SARS-CoV 感染会下调 ACE2 的表达（Glowacka, 2010），而随之而来Ang II水平失调导致的水钠潴留和血管通透性变化可能会在病毒感染的症状之上加重肺部损伤。
+
+nCoV 是否也会利用 ACE2 呢？下面这三则研究探索了这个问题.
+<ul>
 <li>Dong et al. (Jan. 20th): <a href='https://www.biorxiv.org/content/10.1101/2020.01.20.913368v1.full.pdf'>Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China</a>，结构预测 nCoV 的 Spike 蛋白对 ACE2 的亲合性. 要点：nCoV 的 Spike 蛋白和 ACE2 的结合能力弱于 SARS-CoV、强于不具备人类感染性的蝙蝠 SARSr-CoV. 
 <p   class='transl'>The study conducts computational prediction of nCoV-Spike protein's affinity to ACE2, the cell surface protein utilized by SARS-CoV to enter host cells. The study predicts lower affinity of the nCoV-Spike to ACE2 than SARS but higher compared to bat SARSr-CoV that do not infect human.</p></li>
 <li>Letko & Munster (Jan. 22nd): <a href='https://www.biorxiv.org/content/10.1101/2020.01.22.915660v1.full.pdf'>Functional assessment of cell entry and receptor usage for lineage B β-coronaviruses, including 2019-nCoV</a>. 要点：发现表达嵌合体 Spike 蛋白的假病毒颗粒可利用 ACE2 进入细胞，并不会利用 DPP4（MERS 病毒的受体）或 AP-N（导致普通感冒的冠状病毒229E的受体）.
 <p  class='transl'>The study found that pseudotype particles carrying chimeric SARS-Spike+nCoV RBD can enter cells expressing ACE2 (and cannot for those that don't). The chimeric Spike protein however cannot utilize DPP4 (the receptor for MERS) or AP-N (the receptor for CoV-229E, one of the common cold viruses). This is good 'wet' evidence for similar nCoV and SARS viral behaviors. </p>
 </li>
-
 <li>Zhou et al. (Jan. 23rd): <a href='https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf'>Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>. 要点：对 nCoV 进行系统发生分析，发现其与蝙蝠 SARSr-CoV RaTG13（之前就是石正丽团队采集的，基因组直到最近才在GISAID上公开，所以这个结论只有这个组做得出来）的高度相似性，为其蝙蝠来源提供支持，且 RaTG13 和 nCoV 的 Symplot 展示了它并没有像CoVZC45 和 CoVZXC21（BLAST最近的两个结果）那样有和 nCoV 的序列同一度掉到沟里去的重组断点；并将其感染表达 ACE2 的细胞系后免疫荧光显微分析，确认对人、猪、蝙蝠、果子狸 ACE2 的利用，但无法利用小鼠的 ACE2. 
 <p  class='transl'>The study found support for the bat origin of nCoV via phylogenetic analysis and confirmed the necessity of ACE2 expression for nCoV's cell entry via microscopy. nCoV is able to utilize human, swine, bat, civet, but NOT mice ACE2. </p></li>
 </ul>
