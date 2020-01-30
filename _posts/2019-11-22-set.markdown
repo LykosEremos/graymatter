@@ -2,7 +2,7 @@
 layout: post
 title:  "CMD001: 集论基础"
 date:   2019-11-20 22:31:19 -0400
-categories: resources
+categories: CADMUS
 ---
 <a name="逻辑与证明"></a>
 <h1 class="hd">逻辑与证明</h1>

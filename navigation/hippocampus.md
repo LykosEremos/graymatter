@@ -2,9 +2,9 @@
 layout: page
 landing: list
 title: 海马体
-permalink: /list/
+permalink: /hippocampus/
 ---
-<div style="size=0.8em;color:#9b9b9b; margin-bottom:2em;">「灰质」上的所有文章</div>
+<div style="size=0.8em;color:#9b9b9b; margin-bottom:2em;">「灰质」上的所有文章. 前往<a href="{{site.baseurl}}/dentgyr">齿状回</a>（切换分类视图）.</div>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>

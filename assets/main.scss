@@ -334,7 +334,7 @@ blockquote{
 
 	top: 6em;
 	left: -230px;
-	bottom: 20px;
+	bottom: 4em;
 	width: 200px;
 
 	padding: 1em;
@@ -474,6 +474,29 @@ footer {
 	color: #f3f3f3;
 }
 
+.post-nav {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+.post-nav a {
+  color: $tx-col;
+}
+
+.post-nav .next {
+  text-align: right;
+	float: right;
+	margin: 5em 0 0 0;
+}
+
+
+
+.post-nav .prev {
+  text-align: left;
+	float: left;
+	margin: 0 5em 0 0;
+}
+
 //cosmetics
 
 .title-box{
@@ -527,7 +550,7 @@ footer {
 float: left;
 clear: left;
 	font-size: 0.75em;
-	margin-bottom: 0.5em;
+	margin-top: 0.5em;
 	font-weight: bold;
 	counter-reset: toch2counter;
 }

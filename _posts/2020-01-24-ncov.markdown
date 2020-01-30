@@ -2,26 +2,24 @@
 layout: post
 title:  "2019-nCoV 科学信息汇总 an aggregate of 2019-nCoV studies"
 date:   2020-01-23
-categories: resources
+category: 时事
 modified: 2020-01-27
 ---
 <a name="疫情监控与个人防护 Surveillance and personal protection"></a>
 <h1 class="hd">疫情监控与个人防护 Surveillance and personal protection</h1>
-
 <style>
 ul.bulletin li {
 	padding: 0.7em 0.5em 0.7em 0.5em;
 }
-
 ul.ls li {
 	padding: 0em 0em 0em 0em;
 }
-
 p.transl{
 margin-top:0.5em;
 text-indent: initial;
 }
 </style>
+
 <ul class='bulletin'>
 <li>(CN)
 <a href='https://3g.dxy.cn/newh5/view/pneumonia'>丁香园全国新型肺炎疫情实时动态</a>是目前最准确实时的疫情追踪平台. 因病毒的潜伏期以及初期与普通感冒难以区分的症状，和实际疫情的偏差无法避免.
@@ -32,10 +30,8 @@ text-indent: initial;
 <li>(CN)
 <a href='http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/'>中国疾控中心的 nCoV 信息主页</a>，含个人防护，疫情动态等信息. 
 <p  class='transl'>Information on nCoV by the Chinese CDC, with personal protection tips and status updates. </p></li>
-
 <li><a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019'>世卫组织（WHO）的 nCoV 信息主页</a>，含疫情报告，个人防护，出行建议等信息. 
 <p class='transl'>Information on nCoV by the WHO, with travel advice, personal protection tips, and status reports. </p></li>
-
 <li>(JP)
 <a href='https://www.niid.go.jp/niid/ja/diseases/ka/corona-virus/2019-ncov/9325-manual.html'>厚劳省国立感染症研究所 nCoV 疑患者采样与样本运输手册</a>.
 
@@ -45,7 +41,6 @@ text-indent: initial;
 
 <li>约翰斯霍普金斯大学系统科学和工程中心（JHU CSSE）制作的疫情<a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?utm_source=dlvr.it&utm_medium=twitter#/bda7594740fd40299423467b48e9ecf6'>GIS可视化</a>，不是特别实时. 
 <p  class='transl'>Real-time GIS visualization of disease status by JHU CSSE. This tracker lags behind DXY.cn a bit so not so real-time but has better geographical presentation.</p></li>
-
 <li>
 <a href='https://www.cdc.gov/coronavirus/2019-ncov/index.html'>美国疾控中心（CDC）的 nCoV 信息主页</a>.
 <p   class='transl'>Information on nCoV by the US CDC. </p></li>
@@ -58,10 +53,8 @@ text-indent: initial;
 
 <li>Corman et al. (Jan. 13th): <a href='https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf'>Diagnostic detection of Wuhan coronavirus 2019 by real-time RT-PCR</a>，从呼吸道样本中检测 nCoV RdRP、E、N 基因 RNA 序列的 RT-qPCR 检测方案. 
 <p class='transl'>Protocol to screen for nCoV RdRP, E, N sequences via RT-qPCR from respiratory samples.</p></li>
-
 <li>Dong et al. (Jan. 20th): <a href='https://www.biorxiv.org/content/10.1101/2020.01.20.913368v1.full.pdf'>Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China</a>，结构预测 nCoV 的 Spike 蛋白对 ACE2 的亲合性. 要点：nCoV 的 Spike 蛋白和 ACE2 的结合能力弱于 SARS-CoV、强于不具备人类感染性的蝙蝠 SARSr-CoV. 
 <p   class='transl'>The study conducts computational prediction of nCoV-Spike protein's affinity to ACE2, the cell surface protein utilized by SARS-CoV to enter host cells. The study predicts lower affinity of the nCoV-Spike to ACE2 than SARS but higher compared to bat SARSr-CoV that do not infect human.</p></li>
-
 <li>Letko & Munster (Jan. 22nd): <a href='https://www.biorxiv.org/content/10.1101/2020.01.22.915660v1.full.pdf'>Functional assessment of cell entry and receptor usage for lineage B β-coronaviruses, including 2019-nCoV</a>. 要点：发现表达嵌合体 Spike 蛋白的假病毒颗粒可利用 ACE2 进入细胞，并不会利用 DPP4（MERS 病毒的受体）或 AP-N（导致普通感冒的冠状病毒229E的受体）.
 <p  class='transl'>The study found that pseudotype particles carrying chimeric SARS-Spike+nCoV RBD can enter cells expressing ACE2 (and cannot for those that don't). The chimeric Spike protein however cannot utilize DPP4 (the receptor for MERS) or AP-N (the receptor for CoV-229E, one of the common cold viruses). This is good 'wet' evidence for similar nCoV and SARS viral behaviors. </p>
 </li>
@@ -72,10 +65,9 @@ text-indent: initial;
 <a name="病例和临床数据 Clinical studies"></a>
 <h1 class="hd">病例和临床数据 Clinical studies</h1>
 <ul  class='bulletin'>
-<li>Huang et al. (Jan. 24th): <a href='https://www.thelancet.com/pb-assets/Lancet/pdfs/S0140673620301835.pdf'>Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</a>，截至一月二日入院治疗的患者（$n=41$）的临床特征. 要点：（1）病毒并非只对高龄、有潜在疾病的人群造成威胁（近一半患者年龄在 25-49之间，仅 32% 的患者有潜在疾病），但患者入住 ICU 的比例与年龄正相关；（2）发热、咳嗽、肌肉酸痛为发作初期最常见的症状，从病发初期到急性呼吸窘迫综合征（ARDS<sup class="note-tag"><a href="#注" name="ards">注</a></sup>）的发展有 8-14 天. 
+<li>Huang et al. (Jan. 24th): <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext'>Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</a>，截至一月二日入院治疗的患者（$n=41$）的临床特征. 要点：（1）病毒并非只对高龄、有潜在疾病的人群造成威胁（近一半患者年龄在 25-49之间，仅 32% 的患者有潜在疾病），但患者入住 ICU 的比例与年龄正相关；（2）发热、咳嗽、肌肉酸痛为发作初期最常见的症状，从病发初期到急性呼吸窘迫综合征（ARDS<sup class="note-tag"><a href="#注" name="ards">注</a></sup>）的发展有 8-14 天. 
 
 <p  class='transl'>The studies examined the clinical features of 41 patients hospitalized as of Jan. 2nd. Some key takeways are that (1) Nearly half (49%) of the patients were aged 25-49 and only 32% had underlying diseases (hypertension, diabetes, and cardiovascular diseases), so nCoV poses a threat to non-elderly, healthy population as well, but the proportion of ICU admission does positively correlates with age; and that (2) fever, cough, and myaglia (muscle pain) are the main and most common clinical manifestations of disease onset. The development of ARDS<sup class="note-tag"><a href="#注" name="ards">note</a></sup> takes 8-14 days from the onset.</p>
-
 <div class="notes">
 <a name="注" href="#ards">注 note</a>：
 根据柏林定义，ARDS 有四个组分：
@@ -97,10 +89,15 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 
 </li>
 
-<li>Chan et al. (Jan. 24th)：<a href='https://www.thelancet.com/pb-assets/Lancet/pdfs/S0140673620301549.pdf'>A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster</a>，从一个深圳家庭的案例（$n=6$）中看 nCoV-2019 的人际传播能力. 要点：家庭内的人际传播的防范应得到重视；存在无症状的感染者，为诊断与防疫工作带来额外的难度.
+<li>Chan et al. (Jan. 24th)：<a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext'>A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster</a>，从一个深圳家庭的案例（$n=6$）中看 nCoV-2019 的人际传播能力. 要点：家庭内的人际传播的防范应得到重视；存在无症状的感染者，为诊断与防疫工作带来额外的难度.
 
 <p  class='transl'>A case study on a Shenzhen family that shows the importance of human-to-human transmission prevention in a family cluster. The facts that certain patients can be asymptomatic further complicates diagnosis and disease control.</p>
 </li>
+
+<li>Chen et al. (Jan. 29th): <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext'>Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</a>，一月 1 日到 20 日之间入院治疗的患者（$n=99$）的临床特征，是目前样本最大的 nCoV 临床研究. 在肯定 Huang et al. (Jan. 24th) 的数据的基础上，有以下要点：99位患者有一半（49%）与华南海鲜市场有长期接触历史（2）ICU 入住率 23%；截止25日，57 位患者留院，31 位患者出院，11 位患者死亡，17 位发展ARDS.</li>
+
+<p  class='transl'>The clinical study on nCoV with the largest sample size ($n=99$) thus far. Some key takeways are: amongst 99 patients hospitalized between Jan. 1st and 20th, 23% were admitted to ICU; as of Jan. 25th, 57 remain in hospital, 31 were discharged, 11 dead, 17 developed ARDS.</p>
+
 
 <li>(CN) <a href='http://med.china.com.cn/content/pid/157096/tid/1021'>国家卫生健康委公布17例新型肺炎死亡病例病情</a>，有详细的患者病史、健康状况和治疗过程的信息. 
 <p  class='transl'>Detailed record of 17 nCoV infection deaths that includes medical history, health status at hospitalization, and the treatment process.</p>
@@ -125,6 +122,7 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 <a href='https://www.gisaid.org/'>GISAID 上的 nCoV 的全基因组数据</a>，需要账户，使用前请参见须知.
 <p  class='transl'>Whole genome data of nCoV from several localities on GISAID. You need an account to view/download the sequence data.</p>
 </li>
+
 <li>Bedford et al. 在
 <a href='https://nextstrain.org/narratives/ncov/sit-rep/2020-01-23?n=0'>Nextstrain 上 对基因组的研究报告</a>，含病毒支序分析的基础知识. 对移动端不友好.
 <p  class='transl'>A presentation on the phylogenetics of nCoV by Bedford et al. on Nextstrain with some basics of viral genomics/phylogenetics. Somewhat mobile-unfriendly.</p>
@@ -163,6 +161,10 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 <li>Zhao et al. (Jan 26th): <a href='https://www.biorxiv.org/content/10.1101/2020.01.26.919985v1.full.pdf'>Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov</a>，作者用八位肺部捐赠者的（五位非裔美国人，两位白人，一位亚洲人）单细胞 RNA-seq 数据试图说明 ACE2 表达上调是亚洲人感染 nCoV 的风险因子，但仅含一个亚洲人的样本就足以说明这个结论是没有说服力的. 剩下的部分是想展示 ACE2 和一些对病毒复制组装有利的基因集的共富集现象，但是没写方法（用的什么软件？基因集是哪里来的？p值多重比较矫正过没有，用什么方法矫正的？）所以无法判断结论的质量；以及 ACE2 在 II 型肺泡细胞（AT2）中的特异性富集，这个也不是新的信息了.
 <p  class='transl'>The authors observed higher proportion of ACE2-expressing cells in a single Asian patient compared to the rest of the dataset (2 Caucasians and 5 African Americans), which is not statistically meaningful. The rest of the paper described co-enrichment of viral process-related genes with ACE2 but did not include any information on how the GO analysis is done, and the AT2-specific enrichment of ACE2, which is already known.</p>
 </li>
+
+<li>Chen et al. (Jan. 29th): <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30251-8/fulltext'>Genomic characterisation and epidemiology of 2019 novel
+coronavirus: implications for virus origins and receptor binding</a>，比较了从九位患者（其中 8 位和海鲜市场有接触历史）的气道上皮细胞提取的 nCoV 样本的全基因组信息，所观察到的高样本间序列同一率与本节中其他的研究结果一致.</li>
+<p class='transl'>The study compared viral genomes sampled from airway epithelia of 9 patients (8 of whom had exposure to the seafood market). The high sequence identity of all 9 samples agrees with other analyses in this section.</p>
 </ul>
 
 <a name="流行病学参数预测 Modeling of epidemiological parameters">
@@ -172,21 +174,61 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 <p  class='transl'>This is the "1700 infected" paper widely cited by Chinese media. The rough estimate is made using IATA data (flight data) and number of cases detected overseas. The Medical Research Council (MRC, source of the study) had since updated their estimate and it can be found in the link. </p>
 </li>
 
-<li>WHO (Jan. 23rd): <a href='https://www.who.int/news-room/detail/23-01-2020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)'>Statement on the meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)</a>，给出了 $R_0$=1.4-2.5<sup class="note-tag"><a href="#注" name="rscu">注</a></sup>的预测.
+<li>WHO (Jan. 23rd): <a href='https://www.who.int/news-room/detail/23-01-2020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)'>Statement on the meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)</a>，给出了 $R_0$=1.4-2.5<sup class="note-tag"><a href="#r0-note" name="r0">注</a></sup>的预测.
 
-<p  class='transl'>The WHO statement gives a $R_0$<sup class="note-tag"><a href="#note" name="rscu">注</a></sup> estimate of 1.4-2.5. </p>
+<p  class='transl'>The WHO statement gives a $R_0$<sup class="note-tag"><a href="#r0-note" name="r0">note</a></sup> estimate of 1.4-2.5. </p>
 </li>
 
 <div class="notes">
-<a name="注" href="#r0">注 note</a>：
+<a name="r0-note" href="#r0">注 note</a>：
 $R_0$ 即基本传染数（basic reproduction number）描述的是一位感染者在传染期期间将病毒传播给的期望人数. 一般来说，若 $R_0>1$，每个原发病例（index case）将产生更多的二代病例（secondary case），疫情将会扩散；若 $R_0<1$，那么疫情在有痊愈患者的情况下会逐渐随时间消减.
 
 <p  class='transl'>The $R_0$ or basic reproduction number is the expected number of secondary cases generated per index case; in otherwords, the average number of new infections generated from each infected individual. Generally speaking, if $R_0>1$ then we will see an increasing number of cases being generated and increased disease prevalence overtime; otherwise we expect to see decrease or stabilization of disease prevalence. </p>
 </div>
 
-<li>Read et al. (Jan. 23rd): <a href='https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v1'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a> 通过流行病学中经典的 SEIR 微分方程组模型给出了 $R_0$=3.8 (95% CI: 3.6-4.0) 的估计.
-<p  class='transl'>The study uses the deterministic SEIR diff.eq. model to give an estimate of $R_0$=3.8 (95% CI: 3.6-4.0). </p>
+
+<li>Read et al. (Jan. 23rd): <a href='https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2.full.pdf'>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a> 通过流行病学中经典的 SEIR 微分方程组<sup class="note-tag"><a href="#注" name="seir">注</a></sup>给出了 $R_0$=3.8 (95% CI: 3.6-4.0) 的估计.
+<p  class='transl'>The study uses the deterministic SEIR model<sup class="note-tag"><a href="#seir" name="seir-2">note</a></sup> to give an estimate of $R_0$=3.8 (95% CI: 3.6-4.0). </p>
 </li>
+
+<div class="notes">
+<a name="seir" href="#seir">注 note</a>：
+SEIR （Suspected-Exposed-Infected-Recovered）模型属于流行病学建模中所谓区室模型（compartmental model）的一种. 
+<ul>
+<li>设人群大小为 $N$ ，其中每一个人都属于四种组别其一：易染者 $S$、潜伏者 $E$，感染者 $I$，康复者 $R$. </li>
+<li>人群的出生率和死亡率分别是 $\tau$ 和 $\mu$，新生儿自动加入易染者 $S$. </li>
+<li> 对 $S$ 中的每位易染者，若单位时间内其遭遇任何组别的人的概率都相等，那么遭遇感染者的单位时间概率是 $\frac{I}{N}$（纲量：时间$^{-1}$），若又设其在每次遭遇中受感染的概率为 $\beta$，那么单位时间内，易染者中受感染的人的数量服从总体大小 $S$，成功概率 $\frac{\beta I}{N}$ 的二项分布，其期望为 $\frac{S\beta I}{N}$. 这在模型中体现为在单位时间内，有 $\frac{S\beta I}{N}$ 人因为接触感染者，从易染者变为潜伏者. 
+</li>
+<li> 假设疾病的潜伏期长为 $\frac{1}{\sigma}$，那么每单位时间内有 $\sigma E$ 名潜伏者病发成为感染者.
+</li>
+<li>假设疾病的恢复期长为 $\frac{1}{\gamma}$，那么每单位时间内有 $\gamma I$ 名感染者成为康复者.
+</li>
+
+</ul>
+用箭头表示四个类群之间人数的流动，那么我们的模型就是，
+\begin{array}{cccccccc}   
+\xrightarrow{N\tau}& S & \xrightarrow{\frac{S\beta I}{N}} & E & \xrightarrow{\sigma E} & I & \xrightarrow{\gamma I} & R\\\
+
+&\downarrow \mu S&  & \downarrow \mu E &  & \downarrow \mu I&  & \downarrow \mu R\\\  
+\end{array} 
+
+我们感兴趣 $S, E, I, R$ 中人数随时间变化的关系. 通过阅读以上简图表示的各组别流入/流出关系，我们可以直接写出微分方程组
+$$
+\begin{align}
+\dot{S}&=N\tau-\frac{S\beta I}{N}-\mu S\\
+\dot{E}&=\frac{S\beta I}{N}-\sigma E-\mu E\\
+\dot{I}&=\sigma E-\gamma I-\mu I\\
+\dot{R}&=\gamma I-\mu R\\
+\end{align}
+$$
+
+这就是 SEIR 模型的推导.
+
+<p>An description of the SEIR model in English can be found <a href='https://sites.me.ucsb.edu/~moehlis/APC514/tutorials/tutorial_seasonal/node4.html'>here.</a></p>
+
+</div>
+
+
 
 <li>Pullano et al. (Jan. 23rd): <a href='https://www.epicx-lab.com/uploads/9/6/9/4/9694133/inserm_2019ncov-importation-risk_20200123.pdf'>2019-nCoV importation risk to Europe</a> nCoV-2019 的欧洲引入风险（risk of importation：至少一例从中国来到欧洲的概率）评估，是借助了来自 OAG 的民航数据的粗略估计.
 <p  class='transl'>The study examines the risk of importation (probability that at least one case from one of infected provinces arrives in Europe) using OAG data.</p>
@@ -203,6 +245,13 @@ $R_0$ 即基本传染数（basic reproduction number）描述的是一位感染�
 <li>Majumder & Mandl (Jan. 24th): <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3524675'>Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China</a>通过拟合患病律衰减指数调整（IDEA）的单公式模型，给出 $R_0$=2.0-3.3 的估计.
 <p  class='transl'>The study gives a estimate of $R_0$=2.0-3.3 by fitting a single-equation, incidence decay and exponential adjustment (IDEA) model.</p>
 </li>
+
+<li>Qun et al. (Jan. 29th): <a href='https://www.nejm.org/doi/full/10.1056/NEJMoa2001316?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed'>Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia.</a>用更新方程（renewal equations）建模进行模拟，得出 $R_0$=2.2 的估计. 这个就是那个最近给出 44000 武汉病例估计的港大团队.
+<p class='transl'>This study gives an estimate of $R_0$=2.2 using renewal equation modeling. The same team also estimated 44,000 cases in Wuhan in recent news reports.</p>
+</li>
+
+<li>Cao et al. (Jan. 29th): <a href='https://www.medrxiv.org/content/10.1101/2020.01.27.20018952v1.full.pdf'>Estimating the effective reproduction number of the 2019-nCoV in China</a> 利用 SEIRDC 模型（SEIR的变体，加入了死亡 $D$ 和总例 $C$ 两个变量），给出 6.50% 的死亡率估计.
+<p class='transl'>The study uses SEIRDC modeling (a SEIR variant that includes additionally death $D$ and cumulative cases $C$ as compartments) to give an estimate of fatality of 6.50%.</p></li>
 </ul>
 
 

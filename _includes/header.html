@@ -8,7 +8,7 @@
     <nav class="navigation">
     <div class="normal">
         {% for my_page in site.pages %}
-          {% if my_page.title %}
+          {% if my_page.title and my_page.show != 'hide'%}
           <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {% endif %}
         {% endfor %}
