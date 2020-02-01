@@ -108,9 +108,9 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 <p  class='transl'>A case study on a Shenzhen family that shows the importance of human-to-human transmission prevention in a family cluster. The facts that certain patients can be asymptomatic further complicates diagnosis and disease control.</p>
 </li>
 
-<li>Chen et al. (Jan. 29th): <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext'>Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</a>，一月 1 日到 20 日之间入院治疗的患者（$n=99$）的临床特征，是目前样本最大的 nCoV 临床研究. 在肯定 Huang et al. (Jan. 24th) 的数据的基础上，有以下要点：99位患者有一半（49%）与华南海鲜市场有长期接触历史（2）ICU 入住率 23%；截止25日，57 位患者留院，31 位患者出院，11 位患者死亡，17 位发展ARDS.</li>
-
+<li>Chen et al. (Jan. 29th): <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext'>Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</a>，一月 1 日到 20 日之间入院治疗的患者（$n=99$）的临床特征，是目前样本最大的 nCoV 临床研究. 在肯定 Huang et al. (Jan. 24th) 的数据的基础上，有以下要点：99位患者有一半（49%）与华南海鲜市场有长期接触历史（2）ICU 入住率 23%；截止25日，57 位患者留院，31 位患者出院，11 位患者死亡，17 位发展ARDS.
 <p  class='transl'>The clinical study on nCoV with the largest sample size ($n=99$) thus far. Some key takeways are: amongst 99 patients hospitalized between Jan. 1st and 20th, 23% were admitted to ICU; as of Jan. 25th, 57 remain in hospital, 31 were discharged, 11 dead, 17 developed ARDS.</p>
+</li>
 
 <li>(CN) <a href='http://med.china.com.cn/content/pid/157096/tid/1021'>国家卫生健康委公布17例新型肺炎死亡病例病情</a>，有详细的患者病史、健康状况和治疗过程的信息. 
 <p  class='transl'>Detailed record of 17 nCoV infection deaths that includes medical history, health status at hospitalization, and the treatment process.</p>
