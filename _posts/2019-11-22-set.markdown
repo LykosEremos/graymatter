@@ -7,6 +7,7 @@ categories: CADMUS
 <a name="逻辑与证明"></a>
 <h1 class="hd">逻辑与证明</h1>
 <a name="断言"></a>
+
 <h2 class="hd">断言</h2>
 数学是一场逻辑游戏：我们假设某些看来是基础或者自明的<span class='concept'>公理（axiom）</span>为真断言，然后利用给定的一些推理规则（rules of inference），去得到或者发现其他的真断言. 因此，在撸起袖子解数学题之前，有必要先谈谈这场游戏的规则. 
 
@@ -690,7 +691,7 @@ $+_n(m)$ 和 $+(n, m)$ 之间的关系近似于函数式语言中柯里化的概
 	display: block;
 	width:300px;
 	margin-left:auto;
-  margin-right:auto;
+ 	 margin-right:auto;
 	text-align:center;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;

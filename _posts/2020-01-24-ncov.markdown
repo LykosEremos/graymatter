@@ -55,11 +55,11 @@ text-indent: initial;
 <p class='transl'>Protocol to screen for nCoV RdRP, E, N sequences via RT-qPCR from respiratory samples.</p></li>
 </ul>
 
-冠状病毒得名于其棘突（spike）状的包膜粒（peplomer）在电子显微镜下呈现出的冕状结构，组成这个结构的蛋白质由病毒基因组中的 S 基因编码。这种棘突会识别并结合寄主细胞表面的标志（“受体”）并触发病毒进入寄主细胞的过程。
+冠状病毒得名于其棘突（spike）状的包膜粒（peplomer）在电子显微镜下呈现出的冕状结构，组成这个结构的蛋白质由病毒基因组中的 S 基因编码. 这种棘突会识别并结合寄主细胞表面的标志（“受体”）并触发病毒进入寄主细胞的过程.
 
-血管紧张素II转化酶（ACE2）是2003年非典危机期间发现的与SARS-CoV结合的受体，血管紧张素I转化酶（ACE）的类似物。在正常生理功能中，ACE和ACE2都是名为肾素-血管紧张素的激素系统中的组成部分：ACE 会将血管紧张素I（Ang I）转化为生理活性很强的血管紧张素II（Ang II），而ACE2会将 Ang I 和 Ang II 分别转换为生理活性较弱的 Ang-(1-9) 和 Ang-(1-7)，起到制衡 ACE 的作用。在小鼠模型中，SARS-CoV 感染会下调 ACE2 的表达（Glowacka, 2010），而随之而来Ang II水平失调导致的水钠潴留和血管通透性变化可能会在病毒感染的症状之上加重肺部损伤。
+血管紧张素II转化酶（ACE2）是2003年非典危机期间发现的与SARS-CoV结合的受体，血管紧张素I转化酶（ACE）的类似物. 在正常生理功能中，ACE和ACE2都是名为肾素-血管紧张素的激素系统中的组成部分：ACE 会将血管紧张素I（Ang I）转化为生理活性很强的血管紧张素II（Ang II），而ACE2会将 Ang I 和 Ang II 分别转换为生理活性较弱的 Ang-(1-9) 和 Ang-(1-7)，起到制衡 ACE 的作用. 在小鼠模型中，SARS-CoV 感染会下调 ACE2 的表达（Glowacka, 2010），而随之而来Ang II水平失调导致的水钠潴留和血管通透性变化可能会在病毒感染的症状之上加重肺部损伤.
 
-nCoV 是否也会利用 ACE2 呢？下面这三则研究探索了这个问题.
+因此，我们有理由怀疑 nCoV 也会利用 ACE2.下面这三则研究探索了这个问题.
 <ul>
 <li>Dong et al. (Jan. 20th): <a href='https://www.biorxiv.org/content/10.1101/2020.01.20.913368v1.full.pdf'>Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China</a>，结构预测 nCoV 的 Spike 蛋白对 ACE2 的亲合性. 要点：nCoV 的 Spike 蛋白和 ACE2 的结合能力弱于 SARS-CoV、强于不具备人类感染性的蝙蝠 SARSr-CoV. 
 <p   class='transl'>The study conducts computational prediction of nCoV-Spike protein's affinity to ACE2, the cell surface protein utilized by SARS-CoV to enter host cells. The study predicts lower affinity of the nCoV-Spike to ACE2 than SARS but higher compared to bat SARSr-CoV that do not infect human.</p></li>
@@ -68,6 +68,13 @@ nCoV 是否也会利用 ACE2 呢？下面这三则研究探索了这个问题.
 </li>
 <li>Zhou et al. (Jan. 23rd): <a href='https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf'>Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>. 要点：对 nCoV 进行系统发生分析，发现其与蝙蝠 SARSr-CoV RaTG13（之前就是石正丽团队采集的，基因组直到最近才在GISAID上公开，所以这个结论只有这个组做得出来）的高度相似性，为其蝙蝠来源提供支持，且 RaTG13 和 nCoV 的 Symplot 展示了它并没有像CoVZC45 和 CoVZXC21（BLAST最近的两个结果）那样有和 nCoV 的序列同一度掉到沟里去的重组断点；并将其感染表达 ACE2 的细胞系后免疫荧光显微分析，确认对人、猪、蝙蝠、果子狸 ACE2 的利用，但无法利用小鼠的 ACE2. 
 <p  class='transl'>The study found support for the bat origin of nCoV via phylogenetic analysis and confirmed the necessity of ACE2 expression for nCoV's cell entry via microscopy. nCoV is able to utilize human, swine, bat, civet, but NOT mice ACE2. </p></li>
+
+<li>Chen & Du (Jan. 28th): <a href='https://www.preprints.org/manuscript/202001.0358/v1/download'>Potential Natural Compounds for Preventing 2019-nCoV Infection</a>.  通过分子模拟对接研究黄芩苷、灯盏花乙素、橙皮素、烟草胺、甘草酸等中草药中常见的植物化学物质与 ACE2 的结合能力. 这些分子被筛入研究的标准是因为有现成证据指出它们的抗病毒性，或是可作为 ACE 或 ACE2 的抑制剂. 首先，SARS-CoV-Spike 和 ACE2 结合的地方并不是 ACE2 活性位点，且比这些植物化学物质亲和力、结合特异性更强的人造 ACE2 抑制剂不能抑制 SARS-CoV 进入细胞，因此有理由怀疑 “ACE2抑制剂” 是否也能抑制 nCoV 进入细胞 (<a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1142572/'>Li et al. 2004</a>).  再次，因为我们已经知道 SARS-CoV-Spike 和 ACE2 结合的是哪几个残基，这个组完全可以让 Autodock 的盒子框住那几个残基的周围环境进行接合，再和全分子接合的结果对比，提供更多信息（这个组虽说有框选接合口袋，但做出来配体都在 collectrin 域，并不是和 SARS-CoV-Spike 结合的地方，所以不知道这个口袋是怎么选的）；而且在找出配体结合的残基之后，可以让找出来的那几个残基的自由旋转，探索其朝向对结合自由能的影响.
+<p  class='transl'> The group explored molecular docking between phytochemicals such as scutellarin, baicalin, hesperetin, nicotinamide, glycyrrhizin, and the human ACE2 receptor. These chemicals, common in traditional Chinese medicine, were chosen for their antiviral property or ability to inhibit ACE or ACE2 based on existing evidence. However, it is worth noting that SARS-CoV-Spike does not bind the active site of ACE2, so we have the reason to doubt that nCoV-Spike doesn't either; thus those chemicals included for being ACE2 inhibitors may not actually have an effect on viral action, especially when more potent artificial ACE2 inhibitors do not inhibit viral entry (<a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1142572/'>Li et al. 2004</a>). Also, the group could have investigated site-specific binding between ligand and the SARS-CoV-Spike binding domain on ACE2, and could have introduced more degrees of freedom by allowing residues interacting with the ligand to freely rotate after they are identified.
+ </p></li>
+
+
+
 </ul>
 <a name="病例和临床数据 Clinical studies"></a>
 <h1 class="hd">病例和临床数据 Clinical studies</h1>
@@ -105,7 +112,6 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 
 <p  class='transl'>The clinical study on nCoV with the largest sample size ($n=99$) thus far. Some key takeways are: amongst 99 patients hospitalized between Jan. 1st and 20th, 23% were admitted to ICU; as of Jan. 25th, 57 remain in hospital, 31 were discharged, 11 dead, 17 developed ARDS.</p>
 
-
 <li>(CN) <a href='http://med.china.com.cn/content/pid/157096/tid/1021'>国家卫生健康委公布17例新型肺炎死亡病例病情</a>，有详细的患者病史、健康状况和治疗过程的信息. 
 <p  class='transl'>Detailed record of 17 nCoV infection deaths that includes medical history, health status at hospitalization, and the treatment process.</p>
 </li>
@@ -137,7 +143,7 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 
 <li>Ji et al. (Jan. 22nd): <a href='https://onlinelibrary.wiley.com/doi/epdf/10.1002/jmv.25682'>Homologous recombination within the spike glycoprotein of the newly identified coronavirus 2019-nCoV may boostcross-species transmission from snake to human</a>，假设病毒和寄主的相对同义密码子使用度（RSCU<sup class="note-tag"><a href="#注" name="rscu">注</a></sup>）类似，通过计算每个密码子的 RSCU 作为特征进行聚类分析，指出蛇是 nCoV 的可能寄主. 这篇文章的研究方法在两个层面上是有缺陷或是错的：
 <ol>
-<li>从演化生物学的角度来说，如果要假设病毒和寄主的 RSCU 是匹配的，则必须举出充分证据证明（1a）nCoV 和蛇 RSCU 匹配的原因并不是漂变，（1b）存在迫使 nCoV 在密码子偏好上做出适应性改变的选择压力。因此，要证明 nCoV 在蛇的体内完成生活史的一部分（至少要在野蛇中采集到 nCoV），而这在现在是无法做到的.</li>
+<li>从演化生物学的角度来说，如果要假设病毒和寄主的 RSCU 是匹配的，则必须举出充分证据证明（1a）nCoV 和蛇 RSCU 匹配的原因并不是漂变，（1b）存在迫使 nCoV 在密码子偏好上做出适应性改变的选择压力. 因此，要证明 nCoV 在蛇的体内完成生活史的一部分（至少要在野蛇中采集到 nCoV），而这在现在是无法做到的.</li>
 <li>从生物信息学的角度来说，计算编码序列所编码的蛋白质的氨基酸组分，这些被采样的编码序列的整体核苷酸偏好和GC比例，甚至这些编码序列的长度都会影响到 RSCU 的计算，因此 RSCU 是一个非常糙的特征，不能依赖它来做聚类.</li>
 </ol>
 
@@ -151,7 +157,7 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 
 <div class="notes">
 <a name="注" href="#rscu">注 note</a>：
-取特定氨基酸 $aa$ ，编码 $aa$ 的（同义）密码子的集合为 $S(aa)$. 若 $aa$ 在基因组 $G$ 中的频数是 $n$，密码子 $s\in S(aa)$ 在 $G$ 中的频数为 $m$，那么 $RSCU(s, G)=\frac{m}{n/|S(aa)|}$。即 $s$ 的实际观测频数，与其在无使用偏好的假设下（$aa$ 的每个密码子都等概率被使用）的期望频数的比值.
+取特定氨基酸 $aa$ ，编码 $aa$ 的（同义）密码子的集合为 $S(aa)$. 若 $aa$ 在基因组 $G$ 中的频数是 $n$，密码子 $s\in S(aa)$ 在 $G$ 中的频数为 $m$，那么 $RSCU(s, G)=\frac{m}{n/|S(aa)|}$. 即 $s$ 的实际观测频数，与其在无使用偏好的假设下（$aa$ 的每个密码子都等概率被使用）的期望频数的比值.
 <p  class='transl'>For any amino acid $aa$ and let $S(aa)$ denote the set of the (synonymous) codons that encode it. If $n$ is the count of $aa$ in genome $G$, and $m$ is the count of a certain codon $s\in S(aa)$ in $G$, then $RSCU(s, G)=\frac{m}{n/|S(aa)|}$, which is the ratio between observed $s$ counts and the expected $s$ count (assuming all codons of $aa$ are equally likely used).
 </p>
 </div>
@@ -170,8 +176,10 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 </li>
 
 <li>Chen et al. (Jan. 29th): <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30251-8/fulltext'>Genomic characterisation and epidemiology of 2019 novel
-coronavirus: implications for virus origins and receptor binding</a>，比较了从九位患者（其中 8 位和海鲜市场有接触历史）的气道上皮细胞提取的 nCoV 样本的全基因组信息，所观察到的高样本间序列同一率与本节中其他的研究结果一致.</li>
+coronavirus: implications for virus origins and receptor binding</a>，比较了从九位患者（其中 8 位和海鲜市场有接触历史）的气道上皮细胞提取的 nCoV 样本的全基因组信息，所观察到的高样本间序列同一率与本节中其他的研究结果一致.
 <p class='transl'>The study compared viral genomes sampled from airway epithelia of 9 patients (8 of whom had exposure to the seafood market). The high sequence identity of all 9 samples agrees with other analyses in this section.</p>
+</li>
+
 </ul>
 
 <a name="流行病学参数预测 Modeling of epidemiological parameters">
@@ -229,10 +237,9 @@ $$
 \end{align}
 $$
 
-这就是 SEIR 模型的推导.
+这就是 SEIR 模型的推导. 因为这个方程组没有显式解，有了这个模型以后，可以用最小二乘法或者最大似然法等惯用拟合技巧，得出各个参数的估计.
 
 <p>An description of the SEIR model in English can be found <a href='https://sites.me.ucsb.edu/~moehlis/APC514/tutorials/tutorial_seasonal/node4.html'>here.</a></p>
-
 </div>
 
 
@@ -260,5 +267,4 @@ $$
 <li>Cao et al. (Jan. 29th): <a href='https://www.medrxiv.org/content/10.1101/2020.01.27.20018952v1.full.pdf'>Estimating the effective reproduction number of the 2019-nCoV in China</a> 利用 SEIRDC 模型（SEIR的变体，加入了死亡 $D$ 和总例 $C$ 两个变量），给出 6.50% 的死亡率估计.
 <p class='transl'>The study uses SEIRDC modeling (a SEIR variant that includes additionally death $D$ and cumulative cases $C$ as compartments) to give an estimate of fatality of 6.50%.</p></li>
 </ul>
-
 

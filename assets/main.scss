@@ -156,6 +156,11 @@ h3 {
 	font-weight: bold;
 }
 
+.ending {
+	display: inline;
+	color: $lk-col;
+}
+
 .theorem-macro {
 	counter-increment: theorem;
 	counter-reset: corollary;
@@ -166,6 +171,15 @@ h3 {
 	justify-content: left;
 	margin-top: 0.75em;
 	margin-bottom: 0.75em;
+	overflow-x: scroll;
+}
+
+
+.theorem-macro::-webkit-scrollbar {
+	width: 6px;
+}
+.theorem-macro::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
 }
 
 .theorem-macro ol {
@@ -252,7 +266,15 @@ h3 {
 	padding: 0.8em 0.8em 0.8em 0.8em;
 	margin-top: 0.75em;
 	margin-bottom: 0.75em;
+	overflow-x: scroll;
 }
+.definition::-webkit-scrollbar {
+	width: 6px;
+}
+.definition::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
 
 
 .definition ol {
@@ -282,6 +304,13 @@ h3 {
 	background: $bx-col;
 	padding: 1em 1em 1em 1em;
 	margin-bottom: 0.5em;
+	overflow-x: scroll;
+}
+.axiom::-webkit-scrollbar {
+	width: 6px;
+}
+.axiom::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
 }
 
 .axiom::before {
@@ -296,6 +325,13 @@ h3 {
 	background: #2d2d2d;
 	text-indent: 0em;
 	margin-bottom: 0.5em;
+	overflow-x: scroll;
+}
+.notes::-webkit-scrollbar {
+	width: 6px;
+}
+.notes::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
 }
 blockquote{
 	font-style: normal;
@@ -307,6 +343,18 @@ blockquote{
 	font-size: 0.6em;
 	padding-left: 0.2em;
 	color: gray;
+}
+
+.table-container{
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.table-container::-webkit-scrollbar {
+	width: 6px;
+}
+.table-container::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
 }
 
 //hyperlink
