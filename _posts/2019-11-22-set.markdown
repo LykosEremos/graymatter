@@ -691,7 +691,7 @@ $+_n(m)$ 和 $+(n, m)$ 之间的关系近似于函数式语言中柯里化的概
 	display: block;
 	width:300px;
 	margin-left:auto;
- 	 margin-right:auto;
+ 	margin-right:auto;
 	text-align:center;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;

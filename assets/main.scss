@@ -148,6 +148,60 @@ h3 {
 	margin-top: 1.4em;
 }
 
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	display: block;
+	text-align:center;
+	width: 90%;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left:auto;
+	margin-right:auto;
+	overflow-x: scroll;
+}
+
+
+.tg::-webkit-scrollbar {
+	width: 6px;
+}
+.tg::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+.tg td{
+	font-size:14px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#484848;
+}
+.tg th{
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#484848;
+}
+.tg .cell-no
+{
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top
+}
+.tg .cell-yes
+{
+	border-color:inherit;
+	background-color:#3f3f3f;
+	text-align:left;
+	vertical-align:top
+}
+
+
 //math environments
 
 .concept {

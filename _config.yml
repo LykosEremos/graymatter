@@ -23,12 +23,16 @@ github_username: LykosEremos
 permalink: /:year/:month/:day/:title
 # Build settings
 markdown: kramdown
+kramdown:
+  smart_quotes:  ["apos", "apos", "ldquo", "rdquo"]
 theme: minima
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
 
 gems:
   - jekyll-seo-tag

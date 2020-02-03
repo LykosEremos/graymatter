@@ -71,7 +71,11 @@ text-indent: initial;
 
 <li>Chen & Du (Jan. 28th): <a href='https://www.preprints.org/manuscript/202001.0358/v1/download'>Potential Natural Compounds for Preventing 2019-nCoV Infection</a>.  通过分子模拟对接研究黄芩苷、灯盏花乙素、橙皮素、烟草胺、甘草酸等中草药中常见的植物化学物质与 ACE2 的结合能力. 这些分子被筛入研究的标准是因为有现成证据指出它们的抗病毒性，或是可作为 ACE 或 ACE2 的抑制剂. 首先，SARS-CoV-Spike 和 ACE2 结合的地方并不是 ACE2 活性位点，且比这些植物化学物质亲和力、结合特异性更强的人造 ACE2 抑制剂不能抑制 SARS-CoV 进入细胞，因此有理由怀疑 “ACE2抑制剂” 是否也能抑制 nCoV 进入细胞 (<a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1142572/'>Li et al. 2004</a>).  再次，因为我们已经知道 SARS-CoV-Spike 和 ACE2 结合的是哪几个残基，这个组完全可以让 Autodock 的盒子框住那几个残基的周围环境进行接合，再和全分子接合的结果对比，提供更多信息（这个组虽说有框选接合口袋，但做出来配体都在 collectrin 域，并不是和 SARS-CoV-Spike 结合的地方，所以不知道这个口袋是怎么选的）；而且在找出配体结合的残基之后，可以让找出来的那几个残基的自由旋转，探索其朝向对结合自由能的影响.
 <p  class='transl'> The group explored molecular docking between phytochemicals such as scutellarin, baicalin, hesperetin, nicotinamide, glycyrrhizin, and the human ACE2 receptor. These chemicals, common in traditional Chinese medicine, were chosen for their antiviral property or ability to inhibit ACE or ACE2 based on existing evidence. However, it is worth noting that SARS-CoV-Spike does not bind the active site of ACE2, so we have the reason to doubt that nCoV-Spike doesn't either; thus those chemicals included for being ACE2 inhibitors may not actually have an effect on viral action, especially when more potent artificial ACE2 inhibitors do not inhibit viral entry (<a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1142572/'>Li et al. 2004</a>). Also, the group could have investigated site-specific binding between ligand and the SARS-CoV-Spike binding domain on ACE2, and could have introduced more degrees of freedom by allowing residues interacting with the ligand to freely rotate after they are identified.
- </p></li>
+ </p>
+ 
+ <li>Hoffmann et al. (Jan. 31rd): <a href='https://www.biorxiv.org/content/10.1101/2020.01.31.929042v1.full.pdf'>The novel coronavirus 2019 (2019-nCoV) uses the SARS-coronavirus receptor ACE2 and the cellular protease TMPRSS2 for entry into target cells</a>，用假病毒实验印证了 ACE2 对 nCoV 的细胞侵入是必要的. 通过选择性抑制组织蛋白酶 B/L（SARS-CoV 需要依赖这个酶加工而激活 S 蛋白的功能）或者丝氨酸蛋白酶 TMPRSS2，揭示了这两个酶都可以被 nCoV 利用，且 TMPRSS2 是必须的.
+<p  class='transl'>The study confirms that ACE2 is needed for cell entry by nCoV,  that the nCoV-Spike can be primed by both TMPRSS2 and catB/L on the cell membrane, and that TMPRSS2 is essential for nCoV cell entry. </p></li>
+ </li>
 
 
 
@@ -109,7 +113,8 @@ ARDS as defined by the Berlin definition consists of four clinocal characterizat
 </li>
 
 <li>Chen et al. (Jan. 29th): <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext'>Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</a>，一月 1 日到 20 日之间入院治疗的患者（$n=99$）的临床特征，是目前样本最大的 nCoV 临床研究. 在肯定 Huang et al. (Jan. 24th) 的数据的基础上，有以下要点：99位患者有一半（49%）与华南海鲜市场有长期接触历史（2）ICU 入住率 23%；截止25日，57 位患者留院，31 位患者出院，11 位患者死亡，17 位发展ARDS.
-<p  class='transl'>The clinical study on nCoV with the largest sample size ($n=99$) thus far. Some key takeways are: amongst 99 patients hospitalized between Jan. 1st and 20th, 23% were admitted to ICU; as of Jan. 25th, 57 remain in hospital, 31 were discharged, 11 dead, 17 developed ARDS.</p>
+
+<p class='transl'>The clinical study on nCoV with the largest sample size ($n=99$) thus far. Some key takeways are: amongst 99 patients hospitalized between Jan. 1st and 20th, 23% were admitted to ICU; as of Jan. 25th, 57 remain in hospital, 31 were discharged, 11 dead, 17 developed ARDS.</p>
 </li>
 
 <li>(CN) <a href='http://med.china.com.cn/content/pid/157096/tid/1021'>国家卫生健康委公布17例新型肺炎死亡病例病情</a>，有详细的患者病史、健康状况和治疗过程的信息. 
@@ -266,5 +271,10 @@ $$
 
 <li>Cao et al. (Jan. 29th): <a href='https://www.medrxiv.org/content/10.1101/2020.01.27.20018952v1.full.pdf'>Estimating the effective reproduction number of the 2019-nCoV in China</a> 利用 SEIRDC 模型（SEIR的变体，加入了死亡 $D$ 和总例 $C$ 两个变量），给出 6.50% 的死亡率估计.
 <p class='transl'>The study uses SEIRDC modeling (a SEIR variant that includes additionally death $D$ and cumulative cases $C$ as compartments) to give an estimate of fatality of 6.50%.</p></li>
+
+<li>Wu et al. (Jan. 31th): <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30260-9/fulltext'>Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study</a> 通过 SEIR 集合种群模型估计武汉的疫情大小，再将输出的病例数量作为一个非齐次泊松过程建模，用 MCMC 计算的后验期望作为 $R_0$ 估计，得出截止1月25日武汉有 75,815 (95% CI 37,304-130,330)  人被感染，$R_0$=2.68 (95% CI: 2·47-2.86).
+
+
+<p class='transl'>The study uses SEIR to model the outbreak size in Wuhan and treated exported cases as if coming from a nonhomogeneous Poisson process. It was estimated that 75,815 (95% CI 37,304-130,330) people in Wuhan were infected as of Jan. 25th and $R_0=2.68$  (95% CI: 2·47-2.86, MCMC posterior mean).</p></li>
 </ul>
 
