@@ -489,7 +489,7 @@ blockquote{
 	position: fixed;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
 	top: 6em;
-	left: -230px;
+	left: -250px;
 	bottom: 4em;
 	width: 200px;
 	padding: 1em;
@@ -856,7 +856,7 @@ img {
 
 
 .btn{
-		background-image: url("gray.png");
+		background-image: url("ts.png");
 		background-position: center;
 		background-size: cover;
 		display: block;
@@ -870,7 +870,6 @@ img {
 		margin-bottom: auto;
 		z-index: 1;
 		&:hover {
-			background-image: url("ts.png");
 			cursor: pointer;
 		}
 }
