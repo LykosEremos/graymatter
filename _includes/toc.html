@@ -1,0 +1,68 @@
+<div id="toc"></div>
+<script>
+		var h1c = document.getElementsByClassName("hd");
+		var str = "";
+		var ifnested = false;
+		for (i=0;i<h1c.length;i++)
+		{
+      if(ifnested)
+      {
+        if(h1c[i].tagName==="H1")
+        {
+          ifnested=false;
+          str+="<a class=\"toch1\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a>";
+        }
+		else if(h1c[i].tagName==="H2")
+    {
+      str+="<a class=\"toch2\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a>";
+		}
+		}
+
+		else
+		{
+		if(h1c[i].tagName==="H1")
+		{
+		str+="<a class=\"toch1\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a>";
+		}
+		else if(h1c[i].tagName==="H2")
+		{
+		ifnested=true;
+		str+="<a class=\"toch2\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a>";
+		}
+		}
+		}
+		if(str===""){document.getElementById("toc").innerHTML ="<div style=\"font-size: 0.8em;\">（本文没有内部分节）<\/div>";}
+		else{
+      document.getElementById("toc").innerHTML =str;
+    }
+		</script>
+		<script>
+		function toggle_toc()
+		{
+		var tgButton=document.getElementById('tg-button');
+		var tgMenu=document.getElementById('tg-menu');
+
+		if (window.innerWidth < 1050)
+		{
+		if (tgMenu.style.display === 'block') {
+		      tgMenu.style.display = 'none';
+		      tgButton.style.opacity = 0.15;
+		  } else {
+		      tgMenu.style.display = 'block';
+		      tgButton.style.opacity = 1;
+		  }
+		}
+
+		else
+		{
+		if (tgMenu.style.display === 'block') {
+		      tgMenu.style.display = 'none';
+		      tgButton.style.opacity = 0.75;
+		  } else {
+		      tgMenu.style.display = 'block';
+		      tgButton.style.opacity = 1;
+		  }
+		}
+
+		}
+		</script>

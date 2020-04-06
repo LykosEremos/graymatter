@@ -1,0 +1,921 @@
+---
+---
+
+@charset "utf-8";
+@import "minima";
+
+$bg-col: #272727;
+$lk-col: #5eb5ed;
+$lk-hov-col: #5eb5ed;
+$lk-vst-col: #5eb5ed;
+$tx-col: whitesmoke;
+$bx-col: #303030;
+$em-col: #eda15e;
+$nv-col: rgba(49, 49, 49, 0.6);
+$demph-col: #a3a3a3;
+$menu-col: #313131;
+
+html {
+	position: relative;
+	min-height: 100%;
+	overflow-y: scroll;
+	background-color: $bg-col;
+	font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC";
+}
+
+.site-title {
+		position: relative;
+}
+
+.home {
+	height: 100%;
+	background: url("amoya.png");
+	background-position: center;
+	background-size: cover;
+	background-color: $bg-col;
+}
+
+.hippo {
+	min-height: 100%;
+	background-image: url("hippo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dentgyr {
+	min-height: 100%;
+	background-image: url("dentgyr.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about {
+	min-height: 100%;
+	background-image: url("about.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	margin-top: 5em;
+	counter-reset: h1counter;
+	margin-bottom: 7em;
+	-webkit-font-smoothing: antialiased;
+	color: $tx-col;
+	font-size: 0.9em;
+	counter-reset: definition;
+	counter-reset: theorem;
+	counter-reset: lemma;
+	counter-reset: axiom;
+	counter-reset: figcounter;
+	background-color: transparent;
+	font-family: 'Arial', "Microsoft YaHei", "微软雅黑", "PingFang SC";
+
+}
+
+@font-face {
+	font-family: serif;
+	src: local("Microsoft YaHei");
+	unicode-range: U+0020-201B, U+201E-FFFF;
+	font-size: 1em;
+}
+
+.maintext {
+	line-height: 165%;
+	text-indent: 0px;
+	font-size: 15px;
+	letter-spacing: 0.005em;
+	font-weight: lighter;
+	font-family: 'Arial',"PingFang SC","Microsoft YaHei", "微软雅黑";
+}
+
+.quote {
+	border-left: 5px solid $em-col;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+ol li {
+	padding-left: 0.5em;
+}
+
+
+a:link{
+  color:$lk-col;
+}
+a:visited{
+  color:$lk-vst-col;;
+}
+a:hover{
+	text-decoration: none;
+  color:$lk-hov-col;
+}
+a:visited:hover{
+  color:$lk-hov-col;
+}
+
+
+
+p {
+	text-indent: 2em;
+}
+
+i {
+	font-family: "Times New Roman";
+	font-style: italic;
+}
+
+h1 {
+	counter-increment: h1counter;
+	font-size: 1.6em;
+	font-weight: bold;
+	counter-reset: h2counter;
+	margin-top: 1.4em;
+	margin-bottom: 1em;
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+
+}
+
+h1:nth-child(2) {
+	margin-top: 0em;
+}
+
+h2 {
+	counter-increment: h2counter;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-top: 1.4em;
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+}
+
+h1:before {
+	content: counter(h1counter) ".\0000a0\0000a0 ";
+}
+h2:before {
+	content: counter(h1counter) "." counter(h2counter) ".\0000a0\0000a0 ";
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 1.4em;
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	}
+
+
+.tg  {
+	border-collapse:collapse;
+	font-size: 1em;
+	border-spacing:0;
+	max-width: 100%;
+	display: flex;
+	margin-bottom: 0.25em;
+	overflow-x: scroll;
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	&::before ,
+    &::after {
+      content:'';
+      flex:1;
+    }
+}
+
+.fig {
+	padding: 0.7em;
+	font-size: 0.9em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:1em;
+	margin-top: 0.25em;
+	display: block;
+	justify-content: center;
+	background-color: $bx-col;
+}
+
+
+
+
+.fig:before {
+	counter-increment: figcounter;
+	content: "Fig " counter(figcounter) '. \00a0';
+	font-weight: bold;
+	font-style: normal;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto
+}
+.tg::-webkit-scrollbar {
+	width: 6px;
+}
+.tg::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+.tg td{
+	font-size: 0.95em;
+	padding:4px 6px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#7a7a7a;
+}
+.tg th{
+	font-weight:bold;
+	padding:4px 6px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#7a7a7a;
+}
+.tg .cell-no
+{
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top
+}
+.tg .cell-yes
+{
+	border-color:inherit;
+	background-color:#3f3f3f;
+	text-align:left;
+	vertical-align:top
+}
+
+
+//math environments
+
+.concept {
+	display: inline;
+	color: $em-col;
+	font-weight: bolder;
+}
+
+.cn {
+	font-style: normal;
+	border-bottom: 1.5px dotted whitesmoke;
+	padding-bottom: 2px;
+}
+
+.ending {
+	display: inline;
+	color: $lk-col;
+}
+
+.theorem-macro {
+	counter-increment: theorem;
+	counter-reset: corollary;
+	display: block;
+	padding: 0.8em 0.8em 0.8em 0.8em;
+	font-size: 0.9em;
+	background-color: $bx-col;
+	justify-content: left;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+	overflow-x: scroll;
+}
+
+
+.theorem-macro::-webkit-scrollbar {
+	width: 6px;
+}
+.theorem-macro::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
+.theorem-macro ol {
+	margin-left: 2em;
+}
+
+.theorem {
+	cursor: pointer;
+	display: block;
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+	padding-bottom: 1em;
+	margin-bottom: 0.5em;
+	border-bottom: 3.5px dotted #414141;
+}
+
+.theorem:before {
+	content: "定理 " counter(theorem) ". ";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.corollary:before {
+	content: "结论 " counter(theorem) "." counter(corollary) ". ";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.corollary {
+	counter-increment: corollary;
+	display: inline;
+}
+
+.toggle-hint {
+	font-style: italic;
+	color:darken($tx-col, 50%);
+}
+
+.toggle-proof {
+	cursor: pointer;
+	text-align: left;
+	position: relative;
+	margin-right: 0;
+	color: $tx-col;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	transition: 0.35s;
+	&::after {
+		content: "\276F";
+		font-size: 15px;
+		display: inline;
+		text-align: left;
+		font-family: inherit;
+	}
+}
+.proof {
+	margin-top: 1em;
+	display: none;
+}
+
+.proof p {
+	text-indent: 0px;
+}
+
+.proof::before {
+	content: "证明. ";
+	font-style: italic;
+}
+
+.lemma {
+	display: block;
+	margin: 12px 0;
+	margin-left: 3em;
+	& ::before {
+		content: "引理.";
+		font-weight: bold;
+		font-style: normal;
+	}
+}
+
+.definition {
+	counter-increment: definition;
+	display: block;
+	font-size: 0.9em;
+	background: $bx-col;
+	padding: 0.8em 0.8em 0.8em 0.8em;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+	overflow-x: scroll;
+}
+.definition::-webkit-scrollbar {
+	width: 6px;
+}
+.definition::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
+
+
+.definition ol {
+	margin-left: 2em;
+}
+
+.suggest {
+	counter-increment: definition;
+	display: block;
+	font-size: 0.9em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	background: #055e1d;
+	padding: 1em 1em 1em 1em;
+	margin-bottom: 1em;
+}
+
+.definition::before {
+	content: "定义 " counter(definition) ". ";
+	font-weight: bold;
+}
+
+.axiom {
+	counter-increment: axiom;
+	display: block;
+	font-size: 0.9em;
+	background: $bx-col;
+	padding: 1em 1em 1em 1em;
+	margin-bottom: 0.5em;
+	overflow-x: scroll;
+}
+.axiom::-webkit-scrollbar {
+	width: 6px;
+}
+.axiom::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
+.axiom::before {
+	content: "公理 " counter(axiom) ". ";
+	font-weight: bold;
+}
+
+.notes {
+	font-size: 0.8em;
+	padding: 1em;
+	line-height: 200%;
+	background: $bx-col;
+	text-indent: 0em;
+	border-left: 5px solid #219897;
+	margin: 1em 0;
+	overflow-x: scroll;
+}
+.notes::-webkit-scrollbar {
+	width: 6px;
+}
+.notes::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
+.key {
+	font-size: inherit;
+	border-left: 5px solid #f9d276;
+}
+
+blockquote{
+	font-size: 1em;
+	color: $tx-col;
+}
+
+
+.note-tag {
+	font-size: 0.7em;
+}
+.note-tag a {
+	color: #219897;
+}
+
+
+
+//hyperlink
+
+.post-link a {
+	color: $lk-col;
+}
+
+.post-link a:hover {
+	color: $lk-hov-col;
+	text-decoration: none;
+}
+
+.maintext a:hover {
+	color: $lk-hov-col;
+	text-decoration: none;
+}
+
+//header and footer
+
+.side-bar{
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	position: fixed;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
+	top: 6em;
+	left: -230px;
+	bottom: 4em;
+	width: 200px;
+	padding: 1em;
+	font-size: 1.2em;
+	margin-right: 50px;
+	background-color: $menu-col;
+	overflow-y: auto;
+	z-index: 2;
+	transition: transform 0.5s ease-in-out;
+	counter-reset: toch1counter;
+
+	a {
+		color: $tx-col;
+	}
+	a:hover{
+		color: $lk-hov-col;
+	}
+	a:visited:hover{
+		color: $tx-col;
+	}
+	a:visited:hover{
+		color: $lk-hov-col;
+	}
+}
+
+.side-bar::-webkit-scrollbar {
+	width: 6px;
+}
+.side-bar::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
+#site-icon{
+	float: left;
+	margin-top: 0.6em;
+	margin-right: 0.5em;
+	width: 1.0em;
+	height: 1.0em;
+}
+
+.site-title{
+	margin-left: 0.5em;
+	float: left;
+}
+
+.header-mobile{
+	position: relative;
+}
+
+.header-button {
+	padding-top: 1.09em;
+	padding-bottom: 1.15em;
+	position: relative;
+	z-index: 3;
+	cursor: pointer;
+}
+
+.header-menu {
+	padding: 0.3em;
+	top: 3.5em;
+	right: -50%;
+	font-size: 1.1em;
+	display: none;
+	position: absolute;
+	color: $tx-col;
+	background-color: rgb(54, 54, 54);
+	min-width: 6em;
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
+	z-index: 4;
+}
+
+.site-header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	padding-top: 0.5em;
+	height: 4em;
+	border-bottom: 0px solid #ebebeb;
+	width: 100%;
+	background: $nv-col;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	padding: 10px;
+	a {
+		color: #aa8888;
+	}
+}
+
+.site-footer {
+	position: absolute;
+	border-top: 0px;
+	bottom: 0;
+	min-height: 1em;
+	width: 100%;
+	background: $nv-col;
+}
+
+.navbar-wrapper {
+	position:relative;
+	margin-right: auto;
+	text-align: justify;
+	margin-left: auto;
+	color: white;
+	font-size: 0.9em;
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+}
+
+/** article page content */
+.post-list {
+	line-height: 175%;
+}
+.post-header {
+	margin-bottom: 30px;
+	line-height: 300%;
+}
+.page-heading {
+	font-size: 2.1em;
+	color: $lk-col;
+}
+.post-list-title {
+	font-size: 2em;
+}
+
+.post-meta {
+	font-size: 0.9em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	font-family: Arial,"PingFang SC","Microsoft YaHei", "微软雅黑";
+	color: $demph-col;
+}
+
+.post-title {
+	font-family: "微软雅黑", "SimHei";
+	font-size: 2em;
+	color: #f3f3f3;
+}
+
+.post-nav {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+.post-nav a {
+  color: $tx-col;
+}
+
+.post-nav .next {
+  text-align: right;
+	float: right;
+}
+
+.post-nav .prev {
+  text-align: left;
+	float: left;
+}
+
+.nav-box{
+	display: block;
+	padding: 2em;
+	font-size: 0.9em;
+	background-color: $bx-col;
+	justify-content: left;
+	margin-top: 3em;
+
+}
+
+//cosmetics
+
+.title-box{
+	width: 50%;
+	position: absolute;
+}
+
+.home body {
+	background-color: none;
+}
+
+
+//floating toc
+.table-of-contents {
+
+	margin: 5em;
+	padding-top: 0.5em;
+	border-top: 3px solid #227c41;
+	max-width: 10em;
+	display: inline-block;
+	float:left;
+}
+
+.toch1 {
+	display: block;
+	float: left;
+	clear: left;
+	margin-top: 0.5em;
+	counter-reset: toch2counter;
+}
+.toch2 {
+	display: block;
+	float: left;
+	clear: left;
+	margin-top: 0.5em;
+	font-size: 0.75em;
+}
+
+.toch1:before {
+	content: counter(toch1counter) ".\0000a0\0000a0";
+	counter-increment: toch1counter;
+}
+.toch2:before {
+	content: "\00a0\00a0"counter(toch1counter) "." counter(toch2counter) ".\0000a0\0000a0";
+	counter-increment: toch2counter;
+}
+
+.dropdown {
+	display: block;
+	position: fixed;
+	bottom: 15%;
+	left: 85%;
+	z-index: 2;
+
+}
+
+.dropdown-button {
+	background-color: $nv-col;
+	color: white;
+	opacity: 75%;
+	border-radius: 10%;
+	padding: 6px 6px 6px 6px;
+	border: none;
+	position: relative;
+	z-index:2;
+	cursor: pointer;
+	font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC";
+}
+
+.dropdown-menu {
+	top:-295px;
+	right: -8px;
+	padding: 1em;
+	font-size: 1.3em;
+	position: absolute;
+	display: none;
+	background-color: $menu-col;
+	min-width: 12.5em;
+	min-height: 15em;
+	max-height: 60%;
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
+	overflow-y: scroll;
+	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+
+.dropdown-menu::-webkit-scrollbar {
+	width: 6px;
+}
+.dropdown-menu::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imgcontainer {
+	white-space:nowrap;
+	overflow-x: scroll;
+}
+
+.imgcontainer::-webkit-scrollbar {
+  width: 4px;
+}
+
+.imgcontainer::-webkit-scrollbar-thumb {
+  background: #939393;
+}
+
+.bar-div {
+	width: 15px;
+	height: 3px;
+	background-color: $tx-col;
+	margin: 3px;
+}
+
+.navigation {
+	float: right;
+	line-height: 56px;
+}
+.navigation .page-link {
+	color: #e8e8e8;
+	text-align: justify;
+	line-height: 1.5em;
+	font-size: 1.1em;
+	font-weight: 300;
+	margin-left: 20px;
+}
+
+.navigation .page-link:hover {
+	text-decoration: none;
+}
+
+.navigation ul {
+	text-align: justify;
+	font-size: 1.1em;
+	font-weight: 300;
+	list-style: none;
+	line-height: 2em;
+	margin-left: 15px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.navigation ul a {
+	color: #e8e8e8;
+}
+
+.navigation ul a:hover {
+	text-decoration: none;
+}
+
+.citation {
+	list-style-type: none;
+	line-height: 150%;
+}
+.citation li {
+	text-indent: -2em;
+	margin-bottom: 1em;
+}
+
+.citation li a {
+	color: $lk-col;
+}
+
+.citation a:hover {
+	color: $lk-hov-col;
+	text-decoration: none;
+}
+
+.home p {
+	max-width: 650px;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	line-height: 180%;
+	font-size: 1em;
+}
+
+.normal {
+	display: block;
+}
+
+.mobile {
+	display: none;
+}
+
+.pagination {
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+
+
+.btn{
+		background-image: url("gray.png");
+		background-position: center;
+		background-size: cover;
+		display: block;
+		width: 90px;
+		height: 90px;
+		transition: all ease 0.2s;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20em;
+		margin-bottom: auto;
+		z-index: 1;
+		&:hover {
+			background-image: url("ts.png");
+			cursor: pointer;
+		}
+}
+
+
+
+
+
+/*-webkit-calc(1000px - (30px * 2)); max-width: calc(1000px - (30px * 2))*/
+
+.wrapper {
+	max-width: -webkit-calc(900px - (30px * 2));
+	max-width: calc(900px - (30px * 2));
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC";
+	color: white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	#des {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 800px){
+	.wrapper {
+		max-width: -webkit-calc(800px - (30px));
+		max-width: calc(800px - (30px));
+		margin-left: auto;
+		margin-right:auto;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.normal {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+}

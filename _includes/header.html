@@ -1,0 +1,44 @@
+<header class="site-header" role="banner">
+<div class="wrapper">
+    <a class="site-title" style='color: whitesmoke;' href="{{ "/" | relative_url}}">
+      <img id='site-icon' src="{{site.baseurl}}/assets/gray.png"">
+      {{ site.title | escape }}</a>
+
+    <nav class="navigation">
+    <div class="normal">
+
+      <a class="page-link" href="{{site.baseurl}}/about">前额叶</a>
+      <a class="page-link" href="{{site.baseurl}}/hippocampus">海马体</a>
+      <a class="page-link" href="{{site.baseurl}}/dentgyr">齿状回</a>
+    </div>
+  <div class="mobile">
+    <div class ='header-mobile'>
+    <div class="header-button" onclick="toggleHd()"><div class="bar-div"></div><div class="bar-div"></div><div class="bar-div"></div></div>
+    <div class="header-menu" id="hd-menu">
+	<ul>
+        <li><a href="{{site.baseurl}}/about">前额叶</a><li>
+        <li><a href="{{site.baseurl}}/hippocampus">海马体</a></li>
+        <li><a href="{{site.baseurl}}/dentgyr">齿状回</a></li>
+	</ul>
+
+    </div>
+	</div>
+    </div>
+</nav>
+
+  </div>
+
+   <script>
+function toggleHd()
+{
+var menu=document.getElementById('hd-menu');
+
+    if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}
+</script>
+
+</header>

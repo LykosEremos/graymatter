@@ -1,0 +1,150 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+		<!-- <div class="table-of-contents">
+</div> -->
+
+
+<div class='side-bar' id = 'tgMenu'>
+	<div id="toc"></div>
+</div>
+
+
+		<div class="page-heading" style="font-weight:300;margin-bottom:0.1em;">
+			<a href="{{ site.baseurl }}/hippocampus" style="color:#828282;">海马体 /</a>
+
+		</div>
+
+		<header class="post-header">
+			<div class="post-title" itemprop="name headline">
+				{{ page.title | escape }}
+			</div>
+			<div class="post-meta">
+				首发于 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+				{% if page.modified %}，最后修改于 {{ page.modified | date: "%b %-d, %Y" }}{% endif %}
+
+			</div>
+		</header>
+
+
+		<div class="dropdown">
+					<button class="dropdown-button" id="tg-button" onclick="toggle_toc()">
+					<div class='bar-div'></div>
+					<div class='bar-div'></div>
+					<div class='bar-div'></div></button>
+					<div class="dropdown-menu" id="tg-menu">
+						<div id="toc"></div>
+					</div>
+				</div>
+
+
+
+		<div class="maintext" itemprop="articleBody">
+			{{ content }}
+<div class = 'nav-box'>
+			{% if page.previous.url %}
+			<div class="post-nav">
+				<a class="prev" href="{{ site.baseurl }}/{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+					</div>
+			{% endif %}
+	  {% if page.next.url %}
+		<div class="post-nav">
+	    <a class="next" href="{{ site.baseurl }}/{{page.next.url}}">{{page.next.title}} &raquo;</a>
+				</div>
+	  {% endif %}
+
+		</div>
+				</div>
+
+
+
+		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+		MathJax.Hub.Config({
+		   tex2jax: {
+		     inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+		     processEscapes: true
+		   }
+		 });
+
+		</script>
+		<script>
+		var coll = document.getElementsByClassName("theorem");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function() {
+		  this.classList.toggle("active");
+		  var content = this.nextElementSibling;
+		  if (content.style.display === "block") {
+		   // this.style.webkitTransform = 'rotate(0deg)';
+			 	this.style.borderBottom = "2px solid #414141;"
+		    content.style.display = "none";
+		  } else {
+		   // this.style.webkitTransform = 'rotate(90deg)';
+			 	this.style.borderBottom = "2px solid #606060;"
+		    content.style.display = "block";
+		  }
+		});
+		}
+		</script>
+		<script>
+				var h1c = document.getElementsByClassName("hd");
+				var str = "";
+				var ifnested = false;
+				for (i=0;i<h1c.length;i++)
+				{
+					if(ifnested)
+					{
+						if(h1c[i].tagName==="H1")
+						{
+							ifnested=false;
+							str+="<a class=\"toch1\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a> \n";
+						}
+				else if(h1c[i].tagName==="H2")
+				{
+					str+="<a class=\"toch2\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a> \n";
+				}
+				}
+
+				else
+				{
+				if(h1c[i].tagName==="H1")
+				{
+				str+="<a class=\"toch1\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a> \n";
+				}
+				else if(h1c[i].tagName==="H2")
+				{
+				ifnested=true;
+				str+="<a class=\"toch2\" href=\"#"+h1c[i].innerHTML+"\">"+h1c[i].innerHTML+"<\/a> \n";
+				}
+				}
+				}
+				if(str===""){document.getElementById("toc").innerHTML ="<div style=\"font-size: 0.8em;\">（本文没有内部分节）<\/div>";
+				}
+				else{
+					document.getElementById("toc").innerHTML =str;
+
+				}
+				</script>
+				<script>
+				function toggle_toc()
+				{
+				var tgButton=document.getElementById('tg-button');
+				var tgMenu=document.getElementById('tgMenu');
+
+				if (tgButton.style.opacity == 0.15) {
+							tgMenu.style.WebkitTransform = "translateX(-100%)";
+							tgButton.style.opacity = 0.75;
+					} else {
+							tgMenu.style.WebkitTransform = "translateX(100%)";
+							tgButton.style.opacity = 0.15;
+					}
+
+
+				}
+				</script>
+
+    {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+	</article>
+</body>
