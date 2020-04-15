@@ -3,8 +3,6 @@ title:  "鱼市考察（02）"
 date:   2011-08-11
 modified: 2014-01-05
 category: '「发现」鱼市考察'
-toc: 'no'
-gallery: 'yes'
 ---
 
 本篇发布于2011年8月11日

@@ -3,8 +3,6 @@ title:  "鱼市考察（04）"
 date:   2011-09-17
 modified: 2014-01-05
 category: '「发现」鱼市考察'
-toc: 'no'
-gallery: 'yes'
 col_name: 'disf4'
 ---
 

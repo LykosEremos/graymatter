@@ -63,31 +63,31 @@ title: 海马体
 <!-- Pagination links -->
 <div class="large-top-margin no-bottom-margin nav-box">
   {%- if paginator.previous_page -%}
-    <div class='page-block'><a href="{{  paginator.previous_page_path | relative_url }}"><span class='arrow left'></span></a></div>
+    <div class='botton-margin medium-font page-block'><a href="{{  paginator.previous_page_path | relative_url }}"><span class='arrow left'></span></a></div>
   {%- endif -%}
       {%- if start > 1 -%}
-        <div class='page-block'><a href="{{ site.baseurl }}/hippocampus">1</a></div>
-        <div class='fixed'><div class='no-color'>&middot;&middot;&middot;</div></div>
+        <div class='botton-margin medium-font page-block'><a href="{{ site.baseurl }}/hippocampus">1</a></div>
+        <div class='medium-font fixed'><div class='no-color'>&middot;&middot;&middot;</div></div>
       {%- endif -%}
 
       {%- for page in (start..end) -%}
         {%- if page == paginator.page -%}
-            <div class="fixed"><div class='fixed-text'>{{ page }}</div></div>
+            <div class="botton-margin medium-font fixed"><div class='fixed-text'>{{ page }}</div></div>
         {%- elsif page == 1 -%}
-            <div class='page-block'><a href="{{ site.baseurl }}/hippocampus">{{ page }}</a></div>
+            <div class='botton-margin medium-font page-block'><a href="{{ site.baseurl }}/hippocampus">{{ page }}</a></div>
         {%- else -%}
-            <div class='page-block'><a href="{{ site.baseurl }}/hippocampus/page{{ page }}">{{ page }}</a></div>
+            <div class='botton-margin medium-font page-block'><a href="{{ site.baseurl }}/hippocampus/page{{ page }}">{{ page }}</a></div>
         {%- endif -%}
       {%- endfor -%}
 
       {%- if end < paginator.total_pages -%}
-        <div class='fixed'><div class='no-color'>&middot;&middot;&middot;</div></div>
-        <div class='page-block'><a href="{{ site.baseurl }}/hippocampus/page{{ paginator.total_pages }}">{{ paginator.total_pages }}</a></div>
+        <div class='botton-margin medium-font fixed'><div class='no-color'>&middot;&middot;&middot;</div></div>
+        <div class='botton-margin medium-font page-block'><a href="{{ site.baseurl }}/hippocampus/page{{ paginator.total_pages }}">{{ paginator.total_pages }}</a></div>
       {%- endif -%}
 {%- endif -%}
 
   {%- if paginator.next_page -%}
-    <div class='page-block'><a href="{{ paginator.next_page_path | relative_url }}"><span class='arrow right'></span></a></div>
+    <div class='botton-margin medium-font page-block'><a href="{{ paginator.next_page_path | relative_url }}"><span class='arrow right'></span></a></div>
   {%- endif -%}
 
 

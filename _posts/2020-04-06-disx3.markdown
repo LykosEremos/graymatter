@@ -3,8 +3,6 @@ title:  "小传·考察季"
 date:   2011-04-29
 modified: 2014-01-05
 category: '「发现」小传'
-toc: 'no'
-gallery: 'yes'
 ---
 本篇发生于2011年4月29日
 

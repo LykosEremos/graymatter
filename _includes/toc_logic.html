@@ -17,4 +17,14 @@
     {% endfor %}
     {% endcapture %}
 {% assign toc_temp = '' %}
-    {{ toc_acc }}
+<div class='side-bar' id = 'tgMenu'>
+	<div id="toc">{{ toc_acc }}
+	</div>
+</div>
+		<div class="dropdown">
+			<button class="dropdown-button" id="tg-button" onclick="toggle_toc()">
+			<div class='bar-div'></div>
+			<div class='bar-div'></div>
+			<div class='bar-div'></div>
+		</button>
+		</div>

@@ -8,20 +8,26 @@ layout: default
   		{%- assign parent_post = post -%}
 		{%- endif -%}
 	{%- endfor -%}
-	{%- assign toc_setting = parent_post.toc -%}
 	{%- assign collection_name = page.parent -%}
 	{%- assign page_category = parent_post.category -%}
 {%- elsif page.col_name -%}
 	{%- assign page_number = 1 -%}
 	{%- assign parent_post = page -%}
 	{%- assign collection_name = page.col_name -%}
-	{%- assign toc_setting = page.toc -%}
 	{%- assign page_category = page.category -%}
 {%- else  -%}
-	{%- assign toc_setting = 'no' -%}
 	{%- assign page_category = page.category -%}
 {%- endif -%}
 
+{%- if content contains '</h1>' -%}
+	{%- assign toc_setting = true -%}
+{%- endif -%}
+{%- if content contains '$$' -%}
+	{%- assign math_setting = true -%}
+{%- endif -%}
+{%- if content contains '<img' -%}
+	{%- assign img_setting = true -%}
+{%- endif -%}
 
 {%- assign start = page_number | minus: 2 -%}
 {%- assign end = page_number | plus: 2 -%}
@@ -44,18 +50,20 @@ layout: default
   {%- assign end = total_number_pages -%}
 {%- endif -%}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-{%- if toc_setting != 'no' -%}
-<div class='side-bar' id = 'tgMenu'>
-	<div id="toc">{%- include toc_logic.html html=content -%}
-	</div>
-</div>
-		<div class="dropdown">
-			<button class="dropdown-button" id="tg-button" onclick="toggle_toc()">
-			<div class='bar-div'></div>
-			<div class='bar-div'></div>
-			<div class='bar-div'></div>
-		</button>
-		</div>
+{%- if toc_setting -%}
+{%- include toc_logic.html html=content -%}
+<script>
+function toggleHd()
+{
+var menu=document.getElementById('hd-menu');
+
+    if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}
+</script>
 {%- endif -%}
 
 		<div class="page-heading" style="font-weight:300;margin-bottom:0.1em;">
@@ -70,7 +78,7 @@ layout: default
 			{%- endif -%}
 		</div>
 
-		<div class="large-top-margin large-bottom-margin post-meta">
+		<div class="medium-top-margin medium-bottom-margin post-meta">
 			{% if page_category %}
 				{% for folder in site.folders %}
 					{% if folder.cat == page_category %}
@@ -81,7 +89,7 @@ layout: default
 			{% endif %}
 			{%- if page.parent or page.col_name -%}
 			首发于 <time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ parent_post.date | date: "%b %-d, %Y" }}</time>
-			{%- if parent_post.modified -%}，最后修改于 {{ parent_post.modified | date: "%b %-d, %Y" }}{%- endif -%}. 有分页：
+			{%- if parent_post.modified -%}，最后修改于 {{ parent_post.modified | date: "%b %-d, %Y" }}{%- endif -%}.
 			{%- else -%}
 			首发于 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
 			{%- if page.modified -%}，最后修改于 {{ page.modified | date: "%b %-d, %Y" }}{%- endif -%}
@@ -99,14 +107,12 @@ layout: default
 
 <div class="maintext" itemprop="articleBody">
  	{%- assign cont = content -%}
-	{%- if toc_setting != 'no' -%}
+	{%- if toc_setting -%}
 		{%- include anchor_injection.html html=cont -%}
 	{%- endif -%}
-
-	{%- if page.math -%}
+	{%- if math_setting -%}
 		{%- include theorem_injection.html html=cont -%}
 	{%- endif -%}
-
 	{{ cont }}
 </div>
 
@@ -119,7 +125,7 @@ layout: default
 {%- if page.parent or page.col_name -%}
 <div class = 'large-top-margin nav-box'>
 {%- if parent_post.previous.url -%}
-<div class="prev page-block">
+<div class="prev small-font page-block">
 <a href="{{ site.baseurl }}/{{parent_post.previous.url}}">
 <span class='arrow left'></span> {{parent_post.previous.title}}
 </a>
@@ -127,7 +133,7 @@ layout: default
 {%- endif -%}
 
 {%- if parent_post.next.url -%}
-<div class="next page-block">
+<div class="next small-font page-block">
 <a href="{{ site.baseurl }}/{{parent_post.next.url}}">
 {{parent_post.next.title}} <span class='arrow right'></span>
 </a>
@@ -138,14 +144,14 @@ layout: default
 {%- else -%}
 <div class = 'large-top-margin nav-box'>
 {%- if page.previous.url -%}
-<div class="prev page-block">
+<div class="prev small-font page-block">
 <a href="{{ site.baseurl }}/{{page.previous.url}}">
 <span class='arrow left'></span> {{page.previous.title}}
 </a>
 </div>
 {%- endif -%}
 {%- if page.next.url -%}
-<div class="next page-block">
+<div class="next small-font page-block">
 <a href="{{ site.baseurl }}/{{page.next.url}}">
 {{page.next.title}} <span class='arrow right'></span>
 </a>
@@ -157,15 +163,15 @@ layout: default
 
 
 
-{%- if toc_setting != 'no' -%}
+{%- if toc_setting -%}
 	{%- include toc_toggle.html -%}
 {%- endif -%}
 
-{%- if page.math -%}
+{%- if math_setting -%}
  	{%- include math.html -%}
 {%- endif -%}
 
-{%- if page.gallery == 'yes' -%}
+{% if img_setting %}
 	{%- include lazyload.html -%}
 {%- endif -%}
 

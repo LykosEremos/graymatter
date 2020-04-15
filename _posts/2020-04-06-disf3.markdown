@@ -3,8 +3,6 @@ title:  "鱼市考察（03）"
 date:   2011-08-19
 modified: 2014-01-05
 category: '「发现」鱼市考察'
-toc: 'no'
-gallery: 'yes'
 ---
 
 本篇发生与发布于2011年8月19日，强烈感谢 @Scylla_serrata 的修改建议

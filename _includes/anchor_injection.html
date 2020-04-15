@@ -1,21 +1,25 @@
-{% capture cont_workspace %}
-    {% assign nodes = include.html | split: '<h' %}
-    {% for node in nodes %}
-        {% assign headerLevel = node | replace: '"', '' | slice: 0 | plus: 0 %}
+{%- if include.html contains '<h1' -%}
+{%- capture cont_workspace -%}
+    {%- assign nodes = include.html | split: '<h' -%}
+    {%- for node in nodes -%}
+        {%- assign headerLevel = node | replace: '"', '' | slice: 0 | plus: 0 -%}
 
-        {% if headerLevel == 1 or headerLevel == 2 %}
-        {% else %}
-          {% capture cont_acc %}{{ cont_acc }}<h{{ node }}{% endcapture %}
-          {% continue %}
-        {% endif %}
+        {%- if headerLevel == 1 or headerLevel == 2 -%}
+        {%- else -%}
+          {%- capture cont_acc -%}{{ cont_acc }}<h{{ node }}{%- endcapture -%}
+          {%- continue -%}
+        {%- endif -%}
 
-        {% assign header_content_array = node | split: '>' %}
-        {% assign header = header_content_array[1] %}
-        {% assign header_content_array = header | split: '</h' %}
-        {% assign header = header_content_array[0] %}
+        {%- assign header_content_array = node | split: '>' -%}
+        {%- assign header = header_content_array[1] -%}
+        {%- assign header_content_array = header | split: '</h' -%}
+        {%- assign header = header_content_array[0] -%}
 
-        {% capture cont_acc %}{{ cont_acc }}<a name='{{ header }}'></a><h{{ node }}{% endcapture %}
-    {% endfor %}
-    {% endcapture %}
-{% assign cont_workspace = '' %}
-{% assign cont = cont_acc %}
+        {%- capture cont_acc -%}{{ cont_acc }}<a name='{{ header }}'></a><h{{ node }}{%- endcapture -%}
+    {%- endfor -%}
+    {%- endcapture -%}
+{%- assign cont_workspace = '' -%}
+{%- assign cont = cont_acc -%}
+{%- else -%}
+{%- assign cont = include.html -%}
+{%- endif -%}

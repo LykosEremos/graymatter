@@ -20,7 +20,7 @@ $hl-col:#dcdcdc;
 .maintext {
 	line-height: 165%;
 	text-indent: 0px;
-	font-size: 17px;
+	font-size: 10pt;
 	letter-spacing: 0.005em;
 	font-family: 'Arial',"PingFang SC","Microsoft YaHei", "微软雅黑";
 }
@@ -161,7 +161,7 @@ hr {
 	margin-top: 0.5em;
 	margin-bottom: 1em;
 	display: block;
-	max-width: 95%;
+	max-width: 100%;
 }
 
 .clock-ninety{
@@ -592,9 +592,9 @@ footer {
 
 .post-meta {
 	font-size: 1em;
-	margin-top: 2em;
+	margin-top: 10px;
 	line-height: 2.0em;
-	margin-bottom: 1em;
+	margin-bottom: 5px;
 	font-family: Arial,"PingFang SC","Microsoft YaHei", "微软雅黑";
 	color: $demph-col;
 }
@@ -633,6 +633,10 @@ footer {
 	margin-top: 10px
 }
 
+.medium-top-margin {
+	margin-top: 15px
+}
+
 .large-top-margin {
 	margin-top: 30px;
 }
@@ -642,8 +646,6 @@ footer {
 }
 
 
-
-
 .no-bottom-margin {
 	margin-bottom: 5px;
 }
@@ -651,6 +653,11 @@ footer {
 .small-bottom-margin {
 	margin-bottom: 10px
 }
+
+.medium-bottom-margin {
+	margin-bottom: 15px
+}
+
 
 .large-bottom-margin {
 	margin-bottom: 30px;
@@ -675,6 +682,23 @@ footer {
 
 .multipage{
 	margin-bottom: 0.5em;
+}
+
+.small-font {
+	font-size: 13pt;
+}
+
+.medium-font {
+	font-size: 14pt;
+}
+
+.large-font {
+	font-size: 15pt;
+}
+
+.botton-margin {
+		margin-left: 2px;
+		margin-right: 2px;
 }
 
 .page-block {

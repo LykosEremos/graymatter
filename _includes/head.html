@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#ffffff">
 
 
-  {% if page.math %}
+  {%- if content contains '$$' -%}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/math.css">
   {% else %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
