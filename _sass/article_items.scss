@@ -1,0 +1,271 @@
+---
+---
+
+@charset "utf-8";
+.quote {
+	border-left: 5px solid $em-col;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+ol li {
+	padding-left: 0.5em;
+}
+
+a {
+	color:$lk-col;
+}
+a:link{
+  color:$lk-col;
+}
+a:visited{
+  color:$lk-vst-col;;
+}
+a:hover{
+	text-decoration: none;
+  color:$lk-hov-col;
+}
+a:visited:hover{
+  color:$lk-hov-col;
+}
+
+p {
+	text-indent: 2em;
+}
+
+.no-indent p {
+		text-indent: 0em;
+}
+
+.disc {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	display: block;
+	min-width: 400px;
+	width: 80%;
+}
+
+i {
+	font-family: "Times New Roman";
+	font-style: italic;
+}
+
+h1 {
+	counter-increment: h1counter;
+	font-size: 1.6em;
+	font-weight: bold;
+	counter-reset: h2counter;
+	margin-top: 1.4em;
+	margin-bottom: 1em;
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+
+}
+
+h1:nth-child(2) {
+	margin-top: 0em;
+}
+
+h2 {
+	counter-increment: h2counter;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-top: 1.4em;
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+}
+
+h1:before {
+	content: counter(h1counter) ".\0000a0\0000a0 ";
+}
+h2:before {
+	content: counter(h1counter) "." counter(h2counter) ".\0000a0\0000a0 ";
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 1.4em;
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	}
+
+
+.tg  {
+	border-collapse:collapse;
+	font-size: 1em;
+	border-spacing:0;
+	max-width: 100%;
+	display: flex;
+	margin-bottom: 0.25em;
+	overflow-x: scroll;
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	&::before ,
+    &::after {
+      content:'';
+      flex:1;
+    }
+}
+
+.fig {
+	padding: 0.7em;
+	font-size: 0.9em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:1em;
+	margin-top: 0.25em;
+	display: block;
+	justify-content: center;
+	background-color: $bx-col;
+}
+
+.fig:before {
+	counter-increment: figcounter;
+	content: "Fig " counter(figcounter) '. \00a0';
+	font-weight: bold;
+	font-style: normal;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto
+}
+.tg::-webkit-scrollbar {
+	width: 6px;
+}
+.tg::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+.tg td{
+	font-size: 0.95em;
+	padding:4px 6px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#7a7a7a;
+}
+.tg th{
+	font-weight:bold;
+	padding:4px 6px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#7a7a7a;
+}
+.tg .cell-no
+{
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top
+}
+.tg .cell-yes
+{
+	border-color:inherit;
+	background-color:#3f3f3f;
+	text-align:left;
+	vertical-align:top
+}
+
+
+//math environments
+
+.concept {
+	display: inline;
+	color: $em-col;
+	font-weight: bolder;
+}
+
+.cn {
+	font-style: normal;
+	border-bottom: 1.5px dotted whitesmoke;
+	padding-bottom: 2px;
+}
+
+.ending {
+	display: inline;
+	color: $lk-col;
+}
+
+.notes {
+	font-size: 0.8em;
+	padding: 1em;
+	line-height: 200%;
+	background: $bx-col;
+	text-indent: 0em;
+	border-left: 5px solid #219897;
+	margin: 1em 0;
+	overflow-x: scroll;
+}
+.notes::-webkit-scrollbar {
+	width: 6px;
+}
+.notes::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
+.key {
+	font-size: inherit;
+	border-left: 5px solid #f9d276;
+}
+
+blockquote{
+	font-size: 1em;
+	color: $tx-col;
+}
+
+
+.note-tag {
+	font-size: 0.7em;
+}
+.note-tag a {
+	color: #219897;
+}
+
+
+
+//hyperlink
+.maintext a {
+	color: $lk-col;
+}
+
+.maintext a:hover {
+	color: $lk-hov-col;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imgcontainer {
+	white-space:nowrap;
+	overflow-x: scroll;
+}
+
+.imgcontainer::-webkit-scrollbar {
+  width: 4px;
+}
+
+.imgcontainer::-webkit-scrollbar-thumb {
+  background: #939393;
+}
+
+.citation {
+	list-style-type: none;
+	line-height: 150%;
+}
+.citation li {
+	text-indent: -2em;
+	margin-bottom: 1em;
+}
+
+.citation li a {
+	color: $lk-col;
+}
+
+.citation a:hover {
+	color: $lk-hov-col;
+	text-decoration: none;
+}

@@ -6,7 +6,14 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+
+
+  {% if page.math %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/math.css">
+  {% else %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
+  {% endif %}
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}" >
 

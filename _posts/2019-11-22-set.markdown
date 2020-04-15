@@ -3,15 +3,13 @@ layout: post
 title:  "CMD001: 集论基础"
 date:   2019-11-20 22:31:19 -0400
 categories: CADMUS
+math: true
 ---
-<a name="逻辑与证明"></a>
 <h1 class="hd">逻辑与证明</h1>
-<a name="断言"></a>
-
 <h2 class="hd">断言</h2>
-数学是一场逻辑游戏：我们假设某些看来是基础或者自明的<span class='concept'>公理（axiom）</span>为真断言，然后利用给定的一些推理规则（rules of inference），去得到或者发现其他的真断言. 因此，在撸起袖子解数学题之前，有必要先谈谈这场游戏的规则. 
+数学是一场逻辑游戏：我们假设某些看来是基础或者自明的<span class='concept'>公理（axiom）</span>为真断言，然后利用给定的一些推理规则（rules of inference），去得到或者发现其他的真断言. 因此，在撸起袖子解数学题之前，有必要先谈谈这场游戏的规则.
 
-在这场游戏中，我们可以说一些句子，这些句子称为<span class='concept'>断言（sentence）</span>. 每个断言要么是真的，要么是假的. 可以用大写英文字母表记断言，比如 $P$，或 $Q$. 
+在这场游戏中，我们可以说一些句子，这些句子称为<span class='concept'>断言（sentence）</span>. 每个断言要么是真的，要么是假的. 可以用大写英文字母表记断言，比如 $P$，或 $Q$.
 
 有的时候，我们希望把两个或者更多的断言合并起来形成新的断言，比如 “$x$ 是单数” 和 “$x$ 是双数” 可组合形成 “$x$ 是单数或 $x$ 是双数”，“明天下雪” 和 “学校停课” 可以组合成 “如果明天下雪，学校就停课”. 为了不重复地说 “或”，“如果……那么……”，我们可以引入一些简写：
 <ol>
@@ -32,7 +30,6 @@ categories: CADMUS
 $\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的食物”（喜欢吃的东西可以是不同的）显然和 “有食物令每个人都喜欢吃”（每个人都必须喜欢吃同一种东西） 是意义上不同的两个句子. 我们约定一个量词所限定的<span class='concept'>范围（scope）</span>是它的冒号右侧一直到断言句尾.
 
 同时，我们约定如果量词取值的范围内不含任何物件，那么此时谓词是真的，称为<span class='concept'>空真（vacuously true）</span>的.
-<a name="推理规则"></a>
 
 <h2 class="hd">推理规则</h2>
 我们的游戏的主要目标是运用推理规则，从一些简单的真断言来到更加复杂的真断言. 如果我们能从真断言 $P$ 和一些其他的条件推导出另一个断言 $Q$，那么可以写 $P\Rightarrow Q$. 如果 $P \Rightarrow Q$ 和 $Q\Rightarrow P$，那么我们可以写 $P\Leftrightarrow Q$. 注意，$\to$ 和 $\Rightarrow$、$\leftrightarrow$ 和 $\Leftrightarrow$ 并非同样的意思：$\to$ 和 $\leftrightarrow$ 是构造新断言用的连接符，$\Rightarrow$ 和 $\Leftrightarrow$ 指示的是推导过程中由一个断言得出另一个断言的逻辑先后关系.
@@ -57,25 +54,22 @@ $\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的�
 
 推导的结果称为<span class='concept'>定理（theorem）</span>. 同时，我们也通过下<span class='concept'>定义（definition）</span>的方式来简化我们的表达. 定义只不过是语言上的简化，它们不需要证明.
 
-我们不打算在这一节中发展数理逻辑（mathematical logic）中的任何结论，因此非正式地将逻辑作为一场“游戏”来讨论. 现代的数理逻辑需要集合论为基础：函数、关系都是数理逻辑重要的部分，但是它们的严格定义只出自集论，然而集合论本身也需要逻辑的形式来严谨地定义. 为了避免先有鸡还是先有蛋的问题，我们需要先像游戏一样地进行逻辑演练，在形成了一个公理系统（集合论）之后，再利用其中的工具来严谨地 “模拟” 我们走过的逻辑过程，从而反过来证明，我们的游戏中的不存在矛盾或者存在无法利用推理规则达到的真断言，而这才是数理逻辑登场的时候. 
+我们不打算在这一节中发展数理逻辑（mathematical logic）中的任何结论，因此非正式地将逻辑作为一场“游戏”来讨论. 现代的数理逻辑需要集合论为基础：函数、关系都是数理逻辑重要的部分，但是它们的严格定义只出自集论，然而集合论本身也需要逻辑的形式来严谨地定义. 为了避免先有鸡还是先有蛋的问题，我们需要先像游戏一样地进行逻辑演练，在形成了一个公理系统（集合论）之后，再利用其中的工具来严谨地 “模拟” 我们走过的逻辑过程，从而反过来证明，我们的游戏中的不存在矛盾或者存在无法利用推理规则达到的真断言，而这才是数理逻辑登场的时候.
 
 用电脑科学做一个比方：如果将数学比作一种程序语言，将我们的游戏比作它的编译器，那么发展数理逻辑就是用编程语言写它自己的编译器的自举（bootstrapping）的过程.
 
-在游戏的开始，我们需要接受一套名为 Zermelo-Fraenkel 集合论的公理系统，这是一个由7条公理（外延、正规、配对、并集、幂集、无穷、选择公理）和2条公理模式（分类公理和置换公理；公理模式的定义会在下文解释）组成的公理系统，因为选择公理存在一定的争议，有时会把它独列在外，将含选择公理的 Zermelo-Fraenkel 集合论称作 ZFC，而将不含的称作 ZF. 
+在游戏的开始，我们需要接受一套名为 Zermelo-Fraenkel 集合论的公理系统，这是一个由7条公理（外延、正规、配对、并集、幂集、无穷、选择公理）和2条公理模式（分类公理和置换公理；公理模式的定义会在下文解释）组成的公理系统，因为选择公理存在一定的争议，有时会把它独列在外，将含选择公理的 Zermelo-Fraenkel 集合论称作 ZFC，而将不含的称作 ZF.
 
 ZFC 是德国人 Ernst Zermelo 和 Abraham Fraenkel 在认识到 Cantor 的朴素集合论的不足之后总结形成的，Zermelo (<a href="#zermelo1908s" name="zermelo1908">1908</a>，<a href="#zermelo1930s" name="zermelo1930">1930</a>) 贡献了其中的7条公理和分类公理模式，<a href="#fraenkel1922s" name="fraenkel1922">Fraenkel (1922)</a> 又添加了置换公理模式，最后形成现在的形式. 这并不是唯一的集合论公理系统：类似的还有 NBG 系统和 W. V. Quine 的新基础（New Foundation，NF）系统. 因 ZFC 的普适性，ZFC 是 CADMUS 选定的集论基础.
 
 如果我们把 ZFC 的公理作为真断言，我们可以通过我们的数学游戏推导出大部分人在乎的大部分数学知识. 在接下来的章节中我们将引入 ZFC 的公理来一步步构建数学宇宙. 选择公理和置换公理在目前并无需要，因此留给将来的章节.
-<a name="集论的公理基础"></a>
 
 <h1 class="hd">集论的公理基础</h1>
-<a name="集与元素"></a>
 <h2 class="hd">集与元素</h2>
 想象一个数学宇宙，里面存在且仅存在一种名为 “<span class='concept'>集合</span>” 的物件. 我们粗略地想象 “集合” 是一系列物件的汇集，正如现实生活中的集合一样，因此冠其名曰 “集合” . 我们不知道数学宇宙有多少个 “集合” 也不知道已经存在的 “集合” 中的物件是什么. 但是在我们的假想中，这个宇宙中<em>存在至少一个“集合”</em> ，而且<em>不存在集合以外的东西</em> .
 
-从字面上看，“集合” 往往和 “收容” 联系起来. 我们希望数学宇宙和常识尽可能契合，因此给定一个集合 $a$，对于另一个集合 $A$，我们希望能够回答 “$a$ 是不是 $A$ 的<span class='concept'>元素</span>？” 这个问题. 如果 $a$ 的确是 $A$ 的元素，那么表记为 $a\in A$；如果不是，表记为 $a\notin A$. 
+从字面上看，“集合” 往往和 “收容” 联系起来. 我们希望数学宇宙和常识尽可能契合，因此给定一个集合 $a$，对于另一个集合 $A$，我们希望能够回答 “$a$ 是不是 $A$ 的<span class='concept'>元素</span>？” 这个问题. 如果 $a$ 的确是 $A$ 的元素，那么表记为 $a\in A$；如果不是，表记为 $a\notin A$.
 
-<a name="部分 ZFC 公理"></a>
 <h2 class="hd">部分 ZFC 公理</h2>
 <h3 class="hd">分类公理</h3>
 到目前为止，我们只知道数学宇宙中存在 “集合”，却缺乏构建我们想要的集合的方法. 这是因为集合的构造不应该是随心所欲的——缺乏限制的集合构造容易导致悖论. 假想我们可以构建任意想要的集合，并因此造出了一个 “仅包含不在集合 $A$ 中的元素” 的集合 $A$，那么有两种可能：
@@ -92,7 +86,7 @@ $$\forall A : \exists B : \forall x : (x\in A\wedge P(x)) \leftrightarrow x\in B
 
 分类公理是一个公理模式 (schema)：逻辑谓词 $P(x)$ 可以是含变量 $x$ 的任意逻辑公式，所以分类公理起的是模板的作用，套入不同 $P(x)$ 才形成了不同的公理.
 
-可见，任何新造的集合 $B$ 的元素，在我们的约定下，必须（1）要从已经存在的集合 $A$ 中取，确保了这些元素在我们的数学宇宙中是已经存在的，且（2）$B$ 的构造不允许引用它的本身，避免了罗素悖论中的自我引用问题. 
+可见，任何新造的集合 $B$ 的元素，在我们的约定下，必须（1）要从已经存在的集合 $A$ 中取，确保了这些元素在我们的数学宇宙中是已经存在的，且（2）$B$ 的构造不允许引用它的本身，避免了罗素悖论中的自我引用问题.
 
 更一般地，如果一个集合的元素取自另一个有良好定义的集合且其构成不包含自我引用，那么我们将默认引用分类公理认为该集合存在.
 
@@ -104,55 +98,53 @@ $$\forall x :x\in A\to x\in B$$
 </div>
 
 我们马上有以下的结论：
-
-<div class='theorem-macro'>
-<div class='theorem'>存在一个不含任何元素的集合，称之为<span class='concept'>空集</span>，以 $\varnothing$ 表示. 空集是所有集合的子集.
+<section class='theorem-macro'>
+<div class='theorem'> 存在一个不含任何元素的集合，称之为<span class='concept'>空集</span>，以 $\varnothing$ 表示. 空集是所有集合的子集.
 </div>
-<div class='proof'> 
+<div class='proof'>
 <p>取集合 $A$. 存在至少一个集合，因此 $A$ 存在.</p>
-<p>根据分类公理，可知存在集合 $\varnothing$，其中的元素 $a$ 满足谓词 $a\in A \wedge a\neq a$.</p> 
+<p>根据分类公理，可知存在集合 $\varnothing$，其中的元素 $a$ 满足谓词 $a\in A \wedge a\neq a$.</p>
 <p>$b\neq b$ 是恒假的，因此 $a\in A \wedge a\neq a$ 恒假，因此不存在元素 $a$ 满足谓词. 因此 $\varnothing$ 中不含任何元素. 因为 $\varnothing$ 不含任何元素. </p>
 </div>
-</div>
+</section>
 
 可见通过分类公理造出的新集都是比原来的集的子集. 一个特殊的子集叫做并集：
-<div class='theorem-macro'>
-<div class='theorem'> 
+<section class='theorem-macro'>
+<div class='theorem'>
 对集合 $A$ 和集合 $B$，定义 $A$ 和 $B$ 的<span class='concept'>并集</span>为 $A\cap B=\{ x\in A \mid x\in B\}$. 并集存在
-<p>更一般地，称一个<span class='concept'>集合族 $\mathcal{C}$ 的交集</span> $\bigcap \mathcal{C}$ 为 $\mathcal{C}$ 中所有元素的交集，即 
+<p>更一般地，称一个<span class='concept'>集合族 $\mathcal{C}$ 的交集</span> $\bigcap \mathcal{C}$ 为 $\mathcal{C}$ 中所有元素的交集，即
 $$x\in \bigcap\mathcal{C} \Leftrightarrow \forall C \in \mathcal{C}: x \in C$$
 </p>
 </div>
-
 <div class='proof'> 通过分类公理直接证明.
 </div>
-</div>
+</section>
 
 另一个特殊的子集叫做补集：
 
-<div class='theorem-macro'>
-<div class='theorem'> 
+<section class='theorem-macro'>
+<div class='theorem'>
 对集合 $A$ 和集合 $B$，定义 $B$ 相对于 $A$ 的<span class='concept'>补集</span>为$A-B=\{x \in A\mid x\notin B\}$. 补集存在.
 </div>
 
 <div class='proof'> 通过分类公理直接证明.
 </div>
-</div>
+</section>
 
 <h3 class="hd">外延公理</h3>
-因为有多于一个集合存在的可能，我们需要考虑什么情况下两个集合是相等的. 
+因为有多于一个集合存在的可能，我们需要考虑什么情况下两个集合是相等的.
 
-在生活中，一些事物的相同性是由它们的内涵决定的：一瓶水终究是一瓶水，不管是喝它的人是谁. 另外一些事物不但有内涵，也有外延：很多人认为他们自食其力挣到的第一张钞票对他们是有特殊意义的，尽管在内涵（在交易媒介和价值储存的意义上，而非物质组成的意义上）上这第一张钞票和接下来挣到的每一张都是相同的. 
+在生活中，一些事物的相同性是由它们的内涵决定的：一瓶水终究是一瓶水，不管是喝它的人是谁. 另外一些事物不但有内涵，也有外延：很多人认为他们自食其力挣到的第一张钞票对他们是有特殊意义的，尽管在内涵（在交易媒介和价值储存的意义上，而非物质组成的意义上）上这第一张钞票和接下来挣到的每一张都是相同的.
 
-我们不妨假设集合的身份完全由它的外延决定（即，仅由它所包含什么样的元素决定），做出以下约定， 
+我们不妨假设集合的身份完全由它的外延决定（即，仅由它所包含什么样的元素决定），做出以下约定，
 
 <div class='axiom'>（外延公理）集合 $A$ <span class='concept'>等于</span>集合 $B$，当且仅当它们的元素相同.
 $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
-</div> 
+</div>
 
 马上有以下的结论：
-<div class='theorem-macro'>
-<div class='theorem'> 
+<section class='theorem-macro'>
+<div class='theorem'>
 <ol>
 <li>空集是独特的.</li>
 <li>任何给定集合的交集是独特的.</li>
@@ -161,7 +153,7 @@ $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
 </ol>
 </div>
 
-<div class='proof'> 
+<div class='proof'>
 <ol>
 <li>假设有另一个空集 $\varnothing'$，那么断言 $\forall a:a\in \varnothing\leftrightarrow a\in \varnothing'$ 是空真的，因此有 $\varnothing'= \varnothing$.</li>
 <li>由定义和外延公理直接证明.</li>
@@ -169,11 +161,11 @@ $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
 <li>若 $A \subseteq B$，那么 $\forall a: a\in A\to a\in B$ 为真；若 $B \subseteq A$，那么 $\forall b:b\in B\to b\in A$ 为真. 因此 $\forall a:a\in A\leftrightarrow a\in B$ 为真，得 $A=B$</li>
 </ol>
 </div>
-</div>
+</section>
 相等可让我们引入以下定义.
 
 <div class='definition'>
-如果 $A\subseteq B$ 但 $A\neq B$，那么我们称 $A$ 是 $B$ 的<span class='concept'>真子集</span>，记 $A \subset B$. 
+如果 $A\subseteq B$ 但 $A\neq B$，那么我们称 $A$ 是 $B$ 的<span class='concept'>真子集</span>，记 $A \subset B$.
 </div>
 
 
@@ -182,14 +174,14 @@ $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
 <div class='axiom'>（配对公理）对任意集合 $A$ 和 $B$，存在仅包含 $A$ 和 $B$ 为元素的集合 $\{A, B\}$.
 </div>
 
-<div class='theorem-macro'>
-<div class='theorem'> 对任意集合 $A$，存在集合 $\{A\}$；即，给定任何集合 $A$，都存在另一个集合，使这个新集合仅包含 $A$ 为元素，称为 $A$ 的<span class='concept'>单元素集</span>. 
+<section class='theorem-macro'>
+<div class='theorem'> 对任意集合 $A$，存在集合 $\{A\}$；即，给定任何集合 $A$，都存在另一个集合，使这个新集合仅包含 $A$ 为元素，称为 $A$ 的<span class='concept'>单元素集</span>.
 </div>
 
 <div class='proof'> 应用配对公理，存在 $\{A,A\}=\{A\}$
 </div>
-</div>
-一个常见的误区是 $\varnothing\neq \\{\varnothing\\}$： 
+</section>
+一个常见的误区是 $\varnothing\neq \\{\varnothing\\}$：
 <ul>
 <li> $\varnothing$ 是根据分类公理存在且唯一的空集；</li>
 <li>$\{\varnothing\}$ 是仅含空集为元素的单元素集，所以有 $\varnothing\in\{\varnothing\}$（注意这里 $\varnothing$ 是元素，而不是子集），因此它不是空集.</li>
@@ -197,7 +189,7 @@ $$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
 
 
 通过配对的运用，我们可以定义有序对（ordered pair）的数学结构：
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'> 对任意集合 $a, b, c$，定义
 $$\begin{align*}
 ()&=\varnothing, \\
@@ -214,9 +206,9 @@ $$
 <p>若 $a$ 和 $b$ 存在，那么应用配对公理，存在 $\{a,b\}$. 在 $a$ 上应用配对定理两次，可见 $\{\{a\}\}$ 存在. 因此二者的并集 $\{a,b\}\cup\{\{a\}\}=\{\{a\}, \{a, b\}\}$ 也存在.</p>
 <p>那么根据定义 $(a)=((),a)$，$(a,b)=((a),b)$，$(a,b,c)=((a,b),c)$ 都存在.</p>
 </div>
-</div>
+</section>
 
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'> 对任意有序对 $(a,b)$ 和 $(c,d)$，$$(a,b)=(c,d) \Leftrightarrow a=c, b=d$$
 </div>
 
@@ -226,46 +218,46 @@ $$
 <li>$\Leftarrow$：显然成立.</li>
 </ul>
 </div>
-</div>
+</section>
 
 <h3 class="hd">正规公理</h3>
 如果说分类公理是为了解决 Russell 悖论而生的，那么正规公理存在的目的是排除 “病态” 的元素包容关系：
-<div class='axiom'>（正规公理）对任何非空的集合 $A$，都存在 $a\in A$，满足 $a\cap A=\varnothing$.</div> 
+<div class='axiom'>（正规公理）对任何非空的集合 $A$，都存在 $a\in A$，满足 $a\cap A=\varnothing$.</div>
 我们排除的 “病态” 包容关系是那些包含自己为元素的集合：
-<div class='theorem-macro'>
-<div class='theorem'> 
+<section class='theorem-macro'>
+<div class='theorem'>
 <ol> <li>对任何集合 $A$ 都有 $A\notin A$；没有集合是它自己的元素.</li>
  <li>不存在集合满足 $A\in B$ 且 $B\in A$.</li>
-</ol> 
+</ol>
 </div>
 
-<div class='proof'> 
+<div class='proof'>
 <ol> <li>反证法： 假设存在集合 $A$ 满足 $A\in A$. 根据配对公理，单元素集 $\{A\}$ 存在，且 $A\in \{A\}$. $\{A\}$ 显然非空，因此根据正规公理，存在一个 $a\in \{A\}$ 满足 $a\cap \{A\}=\varnothing$. 因 $A$ 是单元素集，一定有 $a=A$，因此 $A=\varnothing$. 但因为 $A\in A$，$A\neq \varnothing$，形成矛盾.</li>
 <li>反证法：假设满足条件的 $A,B$ 存在. 根据配对公理，集合 $C=\{A,B\}$ 存在. 对 $A\in C$，根据正规公理，必有（1）$C\cap A =\varnothing$ 或（2）$C\cap B =\varnothing$. 不失一般性地假设（1）为真，那么显然 $B\notin A$.
 </li>
-</ol> 
+</ol>
 </div>
-</div>
+</section>
 
 <h3 class="hd">并集公理</h3>
 通过分类公理造出的新集都是比原来的集更“小”的子集；我们需要并集的概念来合并多个集合，构造更“大”的集：
 
-<div class='axiom'>（并集公理）对集合 $A$ 和集合 $B$，存在它们的<span class='concept'>并集</span> $A\cup B$；$A\cup B$ 包含且仅包含 $A$ 和 $B$ 中的元素，即 $A\cup B=\{x \mid x \in A \vee x \in B\}$. 
+<div class='axiom'>（并集公理）对集合 $A$ 和集合 $B$，存在它们的<span class='concept'>并集</span> $A\cup B$；$A\cup B$ 包含且仅包含 $A$ 和 $B$ 中的元素，即 $A\cup B=\{x \mid x \in A \vee x \in B\}$.
 <p>一般地，称一个<span class='concept'>集合族 $\mathcal{C}$ 的并集</span> $\bigcup \mathcal{C}$ 为 $\mathcal{C}$ 中所有元素的并集，即 $x\in \bigcup\mathcal{C}$ 当且仅当它是 $\mathcal{C}$ 中某些元素的元素，
 $$x\in \bigcup \mathcal{C} \Leftrightarrow  \exists C\in \mathcal{C} : x \in C$$
 </p>
-</div> 
+</div>
 
 显然，
-<div class='theorem-macro'>
-<div class='theorem'> 
+<section class='theorem-macro'>
+<div class='theorem'>
 任何给定集合的并集是独特的.
 </div>
 
-<div class='proof'> 
+<div class='proof'>
 由定义和外延公理直接证明.
 </div>
-</div>
+</section>
 
 <h3 class="hd">幂集公理</h3>
 幂集公理为定义更复杂的数学结构建立了基础：
@@ -275,28 +267,26 @@ $$
 $$
 </div>
 
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'> 对任意集合 $A$ 和 $B$，定义$A$ 和 $B$ 的<span class='concept'>笛卡尔积</span> $A\times B$ 为 $\{(a,b) \mid a\in A \wedge b\in B \}$. 笛卡尔积存在.
 </div>
 
-<div class='proof'>我们需要借助分类公理证明笛卡尔积是某个集的子集. 
+<div class='proof'>我们需要借助分类公理证明笛卡尔积是某个集的子集.
 <p>我们先要证明对 $a\in A'$, $b\in B'$，$\{\{a\},\{a,b\}\} \in \mathcal{P}(\mathcal{P}(A'\cup B'))$. 因 $a\in A'$，$a\in A'\cup B'$ 且有 $\{a\} \in \mathcal{P}(A'\cup B')$；类似地有 $\{a, b\} \in \mathcal{P}(A'\cup B')$. 那么 $\{\{a\},\{a,b\}\} \subseteq \mathcal{P}(A'\cup B')$，或 $\{\{a\},\{a,b\}\}\in \mathcal{P}(\mathcal{P}(A'\cup B'))$. </p>
 
 <p>可见，对 $a\in A$，$(a)=\{\{\varnothing\},\{\varnothing,a\}\}$，有 $(a)\in \mathcal{P}(\mathcal{P}(\{\varnothing\}\cup A))=T$，根据幂集公理这是一个有良好定义的集合. 对 $b\in B$，$(a,b)=((a),b)=\{\{(a)\},\{(a),b\}\}$，有 $(a,b)\in \mathcal{P}(\mathcal{P}(T\cup B))$，根据幂集公理这也是一个有良好定义的集合.</p>
 <p>因此根据分类公理该集存在.</p>
 </div>
-</div>
+</section>
 
-<a name="关系与函数"></a>
 <h1 class="hd">关系与函数</h1>
-<a name="基本定义"></a>
 <h2 class="hd">基本定义</h2>
 因为笛卡尔积存在，我们可以取笛卡尔积的特定子集，并赋予它们特殊的意义：
 
 <div class='definition'> 对任意集合 $A$ 和 $B$，定义 $R\subseteq A\times B$ 为<span class='concept'>二元关系（binary relation）</span>. 若 $(a,b)\in R$，可以把 $R$ 作为中缀写成 $aRb$，并称 $(a, b)$ 满足 $R$.
 </div>
 
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>给定二元关系 $R$，定义$R$ 的：
 <ol>
 <li><span class='concept'>定义域（domain）</span>：$\mathrm{dom}(R) = \{x \mid \exists y : xRy\}$</li>
@@ -312,17 +302,17 @@ $R$ 的定义域、值域、域、反关系，限制都是集合.
 <p>对任意 $(a,b)\in R$，因为 $\{(a)\}\in (a,b)$，$(a,b)\in R$，有 $\{(a)\}\in \bigcup R$. 又因为 $(a)\in \{(a)\}$，那么 $(a)\in \bigcup\bigcup R$. 又有 $\{\varnothing,a\}\in (a)$，所以 $\{\varnothing,a\} \in \bigcup\bigcup\bigcup R$. 最后，$a\in \{\varnothing,a\}$，因此 $a\in \bigcup\bigcup\bigcup\bigcup R$. 类似地也有 $b\in \bigcup\bigcup\bigcup\bigcup R$. 那么定义域，值域和域都是 $\bigcup\bigcup\bigcup \bigcup R$ 的子集，因此根据分类公理它们都是集合. </p>
 <p>$R^{-1}\in \mathrm{ran}(f)\times \mathrm{dom}(f)$, $R\restriction C\subseteq R$，因此根据分类公理它们也都是集合.</p>
 </div>
-</div>
+</section>
 
 有一类特殊的二元关系是数学的学生都很熟悉的：
-<div class='definition'> 若 $f$ 是二元关系，且对每个 $x\in \mathrm{dom}(f)$，仅存在一个 $y$ 满足 $xfy$，那么那么 $f$ 又称为<span class='concept'>函数（function）或映射（mapping）</span>. 
+<div class='definition'> 若 $f$ 是二元关系，且对每个 $x\in \mathrm{dom}(f)$，仅存在一个 $y$ 满足 $xfy$，那么那么 $f$ 又称为<span class='concept'>函数（function）或映射（mapping）</span>.
 <p>对函数 $f$，若 $afb$，可记 $f(a)=b$.</p>
 <p>若我们知道 $f\subseteq A\times B$，那么可以表记为 $f: A\to B$. $B$ 称作<span class='concept'>到达域（codomain）</span>.</p>
 </div>
 如此定义的函数 $f$，就相当于在纸上画出 $f$ 的图像（graph），然后说 $f$ 的图像就<emph>是</emph> $f$——我们知道图像是由一个个点构成的，每一个点可以根据它在纸上的位置用一对坐标 $(x,y)$ 表示，而 $f$ 就正是全体这样的点的集合，与此处的定义吻合.
 
 给定一个函数，我们可以定义以下的集合：
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>给定函数 $f: A\to B$，定义
 <ol>
 <li>$f$ 在 $X\subseteq A$ 上的<span class='concept'>像（image）</span>：$f(X) = \{y \mid \exists x\in X : xfy\}$. 为了避免歧义，也可以记作$\{f(x)\}_{x\in X}$.</li>
@@ -334,9 +324,9 @@ $R$ 的定义域、值域、域、反关系，限制都是集合.
 
 <div class='proof'>显然 $f(X)\subseteq \mathrm{ran}(f)$, $f^{-1}(Y)\subseteq \mathrm{dom}(f)$，因此根据分类公理它们都是集合. 显然 $f\circ g \subseteq \mathrm{dom} (f) \times \mathrm{ran}(g)$
 </div>
-</div>
+</section>
 
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>
 <p>给定函数 $f: A\times A\to A$，$f$ 又可称作（$A$ 上的）<span class='concept'>二元运算（binary operation）</span>. 二元运算通常使用中缀的形式表示. </p>
 <p>对任意函数 $g:B\to A$，$h:C\to A$ 可以定义 $g$ 和 $h$ 的<span class='concept'>逐点（pointwise）的 $f$ 运算</span> $gfh$ 为：
@@ -346,7 +336,7 @@ $$(g f h)(x,y)=g(x)fh(y))$$
 
 <div class='proof'>显然 $\mathbb{ran}(gfh) \subseteq \mathbb{ran}(f) \subseteq A$，且 $\mathbb{dom}(gfh)\subseteq \mathbb{dom}(g)\times \mathbb{dom}(h)\subseteq B\times C$，且 $gfh$ 的定义中不含对自身的引用. 因此根据分类公理其存在.
 </div>
-</div>
+</section>
 
 有三类具有特殊性质的函数：
 <div class='definition'>给定函数 $f: A\to B$，我们称 $f$ 是
@@ -360,7 +350,7 @@ $$(g f h)(x,y)=g(x)fh(y))$$
 其中，双射函数可被视为一种 “一一对应” 的关系：$A$ 中的每一个元素 $a$ 都可以找到 $B$ 中相应的一个元素 $b$，不存在另一个 $A$ 的元素 $a'$ 对应 $b$，也不存在另一个 $B$ 的元素 $b'$ 对应 $a$.
 
 特别地，单射函数有如下性质：
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>
 <ol><li>
 对单射函数 $f: A\to B$，称 $f$ 的反关系为<span class='concept'>反函数（inverse）</span> $f^{-1}$ . $f^{-1}$ 是函数，也是单射函数.</li>
@@ -370,16 +360,13 @@ $$(g f h)(x,y)=g(x)fh(y))$$
 </div>
 
 <div class='proof'>
-
 <ol><li>反证法：假设 $f^{-1}$ 不是函数，那么对 $y\in \mathrm{dom}(f^{-1})$，存在 $x, x'\in\mathrm{ran}(f^{-1})$，$x\neq x'$ 满足 $yf^{-1}x$ 和 $yf^{-1}x'$，即 $xfy$ 和 $x'fy$，与 $f$ 的单射性矛盾.</li>
 <li>反证法易证若 $f\restriction C$ 不是单射那么 $f$ 也不是单射，与假设相悖.</li>
 <li>显然对 $x,x'\in A$，若 $x\neq x'$，$f(x)\neq f(x')$，$g(f(x))\neq g(f(x'))$，因此 $g\circ f$ 也是单射.</li>
 </ol>
-
-
 </div>
-</div>
-<a name="等价关系"></a>
+</section>
+
 <h2 class="hd">等价关系</h2>
 在函数之外，还有一类特殊的二元关系：
 <div class='definition'>若 $R\subseteq X \times X$ 是二元关系且满足以下性质：对任意 $a,b,c\in X$
@@ -392,7 +379,7 @@ $$(g f h)(x,y)=g(x)fh(y))$$
 </div>
 
 相等和等价，可类比于几何上的全等与相似. 和相等不同，等价关系更松散地定义了一种“相等”的概念. 它目的不在于比较两个物件是不是同一件物件（这是相等的功能），而是比较两件物体是不是在某种意义上是属于同一类的. 而这种由等价关系而诱导产生的“类”允许我们作一下定义：
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>
 <ol>
 <li>若 $R\subseteq X \times X$ 是等价关系，对任意 $a\in R \times R$ 都可以定义 $a$ 的<span class='concept'>等价类（equivalence class）</span> $$[a]=\{b\in X \mid aRb \}$$ </li>
@@ -411,7 +398,7 @@ $$(g f h)(x,y)=g(x)fh(y))$$
 <li>显然映射 $\pi \subseteq X\times X/R$ 是集合. 假设存在独特的 $[x]'$, $[x]$ 满足 $\pi(x)=[x]$, $\pi(x)= [x]'$，那么根据 $3$ 有 $[x]\cap [x]'=\varnothing'$，这与 $x\in[x]$, $x\in[x]'$ 相悖.</li>
 </ol>
 </div>
-</div>
+</section>
 
 <div class='definition'> 若 $R\subseteq X \times X$ 是等价关系，
 <ol>
@@ -423,7 +410,7 @@ $$(g f h)(x,y)=g(x)fh(y))$$
 
 相容性的意思是，如果一个映射 $f$ 和一个等价关系 $R$ 相容，若它的所有自变量都被等价的元素替代，它的像仍然会落在原来的像的等价类中. 这似乎意味着 $f$ 在某种意义上似乎起到了一个从等价类到等价类的映射的作用. 自然，$f$ 本身并不是这样的函数，但是下面这条定理告诉我们确实可以利用 $f$ 构造一个符合条件的等价类到等价类的映射 $g$：
 
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>若 $R\subseteq X \times X$ 是等价关系且函数 $f:X\to X$ 与 $R$ 相容，那么存在映射 $g:X/R\to X/R$，其定义如下：
 $$g=\{([x], [f(x)])\mid x\in X\}$$
 类似地，若函数 $f:X \times X\to X$ 与 $R$ 相容，那么存在映射 $g:(X/R\times X/R)\to X/R$，其定义如下：
@@ -431,13 +418,12 @@ $$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
 </div>
 
 <div class='proof'>
-<p>显然 $g\subseteq X/R \times X/R$ 根据分类公理是集合.</p> 
+<p>显然 $g\subseteq X/R \times X/R$ 根据分类公理是集合.</p>
 <p>须反证 $g$ 是映射. 若 $g$ 不是映射，那么对某个 $[x]$，存在 $[f(x)]\neq [f(x)]'$，满足 $([x],[f(x)]), ([x],[f(x)])\in g$. $[f(x)]\neq [f(x)]'$ 蕴含 $[f(x)]\cap [f(x)]' =\varnothing$，蕴含存在独特的 $y\in [f(x)]$ 和 $y'\in [f(x)]'$ 满足 $xfy$, $xfy'$. 这和 $f$ 是映射的前提相悖. 因此 $[f(x)]=[f(x)]'$.</p>
 <p>$f:(X \times X)\to X$ 的情况的证明完全类似.</p>
 </div>
-</div>
+</section>
 
-<a name="排序关系"></a>
 <h2 class="hd">排序关系</h2>
 还有第三种常见二元关系. 同样也是延展相等的概念，排序关系的目的是在两个元素的比较中引入 "大" 和 "小" 的相对概念.
 <div class='definition'>若 $R\subseteq X \times X$ 是二元关系且满足以下性质：对任意 $a,b,c\in X$
@@ -449,12 +435,13 @@ $$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
 </div>
 
 排序关系有以下性质.
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'> 若 $R\subseteq X \times X$ 是排序关系，那么它有<span class='concept'>反反身性（irreflexive）</span>；那么对任意 $a\in R$，$aRa$ 恒假. </div>
 
 <div class='proof'>反证法：显然 $a=a$ 恒真. 若 $aRa$ 为真，那么根据三分性 $a=a$ 为假，显然矛盾.
 </div>
-</div>
+</section
+>
 
 对于一个集合 $A$，若能找到并找到 $A$ 上的一个排序关系，就可以称它是有序的. 一个集合可能有多个排序关系，但一般来说，我们不会同时研究同一个集合中一个以上的排序关系，因此 “有序集” 中具体指的是哪个排序关系是由上下文指明的.
 <div class='definition'>
@@ -473,11 +460,9 @@ $$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
 </ol>
 </div>
 
-<a name="自然数 $\mathbb{N}$"></a>
 <h1 class="hd">自然数 $\mathbb{N}$</h1>
-<a name="Peano 算数公理"></a>
 <h2 class="hd">Peano 算数公理</h2>
-目前，我们的数学宇宙中已经有各种各样的集了，但是还没有一种能代表数的概念. 最简单的一种数是 “自然数”. 我们希望能用集合表示 “自然数”. 
+目前，我们的数学宇宙中已经有各种各样的集了，但是还没有一种能代表数的概念. 最简单的一种数是 “自然数”. 我们希望能用集合表示 “自然数”.
 
 在构造自然数之前，我们需要先反思我们期望一个 “自然数” 应该具有什么样的性质. 面对 “'3' 是什么？” 这个问题时，一个普通人往往会给出近似以下三个观点之一的答复：
 <ol>
@@ -493,9 +478,9 @@ $$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
 <p>总之，这里要表达的意思是对有限数字的理解对人类来说是泛有而基本的.</p>
 </div>
 
-既然 “自然数” 的概念这么基本，那么为什么还要浪费时间从集合构建自然数呢？因为我们感兴趣的问题往往涉及研究<em>全体</em>自然数所具有的特点. 一个人可以问 “所有的自然数 $a$ 都可以写成另一个自然数 $b$ 加 $0$ 的形式吗？” 为了回答这个问题，我们可以朴素地枚举写出我们知道的所有自然数并一一带入这个谓词中验证，直到谓词对所有的自然数都成立或者找到一个反例为止，但是显然这是不合实际的，因为永远也无法完成逐个验证自然数的任务：常识告诉我们自然数是无穷无尽的. 
+既然 “自然数” 的概念这么基本，那么为什么还要浪费时间从集合构建自然数呢？因为我们感兴趣的问题往往涉及研究<em>全体</em>自然数所具有的特点. 一个人可以问 “所有的自然数 $a$ 都可以写成另一个自然数 $b$ 加 $0$ 的形式吗？” 为了回答这个问题，我们可以朴素地枚举写出我们知道的所有自然数并一一带入这个谓词中验证，直到谓词对所有的自然数都成立或者找到一个反例为止，但是显然这是不合实际的，因为永远也无法完成逐个验证自然数的任务：常识告诉我们自然数是无穷无尽的.
 
-以上的讨论指出，人类有结合直觉理解一个给定的自然数 $n$ 的心智能力，但是因为没有人真正 “体验” 过无限是什么，因此人类心智无法准确地描述 “全体自然数” 这个无限的概念，更不用说能够证明关于全体自然数的性质了. 换句话说，我们连在我们的数学宇宙中能否不出悖论地存在 “全体自然数” 这个集合都无法证明. 
+以上的讨论指出，人类有结合直觉理解一个给定的自然数 $n$ 的心智能力，但是因为没有人真正 “体验” 过无限是什么，因此人类心智无法准确地描述 “全体自然数” 这个无限的概念，更不用说能够证明关于全体自然数的性质了. 换句话说，我们连在我们的数学宇宙中能否不出悖论地存在 “全体自然数” 这个集合都无法证明.
 
 虽然我们无法用枚举的形式来定义自然数，我们可以避开提及无穷枚举而试用以下的描述：
 <ol>
@@ -514,24 +499,24 @@ $$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
 那么 $A$ 可认为是全体<span class='concept'>自然数</span>的集合，可记作 $\mathbb{N}$.
 </div>
 
-自然数是通过 Peano 算数公理定义的，任何符合这套公理的集合都可以认为是全体自然数的集合；这比定义一个特定的集合为自然数更有灵活性. 对满足 Peano 公理的任何集合，如果我们表记 $e$ 为 $0$，$\sigma(0)$ 为 $1$，$\sigma(\sigma(0))=\sigma(1)$ 为 $2$ ... 那么我们得到的就是我们习以为常的用阿拉伯数字表现的自然数了. 
+自然数是通过 Peano 算数公理定义的，任何符合这套公理的集合都可以认为是全体自然数的集合；这比定义一个特定的集合为自然数更有灵活性. 对满足 Peano 公理的任何集合，如果我们表记 $e$ 为 $0$，$\sigma(0)$ 为 $1$，$\sigma(\sigma(0))=\sigma(1)$ 为 $2$ ... 那么我们得到的就是我们习以为常的用阿拉伯数字表现的自然数了.
 
 Peano 公理定义的自然数是从 $0$ 而不是 $1$ 开始的. 你或许会说，把 $e$ 记成 $1$ 和记成 $0$ 有什么区别？其实是没有区别的. 只不过，从 $1$ 开始的自然数缺乏一个加法零元：缺乏一个令 “任何自然数 $n$ 加 $x$ 仍等于 $n$” 的自然数 $x$. 如果我们要让自然数成为一个完整的代数结构（幺半群，见下文），那么在定义自然数加法和乘法的时候 $1$ 就得起 $0$ 的作用. 我们自然不希望形如 “任何自然数 $n$ 加 $1$ 仍等于 $n$” 这样的算数定律，因此把 $0$ 算作自然数都是一个更加合理的选择.
 
 同时，这样的定义让那些类似 “‘3’ 的本质是什么？” 的看似深刻的哲学命题失去了意义：如果我们把 “是” 解读为形而上的本质（ontology），那么这个问题的答案是简单干脆的 “集合”，因为我们约定数学宇宙中存在且仅存在集合，不存在什么模糊神秘的宇宙奥妙；如果把它解读为 “‘3’ 的数学定义是什么？”，那么上述定义就是答案.
 
-<a name="构建自然数"></a>
 <h2 class="hd">构建自然数</h2>
 目前，我们只定义了自然数需要满足什么性质，还不确定有没有满足这个性质的集合. 所以接下来， 我们要通过集论公理构建出一个满足 Peano 公理的自然数模型（model）. 首先，我们需要一些辅助的概念：
-<div class='theorem-macro'>
+
+<section class='theorem-macro'>
 <div class='theorem'> 一个集合 $A$ 的<span class='concept'>后继集</span>为 $A\cup \{A\}$，记 $$A^+=A\cup \{A\}$$
 </div>
 
 <div class='proof'> 对给定集合 $A\in \mathcal{A}$，显然 $a\in \mathcal{P}(A)$，$\{A\} \subseteq \mathcal{P}$ 或 $\{A\} \in \mathcal{P}(\mathcal{P}(A))$，因此 $f\subseteq \mathcal{P}\times \{A\} \in \mathcal{P}(\mathcal{P}(A))$，根据分类公理 $f$ 是集合.
 </div>
-</div>
+</section>
 
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>对于归纳集 $N$，映射 $\sigma=\{ (n,n^+) \mid n\in N\}$ 满足
 <ol>
 <li>$\sigma$ 是单射函数.</li>
@@ -545,29 +530,28 @@ Peano 公理定义的自然数是从 $0$ 而不是 $1$ 开始的. 你或许会�
 <li>根据后继集定义，对任意 $n^+\in \sigma$，显然 $n\in n^+$，$n^+\neq \varnothing$. 因此（2）显然成立.</li>
 </ol>
 </div>
-</div>
+</section>
 
 归纳集似乎有希望满足 Peano 公理. 归纳集存在吗？目前我们的公理系统无法给出明确答案. 因此我们需要一条新的公理.
 <div class='axiom'>（无穷公理）存在集合 $N$ 具备两个性质：$\varnothing \in N$，并且 $A\in N$ 蕴含 $A^+\in N$；即 $N$ 是归纳集.
 </div>
 
 无穷公理其实是比我们需要的更强的命题：它保证了归纳集的存在，但是可能存在许许多多结构臃肿的归纳集. 这些归纳集不一定都能满足 Peano 公理. 所以，不妨考虑以下这个 “最小” 的归纳集：
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>所有归纳集的集合 $\mathcal{N}$ 的交集 $\omega =\bigcap\mathcal{N}$ 也是归纳集. $\omega$ 满足 Peano 公理.</div>
 
-<div class='proof'> 
-<p>根据无穷公理，$\mathcal{N}$ 非空. 根据归纳集定义，任意归纳集都含 $\omega$ 为元素，因此必有 $\varnothing\in \omega$.</p> 
+<div class='proof'>
+<p>根据无穷公理，$\mathcal{N}$ 非空. 根据归纳集定义，任意归纳集都含 $\omega$ 为元素，因此必有 $\varnothing\in \omega$.</p>
 
 <p>假设 $n\in \omega$，那么 $n$ 必在所有归纳集内，根据归纳集定义, $n^+$ 也在所有归纳集内，因此 $n^+\in\omega$. 因此 $\omega$ 也是归纳集.</p>
 <p>为证明 $\omega$ 满足 Peano 公理，我们首先定义 $e=\varnothing \in \omega$ 和 $\sigma=\{ (n,n^+) \mid n\in \omega\}$. 显然根据定理 19，$\sigma$ 满足 Peano 公理的前两条. 考虑任意 $S\subseteq \omega$. 如果 $S$ 满足 $e\in S$ 且对任意 $k\in S$, $\sigma(k)\in S$，那么 $S$ 是归纳集；又因为 $\omega$ 是所有归纳集的并集，有 $\omega\subseteq S$，因此 $\omega=S$.</p>
 </div>
-</div>
+</section>
 
-$\omega$ 之所以 “最小”，是因为它是所有归纳集的交集. 定理 20 证明了 $\omega$ 是一个符合 Peano 公理的集合，即它是自然数的模型. 在这个模型中， $\varnothing$ 代表了自然数 $0$，$\varnothing^+=\\{\varnothing, \\{\varnothing\\}\\}$ 代表自然数 $1$，$(\varnothing^+)^+=\\{\varnothing, \\{\varnothing\\},\\{\varnothing, \\{\varnothing\\}\\}\\}$ 代表自然数 $2$……以此类推. 
+$\omega$ 之所以 “最小”，是因为它是所有归纳集的交集. 定理 20 证明了 $\omega$ 是一个符合 Peano 公理的集合，即它是自然数的模型. 在这个模型中， $\varnothing$ 代表了自然数 $0$，$\varnothing^+=\\{\varnothing, \\{\varnothing\\}\\}$ 代表自然数 $1$，$(\varnothing^+)^+=\\{\varnothing, \\{\varnothing\\},\\{\varnothing, \\{\varnothing\\}\\}\\}$ 代表自然数 $2$……以此类推.
 
-在下文中，我们将讨论自然数的泛有性质，而并非模型 $\omega$ 的特殊性质. 因此在下文中，“自然数”或 $\mathbb{N}$ 将表示满足 Peano 公理的任意集合，不一定是 $\omega$. 
+在下文中，我们将讨论自然数的泛有性质，而并非模型 $\omega$ 的特殊性质. 因此在下文中，“自然数”或 $\mathbb{N}$ 将表示满足 Peano 公理的任意集合，不一定是 $\omega$.
 
-<a name="数学归纳法与递归定义"></a>
 <h2 class="hd">数学归纳法与递归定义</h2>
 Peano 公理的第三则描述的是自然数的<span class='concept'>数学归纳性质（property of induction）</span>，它有着深远的实际意义. 如果我们需要证明某性质 $P(n)$ 对全体自然数成立，那么我们只需要证明子集 $S=\\{n\mid n\in\mathbb{N} \wedge P(n)\\}$ 是归纳集就行了，而证明 $S$ 是归纳集有两个充要的步骤：
 <ol>
@@ -580,7 +564,7 @@ Peano 公理的第三则描述的是自然数的<span class='concept'>数学归�
 <li>在很多场合下，大小为 $\sigma(k)$ 的问题能被拆解成大小为 $k$ 的子问题，使推导步能被应用（在图论中尤其常见）. 从 $k$ 问题倒着复原 $\sigma(k)$ 问题的倒着解题的方式在这种情况下往往会出错. </li>
 </ol>
 
-作为练习和示范，让我们试着证明 “$n$维有序数组是有定义的.” 这一断言对全体自然数 $n$ 都成立. 
+作为练习和示范，让我们试着证明 “$n$维有序数组是有定义的.” 这一断言对全体自然数 $n$ 都成立.
 <ul>
 <li>显然当 $n=0$，$0$ 维有序数组即 $()=\varnothing$ 是有定义的</li>
 <li>假设 $k$ 维有序数组是有定义的.</li>
@@ -589,8 +573,8 @@ Peano 公理的第三则描述的是自然数的<span class='concept'>数学归�
 因此，我们可以定义 $n$ 维的有序数组，简写为 $(x_1,x_2,x_3,...,x_n)$.
 
 目前，$\mathbb{N}$ 还没有后继函数以外的任何结构. 为了在做其上做基本的算数，我们需要借助数学归纳证明一个新的定理，使我们可以通过递归（recursion）来严谨地定义相关的函数.
-<div class='theorem-macro'>
-<div class='theorem'>对集合 $A$, 给定一个元素 $a \in A$, 对映射 $f: A \to A$，存在唯一的函数 $h: \mathbb{N} \to A$ 满足 
+<section class='theorem-macro'>
+<div class='theorem'>对集合 $A$, 给定一个元素 $a \in A$, 对映射 $f: A \to A$，存在唯一的函数 $h: \mathbb{N} \to A$ 满足
 <ol>
 <li>$h(0) = a$，</li>
 <li>对所有 $n\in \mathbb{N}$, $h(\sigma(n)) = f(h(n))$.</li>
@@ -611,7 +595,7 @@ Peano 公理的第三则描述的是自然数的<span class='concept'>数学归�
 <li>假设 $h_k$ 是集合. </li>
 <li>根据配对定理 $h_{\sigma(k)}$ 是 $h_k$ 和另一个良好定义集合的并集，也是集合.</li>
 </ul>
-那么，考虑 $h=\bigcup_{k\in \mathbb{N}} h_k$，因为 $h$ 是集合的并集，所以根据并集公理也是集合. 并且，因为每一个 $h_k$ 都是有序对的集合，$h$ 也是有序对的集合，因此它是一个二元关系，因此 $\mathrm{dom}(h)$，$\mathrm{ran}(h)$ 都是集合. 
+那么，考虑 $h=\bigcup_{k\in \mathbb{N}} h_k$，因为 $h$ 是集合的并集，所以根据并集公理也是集合. 并且，因为每一个 $h_k$ 都是有序对的集合，$h$ 也是有序对的集合，因此它是一个二元关系，因此 $\mathrm{dom}(h)$，$\mathrm{ran}(h)$ 都是集合.
 </p>
 
 <p>我们需要证明 $\mathrm{dom}(h)=\mathbb{N}$，用归纳法结合定义证明非常简单：
@@ -641,15 +625,14 @@ Peano 公理的第三则描述的是自然数的<span class='concept'>数学归�
 </ul>
 因为对任意 $n\in\mathbb{N}$，$h(n)=h'(n)$，它们一定包含相同的有序对，根据集合相等的定义有 $h=h'$.
 </div>
-</div>
+</section>
 
-这条定理非常重要：当我们需要以递归的形式定义任何函数时，构造出来的函数的良好定义性与唯一性都依赖这条定理. 
+这条定理非常重要：当我们需要以递归的形式定义任何函数时，构造出来的函数的良好定义性与唯一性都依赖这条定理.
 
-<a name="$\mathbb{N}$ 的代数结构"></a>
 <h2 class="hd">$\mathbb{N}$ 的代数结构</h2>
 在自然数上定义我们熟知的加法和乘法的算数法则，就需要递归定义.
 
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>给定一个自然数 $n$，都存在一个独特的映射 $+_n: \mathbb{N} \to \mathbb{N}$ 满足对任意 $m\in\mathbb{N}$，
 $$+_n(0)=n$$
 $$+_n(\sigma(m))=\sigma(+_n(m))$$
@@ -663,10 +646,10 @@ $$m+n=+(m,n)=+_m(n)$$
 $$m\cdot n=\cdot(m,n)=\cdot_m(n)$$
 </div>
 
-<div class='proof'> <p> $+_n$ 的存在性和独特性只需要在定理 22 中带入 $f(n)=\sigma(n)$ 就可以直接得出. 因为 $+_n$ 是映射，$+$ 也是映射.</p> 
+<div class='proof'> <p> $+_n$ 的存在性和独特性只需要在定理 22 中带入 $f(n)=\sigma(n)$ 就可以直接得出. 因为 $+_n$ 是映射，$+$ 也是映射.</p>
 <p> $\cdot_n$ 的存在性和独特性只在定理 22 中带入 $f(m)=+_n$ 就可以直接得出. 类似地 $\cdot$ 也是映射.</p>
 </div>
-</div>
+</section>
 $+_n(m)$ 和 $+(n, m)$ 之间的关系近似于函数式语言中柯里化的概念. $+_n(m)$ 像一个叫 $\mathtt{addOne(m)}$ 的递归程序. 这个程序在 $m\neq 0$ 时返还 $\mathtt{addOne(m)}=1+\mathtt{addOne(m-1)}$，当 $m= 0$ 时返还 $\mathtt{addOne(0)}=0$. 因此 $\mathtt{addOne(m)}$ 的最终返还的结果会是 $n$ 加上 $m$ 个 1，因此等于 $m+n$. 而 $+(n, m)$ 则是“包装”$+_n(m)$ 的一个母函数，后者是前者第一个变量赋值 $n$ 柯里化的结果.
 
 自然数上的加和乘的运算符合一些代数规律. 代数指的是集合中的元素在二元运算下具有的性质. 集合以及集合上的二元运算一并构成了代数结构（algebraic structure），通常以有序对的方式写出来. 如果说 Peano 公理是 “自然数” 这个概念的抽象的话，那么代数结构的公理就是 “加减乘除” 的概念的抽象.
@@ -769,18 +752,17 @@ $+_n(m)$ 和 $+(n, m)$ 之间的关系近似于函数式语言中柯里化的概
 
 
 
-正因为代数结构是从算数的特性抽象得来的，对于半环 $(R, \phi, \psi)$，一般会把 $\phi$ 称作加法 $+$，其单位元记作 $0$；把 $\psi$ 称为乘法 $\cdot$，其单位元记作 $1$. 
+正因为代数结构是从算数的特性抽象得来的，对于半环 $(R, \phi, \psi)$，一般会把 $\phi$ 称作加法 $+$，其单位元记作 $0$；把 $\psi$ 称为乘法 $\cdot$，其单位元记作 $1$.
 
 通过幺半群的公理，我们可以得到以下定理：
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>对幺半群 $(G,\phi)$，$\phi$ 的单位元是唯一的</div>
-
 <div class='proof'>若 $\phi$ 有独特单位元 $e, e'$，对任意 $a\in A$ 满足 $\phi(a,e)=\phi(e,a)=\phi(a,e')=\phi(e',a)=a$. 那么一定 $\phi(e,e')=\phi(e',e)=e=e'$，那么 $e=e'$，和独特性假设相悖.
 </div>
-</div>
+</section>
 
-不难发现，上一节中定义的自然数加、乘法，就是自然数上的二元运算. 自然数、自然数加、自然数乘构成半环的代数结构. 
-<div class='theorem-macro'>
+不难发现，上一节中定义的自然数加、乘法，就是自然数上的二元运算. 自然数、自然数加、自然数乘构成半环的代数结构.
+<section class='theorem-macro'>
 <div class='theorem'>
 $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,\cdot)$ 是半环.
 </div>
@@ -788,7 +770,7 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 证明加法的代数规律：
 <ol>
 <li>
-证明加法单位元是 $0$：归纳证明对任意 $n\in \mathbb{N}$，$0+n=n+0=n$： 
+证明加法单位元是 $0$：归纳证明对任意 $n\in \mathbb{N}$，$0+n=n+0=n$：
 <ul>
 <li>显然对$n=0$, $+_0(0)=+_0(0)=0$. </li>
 <li>若对 $+_0(k)$ 有 $+_0(k)=+_k(0)=k$，那么根据 $+_0$ 的定义，$+_0(\sigma(k))=\sigma(+_0(k))=\sigma(+_k(0))=\sigma(k)=\sigma(k)+0=+_{\sigma(k)}(0)$.
@@ -820,13 +802,13 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 <li>假设当 $a=k$，$k(b+c)=kb+kc$ 成立，那么对 $a=\sigma(k)$，有 $\sigma(k)(b+c)=(b+c)\sigma(k)=\cdot_{b+c}\sigma(k)=\cdot_{b+c}\sigma(k)=\sigma(kb+kc)=\sigma(k)b+\sigma(k)c$</li>
 </ul>
 </div>
-</div>
+</section>
 
 
 
 定理 25.2 和 25.3 通常称为消除率. 或许你会认为这两条定律是稀松平常的，但并非所有的幺半群都满足这两条定律. 这体现在我们无法通过幺半群的公理达到这两条定理，而必须通过 Peano 系统的特性来证明.
 
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>
 <ol>
 <li>对任意 $a\in\mathbb{N}$，有 $\sigma(a)=a+1$</li>
@@ -859,12 +841,11 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 </li>
 </ol>
 </div>
-</div>
+</section>
 
-<a name="$\mathbb{N}$ 上的序关系"></a>
 <h2 class="hd">$\mathbb{N}$ 上的序关系</h2>
 为了在自然数上建立序关系，我们作以下的观察：
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>$\mathbb{N}$ 有如下性质：
 <ol>
 <li>对任意 $x\in \mathbb{N}$，若 $x\neq 0$，那么存在 $k$ 满足 $x = \sigma(k)$.</li>
@@ -874,10 +855,10 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 </ol>
 </div>
 
-<div class='proof'> 
+<div class='proof'>
 <ol>
 
-<li>令 $S=\{x\in \mathbb{N}\mid \exists k: x=0\vee x= \sigma(k) \}$. 
+<li>令 $S=\{x\in \mathbb{N}\mid \exists k: x=0\vee x= \sigma(k) \}$.
 <ul>
 <li>显然 $0\in S$.</li>
 <li>若 $k \in S$.</li>
@@ -886,7 +867,7 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 因此 $S=\mathbb{N}$.
 </li>
 
-<li>令 $S=\{x\in \mathbb{N}\mid x\neq \sigma(x) \}$. 
+<li>令 $S=\{x\in \mathbb{N}\mid x\neq \sigma(x) \}$.
 <ul>
 <li>显然 $0\notin \mathbb{ran}(\sigma)$，因此 $0\neq \sigma(0)$. </li>
 <li>若 $k \neq \sigma(k)$.</li>
@@ -927,16 +908,16 @@ $(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群. $(\mathbb{N},+,
 </li>
 </ol>
 </div>
-</div>
+</section>
 
 借此，我们可以严格地定义排序关系：称一个自然数 $a$ 小于另一个自然数 $b$，当且仅当存在另一个非零的自然数 $k$，使得 $a$ 还要 “增长” $k$，才会达到 $b$.
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>存在关系 $< \subseteq \mathbb{N}\times \mathbb{N}$，对任意 $x, y\in\mathbb{N}$，有 $x<y$ 当且仅当存在 $k\in \mathbb{N}$，$k\neq 0$，满足
 $$x +k = y$$
 <p>$<$ 是排序关系.</p>
 </div>
 
-<div class='proof'> 
+<div class='proof'>
 <ul>
 <li>
 <p>三分性：对任意自然数 $x, y$，根据定理 26.2，$m=n$，$m<n$，$n<m$ 至少有一个为真. </p>
@@ -948,10 +929,10 @@ $$x +k = y$$
 <p>传递性：若 $a<b$，$b<c$，那么存在自然数 $m,n\neq 0$ 满足 $a+n=b$，$b+m=c$，那么 $a+(m+n)=c$，即 $a<c$.</p></li>
 </ul>
 </div>
-</div>
+</section>
 
 很容易得到以下结论；易见 28.2 和 28.3 是 25.2 和 25.3 的不等式版本：
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>
 <ol>
 <li>$0<1$</li>
@@ -977,9 +958,8 @@ $$x +k = y$$
 </li>
 </ol>
 </div>
-</div>
+</section>
 
-<a name="有限和无限"></a>
 <h2 class="hd">有限和无限</h2>
 既然自然数是无限的，那么也就代表着我们有了区分有限和无限的基准：：
 
@@ -992,12 +972,12 @@ $$x +k = y$$
 空集合 $\varnothing$ 常规上认为是有限的.
 </div>
 
-根据自然数的定义，每个自然数都含比它小的所有自然数为元素；因为我们的自然数含 0，因此有 $n$ 个比 $n$ 小的元素. 那么，存在双射函数 $f:A\to n$ 的意思 $A$ 中的元素可以通过 $f$ 和 $n$ 个元素一一对应，即被这 $n$ 个元素 “编号”. 因此，称 $A$ 含 $n$ 个元素. 
+根据自然数的定义，每个自然数都含比它小的所有自然数为元素；因为我们的自然数含 0，因此有 $n$ 个比 $n$ 小的元素. 那么，存在双射函数 $f:A\to n$ 的意思 $A$ 中的元素可以通过 $f$ 和 $n$ 个元素一一对应，即被这 $n$ 个元素 “编号”. 因此，称 $A$ 含 $n$ 个元素.
 
 可数无限的意思是，如果给集合 $A$ 中的每一个元素编号，自然数是够用的. 虽然这听起来不是很合常理（毕竟无限的东西有什么不够用的？）但在将来，我们会遇到自然数不够用的情况，即不可数无限的集合.
 
 对于自然数来说，每个给定的自然数都是有限的，但是全体自然数的集合是可数无限的. 这可以用归纳法证明：
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>
 <ol>
 <li>对任意非零自然数 $n\in\mathbb{N}$，$n$ 是有限的，有 $|n|=n$.</li>
@@ -1010,20 +990,18 @@ $$x +k = y$$
 <li>显然 $\{(n, n)\mid n\in\mathbb{N} \}$ 是一个 $\mathbb{N}\to \mathbb{N}$ 的双射函数.</li>
 </ol>
 </div>
-</div>
+</section>
 
 组合计数学（enumerative combinatorics）研究的主要内容就是用有创意的方法来证明一些有限集合的大小. 例如，我们可以研究从不相交的有限集合 $A$ 和 $B$ 中各抽一个元素有多少抽法，而这个问题要求的就是笛卡尔积 $A\times B$ 的势，$\|A\times B\|$. 我们在组合数学的章节里会回到这个话题上来.
 
-<a name="附录"></a>
 <h1 class="hd">附录</h1>
-<a name="集合代数的常见规律"></a>
 <h2 class="hd">集合代数的常见规律</h2>
 定义了并集后，交、并、补后，常用集合代数的运算就已经齐全了. 在将来的章节中，我们会用到以下的常用关系：
-<div class='theorem-macro'>
-<div class='theorem'> 
-对集合 $A, B, C, \mathcal{B}, \mathcal{C}$, 
+<section class='theorem-macro'>
+<div class='theorem'>
+对集合 $A, B, C, \mathcal{B}, \mathcal{C}$,
 <ol>
-<li>交和并的交换律 
+<li>交和并的交换律
 $$A\cup B=B\cup A$$
 $$A \cap B = B \cap A$$
 </li>
@@ -1031,7 +1009,7 @@ $$A \cap B = B \cap A$$
 $$A \cup (B \cup C) = (A \cup B) \cup C$$
 $$A \cap (B \cap C) = (A \cap B) \cap C$$
 </li>
-<li> 交和并的分配律 ($\mathcal{D}\neq \varnothing$) 
+<li> 交和并的分配律 ($\mathcal{D}\neq \varnothing$)
 $$A \cap \bigcup \mathcal{C} =\bigcup_{C\in \mathcal{C}} A\cap C$$
 $$A \cup \bigcap \mathcal{D} = \bigcap_{D\in \mathcal{D}} A\cup D$$
 </li>
@@ -1053,10 +1031,9 @@ $$B - \bigcap \mathcal{A} = \bigcup_{A \in \mathcal{A}}B - A$$
 
 <div class='proof'>所有运算关系都可以用交、并、补的定义及 “逻辑与证明” 中的相应规律证明.
 </div>
-</div>
-<a name="函数复合集合代数的运算规律"></a>
+</section>
 <h2 class="hd">函数复合集合代数的运算规律</h2>
-<div class='theorem-macro'>
+<section class='theorem-macro'>
 <div class='theorem'>给定函数 $f$ 和集合 $A, B, \mathcal{C}$
 <ol>
 <li>并集的像等于像的并集：$$f(\bigcup \mathcal{C}) = \bigcup_{C \in \mathcal{C}} f(C)$$</li>
@@ -1078,9 +1055,8 @@ $$B - \bigcap \mathcal{A} = \bigcup_{A \in \mathcal{A}}B - A$$
 <li>根据定义，$x\in f^{-1}(B)-f^{-1}(A)$ 当且仅当存在 $b\in B$ 满足 $f(b)=y$ 但不存在 $a\in A$ 满足 $f(a)=y$，当且仅当存在 $x\in B-A$ 满足 $f(x)=y$</li>
 </ol>
 </div>
-</div>
+</section>
 
-<a name="参考文献"></a>
 <h1 class="hd">参考文献</h1>
 <ul class="citation">
 

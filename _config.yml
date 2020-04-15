@@ -31,4 +31,14 @@ exclude:
   - Gemfile
   - Gemfile.lock
 paginate_path: "/hippocampus/page:num/"
-paginate: 5
+paginate: 12
+collections:
+  multipage:
+    output: true
+    permalink: /multipage/:path/
+
+  folders:
+    output: true
+    permalink: /folders/:path/
+sass:
+  style: compressed

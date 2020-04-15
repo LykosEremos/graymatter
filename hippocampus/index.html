@@ -3,34 +3,93 @@ layout: page
 landing: hippo
 title: 海马体
 ---
-<div style="size=0.8em;color:#9b9b9b; margin-bottom:2em;">「灰质」上的所有文章. 前往<a href="{{site.baseurl}}/dentgyr">齿状回</a>切换分类视图.</div>
+<div class="no-top-margin post-meta">共 {{ paginator.total_pages }} 页，{{ site.posts.size }} 篇文章
+</div>
+<div class="no-top-margin post-meta">
+  <div class="fixed"><div class='fixed-text'>所有文章</div></div>
+  <div class='page-block'><a href="{{site.baseurl}}/dentgyr">分类视图</a></div>
+  </div>
 
-<ul class="post-list">
-{% for post in paginator.posts %}
-<li>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <div class="post-list-title">
-      <a class="post-link" style='color:#869cfc' href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </div >
-</li>
-{% endfor %}
-</ul>
+
+  <table class='timeline' width='100%' cellspacing=0>
+    {%- for post in paginator.posts -%}
+      {%- assign post_year = post.date | date: "%Y" -%}
+      {%- assign post_month = post.date | date: "%-m" -%}
+
+      {% if prev_post_year != post_year %}
+      <tr><td class='pm'><div class="year">{{ post_year }} 年</div></td><td></td></tr>
+      <tr><td class='pm'><div class="month">{{ post_month }} 月</div></td><td></td></tr>
+        {%- assign prev_post_year = post_year -%}
+        {%- assign prev_post_month = post_month -%}
+      {% elsif prev_post_month != post_month %}
+      <tr><td class='pm'><div class="month">{{ post_month }} 月</div></td><td></td></tr>
+        {%- assign prev_post_month = post_month -%}
+      {% endif %}
+
+
+      <tr>
+      <td class='pm'><div class="day">{{ post.date | date: "%-d 日" }}</div></td>
+      <td><a class="no-bottom-margin post-listing page-block" href="{{ post.url | relative_url }}">
+          <div class="post-title">{{ post.title | escape }}</div>
+        </a></td>
+      </tr>
+
+    {%- endfor -%}
+  </table>
+
+
+
+{%- if paginator.total_pages > 1 -%}
+
+  {%- assign start = paginator.page | minus: 2 -%}
+  {%- assign end = paginator.page | plus: 2 -%}
+
+  {%- if start < 1 -%}
+    {%- assign start = 1 -%}
+    {%- assign end = start | plus: 4 -%}
+  {%- elsif end > paginator.total_pages -%}
+    {%- assign start = paginator.total_pages | minus: 4 -%}
+    {%- assign end = paginator.total_pages -%}
+  {%- endif -%}
+
+  {%- if start < 1 -%}
+    {%- assign start = 1 -%}
+  {%- endif -%}
+
+  {%- if end > paginator.total_pages -%}
+    {%- assign end = paginator.total_pages -%}
+  {%- endif -%}
 
 <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{  paginator.previous_page_path | relative_url }}" styles="font-size:5em;">
-      &laquo;
-    </a>
-  {% else %}
-    <span styles="font-size:5em;">&laquo;</span>
-  {% endif %}
-  <span class="page_number ">
-    第 {{ paginator.page }} 页，共 {{ paginator.total_pages }} 页 {{ paginator.total_posts }} 篇文章
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}" styles="font-size:5em;">&raquo;</a>
-  {% else %}
-    <span styles="font-size:5em;">&raquo;</span>
-  {% endif %}
+<div class="large-top-margin no-bottom-margin nav-box">
+  {%- if paginator.previous_page -%}
+    <div class='page-block'><a href="{{  paginator.previous_page_path | relative_url }}"><span class='arrow left'></span></a></div>
+  {%- endif -%}
+      {%- if start > 1 -%}
+        <div class='page-block'><a href="{{ site.baseurl }}/hippocampus">1</a></div>
+        <div class='fixed'><div class='no-color'>&middot;&middot;&middot;</div></div>
+      {%- endif -%}
+
+      {%- for page in (start..end) -%}
+        {%- if page == paginator.page -%}
+            <div class="fixed"><div class='fixed-text'>{{ page }}</div></div>
+        {%- elsif page == 1 -%}
+            <div class='page-block'><a href="{{ site.baseurl }}/hippocampus">{{ page }}</a></div>
+        {%- else -%}
+            <div class='page-block'><a href="{{ site.baseurl }}/hippocampus/page{{ page }}">{{ page }}</a></div>
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if end < paginator.total_pages -%}
+        <div class='fixed'><div class='no-color'>&middot;&middot;&middot;</div></div>
+        <div class='page-block'><a href="{{ site.baseurl }}/hippocampus/page{{ paginator.total_pages }}">{{ paginator.total_pages }}</a></div>
+      {%- endif -%}
+{%- endif -%}
+
+  {%- if paginator.next_page -%}
+    <div class='page-block'><a href="{{ paginator.next_page_path | relative_url }}"><span class='arrow right'></span></a></div>
+  {%- endif -%}
+
+
+
 </div>

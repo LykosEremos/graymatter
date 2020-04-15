@@ -1,0 +1,18 @@
+---
+layout: page
+landing: dentgyr
+title: 齿状回
+permalink: /dentgyr/
+---
+<div class="no-top-margin post-meta">共 {{ site.folders.size }} 个类别，{{ site.posts.size }} 篇文章
+</div>
+<div class="no-top-margin post-meta">
+  <div class='page-block'><a  href="{{site.baseurl}}/hippocampus">所有文章</a></div>
+  <div class="fixed"><div class='fixed-text'>分类视图</div></div>
+</div>
+
+<div class='no-top-margin nav-box'>
+{% for folder in site.folders %}
+    <div class='page-block'><a href="{{ site.baseurl }}{{ folder.url }}">{{ folder.cat }}</a></div>
+{% endfor %}
+</div>
