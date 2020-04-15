@@ -162,7 +162,7 @@ hr {
 	margin-bottom: 1em;
 	display: block;
 	min-width: 400px;
-	width: 95%;
+	max-width: 95%;
 }
 
 .clock-ninety{
@@ -510,7 +510,8 @@ footer {
 }
 
 .timeline {
-	margin: auto;
+	margin-left: 0;
+	margin-right: auto;
 	border-spacing: 0;
 
 }
@@ -521,8 +522,8 @@ footer {
 
 .timeline .pm {
 	text-align: right;
-	padding-right: 40px;
-	min-width: 90px;
+	padding-right: 20px;
+	min-width: 65px;
 }
 
 .timeline tr {
@@ -532,7 +533,7 @@ footer {
 
 .timeline .year {
 	font-weight: bolder;
-	font-size: 20px;
+	font-size: 18px;
 }
 .timeline .month {
 	font-size: 17px;
@@ -558,6 +559,7 @@ footer {
 	font-size: 15px;
 	color: $demph-col;
 	margin-top: 5px;
+	line-height: 0;
 	margin-bottom: 5px;
 }
 
@@ -591,8 +593,9 @@ footer {
 
 .post-meta {
 	font-size: 1em;
-	margin-top: 1em;
-	margin-bottom: 2em;
+	margin-top: 2em;
+	line-height: 2.0em;
+	margin-bottom: 1em;
 	font-family: Arial,"PingFang SC","Microsoft YaHei", "微软雅黑";
 	color: $demph-col;
 }
