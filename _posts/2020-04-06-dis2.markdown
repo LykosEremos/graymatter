@@ -2,7 +2,7 @@
 title:  "第二季 · 筼筜湖的虾虎鱼及少许其他原生"
 date:   2010-09-23
 modified: 2014-01-02
-category: '「发现」正篇'
+category: '｢发现｣ 正篇'
 toc: false
 ---
 

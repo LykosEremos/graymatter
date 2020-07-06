@@ -2,7 +2,7 @@
 title:  "第三季 · 另一块土地，另一个世界"
 date:   2011-02-01
 modified: 2014-01-02
-category: '「发现」正篇'
+category: '｢发现｣ 正篇'
 col_name: 'dis3'
 ---
 本篇发生于2011年1月

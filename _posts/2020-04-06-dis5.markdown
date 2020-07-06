@@ -1,8 +1,8 @@
 ---
 title:  "第五季 · 七彩暹罗"
-date:   2011-05-14
+date:   2011-07-11
 modified: 2014-01-05
-category: '「发现」正篇'
+category: '｢发现｣ 正篇'
 col_name: 'dis5'
 ---
 

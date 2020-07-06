@@ -7,13 +7,13 @@
         {% elsif headerLevel == 2 %}
           {% assign left_group = 'toch2' %}
         {% else %}
-            {% continue %}
+         {% continue %}
         {% endif %}
         {% assign header_content_array = node | split: '>' %}
         {% assign header = header_content_array[1] %}
         {% assign header_content_array = header | split: '</h' %}
         {% assign header = header_content_array[0] %}
-        {% capture toc_acc %}{{ toc_acc }}<a class='{{ left_group }}' href='#{{ header }}'> {{ header }} </a> {% endcapture %}
+        {% capture toc_acc %}{{ toc_acc }}<div class='toc-pad'><a class='{{ left_group }}' href='#{{ header }}'> {{ header }} </a></div>{% endcapture %}
     {% endfor %}
     {% endcapture %}
 {% assign toc_temp = '' %}
@@ -22,7 +22,7 @@
 	</div>
 </div>
 		<div class="dropdown">
-			<button class="dropdown-button" id="tg-button" onclick="toggle_toc()">
+			<button class="dropdown-button" id="tg-button" onclick="toggle_nav()">
 			<div class='bar-div'></div>
 			<div class='bar-div'></div>
 			<div class='bar-div'></div>

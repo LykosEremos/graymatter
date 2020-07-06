@@ -1,6 +1,3 @@
----
----
-
 @charset "utf-8";
 @import "minima";
 
@@ -15,44 +12,74 @@ $nv-col: rgba(49, 49, 49, 0.6);
 $demph-col: #a3a3a3;
 $menu-col: #313131;
 $hl-col:#dcdcdc;
+$ctr-col: #cdcdcd;
+
+
+.maintext {
+	line-height: 165%;
+	text-indent: 0px;
+	font-size: 17px;
+	letter-spacing: 0.005em;
+	font-family: 'Arial',"PingFang SC","Microsoft YaHei";
+}
 
 html {
 	position: relative;
 	min-height: 100%;
 	overflow-y: scroll;
 	background-color: $bg-col;
-	font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC";
+	font-family: "Microsoft YaHei", "PingFang SC";
 }
 
 .site-title {
 		position: relative;
 }
 
-.background-setting {
-	height: 100%;
 
+.home {
+	height: 100%;
+	background: url("../amoya2.png");
 	background-position: center;
 	background-size: cover;
 	background-color: $bg-col;
 }
 
-.home {
-	background: url("amoya.png");
-}
 
 .hippo {
-	background-image: url("hippo.png");
+	min-height: 100%;
+	background-image: url("../hippo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .dentgyr {
-	background-image: url("dentgyr.png");
+	min-height: 100%;
+	background-image: url("../dentgyr.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .about {
-	background-image: url("about.png");
+	min-height: 100%;
+	background-image: url("../about.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-
+.faxian {
+	min-height: 100%;
+	background-image: url(".,/faxian.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
 body {
 	margin: 0;
@@ -69,7 +96,7 @@ body {
 	counter-reset: axiom;
 	counter-reset: figcounter;
 	background-color: transparent;
-	font-family: 'Arial', "Microsoft YaHei", "微软雅黑", "PingFang SC";
+	font-family: 'Arial', "Microsoft YaHei", "PingFang SC";
 
 }
 
@@ -85,7 +112,7 @@ body {
 	text-indent: 0px;
 	font-size: 15px;
 	letter-spacing: 0.005em;
-	font-family: 'Arial',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	font-family: 'Arial',"PingFang SC","Microsoft YaHei";
 }
 
 .quote {
@@ -99,24 +126,56 @@ ol li {
 }
 
 a {
-	color:$lk-col;
+	color:$ctr-col;
+	transition: 0.25s;
 }
-a:link{
-  color:$lk-col;
-}
-a:visited{
-  color:$lk-vst-col;;
-}
-a:hover{
+
+a:hover {
+	color: $tx-col;
 	text-decoration: none;
-  color:$lk-hov-col;
 }
-a:visited:hover{
-  color:$lk-hov-col;
+
+a:link{
+  color:$ctr-col;
 }
+
+a:visited{
+  color:$ctr-col;;
+}
+
 
 p {
 	text-indent: 2em;
+}
+
+hr {
+  border: 0.5px solid $demph-col;
+
+	width: 50%;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	background-color: $demph-col;
+}
+
+.no-indent {
+	text-indent: 0em;
+}
+
+.disc {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	display: block;
+	max-width: 100%;
+	min-width: auto;
+	margin-left: 0;
+}
+
+.clock-ninety{
+	 -webkit-transform: rotate(90deg);
+	 -moz-transform: rotate(90deg);
+	 -o-transform: rotate(90deg);
+	 -ms-transform: rotate(90deg);
+	 transform: rotate(90deg);
 }
 
 i {
@@ -131,8 +190,7 @@ h1 {
 	counter-reset: h2counter;
 	margin-top: 1.4em;
 	margin-bottom: 1em;
-	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
-
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei";
 }
 
 h1:nth-child(2) {
@@ -144,7 +202,7 @@ h2 {
 	font-weight: bold;
 	font-size: 1.3em;
 	margin-top: 1.4em;
-	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei";
 }
 
 h1:before {
@@ -158,7 +216,7 @@ h3 {
 	font-weight: bold;
 	font-size: 1.2em;
 	margin-top: 1.4em;
-	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei";
 	}
 
 
@@ -170,7 +228,7 @@ h3 {
 	display: flex;
 	margin-bottom: 0.25em;
 	overflow-x: scroll;
-	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei";
 	&::before ,
     &::after {
       content:'';
@@ -190,15 +248,71 @@ h3 {
 	background-color: $bx-col;
 }
 
-
-
-
 .fig:before {
 	counter-increment: figcounter;
 	content: "Fig " counter(figcounter) '. \00a0';
 	font-weight: bold;
 	font-style: normal;
 }
+
+.gallery-wall {
+	clear:both;
+	display: block;
+}
+
+.container {
+	width: 49%;
+	min-height: 10em;
+	text-align: center;
+	background-color: $nv-col;
+  position: relative;
+	display: flex;
+	float: left;
+	margin-right: 0.25em;
+	margin-bottom: 0.25em;
+}
+
+.image-box {
+	object-fit: cover;
+	filter: brightness(50%);
+	min-width: 100%;
+	height: 10em;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-low {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+
+
+.folder-link {
+	padding: 2px 4px;
+	color: $tx-col;
+	border-radius: 3px;
+	background-color: $bx-col;
+	border: 1px solid $tx-col;
+}
+
+.category-botton {
+  background-color: $nv-col;
+	padding: 3px;
+  text-align: center;
+  font-size: 8pt;
+	position: absolute;
+	bottom: 2px;
+	left: 2px;
+}
+
 
 table{
 	margin-left:auto;
@@ -304,10 +418,6 @@ blockquote{
 	color: $lk-col;
 }
 
-.maintext a:hover {
-	color: $lk-hov-col;
-	text-decoration: none;
-}
 
 .arrow {
   border: solid $tx-col;
@@ -332,29 +442,25 @@ blockquote{
 //header and footer
 
 .side-bar{
-	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
+	font-family: 'Arial','Times New Roman',"PingFang SC", "Microsoft YaHei";
 	position: fixed;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 8px 0 rgba(0, 0, 0, 0.19);
-	top: 6em;
-	border-radius: 5px;
-	left: -250px;
-	bottom: 4em;
-	width: 200px;
-	padding: 1em;
+	width: 0;
+	bottom: 10px;
+	top: 75px;
+	left: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 1.2em;
-	margin-right: 50px;
 	background-color: $menu-col;
+	overflow-x: hidden;
 	overflow-y: auto;
 	z-index: 2;
-	transition: transform 0.5s ease-in-out;
-	counter-reset: toch1counter;
+	transition: 0.25s;
 
+	counter-reset: toch1counter;
 	a,a:visited {
 		color: $tx-col;
-	}
-	a:hover, a:visited:hover{
-		color: $bg-col;
-		background-color: $tx-col;
 	}
 }
 
@@ -363,6 +469,12 @@ blockquote{
 }
 .side-bar::-webkit-scrollbar-thumb {
 	background-color: $bg-col;
+}
+
+.side-bar {
+	a:hover, a:visited:hover{
+		color: $tx-col;
+	}
 }
 
 #site-icon{
@@ -434,131 +546,264 @@ footer {
 }
 
 .navbar-wrapper {
-	position:relative;
-	margin-right: auto;
-	text-align: justify;
-	margin-left: auto;
-	color: white;
+  position:relative;
+  	margin-right: auto;
+
+  	margin-left: auto;
 	font-size: 0.9em;
-	font-family: 'Arial','Times New Roman',"PingFang SC","Microsoft YaHei", "微软雅黑";
 }
 
 /** hippocampus */
 
-.post-listing{
-	display: inline-block;
-	margin-bottom: 1em;
-	padding-left: 0.2em;
-	padding-right: 0.7em;
-	padding-top: 0.1em;
-	padding-bottom: 0.25em;
-	font-size: 20pt;
+
+.timeline {
+	margin-left: 2%;
+	margin-right: auto;
+	border-spacing: 0;
+	max-width: 90%;
+
+}
+.timeline td {
+	margin: 0;
+	padding: 4px 0;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
 }
 
 
-.post-listing .post-meta {
-	margin: 0.1em;
-	font-size: 0.6em;
+
+.align-center {
+  text-align: center;
+}
+
+
+
+
+.featured {
+	position: relative;
+	max-width: 150px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	margin-left: 0;
+}
+
+.trow {
+	display: block;
+	overflow:hidden;
+	margin-bottom: 10px;
+	padding: 20px;
+  max-width: 800px;
+	border-bottom: 1px solid $demph-col;
+}
+
+.tcol {
+	display: inline;
 	color: $demph-col;
 }
 
-.post-listing .post-title {
-	font-size: 1em;
-	color: $tx-col;
+
+.timeline .pm {
+	min-width: 45px;
 }
 
-.post-listing:hover{
-	background-color: $hl-col;
+.timeline .month {
+	font-size: 15px;
 }
-.post-listing:hover .post-title,.post-listing:hover .post-meta {
-	color: $bg-col;
+
+.timeline .day {
+	font-size: 15px;
+	color: $demph-col;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
-.post-list-title {
-	font-size: 1em;
+
+
+.container .post-title {
+	font-weight: bold;
+	font-family: 'Times New Roman',"SimSun", "宋体";
+}
+
+.container-date {
+	font-family: 'Times New Roman',"SimSun", "宋体";
 }
 
 /** page template */
 
 .post-header {
-	margin-bottom: 30px;
 	line-height: 300%;
 }
 
 .page-heading {
 	font-size: 2.1em;
-	color: $lk-col;
+	color: $tx-col;
+}
+
+a.page-heading-nav {
+	font-size: 2.1em;
+	color: $demph-col;
+	font-weight: 300;
 }
 
 .post-meta {
-	font-size: 0.9em;
-	margin-top: 1em;
-	margin-bottom: 2em;
-	font-family: Arial,"PingFang SC","Microsoft YaHei", "微软雅黑";
+	font-size: 1em;
+	margin-top: 10px;
+	line-height: 2.0em;
+	margin-bottom: 5px;
+	font-family: Arial,"PingFang SC","Microsoft YaHei";
 	color: $demph-col;
 }
 
+
+
+
+
 .post-title {
-	font-family: "微软雅黑", "SimHei";
+	font-family: "Microsoft YaHei", "SimHei";
 	font-size: 2em;
 	color: #f3f3f3;
+	line-height: normal;
 }
 
+.clear {
+	clear:both;
+}
 
-.nav-box{
-	display: flex;
-	justify-content: space-between;
+.nav-box {
+	display: block;
+	clear:both;
 	font-size: 0.9em;
-	margin-top: 5em;
-}
-
-.page-block-box{
-	font-size: 0.9em;
-	margin-top: 5em;
-}
-
-.multipage-ver {
-	margin-top: 2em;
+  width: 100%;
 }
 
 
-.nav-box a, .nav-box a:hover{
-  color: $tx-col;
+.small-side-margin {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.very-small-side-margin {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.no-top-margin {
+	margin-top: 5px;
+}
+
+.small-top-margin {
+	margin-top: 10px
+}
+
+.medium-top-margin {
+	margin-top: 15px
+}
+
+.large-top-margin {
+	margin-top: 30px;
+}
+
+.very-large-top-margin {
+	margin-top: 50px;
 }
 
 
-.page-block:hover .big-arrow{
-	border: solid $bg-col;
-	display: inline-block;
-	border-width: 0 6px 6px 0;
-	padding: 6px;
+.no-bottom-margin {
+	margin-bottom: 5px;
+}
+
+.small-bottom-margin {
+	margin-bottom: 10px
+}
+
+.medium-bottom-margin {
+	margin-bottom: 15px
+}
+
+
+.large-bottom-margin {
+	margin-bottom: 30px;
+}
+
+.very-large-bottom-margin {
+	margin-bottom: 50px;
 }
 
 /* for multipage */
+.top-paging{
+		margin-bottom: 2em;
+		font-size: 0.8em;
+}
+
+.multipage{
+	margin-bottom: 0.5em;
+}
+
+.small-font {
+	font-size: 13pt;
+}
+
+.medium-font {
+	font-size: 14pt;
+}
+
+.large-font {
+	font-size: 15pt;
+}
+
+.botton-margin {
+		margin-left: 2px;
+		margin-right: 2px;
+}
+.large-botton-margin {
+		margin-left: 10px;
+		margin-right: 10px;
+}
+
+
+.flex {
+	display:flex;
+}
+
 .page-block {
-  display: inline-block;
-}
-
-.page-block a {
-  color: $tx-col;
-  float: left;
-  padding: 8px 16px;
+	display: inline-block;
   text-decoration: none;
+	padding: 1px 8px;
 }
 
-.page-block:hover {
-	background-color: $hl-col;
+.page-block.focus {
+	color: $bg-col;
+	background-color: $tx-col;
 }
 
-.page-block a:hover {
-  color: $bg-col;
+.page-block.fixed {
+	color: $demph-col;
+	padding: 2px 4px;
 }
 
-.page-block:hover {
-
+.page-block-box{
+	display: block;
+  margin-top: 5em;
 }
 
+.prev {
+  position: relative;
+	display: flex;
+	float: left;
 
-
+}
+.next {
+  position: relative;
+	float: right;
+	display: flex;
+}
 
 
 
@@ -585,25 +830,25 @@ footer {
 	float:left;
 }
 
+.toc-pad {
+	min-width: 250px;
+}
+
 .toch1 {
 	display: block;
+	color: $demph-col;
 	float: left;
 	clear: left;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
 	counter-reset: toch2counter;
+	margin: 4px 8px 4px 18px;
 }
 .toch2 {
 	display: block;
+	color: $demph-col;
 	float: left;
 	clear: left;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
 	font-size: 0.75em;
+	margin: 4px 8px 4px 18px;
 }
 
 .toch1:before {
@@ -634,7 +879,7 @@ footer {
 	position: relative;
 	z-index:2;
 	cursor: pointer;
-	font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC";
+	font-family: "Microsoft YaHei", "PingFang SC";
 }
 
 .dropdown-menu {
@@ -693,7 +938,7 @@ img {
 	line-height: 56px;
 }
 .navigation .page-link {
-	color: $tx-col;
+	color: $ctr-col;
 	text-align: justify;
 	line-height: 1.5em;
 	font-size: 1.1em;
@@ -701,9 +946,6 @@ img {
 	padding: 5px;
 }
 
-.navigation .page-link:hover {
-	text-decoration: none;
-}
 
 .navigation ul {
 	text-align: justify;
@@ -719,10 +961,6 @@ img {
 .navigation a {
 	color: $tx-col;
 }
-.navigation a:hover{
-	color: $bg-col;
-	background-color: $hl-col;
-}
 
 .citation {
 	list-style-type: none;
@@ -737,10 +975,6 @@ img {
 	color: $lk-col;
 }
 
-.citation a:hover {
-	color: $lk-hov-col;
-	text-decoration: none;
-}
 
 .home p {
 	max-width: 650px;
@@ -759,29 +993,32 @@ img {
 }
 
 .btn{
-		background-image: url("ts.png");
+		background-image: url("../ts.png");
 		background-position: center;
 		background-size: cover;
 		display: block;
+		margin: 14em auto auto;
 		width: 90px;
 		height: 90px;
 		transition: all ease 0.2s;
 		position: relative;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 20em;
-		margin-bottom: auto;
 		z-index: 1;
 		&:hover {
 			cursor: pointer;
 		}
 }
 
+.version {
+		display: block;
+		position: fixed;
+		text-align: center;
+		color: $demph-col;
+		left: 10px;
+		bottom: 10px;
+		z-index: 1;
+		font-size: 0.8em;
+}
 
-
-
-
-/*-webkit-calc(1000px - (30px * 2)); max-width: calc(1000px - (30px * 2))*/
 
 .wrapper {
 	max-width: -webkit-calc(900px - (30px * 2));
@@ -790,8 +1027,68 @@ img {
 	margin-left: auto;
 	padding-right: 30px;
 	padding-left: 30px;
-	font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC";
+	font-family: "Microsoft YaHei",  "PingFang SC";
 	color: white;
+}
+
+
+@media (hover: hover) {
+	a:hover{
+		text-decoration: none;
+		color:$tx-col;
+	}
+	a:visited:hover{
+		color:$tx-col;
+	}
+
+	.maintext a:hover {
+		color: $lk-hov-col;
+		text-decoration: none;
+	}
+
+
+
+	.post-listing:hover{
+		background-color: $hl-col;
+	}
+
+	.citation a:hover {
+		color: $lk-hov-col;
+		text-decoration: none;
+	}
+
+
+
+	.post-listing:hover .post-title,.post-listing:hover .post-meta {
+		color: $bg-col;
+	}
+
+	a.page-block:hover {
+		background-color: $hl-col;
+	}
+
+	a.focus:hover {
+		color: $bg-col;
+		background-color: $tx-col;
+	}
+
+	a.fixed:hover {
+		color: $demph-col;
+	}
+
+	a.page-block:hover{
+		color:$bg-col;
+		text-decoration: none;
+	}
+
+	.post-meta a:hover {
+		color: $demph-col;
+	}
+
+	a.page-heading-nav:hover {
+		color: $demph-col;
+	}
+
 }
 
 
@@ -819,195 +1116,12 @@ img {
 	.mobile {
 		display: block;
 	}
+
 }
 
+@media screen and (max-width: 600px){
 
-//math environments
-
-.corollary:before {
-	content: "结论 " counter(theorem) "." counter(corollary) ". ";
-	font-weight: bold;
-	font-style: normal;
-}
-
-.corollary {
-	counter-increment: corollary;
-	display: inline;
-}
-
-.toggle-hint {
-	font-style: italic;
-	color:darken($tx-col, 50%);
-}
-
-.toggle-proof {
-	cursor: pointer;
-	text-align: left;
-	position: relative;
-	margin-right: 0;
-	color: $tx-col;
-	background-color: transparent;
-	outline: none;
-	border: none;
-	transition: 0.35s;
-	&::after {
-		content: "\276F";
-		font-size: 15px;
-		display: inline;
-		text-align: left;
-		font-family: inherit;
-	}
-}
-
-.lemma {
-	display: block;
-	margin: 12px 0;
-	margin-left: 3em;
-	& ::before {
-		content: "引理.";
-		font-weight: bold;
-		font-style: normal;
-	}
-}
-
-.definition {
-	counter-increment: definition;
-	display: block;
-	font-size: 0.9em;
-	background: $bx-col;
-	padding: 0.8em 0.8em 0.8em 0.8em;
-	margin-top: 0.75em;
-	margin-bottom: 0.75em;
-	overflow-x: scroll;
-}
-.definition::-webkit-scrollbar {
-	width: 6px;
-}
-.definition::-webkit-scrollbar-thumb {
-	background-color: $bg-col;
-}
-
-
-
-.definition ol {
-	margin-left: 2em;
-}
-
-.suggest {
-	counter-increment: definition;
-	display: block;
-	font-size: 0.9em;
-	margin-left: 1.5em;
-	margin-right: 1.5em;
-	background: #055e1d;
-	padding: 1em 1em 1em 1em;
-	margin-bottom: 1em;
-}
-
-.definition::before {
-	content: "定义 " counter(definition) ". ";
-	font-weight: bold;
-}
-
-.axiom {
-	counter-increment: axiom;
-	display: block;
-	font-size: 0.9em;
-	background: $bx-col;
-	padding: 1em 1em 1em 1em;
-	margin-bottom: 0.5em;
-	overflow-x: scroll;
-}
-.axiom::-webkit-scrollbar {
-	width: 6px;
-}
-.axiom::-webkit-scrollbar-thumb {
-	background-color: $bg-col;
-}
-
-.axiom::before {
-	content: "公理 " counter(axiom) ". ";
-	font-weight: bold;
-}
-
-
-/*
- CSS for the main interaction
-*/
-
-.proof p {
-	text-indent: 0px;
-}
-
-.theorem {
-	display: block;
-	padding-top: 0.5em;
-	padding-left: 0.5em;
-	padding-bottom: 1em;
-}
-
-.theorem:before {
-	content: "定理 " counter(theorem) ". ";
-	font-weight: bold;
-	font-style: normal;
-}
-
-.theorem-macro > input[type="checkbox"] {
-  position: absolute;
-  left: -100vw;
-}
-
-.theorem-macro .proof {
-	display: none;
-}
-
-
-.theorem-macro {
-	counter-increment: theorem;
-	counter-reset: corollary;
-	display: block;
-	padding: 0.8em 0.8em 0.8em 0.8em;
-	font-size: 0.9em;
-	background-color: $bx-col;
-	justify-content: left;
-	margin-top: 0.75em;
-	margin-bottom: 0.75em;
-	overflow-x: scroll;
-}
-
-.theorem-macro::-webkit-scrollbar {
-	width: 6px;
-}
-.theorem-macro::-webkit-scrollbar-thumb {
-	background-color: $bg-col;
-}
-
-.theorem-macro ol {
-	margin-left: 2em;
-}
-
-.theorem-macro .handle {
-  display: inline-block;
-}
-
-.theorem-macro label {
-  cursor: pointer;
-	color: $demph-col;
-  font-weight: normal;
-  padding: 3px;
-	display: block;
-}
-
-.theorem-macro > input[type="checkbox"]:checked ~ .proof {
-	display: block;
-}
-
-.theorem-macro label:after {
-  content: "证明？";
-}
-
-.theorem-macro > input[type="checkbox"]:checked ~ label:after {
-  content: "证明.";
-	font-style: italic;
-	color: $tx-col;
+  .container {
+    width: 100%;
+  }
 }

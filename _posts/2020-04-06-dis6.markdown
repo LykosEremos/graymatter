@@ -2,7 +2,7 @@
 title:  "第六季 · 丝路传说"
 date:   2011-07-24
 modified: 2014-01-05
-category: '「发现」正篇'
+category: '｢发现｣ 正篇'
 col_name: 'dis6'
 ---
 

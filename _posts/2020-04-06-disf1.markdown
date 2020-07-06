@@ -2,7 +2,7 @@
 title:  "鱼市考察（01）"
 date:   2011-08-10
 modified: 2014-01-05
-category: '「发现」鱼市考察'
+category: '｢发现｣ 鱼市考察'
 ---
 
 本篇首发于2011年8月10日，强烈感谢@Scylla_serrata 的修改建议

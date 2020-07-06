@@ -2,13 +2,12 @@
 title:  "第一季 · 筼筜湖的原生"
 date:   2010-08-11
 modified: 2014-01-02
-category: '「发现」正篇'
+category: '｢发现｣ 正篇'
 toc: false
+col_name: 'dis1'
 ---
 
 本篇发生于10年8月11日
-
----
 
 景色
 

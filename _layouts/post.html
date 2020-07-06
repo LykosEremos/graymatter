@@ -49,26 +49,12 @@ layout: default
 {%- if end > total_number_pages -%}
   {%- assign end = total_number_pages -%}
 {%- endif -%}
+
+
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-{%- if toc_setting -%}
-{%- include toc_logic.html html=content -%}
-<script>
-function toggleHd()
-{
-var menu=document.getElementById('hd-menu');
 
-    if (menu.style.display === 'block') {
-        menu.style.display = 'none';
-    } else {
-        menu.style.display = 'block';
-    }
-}
-</script>
-{%- endif -%}
-
-		<div class="page-heading" style="font-weight:300;margin-bottom:0.1em;">
-			<a href="{{ site.baseurl }}/hippocampus" style="color:#828282;">海马体 /</a>
-		</div>
+		<a class='page-heading-nav' href="{{ site.baseurl }}/hippocampus">海马体 /</a>
 		<header class="small-bottom-margin post-header">
 		<div class="post-title" itemprop="name headline">
 			{%- if page.parent or page.col_name -%}
@@ -78,31 +64,35 @@ var menu=document.getElementById('hd-menu');
 			{%- endif -%}
 		</div>
 
-		<div class="medium-top-margin medium-bottom-margin post-meta">
+		<div class="medium-top-margin large-bottom-margin post-meta">
 			{% if page_category %}
 				{% for folder in site.folders %}
 					{% if folder.cat == page_category %}
 					{% assign fold = folder %}
 					{% endif %}
 				{% endfor %}
-				<a href="{{ site.baseurl }}{{ fold.url }}">{{ fold.cat }}</a>.
+				<a class='folder-link' href="{{ site.baseurl }}{{ fold.url }}">{{ fold.cat }}</a>
 			{% endif %}
 			{%- if page.parent or page.col_name -%}
-			首发于 <time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ parent_post.date | date: "%b %-d, %Y" }}</time>
-			{%- if parent_post.modified -%}，最后修改于 {{ parent_post.modified | date: "%b %-d, %Y" }}{%- endif -%}.
+			&nbsp; &nbsp; 首发：<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ parent_post.date | date: "%Y-%m-%d" }}</time>
+			{%- if parent_post.modified -%}. 最后修改：{{ parent_post.modified | date: "%Y-%m-%d" }}{%- endif -%}.
 			{%- else -%}
-			首发于 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-			{%- if page.modified -%}，最后修改于 {{ page.modified | date: "%b %-d, %Y" }}{%- endif -%}
+			&nbsp; &nbsp; 首发：<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
+			{%- if page.modified -%} &nbsp; &nbsp; 最后修改：{{ page.modified | date: "%Y-%m-%d" }}{%- endif -%}
 			{%- endif -%}
 		</div>
 
 		</header>
 
 <body>
+
+	{%- if toc_setting -%}
+	{%- include toc_logic.html html=content -%}
+	{%- endif -%}
+
+
 {%- if page.parent or page.col_name -%}
-<div class="small-top-margin large-bottom-margin nav-box">
 {%- include post_pagination_logic.html -%}
-</div>
 {%- endif -%}
 
 <div class="maintext" itemprop="articleBody">
@@ -117,46 +107,29 @@ var menu=document.getElementById('hd-menu');
 </div>
 
 {%- if page.parent or page.col_name -%}
-<div class="large-top-margin nav-box">
 {%- include post_pagination_logic.html -%}
-</div>
 {%- endif -%}
 
 {%- if page.parent or page.col_name -%}
 <div class = 'large-top-margin nav-box'>
 {%- if parent_post.previous.url -%}
-<div class="prev small-font page-block">
-<a href="{{ site.baseurl }}/{{parent_post.previous.url}}">
-<span class='arrow left'></span> {{parent_post.previous.title}}
-</a>
-</div>
+<a class='prev small-font page-block' href="{{ site.baseurl }}/{{parent_post.previous.url}}">{{parent_post.previous.title}}</a>
 {%- endif -%}
-
 {%- if parent_post.next.url -%}
-<div class="next small-font page-block">
-<a href="{{ site.baseurl }}/{{parent_post.next.url}}">
-{{parent_post.next.title}} <span class='arrow right'></span>
-</a>
-</div>
-
+<a class="next small-font page-block" href="{{ site.baseurl }}/{{parent_post.next.url}}">{{parent_post.next.title}}</a>
 {%- endif -%}
 </div>
 {%- else -%}
 <div class = 'large-top-margin nav-box'>
 {%- if page.previous.url -%}
-<div class="prev small-font page-block">
-<a href="{{ site.baseurl }}/{{page.previous.url}}">
-<span class='arrow left'></span> {{page.previous.title}}
+<a class="prev small-font page-block" href="{{ site.baseurl }}/{{page.previous.url}}">
+上一篇： {{page.previous.title}}
 </a>
-</div>
 {%- endif -%}
 {%- if page.next.url -%}
-<div class="next small-font page-block">
-<a href="{{ site.baseurl }}/{{page.next.url}}">
-{{page.next.title}} <span class='arrow right'></span>
+<a class="next small-font page-block" href="{{ site.baseurl }}/{{page.next.url}}">
+下一篇：{{page.next.title}}
 </a>
-</div>
-
 {%- endif -%}
 </div>
 {%- endif -%}

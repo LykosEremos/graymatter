@@ -2,9 +2,15 @@
 layout: default
 ---
 <article class="post">
-  <div class="page-heading" style="color:#e8e8e8;">
-   {{ page.title | escape }}
-  </div>
+
+  {%- if page.title == '海马体' -%}
+  <span class="page-heading">{{ page.title | escape }}</span><a class="page-heading-nav" href="{{site.baseurl}}/dentgyr"> / 齿状回</a>
+  {%- elsif page.title == '齿状回' -%}
+  <span class="page-heading">{{ page.title | escape }}</span><a class="page-heading-nav" href="{{site.baseurl}}/hippocampus"> / 海马体</a>
+  {%- else -%}
+  <div class="page-heading">{{ page.title | escape }}</div>
+   {%- endif -%}
+
   <div class="page-content" style="padding-top: 5px;padding-bottom: 5px;">
     {{ content }}
   </div>

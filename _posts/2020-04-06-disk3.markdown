@@ -2,8 +2,7 @@
 title:  "昆虫篇第二章 · 昆虫随记"
 date:   2011-08-12
 modified: 2014-01-05
-category: '「发现」昆虫篇'
-col_name: 'disk2'
+category: '｢发现｣ 昆虫篇'
 ---
 本篇发生于2011年8月12日
 

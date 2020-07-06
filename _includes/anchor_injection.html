@@ -1,4 +1,3 @@
-{%- if include.html contains '<h1' -%}
 {%- capture cont_workspace -%}
     {%- assign nodes = include.html | split: '<h' -%}
     {%- for node in nodes -%}
@@ -20,6 +19,3 @@
     {%- endcapture -%}
 {%- assign cont_workspace = '' -%}
 {%- assign cont = cont_acc -%}
-{%- else -%}
-{%- assign cont = include.html -%}
-{%- endif -%}

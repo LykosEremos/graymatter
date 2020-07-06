@@ -1,29 +1,22 @@
-      {% if page_number == 1 %}
-      {% elsif page_number == 2 %}
-        <div class='medium-font page-block'><a href="{{ site.baseurl }}{{ parent_post.url }}"><span class='arrow left'></span></a></div>
-      {% else %}
-        <div class='medium-font page-block'><a href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ page_number | minus: 1}}"><span class='arrow left'></span></a></div>
-      {% endif %}
-      {% if start > 1 %}
-        <div class='botton-margin medium-font page-block'><a href="{{ site.baseurl }}{{ parent_post.url }}">1</a></div>
-        <div class='botton-margin medium-font fixed'><div class='no-color'>&middot;&middot;&middot;</div></div>
-      {% endif %}
+<div class="large-top-margin large-bottom-margin nav-box">
+  {%- if start > 1 -%}
+    <a class='page-block very-small-side-margin botton-margin small-font' href="{{ site.baseurl }}{{ parent_post.url }}">1</a>
+    <div class='page-block fixed botton-margin small-font'>&middot;&middot;&middot;</div>
+  {%- endif -%}
 
-      {% for p in (start..end) %}
-        {% if p == page_number %}
-            <div class="medium-font fixed"><div class='fixed-text'>{{ p }}</div></div>
-        {% elsif p == 1 %}
-            <div class='botton-margin medium-font page-block'><a href="{{ site.baseurl }}{{ parent_post.url }}">{{ p }}</a></div>
-        {% else %}
-            <div class='botton-margin medium-font page-block'><a href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ p }}">{{ p }}</a></div>
-        {% endif %}
-      {% endfor %}
+  {%- for p in (start..end) -%}
+    {%- if p == page_number -%}
+        <div class="page-block focus very-small-side-margin small-font">{{ p }}</div>
+    {%- elsif p == 1 -%}
+        <a class='page-block very-small-side-margin botton-margin small-font' href="{{ site.baseurl }}{{ parent_post.url }}">{{ p }}</a>
+    {%- else -%}
+        <a class='page-block very-small-side-margin botton-margin small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ p }}">{{ p }}</a>
+    {%- endif -%}
+  {%- endfor -%}
 
-      {% if end < total_number_pages %}
-        <div class='medium-font fixed'><div class='no-color'>&middot;&middot;&middot;</div></div>
-        <div class='botton-margin medium-font page-block'><a href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ total_number_pages }}">{{ total_number_pages }}</a></div>
-      {% endif %}
-
-      {% if page_number < total_number_pages %}
-        <div class='medium-font page-block'><a href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ page_number | plus: 1}}"><span class='arrow right'></span></a></div>
-      {% endif %}
+  {%- if end < total_number_pages -%}
+    <div class='page-block fixed small-font'>&middot;&middot;&middot;</div>
+    <a class='page-block very-small-side-margin botton-margin small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ total_number_pages }}">{{ total_number_pages }}</a>
+  {%- endif -%}
+</div>
+<div></div>

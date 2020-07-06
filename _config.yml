@@ -42,3 +42,4 @@ collections:
     permalink: /folders/:path/
 sass:
   style: compressed
+  sass_dir: _sass

@@ -13,7 +13,7 @@
     </div>
   <div class="mobile">
     <div class ='header-mobile'>
-    <div class="header-button" onclick="toggleHd()"><div class="bar-div"></div><div class="bar-div"></div><div class="bar-div"></div></div>
+    <div class="header-button" onclick="toggle_hd()"><div class="bar-div"></div><div class="bar-div"></div><div class="bar-div"></div></div>
     <div class="header-menu" id="hd-menu">
 	<ul>
         <li><a class="page-link" href="{{site.baseurl}}/about">前额叶</a></li>
@@ -27,4 +27,17 @@
 </nav>
 
   </div>
+
+  <script>
+function toggle_hd()
+{
+var menu=document.getElementById('hd-menu');
+
+   if (menu.style.display === 'block') {
+       menu.style.display = 'none';
+   } else {
+       menu.style.display = 'block';
+   }
+}
+</script>
 </header>

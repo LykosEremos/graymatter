@@ -2,7 +2,7 @@
 title:  "昆虫篇第三章 · 溯溪行记"
 date:   2011-08-23
 modified: 2014-01-31
-category: '「发现」昆虫篇'
+category: '｢发现｣ 昆虫篇'
 col_name: 'disk4'
 ---
 本篇发生于2011年8月21日一周前
