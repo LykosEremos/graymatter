@@ -53,9 +53,8 @@ layout: default
 
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-		<a class='page-heading-nav' href="{{ site.baseurl }}/hippocampus">海马体 /</a>
-		<header class="small-bottom-margin post-header">
+	<header class="small-bottom-margin post-header">
+		<a class='page-heading-nav' href="{{ site.baseurl }}/hippocampus">海马体</a><span class='page-heading-nav'> /</span>
 		<div class="post-title" itemprop="name headline">
 			{%- if page.parent or page.col_name -%}
 				{{ parent_post.title | escape }}
@@ -75,10 +74,10 @@ layout: default
 			{% endif %}
 			{%- if page.parent or page.col_name -%}
 			&nbsp; &nbsp; 首发：<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ parent_post.date | date: "%Y-%m-%d" }}</time>
-			{%- if parent_post.modified -%}. 最后修改：{{ parent_post.modified | date: "%Y-%m-%d" }}{%- endif -%}.
+			{%- if parent_post.modified -%} &nbsp; &nbsp; 修改：{{ parent_post.modified | date: "%Y-%m-%d" }}{%- endif -%}.
 			{%- else -%}
 			&nbsp; &nbsp; 首发：<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
-			{%- if page.modified -%} &nbsp; &nbsp; 最后修改：{{ page.modified | date: "%Y-%m-%d" }}{%- endif -%}
+			{%- if page.modified -%} &nbsp; &nbsp; 修改：{{ page.modified | date: "%Y-%m-%d" }}{%- endif -%}
 			{%- endif -%}
 		</div>
 

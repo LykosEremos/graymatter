@@ -10,11 +10,8 @@ permalink: /dentgyr/
 <div class='large-top-margin nav-box'>
   {% assign first = false %}
 {% for folder in site.folders %}
-  {% if first == false %}
-{% assign first = true %}
-{% else %}
-<div class='page-block fixed medium-font'>/</div>
-  {% endif %}
-    <a class='medium-bottom-margin medium-top-margin medium-font' href="{{ site.baseurl }}{{ folder.url }}">&nbsp;{{ folder.cat }}&nbsp;</a>
+  <div class='page-block fixed medium-font'>/</div>
+  <a class='medium-bottom-margin medium-top-margin medium-font' href="{{ site.baseurl }}{{ folder.url }}">&nbsp;{{ folder.cat }}</a>
+  <div class='clear'></div>
 {% endfor %}
 </div>

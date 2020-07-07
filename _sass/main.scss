@@ -12,7 +12,7 @@ $nv-col: rgba(49, 49, 49, 0.6);
 $demph-col: #a3a3a3;
 $menu-col: #313131;
 $hl-col:#dcdcdc;
-$ctr-col: #cdcdcd;
+$ctr-col:#a4a4a4;
 
 
 .maintext {
@@ -140,7 +140,7 @@ a:link{
 }
 
 a:visited{
-  color:$ctr-col;;
+  color:$ctr-col;
 }
 
 
@@ -272,6 +272,10 @@ h3 {
 	margin-bottom: 0.25em;
 }
 
+.container a {
+	color: $tx-col;
+}
+
 .image-box {
 	object-fit: cover;
 	filter: brightness(50%);
@@ -293,19 +297,21 @@ h3 {
   transform: translate(-50%, 10%);
 }
 
-
-
 .folder-link {
 	padding: 2px 4px;
-	color: $tx-col;
+	color: $demph-col;
 	border-radius: 3px;
-	background-color: $bx-col;
+	border: 1px solid $demph-col;
+}
+
+.folder-link:hover {
 	border: 1px solid $tx-col;
+	color: $tx-col;
 }
 
 .category-botton {
   background-color: $nv-col;
-	padding: 3px;
+	padding: 2px 4px;
   text-align: center;
   font-size: 8pt;
 	position: absolute;
@@ -459,9 +465,6 @@ blockquote{
 	transition: 0.25s;
 
 	counter-reset: toch1counter;
-	a,a:visited {
-		color: $tx-col;
-	}
 }
 
 .side-bar::-webkit-scrollbar {
@@ -627,12 +630,14 @@ footer {
 
 
 .container .post-title {
-	font-weight: bold;
-	font-family: 'Times New Roman',"SimSun", "宋体";
+	font-size: 1.5em;
+	min-width: 90%;
+	font-family: "Microsoft YaHei", "SimHei";
 }
 
-.container-date {
-	font-family: 'Times New Roman',"SimSun", "宋体";
+.container .date {
+	font-size: 0.8em;
+	font-family: "Arial";
 }
 
 /** page template */
@@ -646,7 +651,7 @@ footer {
 	color: $tx-col;
 }
 
-a.page-heading-nav {
+.page-heading-nav {
 	font-size: 2.1em;
 	color: $demph-col;
 	font-weight: 300;
@@ -772,20 +777,20 @@ a.page-heading-nav {
 	display:flex;
 }
 
+
 .page-block {
+	color: $demph-col;
 	display: inline-block;
   text-decoration: none;
 	padding: 1px 8px;
 }
 
 .page-block.focus {
-	color: $bg-col;
-	background-color: $tx-col;
+	color: $tx-col;
 }
 
 .page-block.fixed {
 	color: $demph-col;
-	padding: 2px 4px;
 }
 
 .page-block-box{
@@ -959,7 +964,7 @@ img {
 }
 
 .navigation a {
-	color: $tx-col;
+	color: $ctr-col;
 }
 
 .citation {
@@ -1063,9 +1068,7 @@ img {
 		color: $bg-col;
 	}
 
-	a.page-block:hover {
-		background-color: $hl-col;
-	}
+
 
 	a.focus:hover {
 		color: $bg-col;
@@ -1076,17 +1079,11 @@ img {
 		color: $demph-col;
 	}
 
-	a.page-block:hover{
-		color:$bg-col;
-		text-decoration: none;
-	}
+
+
 
 	.post-meta a:hover {
-		color: $demph-col;
-	}
-
-	a.page-heading-nav:hover {
-		color: $demph-col;
+		color: $tx-col;
 	}
 
 }

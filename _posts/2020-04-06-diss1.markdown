@@ -2,7 +2,7 @@
 title:  "外传 · 贺岁 · 再探南湖 · 外加植物篇"
 date:   2011-01-01
 modified: 2014-01-02
-category: '｢发现｣ 小传'
+category: '｢发现｣ 外传'
 col_name: 'diss1'
 ---
 本篇发生于2011年1月1日

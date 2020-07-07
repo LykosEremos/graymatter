@@ -34,6 +34,6 @@ title: 齿状回
   <img class='image-box' src='{{ img_array[0] }}'>
   {%- endif -%}
   <a class="centered medium-font post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  <div class='center-low'>{{ post.date | date: "%b %-d, %Y" }}</div>
+  <div class='center-low date'>{{ post.date | date: "%b %-d, %Y" }}</div>
   </div>
 {%- endfor -%}

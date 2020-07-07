@@ -19,7 +19,7 @@ title: 海马体
       <img class='image-box' src='{{ img_array[0] }}'>
       {%- endif -%}
       <a class="centered medium-font post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <div class='center-low container-date'>{{ post.date | date: "%Y-%m-%d" }}</div>
+      <div class='center-low date'>{{ post.date | date: "%Y-%m-%d" }}</div>
       <div class='category-botton'>{{ post.category }}</div>
       </div>
       {%- endfor -%}
