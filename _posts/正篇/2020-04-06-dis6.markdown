@@ -4,6 +4,7 @@ date:   2011-07-24
 modified: 2014-01-05
 category: '｢发现｣ 正篇'
 col_name: 'dis6'
+cover: 'https://i.postimg.cc/HWSMx6VX/DSC-4947.jpg'
 ---
 
 本篇拍摄于2011年7月16日和往后几日间，2011年发布于7月24日

@@ -5,6 +5,7 @@ modified: 2014-01-02
 category: '｢发现｣ 正篇'
 toc: false
 col_name: 'dis1'
+cover: 'https://i.postimg.cc/pVsQGJYq/37.jpg'
 ---
 
 本篇发生于10年8月11日

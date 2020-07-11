@@ -4,6 +4,7 @@ date:   2010-09-23
 modified: 2014-01-02
 category: '｢发现｣ 正篇'
 toc: false
+cover: 'https://i.postimg.cc/2ysYwBHm/21.jpg'
 ---
 
 本篇发生于10年9月23日

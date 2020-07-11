@@ -4,6 +4,7 @@ date:   2011-02-01
 modified: 2014-01-02
 category: '｢发现｣ 正篇'
 col_name: 'dis3'
+cover: 'https://i.postimg.cc/907bgTDF/46.jpg'
 ---
 本篇发生于2011年1月
 

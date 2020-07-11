@@ -4,6 +4,7 @@ date:   2011-10-01
 modified: 2014-01-05
 category: '｢发现｣ 正篇'
 col_name: 'dis7'
+cover: 'https://i.postimg.cc/MZFG83f9/350.jpg'
 ---
 
 本篇发生于2011年10月黄金周

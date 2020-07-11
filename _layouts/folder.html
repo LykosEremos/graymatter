@@ -9,9 +9,7 @@ title: 齿状回
 {% endif %}
 {% endfor %}
 
-<div class="page-heading" style="font-weight:300;margin-bottom:0.1em;">
-  <a href="{{ site.baseurl }}/dentgyr" style="color:#828282;">齿状回 /</a>
-</div>
+<a class='page-heading-nav' href="{{ site.baseurl }}/dentgyr">齿状回</a><span class='page-heading-nav'> /</span>
 <header class="post-header">
   <div class="post-title" itemprop="name headline">
     {{ categ[0] | escape }}
@@ -30,10 +28,12 @@ title: 齿状回
   {%- assign post_year = post.date | date: "%Y" -%}
   {%- assign post_month = post.date | date: "%-m" -%}
   <div class="container">
-  {%- if img_array[0] -%}
-  <img class='image-box' src='{{ img_array[0] }}'>
-  {%- endif -%}
+    {%- if post.cover -%}
+    <img class='image-box' src='{{ post.cover }}'>
+    {%- elsif img_array[0] -%}
+    <img class='image-box' src='{{ img_array[0] }}'>
+    {%- endif -%}
   <a class="centered medium-font post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  <div class='center-low date'>{{ post.date | date: "%b %-d, %Y" }}</div>
+  <div class='center-low date'>{{ post.date | date: "%Y-%m-%d" }}</div>
   </div>
 {%- endfor -%}

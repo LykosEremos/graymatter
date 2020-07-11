@@ -4,6 +4,7 @@ date:   2011-08-23
 modified: 2014-01-31
 category: '｢发现｣ 昆虫篇'
 col_name: 'disk4'
+cover: 'https://i.postimg.cc/sxR6vQmn/13.jpg'
 ---
 本篇发生于2011年8月21日一周前
 

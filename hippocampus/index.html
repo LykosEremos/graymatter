@@ -15,7 +15,9 @@ title: 海马体
       {%- assign post_year = post.date | date: "%Y" -%}
       {%- assign post_month = post.date | date: "%-m" -%}
       <div class="container">
-      {%- if img_array[0] -%}
+      {%- if post.cover -%}
+      <img class='image-box' src='{{ post.cover }}'>
+      {%- elsif img_array[0] -%}
       <img class='image-box' src='{{ img_array[0] }}'>
       {%- endif -%}
       <a class="centered medium-font post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
