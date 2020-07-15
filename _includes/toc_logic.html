@@ -17,14 +17,12 @@
     {% endfor %}
     {% endcapture %}
 {% assign toc_temp = '' %}
-<div class='side-bar' id = 'tgMenu'>
-	<div id="toc">{{ toc_acc }}
-	</div>
+<div class='normal'>
+<div class='side-bar' id = 'side-bar'><div class='toc'>{{ toc_acc }}</div></div>
+<button class="side-bar-button" id="trigger" onclick="toggle_nav()"><div class='bar-div'></div> <div class='bar-div'></div>	<div class='bar-div'></div></button>
 </div>
-		<div class="dropdown">
-			<button class="dropdown-button" id="tg-button" onclick="toggle_nav()">
-			<div class='bar-div'></div>
-			<div class='bar-div'></div>
-			<div class='bar-div'></div>
-		</button>
-		</div>
+
+<div class='mobile'>
+<div class='side-bar mobile-bar' id = 'side-bar-mobile'><div class='toc'>{{ toc_acc }}</div></div>
+<button class="side-bar-button" id="trigger-mobile" onclick="toggle_nav_mobile()"><div class='bar-div'></div> <div class='bar-div'></div>	<div class='bar-div'></div></button>
+</div>

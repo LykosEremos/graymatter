@@ -15,7 +15,7 @@ cover: 'https://i.postimg.cc/VLKKXvDc/DSC02806.jpg'
 
 优酷2012版原始片源：
 
-<iframe height="287" width="510" src='https://player.youku.com/embed/XNDA3MDY5MzQw' frameborder="0" allowfullscreen="1"></iframe>
+<iframe src='https://player.youku.com/embed/XNDA3MDY5MzQw' frameborder="0" allowfullscreen="1"></iframe>
 
 <a href='http://mn.sina.com.cn/video/pkyc/2012-06-14/0931119.html'>网络媒体的相关报道（新浪）</a>
 
@@ -25,23 +25,24 @@ cover: 'https://i.postimg.cc/VLKKXvDc/DSC02806.jpg'
 
 第一集：
 
-<iframe height="287" width="510" src="//player.bilibili.com/player.html?aid=2798492&bvid=BV1Rs411m7Nc&cid=13622210&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="1"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=2798492&bvid=BV1Rs411m7Nc&cid=13622210&page=1" scrolling="no" border="1" frameborder="1" framespacing="0" allowfullscreen="1"> </iframe>
 
 第二集：
 
-<iframe height="287" width="510" src="//player.bilibili.com/player.html?aid=2800006&bvid=BV19s411m7JL&cid=4374080&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="1"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=2800006&bvid=BV19s411m7JL&cid=4374080&page=1" scrolling="no" border="1" frameborder="1" framespacing="0" allowfullscreen="1"> </iframe>
 
 第三集：
 
-<iframe height="287" width="510" src="//player.bilibili.com/player.html?aid=2801873&bvid=BV11s411m7Ep&cid=4376992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="1"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=2801873&bvid=BV11s411m7Ep&cid=4376992&page=1" scrolling="no" border="1" frameborder="1" framespacing="0" allowfullscreen="1"> </iframe>
 
 第四集：
 
-<iframe height="287" width="510" src="//player.bilibili.com/player.html?aid=2801849&bvid=BV11s411m7J9&cid=4376949&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="1"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=2801849&bvid=BV11s411m7J9&cid=4376949&page=1" scrolling="no" border="1" frameborder="1" framespacing="0" allowfullscreen="1"> </iframe>
 
 ---
 拍摄日程：
 
+<img class='disc' src='https://i.postimg.cc/CKZJFJQK/image.jpg'>
 
 
 拍摄花絮：
