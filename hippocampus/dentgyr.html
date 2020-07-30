@@ -4,14 +4,20 @@ landing: dentgyr
 title: 齿状回
 permalink: /dentgyr/
 ---
-<div class="no-top-margin post-meta">共 {{ site.folders.size }} 个类别，{{ site.posts.size }} 篇文章
+<div class="page-meta small-top-margin large-bottom-margin">共 {{ site.folders.size }} 个类别，{{ site.posts.size }} 篇文章
 </div>
 
-<div class='large-top-margin nav-box'>
+<div class='nav-box'>
   {% assign first = false %}
 {% for folder in site.folders %}
-  <div class='page-block fixed medium-font'>└</div>
+{%- for category in site.categories -%}
+  {%- if category[0] == folder.cat -%}
+  {%- assign categ = category -%}
+{%- endif -%}
+{%- endfor -%}
+  <div class='page-block fixed large-font'>/</div>
   <a class='large-font link-folder' href="{{ site.baseurl }}{{ folder.url }}">&nbsp;{{ folder.cat }}</a>
+  <span class='medium-font post-count'>({% if categ[1].size != 0 %}{{ categ[1].size }}{% else %}0{% endif %})</span>
   <div class='medium-bottom-margin clear'></div>
 {% endfor %}
 </div>

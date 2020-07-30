@@ -1,0 +1,407 @@
+@charset "utf-8";
+
+.post-text {
+	line-height: 165%;
+	text-indent: 0px;
+	font-size: 12pt;
+	letter-spacing: 0.005em;
+	font-family: $default-font-serif;
+	font-weight: 200;
+}
+
+p {
+	text-indent: 2em;
+}
+
+hr {
+  border: 0.5px solid $demph-col;
+	width: 50%;
+	text-align:left;
+	left: 0;
+	margin-left: 0;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	background-color: $demph-col;
+}
+
+.disc {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	display: block;
+	max-width: 100%;
+	min-width: auto;
+	margin-left: 0;
+}
+
+i {
+	font-family: $default-font-serif;
+	font-style: italic;
+}
+
+h1 {
+	counter-increment: h1counter;
+	font-size: 1.6em;
+	font-weight: 700;
+	counter-reset: h2counter;
+	margin-top: 1.4em;
+	margin-bottom: 1em;
+	font-family: $default-font-serif;
+}
+
+h1:nth-child(2) {
+	margin-top: 0em;
+}
+
+h1:before {
+	content: counter(h1counter) ".\0000a0\0000a0 ";
+}
+
+h2 {
+	counter-increment: h2counter;
+	font-weight: 700;
+	font-size: 1.3em;
+	margin-top: 1.4em;
+	font-family: $default-font-serif;
+}
+
+
+h2:before {
+	content: counter(h1counter) "." counter(h2counter) ".\0000a0\0000a0 ";
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 1.2em;
+	margin-top: 1.4em;
+	font-family: $default-font-serif;
+	}
+
+
+.tg  {
+	border-collapse:collapse;
+	font-size: 1em;
+	border-spacing:0;
+	max-width: 100%;
+	display: flex;
+	margin-bottom: 0.25em;
+	overflow-x: scroll;
+	font-family: $default-font-sans;
+	&::before ,
+    &::after {
+      content:'';
+      flex:1;
+    }
+}
+
+.fig {
+	padding: 0.7em;
+	font-size: 0.9em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:1em;
+	margin-top: 0.25em;
+	display: block;
+	justify-content: center;
+	background-color: $bx-col;
+}
+
+.fig:before {
+	counter-increment: figcounter;
+	content: "Fig " counter(figcounter) '. \00a0';
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+table{
+	margin-left:auto;
+	margin-right:auto
+}
+.tg::-webkit-scrollbar {
+	width: 6px;
+}
+.tg::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+.tg td{
+	font-size: 0.95em;
+	padding:4px 6px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#7a7a7a;
+}
+.tg th{
+	font-weight:bold;
+	padding:4px 6px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#7a7a7a;
+}
+.tg .cell-no
+{
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top
+}
+.tg .cell-yes
+{
+	border-color:inherit;
+	background-color:#3f3f3f;
+	text-align:left;
+	vertical-align:top
+}
+
+
+//math environments
+
+.concept {
+	display: inline;
+	color: $em-col;
+	font-weight: 700;
+}
+
+.cn {
+	font-style: normal;
+	border-bottom: 1.5px dotted whitesmoke;
+	padding-bottom: 2px;
+}
+
+.ending {
+	display: inline;
+	color: $lk-col;
+}
+
+.notes {
+	font-size: 0.8em;
+	padding: 1em;
+	line-height: 200%;
+	background: $bx-col;
+	text-indent: 0em;
+	border-left: 5px solid #219897;
+	margin: 1em 0;
+	overflow-x: scroll;
+}
+.notes::-webkit-scrollbar {
+	width: 6px;
+}
+.notes::-webkit-scrollbar-thumb {
+	background-color: $bg-col;
+}
+
+.key {
+	font-size: inherit;
+	border-left: 5px solid #f9d276;
+}
+
+blockquote{
+	font-size: 1em;
+	color: $tx-col;
+}
+
+
+.note-tag {
+	font-size: 0.7em;
+}
+.note-tag a {
+	color: #219897;
+}
+
+//hyperlink
+
+.post-text a {
+	color: $lk-col;
+}
+
+
+
+
+//header and footer
+
+.side-bar {
+	font-family: $default-font-serif;
+	position: fixed;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 8px 0 rgba(0, 0, 0, 0.19);
+	width: 0;
+	top: 75px;
+	bottom: 10px;
+	left: 0;
+	font-size: 1.2em;
+	background-color: $menu-col;
+	z-index: 2;
+	transition: 0.25s;
+	counter-reset: toch1counter;
+	a:hover, a:visited:hover{
+		color: $tx-col;
+	}
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+.side-bar::-webkit-scrollbar {
+	width: 6px;
+	padding-right: 2px;
+}
+.side-bar::-webkit-scrollbar-thumb {
+	background-color: $demph-col;
+	width: 3px;
+	border-radius: 3px;
+}
+
+.toc {
+	position: absolute;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.toc-pad {
+	min-width: 250px;
+}
+
+
+.side-bar-button {
+	left: 85%;
+	bottom: 15%;
+	background-color: $nv-col;
+	color: white;
+	opacity: 75%;
+	border-radius: 10%;
+	padding: 6px 6px 6px 6px;
+	border: none;
+	position: fixed;
+	z-index:2;
+	cursor: pointer;
+	font-family: $default-font-serif;
+}
+
+
+
+/** page template */
+
+.post-header {
+	margin-bottom: $spacing-unit;
+	line-height: 300%;
+}
+
+.post-title {
+	font-family: $default-font-serif;
+	font-weight: 700;
+	font-size: 2em;
+	color: #f3f3f3;
+	letter-spacing: -1px;
+}
+
+
+
+
+
+
+//cosmetics
+
+.title-box {
+	width: 50%;
+	position: absolute;
+}
+
+//floating toc
+.table-of-contents {
+	margin: 5em;
+	padding-top: 0.5em;
+	border-top: 3px solid #227c41;
+	max-width: 10em;
+	display: inline-block;
+	float:left;
+}
+
+
+
+.toch1 {
+	display: block;
+	color: $demph-col;
+	float: left;
+	clear: left;
+	counter-reset: toch2counter;
+	margin: 4px 8px 4px 18px;
+}
+.toch2 {
+	display: block;
+	color: $demph-col;
+	float: left;
+	clear: left;
+	font-size: 0.75em;
+	margin: 4px 8px 4px 18px;
+}
+
+.toch1:before {
+	content: counter(toch1counter) ".\0000a0\0000a0";
+	counter-increment: toch1counter;
+}
+.toch2:before {
+	content: "\00a0\00a0"counter(toch1counter) "." counter(toch2counter) ".\0000a0\0000a0";
+	counter-increment: toch2counter;
+}
+
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.imgcontainer {
+	white-space:nowrap;
+	overflow-x: scroll;
+}
+
+.imgcontainer::-webkit-scrollbar {
+  width: 4px;
+}
+
+.imgcontainer::-webkit-scrollbar-thumb {
+  background: #939393;
+}
+
+.bar-div {
+	width: 15px;
+	height: 3px;
+	background-color: $tx-col;
+	margin: 3px;
+}
+
+.citation {
+	list-style-type: none;
+	line-height: 150%;
+}
+.citation li {
+	text-indent: -2em;
+	margin-bottom: 1em;
+}
+
+.citation li a {
+	color: $lk-col;
+}
+
+
+@media screen and (max-width: $content-width * 0.6) {
+	.mobile-bar {
+			top: auto;
+			width: 100%;
+			height: 0;
+			bottom: 0;
+			transition: 0.25s;
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+
+		.toc {
+			padding-left: 15%;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.home {
+	height: 100%;
+	background: url("../amoya2.png");
+	background-position: center;
+	background-size: cover;
+	background-color: $bg-col;
+}
+
+.home body {
+	background-color: none;
+	height: 100%;
+	margin-bottom: 0;
+}
+
+.home p {
+	max-width: 650px;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	line-height: 180%;
+	font-size: 1em;
+}
+
+.btn{
+		background-image: url("../ts.png");
+		background-position: center;
+		background-size: cover;
+		position: relative;
+		display: block;
+		margin: auto auto;
+		top: 55%;
+		width: 90px;
+		height: 90px;
+		transition: all ease 0.2s;
+		z-index: 1;
+		&:hover {
+			cursor: pointer;
+		}
+
+	 opacity:1;
+	-webkit-animation: flicker 2.4s infinite;
+	-moz-animation: flicker 2.4s infinite;
+	-o-animation: flicker 2.4s infinite;
+	 animation: flicker 2.4s infinite;
+}
+
+@keyframes flicker {
+	0%   { opacity:1; }
+	20%   { opacity:1; }
+  50%  { opacity:0.25; }
+	80%  { opacity:1; }
+  100% { opacity:1; }
+}
+@-o-keyframes flicker{
+	0%   { opacity:1; }
+	20%   { opacity:1; }
+  50%  { opacity:0.25; }
+	80%  { opacity:1; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flicker{
+	0%   { opacity:1; }
+	20%   { opacity:1; }
+  50%  { opacity:0.25; }
+	80%  { opacity:1; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flicker {
+	0%   { opacity:1; }
+	20%   { opacity:1; }
+  50%  { opacity:0.25; }
+	80%  { opacity:1; }
+  100% { opacity:1; }
+}
+
+
+
+.version {
+		display: block;
+		position: fixed;
+		text-align: center;
+		color: $demph-col;
+		left: 10px;
+		bottom: 10px;
+		z-index: 1;
+		font-size: 0.8em;
+}

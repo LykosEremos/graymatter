@@ -16,13 +16,14 @@ layout: default
 	{%- assign collection_name = page.col_name -%}
 	{%- assign page_category = page.category -%}
 {%- else  -%}
+	{%- assign parent_post = page -%}
 	{%- assign page_category = page.category -%}
 {%- endif -%}
 
 {%- if content contains '</h1>' -%}
 	{%- assign toc_setting = true -%}
 {%- endif -%}
-{%- if content contains '$$' -%}
+{%- if content contains '$$' or page.math == 1 -%}
 	{%- assign math_setting = true -%}
 {%- endif -%}
 {%- if content contains '<img' -%}
@@ -33,7 +34,7 @@ layout: default
 {%- assign end = page_number | plus: 2 -%}
 
 {%- assign collection = site.multipage | where: 'parent', collection_name -%}
-{%- assign total_number_pages = collection.size  | plus: 1-%}
+{%- assign total_number_pages = collection.size  | plus: 1 -%}
 
 {%- if start < 1 -%}
   {%- assign start = 1 -%}
@@ -63,7 +64,7 @@ layout: default
 			{%- endif -%}
 		</div>
 
-		<div class="medium-top-margin large-bottom-margin post-meta">
+		<div class="medium-top-margin large-bottom-margin page-meta">
 			{% if page_category %}
 				{% for folder in site.folders %}
 					{% if folder.cat == page_category %}
@@ -73,14 +74,13 @@ layout: default
 				<a class='folder-link' href="{{ site.baseurl }}{{ fold.url }}">{{ fold.cat }}</a>
 			{% endif %}
 			{%- if page.parent or page.col_name -%}
-			&nbsp; &nbsp; 首发：<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ parent_post.date | date: "%Y-%m-%d" }}</time>
-			{%- if parent_post.modified -%} &nbsp; &nbsp; 修改：{{ parent_post.modified | date: "%Y-%m-%d" }}{%- endif -%}.
+			&nbsp; &nbsp; 首发：<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished"><span class='serif'>{{ parent_post.date | date: "%Y-%m-%d" }}</span></time>
+			{%- if parent_post.modified -%} &nbsp; &nbsp; 修改：<span class='serif'>{{ parent_post.modified | date: "%Y-%m-%d" }}</span>{%- endif -%}
 			{%- else -%}
-			&nbsp; &nbsp; 首发：<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
-			{%- if page.modified -%} &nbsp; &nbsp; 修改：{{ page.modified | date: "%Y-%m-%d" }}{%- endif -%}
+			&nbsp; &nbsp; 首发：<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span class='serif'>{{ page.date | date: "%Y-%m-%d" }}</span></time>
+			{%- if page.modified -%} &nbsp; &nbsp; 修改：<span class='serif'>{{ page.modified | date: "%Y-%m-%d" }}</span>{%- endif -%}
 			{%- endif -%}
 		</div>
-
 		</header>
 
 <body>
@@ -90,11 +90,14 @@ layout: default
 	{%- endif -%}
 
 
-{%- if page.parent or page.col_name -%}
-{%- include post_pagination_logic.html -%}
-{%- endif -%}
+	{%- if page.parent or page.col_name -%}
+	<div class="large-bottom-margin page-block-collection">
+	{%- include post_pagination_logic.html -%}
+	</div>
+	{%- endif -%}
 
-<div class="maintext" itemprop="articleBody">
+
+<div class="post-text" itemprop="articleBody">
  	{%- assign cont = content -%}
 	{%- if toc_setting -%}
 		{%- include anchor_injection.html html=cont -%}
@@ -106,32 +109,32 @@ layout: default
 </div>
 
 {%- if page.parent or page.col_name -%}
+<div class="very-large-top-margin large-bottom-margin page-block-collection">
 {%- include post_pagination_logic.html -%}
+</div>
 {%- endif -%}
+
 
 {%- if page.parent or page.col_name -%}
 <div class = 'large-top-margin nav-box'>
-{%- if parent_post.previous.url -%}
-<a class='prev small-font page-block' href="{{ site.baseurl }}/{{parent_post.previous.url}}">{{parent_post.previous.title}}</a>
-{%- endif -%}
-{%- if parent_post.next.url -%}
-<a class="next small-font page-block" href="{{ site.baseurl }}/{{parent_post.next.url}}">{{parent_post.next.title}}</a>
-{%- endif -%}
-</div>
 {%- else -%}
-<div class = 'large-top-margin nav-box'>
-{%- if page.previous.url -%}
+<div class = 'very-large-top-margin nav-box'>
+{%- endif -%}
+
+{%- if parent_post.previous.url -%}
 <a class="prev small-font page-block" href="{{ site.baseurl }}/{{page.previous.url}}">
-上一篇： {{page.previous.title}}
+前：<span class='serif'>{{parent_post.previous.title}}</span>
 </a>
 {%- endif -%}
-{%- if page.next.url -%}
+
+{%- if parent_post.next.url -%}
 <a class="next small-font page-block" href="{{ site.baseurl }}/{{page.next.url}}">
-下一篇：{{page.next.title}}
+后：<span class='serif'>{{parent_post.next.title}}</span>
 </a>
 {%- endif -%}
+
 </div>
-{%- endif -%}
+
 
 
 

@@ -3,7 +3,7 @@ layout: page
 landing: hippo
 title: 海马体
 ---
-<div class="no-top-margin large-bottom-margin post-meta">共 {{ paginator.total_pages }} 页，{{ site.posts.size }} 篇文章</div>
+<div class="page-meta small-top-margin large-bottom-margin">共 {{ paginator.total_pages }} 页，{{ site.posts.size }} 篇文章</div>
 
       {%- for post in paginator.posts -%}
       {%- assign img_array = post.content | split: "<img" -%}
@@ -47,7 +47,7 @@ title: 海马体
 
 <div class="clear"></div>
 <!-- Pagination links -->
-<div class="large-top-margin no-bottom-margin nav-box">
+<div class="large-top-margin no-bottom-margin page-block-collection">
       {%- if start > 1 -%}
         <a class='page-block small-side-margin small-font' href="{{ site.baseurl }}/hippocampus">1</a>
         <div class='page-block fixed small-side-margin small-font'>&middot;&middot;&middot;</div>

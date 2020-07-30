@@ -3,18 +3,18 @@ layout: default
 landing: dentgyr
 title: 齿状回
 ---
-{% for category in site.categories %}
-  {% if category[0] == page.cat %}
-  {% assign categ = category %}
-{% endif %}
-{% endfor %}
+{%- for category in site.categories -%}
+  {%- if category[0] == page.cat -%}
+  {%- assign categ = category -%}
+{%- endif -%}
+{%- endfor -%}
 
 <a class='page-heading-nav' href="{{ site.baseurl }}/dentgyr">齿状回</a><span class='page-heading-nav'> /</span>
 <header class="post-header">
   <div class="post-title" itemprop="name headline">
     {{ categ[0] | escape }}
   </div>
-  <span class="post-meta">共 {% if categ[1].size != 0 %}{{ categ[1].size }}{% else %}0{% endif %} 篇文章<span>
+  <span class="page-meta">共 {% if categ[1].size != 0 %}{{ categ[1].size }}{% else %}0{% endif %} 篇文章<span>
 </header>
 <div>
 

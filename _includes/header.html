@@ -1,43 +1,45 @@
 <header class="site-header" role="banner">
-<div class="wrapper">
-    <a class="site-title" style='color: whitesmoke;' href="{{ "/" | relative_url}}">
+<div id ='header-wrapper' class="wrapper">
+
+
+  <a class='site-title' href="{{ "/" | relative_url}}">
       <img id='site-icon' src="{{site.baseurl}}/assets/gray.png"">
-      {{ site.title | escape }}</a>
+      <div class='site-title-text'>{{ site.title | escape }}</div></a>
 
-    <nav class="navigation">
+
+
     <div class="normal">
-
+      <nav class="float-right header-lh">
       <a class="page-link" href="{{site.baseurl}}/about">前额叶</a>
       <a class="page-link" href="{{site.baseurl}}/hippocampus">海马体</a>
       <a class="page-link" href="{{site.baseurl}}/dentgyr">齿状回</a>
+      </nav>
     </div>
 
   <div class="mobile">
-    <div class ='header-mobile'>
-    <div>
-      <div class="header-button" onclick="toggle_hd()"><div class="bar-div"></div><div class="bar-div"></div><div class="bar-div"></div></div>
-	     <ul id="hd-menu" class="header-menu">
-        <li><a class="page-link" href="{{site.baseurl}}/about">前额叶</a></li>
-        <li><a class="page-link" href="{{site.baseurl}}/hippocampus">海马体</a></li>
-        <li><a class="page-link" href="{{site.baseurl}}/dentgyr">齿状回</a></li>
-	    </ul>
-    </div>
-	</div>
+  <nav class="float-right header-lh">
+  <div class="header-button" onclick="toggle_hd()"><div class="bar-div"></div><div class="bar-div"></div><div class="bar-div"></div></div>
+  </nav>
+  <div class="header-menu" id="hd-menu">
+    <nav class="header-lh">
+   <a class="page-link" href="{{site.baseurl}}/about">前额叶</a>
+   <a class="page-link" href="{{site.baseurl}}/hippocampus">海马体</a>
+   <a class="page-link" href="{{site.baseurl}}/dentgyr">齿状回</a>
+   </nav>
   </div>
-</nav>
-
   </div>
+</div>
 
   <script>
-function toggle_hd()
-{
-var menu=document.getElementById('hd-menu');
-
-   if (menu.style.display === 'block') {
-       menu.style.display = 'none';
-   } else {
-       menu.style.display = 'block';
-   }
-}
+    function toggle_hd()
+    {
+    var menu = document.getElementById('hd-menu');
+    var title = document.getElementById('hd-menu');
+       if (menu.style.maxHeight === '200px') {
+           menu.style.maxHeight = '0';
+       } else {
+           menu.style.maxHeight = '200px';
+       }
+    }
 </script>
 </header>

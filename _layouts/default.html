@@ -30,11 +30,15 @@
   {% endif %}
 
 	<body>
-    <main class="page-content" aria-label="Content">
+      {% if page.landing != 'home' %}
+      <main class="page-content" aria-label="Content">
       <div class="wrapper">
       {{ content }}
       </div>
-    </main>
+      </main>
+      {% else %}
+      {{ content }}
+      {% endif %}
 	</body>
 
   {% if page.landing != 'home' %}
