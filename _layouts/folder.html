@@ -8,7 +8,7 @@ title: 齿状回
   {%- assign categ = category -%}
 {%- endif -%}
 {%- endfor -%}
-
+<img class='page-art' src='{{site.baseurl}}/assets/{{ page.landing }}.png'></img>
 <a class='page-heading-nav' href="{{ site.baseurl }}/dentgyr">齿状回</a><span class='page-heading-nav'> /</span>
 <header class="post-header">
   <div class="post-title" itemprop="name headline">
@@ -17,6 +17,7 @@ title: 齿状回
   <span class="page-meta">共 {% if categ[1].size != 0 %}{{ categ[1].size }}{% else %}0{% endif %} 篇文章<span>
 </header>
 <div>
+
 
   {%- for post in categ[1] -%}
   {%- assign img_array = post.content | split: "<img" -%}

@@ -2,7 +2,7 @@
 
 .home {
 	height: 100%;
-	background: url("../amoya2.png");
+	background: url("../amoya.png");
 	background-position: center;
 	background-size: cover;
 	background-color: $bg-col;
@@ -39,38 +39,38 @@
 		}
 
 	 opacity:1;
-	-webkit-animation: flicker 2.4s infinite;
-	-moz-animation: flicker 2.4s infinite;
-	-o-animation: flicker 2.4s infinite;
-	 animation: flicker 2.4s infinite;
+	-webkit-animation: flicker 1.25s infinite;
+	-moz-animation: flicker 1.25s infinite;
+	-o-animation: flicker 1.25s infinite;
+	 animation: flicker 1.25s infinite;
 }
 
 @keyframes flicker {
 	0%   { opacity:1; }
-	20%   { opacity:1; }
+	25%   { opacity:1; }
   50%  { opacity:0.25; }
-	80%  { opacity:1; }
+	75%  { opacity:1; }
   100% { opacity:1; }
 }
 @-o-keyframes flicker{
 	0%   { opacity:1; }
-	20%   { opacity:1; }
+	25%   { opacity:1; }
   50%  { opacity:0.25; }
-	80%  { opacity:1; }
+	75%  { opacity:1; }
   100% { opacity:1; }
 }
 @-moz-keyframes flicker{
 	0%   { opacity:1; }
-	20%   { opacity:1; }
+	25%   { opacity:1; }
   50%  { opacity:0.25; }
-	80%  { opacity:1; }
+	75%  { opacity:1; }
   100% { opacity:1; }
 }
 @-webkit-keyframes flicker {
 	0%   { opacity:1; }
-	20%   { opacity:1; }
+	25%   { opacity:1; }
   50%  { opacity:0.25; }
-	80%  { opacity:1; }
+	75%  { opacity:1; }
   100% { opacity:1; }
 }
 

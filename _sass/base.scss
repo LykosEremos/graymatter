@@ -181,12 +181,13 @@ a {
 
 
 .wrapper {
+  position: relative;
 	max-width: -webkit-calc(800px - 30px * 2);
 	max-width: calc(800px - 30px * 2);
 	margin-right: auto;
 	margin-left: auto;
-	padding-right: $spacing-unit;
-	padding-left: $spacing-unit;
+	padding-right: $spacing-unit/2;
+	padding-left: $spacing-unit/2;
 	min-height: 100%;
 	font-family: $default-font-sans;
 	color: white;

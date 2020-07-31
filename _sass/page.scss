@@ -64,6 +64,17 @@ footer {
 }
 
 
+.page-art {
+	position: absolute;
+	right: $spacing-unit;
+	display: block;
+	margin: auto auto;
+	top: 10px;
+	width: auto;
+	height: 70px;
+	z-index: 0;
+	opacity: 40%;
+}
 
 .normal {
 	display: block;
@@ -193,41 +204,6 @@ footer {
 	left: 2px;
 }
 
-.hippo {
-	min-height: 100%;
-	background-image: url("../hippo.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.dentgyr {
-	min-height: 100%;
-	background-image: url("../dentgyr.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.about {
-	min-height: 100%;
-	background-image: url("../about.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.faxian {
-	min-height: 100%;
-	background-image: url(".,/faxian.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
 
 .quote {
 	border-left: 5px solid $em-col;
