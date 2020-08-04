@@ -1,5 +1,5 @@
 ---
-title:  "小传 · 桃花源记"
+title:  "桃花源记"
 date:   2013-12-28
 modified: 2014-03-05
 category: '｢发现｣ 小传'

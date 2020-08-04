@@ -69,9 +69,9 @@ footer {
 	right: $spacing-unit;
 	display: block;
 	margin: auto auto;
-	top: 10px;
 	width: auto;
-	height: 70px;
+	top: -15px;
+	height: 120px;
 	z-index: 0;
 	opacity: 40%;
 }
@@ -119,11 +119,11 @@ footer {
 .image-box {
 	object-fit: cover;
 	min-width: 100%;
-	height: 190px;
+	height: 200px;
 	border-radius: 7px;
 	filter: brightness(60%);
 	-webkit-filter: brightness(60%);
-	margin-bottom: -30px;
+	margin-bottom: -40px;
 }
 
 .container {
@@ -140,36 +140,25 @@ footer {
 	overflow: hidden;
 }
 
-.container a {
+.post-info a {
 	color: $tx-col;
 }
 
-.container .post-title {
-  text-align:center;
-	font-size: 1.4em;
-	min-width: 12ch;
+.post-info .post-title {
+	display: block;
+  text-align: left;
 	font-family: $default-font-serif;
 	font-weight: 700;
-	text-shadow: 0px 0px 2px $bg-col;
+	max-width: 50%;
+	white-space: nowrap;
 }
 
-.container .date {
-	font-size: 0.8em;
-	font-family: "Arial";
+.container .post-title {
+	font-size: 1.4em;
 }
 
-.centered {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.center-low {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translate(-50%, 10%);
+.preview-box .post-title {
+	font-size: 1.8em;
 }
 
 .link-folder {
@@ -178,8 +167,27 @@ footer {
 }
 
 .post-count {
-	margin-left: 10px;
+	font-size: 1.2em;
 	font-family: $default-font-serif;
+}
+
+.post-info {
+	position: absolute;
+	bottom: 10%;
+	left: 4%;
+	text-shadow: 0px 0px 2px $bg-col;
+
+}
+
+.post-meta-button {
+	margin-top: 6px;
+  font-size: 10pt;
+	text-align: left;
+}
+
+.preview-box .post-meta-button {
+	margin-top: 0px;
+	font-size: 1em;
 }
 
 .folder-link {
@@ -194,16 +202,17 @@ footer {
 	color: $tx-col;
 }
 
-.category-botton {
-  background-color: $nv-col;
-	padding: 2px 4px;
-  text-align: center;
-  font-size: 8pt;
-	position: absolute;
-	bottom: 2px;
-	left: 2px;
+.post-meta-button .folder-link {
+	font-size: 0.8em;
+	margin-right: 10px;
+	color: $tx-col;
+	border: 1px solid $tx-col;
 }
 
+.post-meta-button .folder-link:hover {
+	border: 1px solid $tx-col;
+	color: $tx-col;
+}
 
 .quote {
 	border-left: 5px solid $em-col;
@@ -325,6 +334,34 @@ footer {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+
+.preview-box {
+		width: 100%;
+		min-height: 150px;
+		text-align: center;
+		background-color: $nv-col;
+		position: relative;
+		display: flex; /* add -webkit and -ms prefixes yourself */
+	  flex-direction: row;
+		margin-bottom: 1%;
+		border-radius: 5px;
+		overflow: hidden;
+}
+
+.preview-block {
+	display: inline-block;
+	object-fit: cover;
+	height: 200px;
+	min-width: 25%;
+	max-width: 100%;
+	flex-grow: 1;
+	filter: brightness(60%);
+	-webkit-filter: brightness(60%);
+	margin-bottom: -50px;
+}
+
+
 
 
 @media screen and (max-width: $content-width * 0.6) {

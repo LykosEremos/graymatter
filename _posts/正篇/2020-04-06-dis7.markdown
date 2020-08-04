@@ -1,5 +1,6 @@
 ---
-title:  "第七季 · 绿色国度：新加坡"
+title:  "绿色国度：新加坡"
+series_prefix: '第七季'
 date:   2011-10-01
 modified: 2014-01-05
 category: '｢发现｣ 正篇'

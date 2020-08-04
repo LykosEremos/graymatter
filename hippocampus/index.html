@@ -20,9 +20,15 @@ title: 海马体
       {%- elsif img_array[0] -%}
       <img class='image-box' src='{{ img_array[0] }}'>
       {%- endif -%}
-      <a class="centered medium-font post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <div class='center-low date'>{{ post.date | date: "%Y-%m-%d" }}</div>
-      <div class='category-botton'>{{ post.category }}</div>
+
+      <div class='post-info'>
+      <a class="medium-font post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <div class='post-meta-button'>
+      <span class='folder-link'>{{ post.category }}
+      {%- if post.series_prefix -%} {{ post.series_prefix | prepend: ' · '}} {%- endif -%}</span>
+      <span class='serif'>{{ post.date | date: "%Y/%m/%d" }}</span>
+      </div>
+      </div>
       </div>
       {%- endfor -%}
 

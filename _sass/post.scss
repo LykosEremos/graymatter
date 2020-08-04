@@ -291,10 +291,22 @@ blockquote{
 	font-family: $default-font-serif;
 	font-weight: 700;
 	font-size: 2em;
-	color: #f3f3f3;
+	color: $tx-col;
 	letter-spacing: -1px;
 }
 
+
+.video-box {
+	position:relative;
+}
+
+.video-frame {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
 
 
 

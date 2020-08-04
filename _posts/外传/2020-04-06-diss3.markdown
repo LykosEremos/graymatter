@@ -1,5 +1,6 @@
 ---
-title:  "外传 · 第三辑 · 水族小记 · 游击战"
+title:  "水族小记 · 游击战"
+series_prefix: '第三辑'
 date:   2011-01-18
 modified: 2014-01-05
 category: '｢发现｣ 外传'

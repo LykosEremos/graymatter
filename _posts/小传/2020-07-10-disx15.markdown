@@ -1,5 +1,5 @@
 ---
-title:  "小传 · 博物馆记"
+title:  "博物馆记"
 date:   2014-01-18T10:20:00Z
 modified: 2014-03-05
 category: '｢发现｣ 小传'

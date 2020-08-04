@@ -57,11 +57,10 @@ layout: default
 	<header class="small-bottom-margin post-header">
 		<a class='page-heading-nav' href="{{ site.baseurl }}/hippocampus">海马体</a><span class='page-heading-nav'> /</span>
 		<div class="post-title" itemprop="name headline">
-			{%- if page.parent or page.col_name -%}
+     {%- if parent_post.series_prefix -%}
+				{{ parent_post.series_prefix | escape | append: ' · '}}
+		 {%- endif -%}
 				{{ parent_post.title | escape }}
-			{%- else -%}
-				{{ page.title | escape }}
-			{%- endif -%}
 		</div>
 
 		<div class="medium-top-margin large-bottom-margin page-meta">
@@ -73,13 +72,8 @@ layout: default
 				{% endfor %}
 				<a class='folder-link' href="{{ site.baseurl }}{{ fold.url }}">{{ fold.cat }}</a>
 			{% endif %}
-			{%- if page.parent or page.col_name -%}
-			&nbsp; &nbsp; 首发：<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished"><span class='serif'>{{ parent_post.date | date: "%Y-%m-%d" }}</span></time>
-			{%- if parent_post.modified -%} &nbsp; &nbsp; 修改：<span class='serif'>{{ parent_post.modified | date: "%Y-%m-%d" }}</span>{%- endif -%}
-			{%- else -%}
-			&nbsp; &nbsp; 首发：<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span class='serif'>{{ page.date | date: "%Y-%m-%d" }}</span></time>
-			{%- if page.modified -%} &nbsp; &nbsp; 修改：<span class='serif'>{{ page.modified | date: "%Y-%m-%d" }}</span>{%- endif -%}
-			{%- endif -%}
+			&nbsp; &nbsp; 首发：<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished"><span class='serif'>{{ parent_post.date | date: "%Y/%m/%d" }}</span></time>
+			{%- if parent_post.modified -%} &nbsp; &nbsp; 修改：<span class='serif'>{{ parent_post.modified | date: "%Y/%m/%d" }}</span>{%- endif -%}
 		</div>
 		</header>
 

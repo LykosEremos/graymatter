@@ -1,5 +1,6 @@
 ---
-title:  "昆虫篇第一章 · 竹坝之行"
+title:  "竹坝之行"
+series_prefix: '第一章'
 date:   2011-07-07
 modified: 2014-01-05
 category: '｢发现｣ 昆虫篇'

@@ -1,5 +1,5 @@
 ---
-title:  "小传 · 采虎记"
+title:  "采虎记"
 date:   2011-04-16
 modified: 2014-01-05
 category: '｢发现｣ 小传'

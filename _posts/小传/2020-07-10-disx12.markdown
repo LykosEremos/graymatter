@@ -1,5 +1,5 @@
 ---
-title:  "小传 · 特区行记"
+title:  "特区行记"
 date:   2013-11-29
 modified: 2013-12-09
 category: '｢发现｣ 小传'

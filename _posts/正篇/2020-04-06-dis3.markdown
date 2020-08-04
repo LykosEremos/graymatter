@@ -1,5 +1,6 @@
 ---
-title:  "第三季 · 另一块土地，另一个世界"
+title:  "另一块土地，另一个世界"
+series_prefix: '第三季'
 date:   2011-02-01
 modified: 2014-01-02
 category: '｢发现｣ 正篇'

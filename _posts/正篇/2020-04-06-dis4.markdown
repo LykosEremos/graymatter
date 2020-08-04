@@ -1,5 +1,6 @@
 ---
-title:  "第四季 · 潮汐与潮池"
+title:  "潮汐与潮池"
+series_prefix: '第四季'
 date:   2011-05-14
 modified: 2014-01-05
 category: '｢发现｣ 正篇'

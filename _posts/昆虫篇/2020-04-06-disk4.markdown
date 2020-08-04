@@ -1,5 +1,6 @@
 ---
-title:  "昆虫篇第三章 · 溯溪行记"
+title:  "溯溪行记"
+series_prefix: '第三章'
 date:   2011-08-23
 modified: 2014-01-31
 category: '｢发现｣ 昆虫篇'

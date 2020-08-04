@@ -1,5 +1,5 @@
 ---
-title:  "小传 · 蒹葭漫记"
+title:  "蒹葭漫记"
 date:   2012-06-22
 modified: 2014-02-17
 category: '｢发现｣ 小传'

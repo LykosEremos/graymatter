@@ -1,5 +1,5 @@
 ---
-title:  "小传 · 冬荷小记"
+title:  "冬荷小记"
 date:   2011-12-24
 modified: 2014-02-09
 category: '｢发现｣ 小传'

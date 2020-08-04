@@ -8,7 +8,11 @@ title: 齿状回
   {%- assign categ = category -%}
 {%- endif -%}
 {%- endfor -%}
+
+{%- if page.landing -%}
 <img class='page-art' src='{{site.baseurl}}/assets/{{ page.landing }}.png'></img>
+{%- endif -%}
+
 <a class='page-heading-nav' href="{{ site.baseurl }}/dentgyr">齿状回</a><span class='page-heading-nav'> /</span>
 <header class="post-header">
   <div class="post-title" itemprop="name headline">
@@ -34,7 +38,12 @@ title: 齿状回
     {%- elsif img_array[0] -%}
     <img class='image-box' src='{{ img_array[0] }}'>
     {%- endif -%}
-  <a class="centered medium-font post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  <div class='center-low date'>{{ post.date | date: "%Y-%m-%d" }}</div>
+
+    <div class='post-info'>
+    <a class="medium-font post-title" href="{{ post.url | relative_url }}">{%- if post.series_prefix -%} {{ post.series_prefix | append: ' · '}} {%- endif -%}
+      {{ post.title }}</a>
+    <div class='post-meta-button serif'><span>{{ post.date | date: "%Y/%m/%d" }}</span> </div>
+    </div>
+
   </div>
 {%- endfor -%}

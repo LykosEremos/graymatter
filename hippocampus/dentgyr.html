@@ -15,9 +15,32 @@ permalink: /dentgyr/
   {%- assign categ = category -%}
 {%- endif -%}
 {%- endfor -%}
-  <div class='page-block fixed large-font'>/</div>
-  <a class='large-font link-folder' href="{{ site.baseurl }}{{ folder.url }}">&nbsp;{{ folder.cat }}</a>
-  <span class='medium-font post-count'>({% if categ[1].size != 0 %}{{ categ[1].size }}{% else %}0{% endif %})</span>
+
+<div class="preview-box">
+  {%- assign index = 1 -%}
+  {%- for post in categ[1] -%}
+  {%- if index <= 4 -%}
+    {%- assign img_array = post.content | split: "<img" -%}
+    {%- assign img_array = img_array[1] -%}
+    {%- assign img_array = img_array | split: 'src="' -%}
+    {%- assign img_array = img_array[1] -%}
+    {%- assign img_array = img_array | strip_html -%}
+    {%- assign img_array = img_array | split: '"' -%}
+      {%- if post.cover -%}
+      <img class='preview-block' src='{{ post.cover }}'>
+      {%- elsif img_array[0] -%}
+      <img class='preview-block' src='{{ img_array[0] }}'>
+      {%- endif -%}
+    {%- assign index = index | plus : 1 -%}
+  {%- endif -%}
+  {% endfor %}
+  <div class='post-info'>
+  <a class='medium-font post-title' href="{{ site.baseurl }}{{ folder.url }}">{{ folder.cat }}</a>
+  <div class='post-meta-button'>共 <span class='medium-font post-count'> {{ categ[1].size }} </span>  篇文章
+  </div>
+  </div>
+
+  </div>
   <div class='medium-bottom-margin clear'></div>
 {% endfor %}
 </div>

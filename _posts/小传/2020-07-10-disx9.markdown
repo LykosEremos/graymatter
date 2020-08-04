@@ -1,5 +1,5 @@
 ---
-title:  "小传 · 渔港迁记"
+title:  "渔港迁记"
 date:   2013-06-25
 modified: 2014-02-17
 category: '｢发现｣ 小传'

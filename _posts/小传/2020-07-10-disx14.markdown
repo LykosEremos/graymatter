@@ -1,5 +1,5 @@
 ---
-title:  "小传 · 冬日小记"
+title:  "冬日小记"
 date:   2014-01-12
 modified: 2014-03-05
 category: '｢发现｣ 小传'

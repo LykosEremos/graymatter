@@ -1,5 +1,6 @@
 ---
-title:  "第八季 · 印度洋上的珍珠项链"
+title:  "印度洋上的珍珠项链"
+series_prefix: '第八季'
 date:   2012-02-01
 modified: 2014-02-15
 category: '｢发现｣ 正篇'

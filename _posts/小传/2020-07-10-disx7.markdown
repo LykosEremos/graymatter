@@ -1,5 +1,5 @@
 ---
-title:  "小传 · 林间游记"
+title:  "林间游记"
 date:   2012-03-29
 modified: 2014-02-15
 category: '｢发现｣ 小传'

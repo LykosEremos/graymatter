@@ -1,5 +1,6 @@
 ---
-title:  "外传 · 第二辑 · 闪光灯的试练 · 筼筜湖"
+title:  "闪光灯的试练 · 筼筜湖"
+series_prefix: '第二辑'
 date:   2011-01-02
 modified: 2014-01-04
 category: '｢发现｣ 外传'
