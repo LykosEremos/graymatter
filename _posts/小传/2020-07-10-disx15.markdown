@@ -12,6 +12,7 @@ col_name: 'disx15'
 封面
 
 <img class='disc' src='https://i.postimg.cc/rF4tbdVf/20140118-161636.jpg'>
+
 ---
 
 在缅因州大道的鱼市考察之后，我折回哥伦比亚特区市中心，参观史密森尼自然史博物馆（Smithsonian Natural History Museum）

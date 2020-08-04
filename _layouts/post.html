@@ -72,10 +72,37 @@ layout: default
 				{% endfor %}
 				<a class='folder-link' href="{{ site.baseurl }}{{ fold.url }}">{{ fold.cat }}</a>
 			{% endif %}
-			&nbsp; &nbsp; 首发：<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished"><span class='serif'>{{ parent_post.date | date: "%Y/%m/%d" }}</span></time>
-			{%- if parent_post.modified -%} &nbsp; &nbsp; 修改：<span class='serif'>{{ parent_post.modified | date: "%Y/%m/%d" }}</span>{%- endif -%}
+			&nbsp; &nbsp;
+			{%- if parent_post.modified -%}
+			<span class='date-button' id='toggle_date' onclick='change_date()'>首发</span>：
+			<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished">
+				<span id='time' class='serif'>{{ parent_post.date | date: "%Y/%m/%d" }}</span>
+			</time>
+			<script>
+				function change_date() {
+		  var x = document.getElementById("toggle_date");
+			var y = document.getElementById("time");
+		  if (x.innerHTML === "首发") {
+		    x.innerHTML = "修改";
+				y.innerHTML = '{{ parent_post.modified | date: "%Y/%m/%d" }}'
+		  } else {
+		    x.innerHTML = "首发";
+				y.innerHTML = '{{ parent_post.date | date: "%Y/%m/%d" }}'
+		  }
+		}
+			</script>
+			{%- else -%}
+			<span>首发</span>：
+			<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished">
+				<span class='serif'>{{ parent_post.date | date: "%Y/%m/%d" }}</span>
+			</time>
+		{%- endif -%}
+
+
 		</div>
 		</header>
+
+
 
 <body>
 
