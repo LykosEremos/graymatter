@@ -1,27 +1,26 @@
 <!DOCTYPE html>
+
 {%- if page.landing == 'home' -%}
 <html lang="{{ page.lang | default: site.lang | default: "cn" }}" class ='{{ page.landing }}'>
 {%- else -%}
 <html lang="{{ page.lang | default: site.lang | default: "cn" }}">
 {%- endif -%}
 
-
-
 <head>
     <meta charset="utf-8">
     <title>
-    {% if page.parent %}
-    	{% for post in site.posts %}
-      	{% if post.col_name == page.parent %}
-      		{% assign parent_post = post %}
-    		{% endif %}
-    	{% endfor %}
-      {% if parent_post.title %}{{ parent_post.title | escape }}{% else %}{{ site.title | escape }}{% endif %}
-    {% elsif page.cat %}
+    {%- if page.parent -%}
+    	{%- for post in site.posts -%}
+      	{%- if post.col_name == page.parent -%}
+      		{%- assign parent_post = post -%}
+    		{%- endif %}
+    	{%- endfor -%}
+      {%- if parent_post.title %}{{ parent_post.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
+    {%- elsif page.cat -%}
       {{ page.cat | escape }}
-    {% else %}
-      {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}
-    {% endif %}
+    {%- else -%}
+      {%- if page.title -%}{{ page.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
+    {%- endif -%}
     </title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
@@ -29,30 +28,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
     <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
     <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#5bbad5">
+    {% include head.html %}
 </head>
-	{% include head.html %}
-
 
   {% if page.landing != 'home' %}
   {% include header.html %}
   {% endif %}
 
 	<body>
-    {%- if page.cover -%}
-      {%- assign pic = page.cover -%}
-    {%- else -%}
-      {%- assign img_array = page.content | split: "<img" -%}
-      {%- assign img_array = img_array[1] -%}
-      {%- assign img_array = img_array | split: 'src="' -%}
-      {%- assign img_array = img_array[1] -%}
-      {%- assign img_array = img_array | strip_html -%}
-      {%- assign img_array = img_array | split: '"' -%}
-      {%- assign pic = img_array[0] -%}
-    {%- endif -%}
-    <div style="display: none">
-        <img style='width: 300px; height: 300px;' src="{{ pic }}" />
-    </div>
-
       {% if page.landing != 'home' %}
       <main class="page-content" aria-label="Content">
       <div class="wrapper">
