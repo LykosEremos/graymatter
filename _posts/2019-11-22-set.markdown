@@ -3,7 +3,7 @@ layout: post
 title:  "CMD001: 集论基础"
 date:   2019-11-20 22:31:19 -0400
 category: CADMUS
-cover: 'https://i.postimg.cc/pL6dnXfs/zermelo.jpg'
+cover: 'https://lykoseremos.github.io/gmalb-04/CADMUS/zermelo.jpg'
 ---
 <h1 class="hd">逻辑与证明</h1>
 <h2 class="hd">断言</h2>

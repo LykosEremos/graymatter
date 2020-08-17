@@ -4,6 +4,7 @@ series_prefix: '序章'
 date:   2011-05-07
 modified: 2014-01-05
 category: '｢发现｣ 昆虫篇'
+cover: 'https://lykoseremos.github.io/gmalb-01/disk1/7.jpg'
 ---
 本篇发生于11年5月7日
 
@@ -13,8 +14,8 @@ category: '｢发现｣ 昆虫篇'
 
 很是可爱
 
-<img class='disc' src='https://i.postimg.cc/ZKPxjkjN/1.jpg'>
-<img class='disc' src='https://i.postimg.cc/50Hmm6k9/2.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/1.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/2.jpg'>
 
 草丛中的某蝗
 
@@ -22,11 +23,11 @@ category: '｢发现｣ 昆虫篇'
 
 和菊同属一科
 
-<img class='disc' src='https://i.postimg.cc/6QpcyHrv/3.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/3.jpg'>
 
 短额负蝗（<i>Atractomorpha sinensis</i>）
 
-<img class='disc' src='https://i.postimg.cc/PrnMmfbh/4.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/4.jpg'>
 
 某蛾？
 
@@ -34,44 +35,47 @@ category: '｢发现｣ 昆虫篇'
 
 或许就是蝗虫
 
-<img class='disc' src='https://i.postimg.cc/JhYqJbxd/5.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/5.jpg'>
+
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/9.jpg'>
 
 沙滩上有许多耐盐的植物
 
 正是它们搭起了沙滩与陆地接轨的高盐的生态系统
 
-<img class='disc' src='https://i.postimg.cc/bYtTDSt3/6.jpg'>
-<img class='disc' src='https://i.postimg.cc/sXt4HstY/7.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/6.jpg'>
+
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/11.jpg'>
+
+这里一向是耐盐植物与鬼针草的地盘
+
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/7.jpg'>
 
 同上上
 
-<img class='disc' src='https://i.postimg.cc/PJYzB0jB/8.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/8.jpg'>
 
 芦苇
 
 已经吐絮了
 
-<img class='disc' src='https://i.postimg.cc/Jz1c2Td2/9.jpg'>
-
-这里一向是耐盐植物与鬼针草的地盘
-
-<img class='disc' src='https://i.postimg.cc/vZ3LFWJH/10.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/10.jpg'>
 
 污染
 
 改道只能是治标不治本
 
-<img class='disc' src='https://i.postimg.cc/Bvb5qj35/11.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/12.jpg'>
 
 某种麻蝇（<i>Sarcophaga</i>）
 
 在这里非常常见
 
-<img class='disc' src='https://i.postimg.cc/gJ6vZ1nn/12.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/13.jpg'>
 
 草丛里似乎有些什么东西
 
-<img class='disc' src='https://i.postimg.cc/5yBLPv5J/13.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/14.jpg'>
 
 某个东西正在动
 
@@ -79,34 +83,39 @@ category: '｢发现｣ 昆虫篇'
 
 看到一个爬行类的脑袋，然后出来了一只——
 
-<img class='disc' src='https://i.postimg.cc/d3PGmnyn/14.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/15.jpg'>
 
 中华石龙子（<i>Eumeces chinensis</i>）
 
 捉的时候还咬了我一口
 
-<img class='disc' src='https://i.postimg.cc/5trBjf9h/15.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/16.jpg'>
 
 可能是雄性
 
-<img class='disc' src='https://i.postimg.cc/X7WwrH3Y/16.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/17.jpg'>
 
 放归
 
-<img class='disc' src='https://i.postimg.cc/59LBNchr/17.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/18.jpg'>
 
 渐渐隐去在“密林”中
 
-<img class='disc' src='https://i.postimg.cc/15KDwG5c/18.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/19.jpg'>
 
-继续走一只蛾子
+叶蝉一只
+
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/20.jpg'>
+
+继续走
+
+一只蛾子
 
 事实上在杂草堆里走上一步就会有许多蛾子飞起来
 
 代价是粘一鞋子鬼针，苍耳，蓟草……
 
-<img class='disc' src='https://i.postimg.cc/MpKVDnnk/19.jpg'>
-<img class='disc' src='https://i.postimg.cc/y8Q9r7RD/20.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/21.jpg'>
 
 这样的蝗虫非常多
 
@@ -114,18 +123,18 @@ category: '｢发现｣ 昆虫篇'
 
 现在就没多丰富了
 
-<img class='disc' src='https://i.postimg.cc/cJv3pP7X/21.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/22.jpg'>
 
 来看看在草丛中踩过的鞋子吧
 
-<img class='disc' src='https://i.postimg.cc/MTRQTRFB/22.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/23.jpg'>
 
 沙子里的小甲虫
 
-<img class='disc' src='https://i.postimg.cc/8CxvNwtD/23.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/24.jpg'>
 
 以一只蝗虫结尾
 
-<img class='disc' src='https://i.postimg.cc/SRhzzsBv/24.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk1/25.jpg'>
 
 （完）

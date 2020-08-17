@@ -3,7 +3,7 @@ title:  "水库里的子陵吻虾虎鱼"
 date:   2012-01-18
 modified: 2020-08-02
 category: '厦门水域原生调查计划'
-cover: 'https://i.postimg.cc/W1DCNvkT/cov.png'
+cover: 'https://lykoseremos.github.io/gmalb-03/syys1&2/cov.png'
 
 ---
 

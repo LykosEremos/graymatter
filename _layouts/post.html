@@ -13,7 +13,7 @@ layout: default
 {%- elsif page.col_name -%}
 	{%- assign page_number = 1 -%}
 	{%- assign parent_post = page -%}
-	{%- assign collection_name = page.col_name -%}
+	{%- assign collection_name = page.slug -%}
 	{%- assign page_category = page.category -%}
 {%- else  -%}
 	{%- assign parent_post = page -%}
@@ -58,9 +58,11 @@ layout: default
 		<a class='page-heading-nav' href="{{ site.baseurl }}/hippocampus">海马体</a><span class='page-heading-nav'> /</span>
 		<div class="post-title" itemprop="name headline">
      {%- if parent_post.series_prefix -%}
-				{{ parent_post.series_prefix | escape | append: ' · '}}
+				{%- assign full_title = parent_post.series_prefix | append: ' · ' | append:  parent_post.title | escape -%}
+		 {%- else -%}
+			 {%- assign full_title = parent_post.title | escape -%}
 		 {%- endif -%}
-				{{ parent_post.title | escape }}
+			{{ full_title }}
 		</div>
 
 		<div class="medium-top-margin large-bottom-margin page-meta">
@@ -98,6 +100,7 @@ layout: default
 			</time>
 		{%- endif -%}
 
+		{%- include share.html -%}
 
 		</div>
 		</header>

@@ -1,0 +1,22 @@
+{%- assign title = '灰质 | full_title' -%}
+
+{%- if parent_post.cover -%}
+  {%- assign pic = parent_post.cover -%}
+{%- else -%}
+  {%- assign img_array = content | split: "<img" -%}
+  {%- assign img_array = img_array[1] -%}
+  {%- assign img_array = img_array | split: 'src="' -%}
+  {%- assign img_array = img_array[1] -%}
+  {%- assign img_array = img_array | strip_html -%}
+  {%- assign img_array = img_array | split: '"' -%}
+  {%- assign pic = img_array[0] -%}
+{%- endif -%}
+
+{%- assign page_summary =  post.content | strip_html | truncatewords: 10 -%}
+
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ page_summary }}">
+  <meta property="og:image" content="{{ pic }}">
+  <meta property="og:url" content="{{ site.baseurl }}/ {{ page.url }}">

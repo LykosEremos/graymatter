@@ -1,0 +1,15 @@
+I"�<h1 class="hd">疫情监控与个人防护</h1>
+<style>
+ul.bulletin li {
+	padding: 0.7em 0.5em 0.7em 0.5em;
+}
+ul.ls li {
+	padding: 0em 0em 0em 0em;
+}
+p.transl{
+margin-top:0.5em;
+text-indent: initial;
+}
+</style>
+
+:ET

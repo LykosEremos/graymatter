@@ -1,0 +1,314 @@
+I"l�<h1 class="hd">疫情监控与个人防护</h1>
+<style>
+ul.bulletin li {
+	padding: 0.7em 0.5em 0.7em 0.5em;
+}
+ul.ls li {
+	padding: 0em 0em 0em 0em;
+}
+p.transl{
+margin-top:0.5em;
+text-indent: initial;
+}
+</style>
+
+<ul class="bulletin">
+<li><a href="https://3g.dxy.cn/newh5/view/pneumonia">丁香园全国新型肺炎疫情实时动态</a>
+</li>
+<li>
+<a href="https://coronavirus.1point3acres.com/zh/data">一亩三分地新冠病毒肺炎疫情实时动态</a>
+</li>
+
+<li><a href="http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/">中国疾控中心的 SARS-CoV-2 信息主页</a>
+</li>
+<li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">世卫组织（WHO）的 SARS-CoV-2 信息主页</a>
+</li>
+
+<li>约翰斯霍普金斯大学系统科学和工程中心（JHU CSSE）制作的疫情<a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?utm_source=dlvr.it&amp;utm_medium=twitter#/bda7594740fd40299423467b48e9ecf6">GIS可视化</a>．
+</li>
+
+<li>
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">美国疾控中心（CDC）的 SARS-CoV-2 信息主页</a>．</li>
+</ul>
+
+<h1 class="hd">病毒检测与监控</h1>
+<ul class="bulletin">
+<li>Corman et al．(1-13): <a href="https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf">Diagnostic detection of Wuhan coronavirus 2019 by real-time RT-PCR</a>，从呼吸道样本中检测 SARS-CoV-2 RdRP、E、N 基因 RNA 序列的 RT-qPCR 检测方案．</li>
+
+<li>Zhang et al．(2-4): <a href="https://www.tandfonline.com/doi/full/10.1080/22221751.2020.1729071">Molecular and serological investigation of 2019-nCoV infected patients: implication of multiple shedding routes</a>．利用近似的蝙蝠类 SARS 病毒 Rp3 的核壳蛋白（NP），对抗 SARS-CoV-2 的血清 IgM 和 IgG 进行 ELISA 检测，并对口腔拭子与肛拭子进行 RT-PCR．在血清、肛拭子、口腔拭子皆发现阳性结果，指出病毒在呼吸道途径以外可能通过粪口或体液途径传播．需要注意，阳性 PCR 结果并不意味着病毒 RNA 仍具备传染性．</li>
+
+<li>Wu (3-19)．<a href="https://www.thelancet.com/journals/langas/article/PIIS2468-1253(20)30083-2/fulltext">Prolonged presence of SARS-CoV-2 viral RNA in faecal samples</a>．粪便样本的 PCR 阳性结果持续时间长于口腔拭子的 PCR 阳性持续时间，且有口腔阴性、粪便阳性的例子．</li>
+
+<li>To et al．(3-23): <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30196-1/fulltext">Temporal profiles of viral load in posterior oropharyngeal saliva samples and serum antibody responses during infection by SARS-CoV-2: an observational cohort study</a>．发病后，后口咽部唾液与气管内抽吸液的病毒载量（RT-PCR）在一周内达到峰值，在一周后随时间降低，但发病 20 天后仍可检测到．</li>
+</ul>
+
+<h1 class="hd">致病机理研究</h1>
+<p>冠状病毒得名于其棘突（spike）状的包膜粒（peplomer）在电子显微镜下呈现出的冕状结构．这个结构由病毒基因组中的 S 基因编码，因此又称 S 蛋白或 spike 蛋白．</p>
+
+<p><img src="https://www.cdc.gov/coronavirus/mers/images/nCoV-1.jpg" width="50%" /></p>
+<div class="fig">中东呼吸综合征冠状病毒（MERS-CoV）的透射电镜（TEM）照片，引自<a href="https://www.cdc.gov/coronavirus/mers/images/nCoV-1.jpg">美国 CDC</a>．SARS-CoV-2 的结构与此类似．病毒体（球形）表面的棒状突起即是 S 蛋白．</div>
+<div class="imgcontainer">
+<img src="https://i.postimg.cc/sXGXNr31/hgt-genome-eff2-a6a160.png" style="max-height:199px;max-width:1361px;" />
+</div>
+<div class="fig">UCSC 基因组浏览器上的 SARS-CoV-2 全基因组标注，蓝色框表示从基因组表达的产物．点<a href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=wuhCor1&amp;lastVirtModeType=default&amp;lastVirtModeExtraState=&amp;virtModeType=default&amp;virtMode=0&amp;nonVirtPosition=&amp;position=NC_045512v2%3A1%2D29903&amp;hgsid=819614191_O8x78u6SdwLZdFfAeaUEr8LY9m27">这里</a>使用可交互的浏览器．</div>
+
+<p>S 蛋白会识别并结合寄主细胞表面的标志（或称 “受体”）并触发病毒进入寄主细胞的过程．基于病毒学上的相似性，我们推测 SARS-CoV-2 的入侵过程类似于 SARS-CoV，如下所示：</p>
+
+<p><img src="https://journals.plos.org/plospathogens/article/file?id=10.1371/journal.ppat.1007236.g006&amp;type=large" border="10" width="90%" /></p>
+
+<div class="fig">SARS-CoV 侵入细胞的过程示意图，引自 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107290/">Song (2018)</a>．图中，S 蛋白有两个亚基：花状的 S1 分为 CTD1，NTD，CTD2，CTD3 三个结构域，负责结合细胞表面的受体 ACE2（绿色西兰花状图形），而杆状的 S2 是一个三聚体（蓝绿色柱状物）．</div>
+<p>冠状病毒的 S 蛋白往往需要蛋白酶加工，才会发挥它完整的功能．在融合前的某个时间点，S 蛋白中的两个位点，S1/S2 界面和 S2'，会被寄主细胞表面的或是细胞外的蛋白酶切割．在切割后，S1 脱落，S2 端部的融合肽（fusion peptide，图中的红色部位）暴露出来，插入寄主的细胞膜．S2 通过重新折叠，将病毒的被膜与寄主细胞膜带到一起，完成融合的过程．流感病毒或 HIV 也会利用类似的机制来进入细胞．</p>
+
+<p>血管紧张素 II 转化酶（ACE2）是与 SARS-CoV 结合的受体，血管紧张素I转化酶（ACE）的类似物．在正常生理功能中，ACE 和 ACE2 都是名为肾素-血管紧张素系统（RAS）的激素系统中的组成部分：ACE 会将血管紧张素 I（Ang I）转化为生理活性很强的血管紧张素 II（Ang II），而ACE2会将 Ang I 和 Ang II 分别转换为生理活性较弱的 Ang-(1-9) 和 Ang-(1-7)，起到制衡 ACE 的作用．在小鼠模型中，SARS-CoV 感染会下调 ACE2 的表达（<a href="https://jvi.asm.org/content/84/2/1198.long">Glowacka, 2010</a>），而随之而来Ang II水平失调导致的水钠潴留和血管通透性变化可能会在病毒感染的症状之上加重肺部损伤．</p>
+
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1740677313000193-gr1.jpg" border="10" style="width: 80%;" /></p>
+
+<div class="fig">肾素-血管紧张素系统（RAS）与部分下游信号通路概图，引自 <a href="https://www.sciencedirect.com/science/article/pii/S1740677313000193">Patel (2012)</a></div>
+<p>下面的研究调查了 SARS-CoV-2 通过 ACE2 进入细胞的机制.</p>
+
+<ul class="bulletin">
+<li>Dong et al．(1-20): <a href="https://www.biorxiv.org/content/10.1101/2020.01.20.913368v1.full.pdf">Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China</a>，结构预测 SARS-CoV-2 的 Spike 蛋白对 ACE2 的亲合性．SARS-CoV-2 的 Spike 蛋白和 ACE2 的结合能力弱于 SARS-CoV、强于不具备人类感染性的蝙蝠 SARSr-CoV．
+</li>
+
+<li>Letko &amp; Munster (1-22): <a href="https://www.biorxiv.org/content/10.1101/2020.01.22.915660v1.full.pdf">Functional assessment of cell entry and receptor usage for lineage B β-coronaviruses, including 2019-nCoV</a>．表达嵌合体 Spike 蛋白的假病毒颗粒可利用 ACE2 进入细胞，并不会利用 DPP4（MERS 病毒的受体）或 AP-N（导致普通感冒的冠状病毒 229E 的受体）．
+</li>
+
+<li>Zhou et al．(1-23): <a href="https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf">Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>．在表达不同物种 ACE2 的 HeLa 细胞中，对 NP-Cy3 进行免疫荧光定位分析，发现 SARS-CoV-2 的核壳蛋白（NP） 利用人、猪、菊头蝠、果子狸的 ACE2 进入细胞，但不可以利用小鼠 ACE2．这也就是说野生型小鼠不能作为研究 SARS-CoV-2 侵入的系统，而需要花时间培育表达 hACE2 的转基因小鼠．
+</li>
+
+<li>Zhao et al．(1-26): <a href="https://www.biorxiv.org/content/10.1101/2020.01.26.919985v1.full.pdf">Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov</a>，作者用八位肺部捐赠者的（五位非裔美国人，两位白人，一位亚洲人）单细胞 RNA-seq 数据试图说明亚洲人中 ACE2 表达的上调是感染 SARS-CoV-2 的风险因子．但样本仅含一个亚洲人，结论的说服力有限．
+</li>
+
+<li>Chen &amp; Du (1-28): <a href="https://www.preprints.org/manuscript/202001.0358/v1/download">Potential Natural Compounds for Preventing 2019-nCoV Infection</a>． 通过分子模拟对接研究黄芩苷、灯盏花乙素、橙皮素、烟草胺、甘草酸等中草药中常见的植物化学物质与 ACE2 的结合能力．这些分子被筛入研究的标准是因为有现成证据指出它们的抗病毒性，或是可作为 ACE 或 ACE2 的抑制剂．SARS-CoV-Spike 和 ACE2 结合的地方并不是 ACE2 活性位点，且比这些植物化学物质亲和力、结合特异性更强的人造 ACE2 抑制剂不能抑制 SARS-CoV 进入细胞，因此有理由怀疑 “ACE2抑制剂” 是否也能抑制 SARS-CoV-2 进入细胞 (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1142572/">Li et al．2004</a>)．
+</li>
+
+<li>Hoffmann et al．(预印版于 1-31 发表在 BioRxiv, 于 3-5 发表于 Cell): <a href="https://www.cell.com/cell/fulltext/S0092-8674(20)30229-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420302294%3Fshowall%3Dtrue">SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor</a>．使用表达 SARS-CoV-2 S 蛋白 的 VSV 假病毒对一组不同来源的细胞系进行侵入实验．表达 SARS-CoV-2-S 的假病毒与 SARS-S 假病毒侵入的细胞类型类似． SARS-CoV-2-S 的假病毒只侵入瞬时表达人或蝙蝠 ACE2 的细胞，而不侵入表达 DPP4 或 AP-N 的细胞，其侵入性可被抗 ACE2 抗体阻断，也可随 ACE2 的过表达提升．假病毒表面的 S 蛋白需要受细胞表面的丝氨酸蛋白酶 TMPRSS2 或组织蛋白酶 B/L（Cathepsin B/L）预处理之后才能激活其功能，但 TMPRSS2 是必要的：在低 CatB/L 水平的细胞中表达 TMPRSS2 可恢复侵入到正常水平，同时 TMPRSS2 抑制剂 Camostat 可剂量依赖性地抑制侵入．因此 TMPRSS2 是必须的．恢复期患者血清也可以阻断病毒侵入，为恢复期血清疗法提供证据支持．
+</li>
+
+<li>Coutard et al．(2-10):<a href="https://www.sciencedirect.com/science/article/pii/S0166354220300528?via%3Dihub">The spike glycoprotein of the new coronavirus 2019-nCoV contains a furin-like cleavage site absent in CoV of the same clade</a> SARS-CoV-2 的 S 蛋白含 furin 蛋白酶切点（RRAR）．包括 SARS-CoV 在内的其他 $\beta$ 冠状病毒都不含这个切点，但 MERS-CoV，OC43，HKU1的 S 蛋白有这个切点．或许 furin 也有参与到切割激活 S 蛋白的过程中．</li>
+
+<li>Wrapp et al．(2-19) : <a href="https://science-sciencemag-org.proxy.library.upenn.edu/content/367/6483/1260.long"> Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation</a>．利用近年很火的冷冻电镜研究 S 蛋白和 ACE2 结合后的构象．</li>
+
+<li>Wan et al．(3-17): <a href="http://jvi.asm.org/cgi/pmidlookup?view=long&amp;pmid=31996437">Receptor Recognition by the Novel Coronavirus from Wuhan: an Analysis Based on Decade-Long Structural Studies of SARS Coronavirus</a>．通过结构模型指出小/大鼠的 ACE2 不能被 S 蛋白 RBD 识别可能是因为 353 是个 His，而在人，果子狸，蝙蝠，猪等动物中是位阻小的 Lys．</li>
+</ul>
+
+<h1 class="hd">病例和临床数据</h1>
+<ul class="bulletin">
+<li>Huang et al．(1-24): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext">Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</a>，截至一月二日入院治疗的 $n=41$ 位武汉患者的临床特征．要点：（1）病毒并非只对高龄、有潜在疾病的人群造成威胁（近一半患者年龄在 25-49之间，仅 32% 的患者有潜在疾病），但患者入住 ICU 的比例与年龄正相关；（2）发热、咳嗽、肌肉酸痛为发作初期最常见的症状，从出现症状到急性呼吸窘迫综合征（ARDS<sup class="note-tag"><a href="#注" name="ards">注</a></sup>）的发展有 8-14 天．
+
+<div class="notes">
+<a name="注" href="#ards">注</a>：
+根据柏林定义，ARDS 有四个组分：
+<ul class="ls">
+<li>病发时间：已知临床病因后1周之内急性起病，或呼吸症状加重；</li>
+<li>胸部影像：双侧阴影且不能完全用胸腔积液解释、肺叶/肺萎陷或结节；</li>
+<li>肺水肿：不能通过心衰或液体负荷过多解释的呼吸衰竭；若无危险因子，需客观评估（如超声检查）排除静水压水肿；</li>
+<li>按低血氧症（成人）的程度可分三个等级：
+<ul>
+<li>轻度 ARDS: PEEP/CPAP ≥5 cmH2O 或未通气时，200 mmHg &lt; 氧合指数（PaO2/FiO2） ≤ 300 mmHg</li>
+<li>中度 ARDS: PEEP/CPAP ≥5 cmH2O 或未通气时，100 mmHg &lt; PaO2/FiO2 ≤200 mmHg</li>
+<li>重度 ARDS: PEEP/CPAP ≥5 cmH2O 或未通气时，PaO2/FiO2 ≤ 100 mmHg</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+</li>
+
+<li>Chan et al．(1-24)：<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext">A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster</a>，从一个深圳家庭的案例（$n=6$）中看 SARS-CoV-2 的人际传播能力．家庭内的人际传播的防范应得到重视，存在无症状的感染者，为诊断与防疫工作带来额外的难度．
+</li>
+
+<li>Chen et al．(1-29): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext">Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</a>，一月 1 日到 20 日之间入院治疗的 $n=99$ 位武汉患者的临床特征．99位患者有一半（49%）与华南海鲜市场有长期接触历史．ICU 入住率 23%，截止25日，57 位患者留院，31 位患者出院，11 位患者死亡，17 位发展ARDS．
+</li>
+
+<li>Wang et al．(2-7)．<a href="https://jamanetwork.com/journals/jama/fullarticle/2761044">Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China</a>．在 $n=138$ 名武汉 COVID-19 病例（中位数 56 岁，IQR 42-68 岁，54.3%男性）中，从最早的症状到呼吸困难的中位数时间是 5 天，到住院 7天，到发展 ARDS 8 天．报告了 4.3% 的病死率</li>
+
+<li>Chen et al．(2-12): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30360-3/fulltext">Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records</a>．武大中南医院的 $n=9$ 名患有 COVID-19 的孕妇的临床特征．对羊水，脐带血，新生儿口腔拭子的检测并无发现SARS-CoV-2 宫内垂直传播的证据，孕妇的临床特征也与非孕妇女患者的类似．</li>
+
+<li>中国疾病预防控制中心 (2-17)．<a href="http://html.rhhz.net/zhlxbx/004.htm">新型冠状病毒肺炎流行病学特征分析</a>．分析了截至 2-11 的中国大陆共 72 314 例病例．其中 44 672 (62%) 例为核酸确诊，889 (1%) 例为无症状确诊．在确诊病患中，81% 的确诊患者体现为轻症，14%重症，5% 危重症．总病死率 2.3%，70-79岁病例病死率 8.0%，$\geq$ 80岁病例病死率14.8%，危重病死率 49%．重症比例在武汉为17.7%，湖北10.4%，全国除去湖北外为7.0%．医务人员确诊病例中，武汉有1 080例（64.0%），湖北除武汉外 394 例（23.3%），全国其他30个省（区/市）除湖北 214 例（12.7%）．</li>
+
+<li>Yang (2-24): Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study． 分析了截至 1-26 住金银潭医院的 710 患者中 $n=52$ 位（平均年龄 59.7 岁，SD 13.3，67%男性）危重症患者的病情历程．52 位患者中，有 32 (61.5%) 位死亡（平均年龄64.6，SD 11.2，66%男性）．相较于生存者，有更多的死亡者接受了以下治疗：皮质激素（48% vs 23%），免疫球蛋白静脉注射 (67% vs 7%)，高流量鼻导管氧疗（61% vs 6%），侵入式机械通气（57% vs 1%）．从症状开始到出院的中位数时间是 22 天（IQR 18-25），到死亡的中位数时间是 18.5 天 (IQR 15-22) ．高龄，高 SOFA分数，D二聚体 &gt;1 μg/mL 都增加了死亡的风险．</li>
+
+<li>Shi et al．(2-24): <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30086-4/fulltext">Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study</a>．分析了 $n=81$ 位 12-20 - 1-23 之间住院的武汉患者（中位数 49.5 岁，范围 25-81 岁，52% 男性）的 CT 影像．主要的影响特征为：出现症状前主要体现为单侧（60%）磨玻璃影（93%）；出现症状一周内扩散为双侧（90%）但仍以磨玻璃影为主（81%）；出现症状后 1 到 2 周之间，磨玻璃患者比例下降（57%）而实变患者比例上升（30%）；出现症状 2 周后以混合影为主．</li>
+
+<li>Guan (2-28): <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2002032">Clinical Characteristics of Coronavirus Disease 2019 in China</a>．综合分析了全国 $n=1099$ 位确诊病例（中位数 47 岁，IQR 35-58）的临床特征．在所有病例中，43.9% 是武汉居民，72.3% 接触过武汉居民（其中 31.3% 到过武汉），25.9% 没有接触过武汉居民．CT 造影上，56.4% 有磨玻璃影，41.9% 双侧斑片状影，37.2% 局部斑驳影；化验结果中，61.60.7% C反应蛋白 &gt; 10 mg/L, 41.0% LDH $\geq$ 250 U/L；在治疗方面，58.0% 接受静脉注射抗生素，41.3 接受氧疗，35.8% 接受奥司他韦．</li>
+
+<li>Zhou (3-11): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext">Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study</a>．武汉市肺科医院和金银潭医院的 $n=191$ 成年患者的临床特征，其中 137 (71.7%) 例出院，54 (28.3%) 例死亡．病毒脱落期中位数 20.0 天 (IQR 17.0-24.0).高龄，高 SOFA分数，D二聚体 &gt;1 μg/mL 都增加了死亡的风险</li>
+
+<li>Young et al．(3-19): <a href="https://jamanetwork.com/journals/jama/fullarticle/2762688">Epidemiologic Features and Clinical Course of Patients Infected With SARS-CoV-2 in Singapore</a>．新加坡 1-23rd - 2-3 之间首 $n=18$ 例 COVID-19 患者（中位数 47 岁，50% 男性）的临床特征．患者都曾到访武汉．其中 12（67%）例没有加重，6例（33%）需要输氧．6 名输氧患者中，5 名接受洛匹那韦利托那韦治疗，其中 3 名退烧并降低输氧需求，2 例恶化为进行性呼吸困难．</li>
+
+<li>Xu et al．(3-19): <a href="https://www.bmj.com/content/368/bmj.m606.long">Clinical findings in a group of patients infected with the 2019 novel coronavirus (SARS-Cov-2) outside of Wuhan, China: retrospective case series</a>．1-10 - 1-26 于浙江七所医院住院的 $n=62$名患者（中位数 41 岁）的临床信息．81%表现为咳嗽，77%发热，56%咳痰，34%头痛，52% 肌痛或疲劳，8% 腹泻．仅 3% 在入院时呼吸困难．接触到出现症状中位数时间 4 天（IQR: 3-5），从出现症状到住院中位数 2 天（IQR 1-4）</li>
+
+<li>Onder et al．(3-23): <a href="https://jamanetwork.com/journals/jama/fullarticle/2763667">Case-Fatality Rate and Characteristics of Patients Dying in Relation to COVID-19 in Italy</a>．意大利截止 3-3 共 $n=1625$ 例死亡病例的病死率分析．其中 52.3% 例 $\geq 80$ 岁，35.6% 在 70-79 岁之间，8.6% 在 60-69 岁之间．总病死率是 7.2%，可能与意大利 23% $\geq$65 岁的人口结构有关．</li>
+
+<li>Pung et al．(3-28): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30528-6/fulltext">Investigation of three clusters of COVID-19 in Singapore: implications for surveillance and response measures.</a>新加坡三个 COVID-19 集群的 $n=36$ 例病例的临床特征．仅12% 在过去 14 天内到过中国．从出现症状到住院中位数 4 天（IQR 3-9）．大部分病例的症状在几天内解决，1 位需要输氧，2 位发展 ARDS，4 位接受洛匹那韦利托那韦治疗．</li>
+
+<li>Luo et al．(3-30): <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2763473">Possible Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) in a Public Bath Center in Huai’an, Jiangsu Province, China</a>．江苏的一例集群传播个案分析．共 $n=9$ 例 1-25 - 2-10 入院于淮安第四人民医院，患者（中位数 35，IQR 24-50）皆到访过同一所公共澡堂．第一位患者于 1-18 到访过澡堂并于 1-19 出现发热症状，于 1-25 确诊为 COVID-19．所有的患者 CT 造影都有磨玻璃影，并有 C 反应蛋白升高 （均值 3.34 mg/dL，SD 3.18）．</li>
+
+<li>Spellberg et al．(3-31): <a href="https://jamanetwork.com/journals/jama/fullarticle/2764137">Community Prevalence of SARS-CoV-2 Among Patients With Influenzalike Illnesses Presenting to a Los Angeles Medical Center in March 2020</a>．美国洛杉矶医疗中心对 SARS-CoV-2 的检测性测试结构．在进行的 131 例测试中，有 7 例阳性（5.3%），其中 6 例表现为发热，5 例肌痛，1 例咳嗽．1 例有去佛罗里达迈阿密的旅行史.</li>
+
+</ul>
+<p>杂项：</p>
+<ul class="bulletin">
+<li><a href="http://med.china.com.cn/content/pid/157096/tid/1021">国家卫生健康委公布17例新型肺炎死亡病例病情</a>，有详细的患者病史、健康状况和治疗过程的信息.
+</li>
+</ul>
+
+<h1 class="hd">基因组/信息学</h1>
+<p>关于病毒的寄主：</p>
+
+<ul class="bulletin">
+<li>Ji et al．(1-22): <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/jmv.25682">Homologous recombination within the spike glycoprotein of the newly identified coronavirus 2019-nCoV may boostcross-species transmission from snake to human</a>，假设病毒和寄主的相对同义密码子使用度（RSCU<sup class="note-tag"><a href="#注" name="rscu">注</a></sup>）类似，通过计算每个密码子的 RSCU 作为特征进行聚类分析，指出蛇是 SARS-CoV-2 的可能寄主．这篇文章的研究方法在两个层面上是有缺陷或是错的：
+<ol>
+<li>从演化生物学的角度来说，如果要假设病毒和寄主的 RSCU 是匹配的，则必须举出充分证据证明（1a）SARS-CoV-2 和蛇 RSCU 匹配的原因并不是漂变，（1b）存在迫使 SARS-CoV-2 在密码子偏好上做出适应性改变的选择压力．因此，要证明 SARS-CoV-2 在蛇的体内完成生活史的一部分（至少要在野蛇中采集到 SARS-CoV-2），而这在现在是无法做到的．</li>
+<li>从生物信息学的角度来说，计算编码序列所编码的蛋白质的氨基酸组分，这些被采样的编码序列的整体核苷酸偏好和GC比例，甚至这些编码序列的长度都会影响到 RSCU 的计算，因此 RSCU 是一个非常糙的特征，不能依赖它来做聚类．</li>
+</ol>
+
+<div class="notes">
+<a name="注" href="#rscu">注</a>：
+取特定氨基酸 $aa$ ，编码 $aa$ 的（同义）密码子的集合为 $S(aa)$．若 $aa$ 在基因组 $G$ 中的频数是 $n$，密码子 $s\in S(aa)$ 在 $G$ 中的频数为 $m$，那么 $RSCU(s, G)=\frac{m}{n/|S(aa)|}$．即 $s$ 的实际观测频数，与其在无使用偏好的假设下（$aa$ 的每个密码子都等概率被使用）的期望频数的比值．
+</div>
+</li>
+
+<li>Zhou et al．(1-23): <a href="https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf">Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin</a>．要点：对 SARS-CoV-2 进行系统发生分析，发现其与蝙蝠 SARSr-CoV RaTG13 的高度相似性，为其蝙蝠来源提供支持．RaTG13 和 SARS-CoV-2 的 Symplot 展示了两者的整体相似性.
+</li>
+
+
+<li>Paraskevis et al．(1-26): <a href="https://www.biorxiv.org/content/10.1101/2020.01.26.920249v1.full.pdf">Full-genome evolutionary analysis of the novel corona virus (2019-nCoV) rejects the hypothesis of emergence as a result of a recent recombination event</a>．确认了石正丽团队得出的 SARS-CoV-2 和 RaTG13 的近缘关系，指出病毒不太可能是近期重组事件的产物.
+</li>
+
+<li>Chen et al．(2-29): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30251-8/fulltext">Genomic characterisation and epidemiology of 2019 novel
+coronavirus: implications for virus origins and receptor binding</a>，比较了从九位患者（其中 8 位和海鲜市场有接触历史）的气道上皮细胞提取的 SARS-CoV-2 样本的全基因组信息．样本间的序列同一率很高（$\geq$99.98%）．
+</li>
+
+<li>Wahba et al．(2-8): <a href="https://www.biorxiv.org/content/10.1101/2020.02.08.939660v2">Identification of a pangolin niche for a 2019-nCoV-like coronavirus through an extensive meta-metagenomic search</a>．广州野生动物救护中心营救后病死的马来穿山甲 (<i>Manis javanica</i>) 的肺部宏病毒组数据（<a href="https://www.mdpi.com/1999-4915/11/11/979">Liu et al．2019</a>）中发现可以映射到 SARS-CoV-2 基因组的读段，指出穿山甲是可能的中间寄主．
+</li>
+
+<li>Lam et al．(2-13): <a href="https://www.biorxiv.org/content/10.1101/2020.02.13.945485v1.full.pdf">Identification of 2019-nCoV related coronaviruses in Malayan pangolins in southern China</a>．利用 2017-2018 年广西海关收集的走私马来穿山甲的肠、肺、血液组织，组装了 6 个相对完整的类似 SARS-CoV-2 的病毒基因组．SARS-CoV-2 基因组整体与 RaTG13 近似，但 S 蛋白的 RBD 与穿山甲冠状病毒有很高的 aa 序列同一率（97.4%）．同时，利用了 <a href="https://www.mdpi.com/1999-4915/11/11/979">Liu et al．(2019)</a> 的数据组装了两个病毒基因组，发现其与广西穿山甲属于不同的支系，但都很接近 SARS-CoV-2．</li>
+
+<li>Xiao et al．(2-17): <a href="https://www.biorxiv.org/content/10.1101/2020.02.17.951335v1.full.pdf">Isolation and Characterization of 2019-nCoV-like Coronavirus from Malayan Pangolins</a>．在 2019 年野生动物救援的马来穿山甲的肺部组织呈 $\beta$ 冠状病毒 PCR 阳性（17/25例），其中一例的血清抗 SARS-CoV-2 IgG/IgM ELISA 结果呈阳性．利用 Vero 细胞从肺部组织中分离病毒，在 TEM 照片中发现类似冠状病毒的颗粒，同时对 S 蛋白和 RdRp 的 RT-PCR 扩增，发现了与 SARS-CoV-2 同一率分别为 ~84.5% 和 92.2% 的产物．利用 RNA-seq 装配的穿山甲冠状病毒，指示该病毒 M 和 N 基因与 SARS-CoV-2 同一律 $\geq 95$%，E 为 100%，S 为 90%．</li>
+
+<li>Tang et al．(3-3) <a href="https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwaa036/5775463">On the origin and continuing evolution of SARS-CoV-2</a>．通过分析 $n=103$ 个 SARS-CoV-2 基因组的SNP，利用 orf1ab 和 ORF8 中两个高度连锁的 SNP 定义了病毒演化的两个子支系：L（SNP 组合为 ‘CT’，占样本 $\sim$70%）和 S（SNP组合为 ‘TC’，占样本 $\sim$30%） 两个子支系．和外群的比较发现 S 型是祖先型，但因 L 型的频率更高， 因此推测 L 型的传播率比 S 高．来自武汉的 27 个（1-7 前收集的）样本中有 26 个（96.3%）是 L 型，来自武汉外的 73 个（1-7 后收集的）样本中有 45（61.6%）是 L 型，可见随着疫情进展 S 型频率逐渐升高、L 型频率逐渐降低，作者推测这可能是因为疫情的控制对 L 的选择压力强于 S．这篇文章受媒体报道，反响很大，但是结论其实值得怀疑：并没有功能性的证据把 S、L 支序的定义（只是SNP而已）与适应度挂钩，因此 “传播性更强” 缺乏生物学佐证，也具有误导性．
+</li>
+
+<li>Andersen et al．(3-17): <a href="https://www.nature.com/articles/s41591-020-0820-9">The proximal origin of SARS-CoV-2.</a> 总结了之前的发现．要特别留意的是 S 蛋白的 furin 切点（RRAR）在 RaTG13 或者穿山甲序列中都不存在，指出 SARS-CoV-2 的 furin 切点可能是从动物源溢出到人类群体中后，自然选择的结果．</li>
+
+<li>Luan et al．(3-19): <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102515/">Spike protein recognition of mammalian ACE2 predicts the host range and an optimized ACE2 for SARS-CoV-2 infection.</a>通过结构预测 S 蛋白与各种哺乳动物的 ACE2 的结合能力，指出东非狒狒、猫、狗、马来大狐蝠、兔、仓鼠、绵羊、穿山甲等动物的 ACE2 可能会与 S 蛋白结合，而狐獴、貉、马铁菊头蝠、大/小鼠、豚鼠、单峰驼、非洲象，狐獴，鸭嘴兽的 ACE2 不会．可见与 S 蛋白结合的能力与哺乳动物的演化关系没有特别强的相关．</li>
+</ul>
+
+<p>杂项：</p>
+<ul class="bulletin">
+<li><a href="https://www.ncbi.nlm.nih.gov/nuccore/1798174254">GenBank 上 SARS-CoV-2 的参考基因组</a>．</li>
+<li><a href="https://www.gisaid.org/">GISAID 上的 SARS-CoV-2 的全基因组数据</a>，需要账户，使用前请参见须知．</li>
+
+<li>Bedford et al．在
+<a href="https://nextstrain.org/narratives/ncov/sit-rep/2020-01-23?n=0">Nextstrain 上 对基因组的研究报告</a>，含病毒支序分析的基础知识．对移动端不友好．
+</li>
+</ul>
+
+<h1 class="hd">治疗与临床实验</h1>
+<p>可前往 <a href="https://clinicaltrials.gov/">clinicaltrials.gov</a> 以关键词 'Sars-CoV2' 查询美国正在进行的临床实验．</p>
+
+<p>激素类药物（免疫抑制）：</p>
+<ul class="bulletin">
+<li>
+Russell et al．(2-7): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30317-2/fulltext">Clinical evidence does not support corticosteroid treatment for 2019-nCoV lung injury</a>．根据 SARS，MERS，流感，呼吸道合胞病毒（RSV）的治疗经验，现没有证据证明皮质激素类对 COVID-19 的治疗有效．</li>
+</ul>
+
+<p>瑞德西威：</p>
+<ul class="bulletin">
+<li>Agostini et al．(2018): <a href="https://mbio.asm.org/content/9/2/e00221-18/figures-only">Coronavirus Susceptibility to the Antiviral Remdesivir (GS-5734) Is Mediated by the Viral Polymerase and the Proofreading Exoribonuclease.</a> 在 SARS-CoV，MERS-CoV 和鼠肝炎病毒（MHV）中确认了瑞德西韦的作用机制．</li>
+<li>Wang et al．(2-4): <a href="https://www.nature.com/articles/s41422-020-0282-0">Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro</a>．瑞德西韦和氯喹可抑制 SARS-CoV-2 进入 Vero 细胞．</li>
+</ul>
+
+<p>羟氯喹/氯喹：</p>
+<ul class="bulletin">
+<li>Gautret et al．(3-20): <a href="https://www.ncbi.nlm.nih.gov/pubmed/32205204">Hydroxychloroquine and azithromycin as a treatment of COVID-19: results of an open-label non-randomized clinical trial</a>．这就是最近传得沸沸扬扬的羟氯喹和阿奇霉素的组合治疗．这个样本很小，又是单臂研究，结论要很慎重地看．</li>
+</ul>
+
+<p>血清：</p>
+<ul class="bulletin">
+<li>Hoffmann et al．(预印版于 1-31 发表在 BioRxiv, 于 3-5 发表于 Cell): <a href="https://www.cell.com/cell/fulltext/S0092-8674(20)30229-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420302294%3Fshowall%3Dtrue">SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor</a>．使用表达 SARS-CoV-2 S 蛋白 的 VSV 假病毒对一组不同来源的细胞系进行侵入实验．恢复期患者血清可以阻断病毒侵入，为恢复期血清疗法提供证据支持．
+</li>
+<li>Shen et al．(3-27): <a href="https://jamanetwork.com/journals/jama/fullarticle/2763983">Treatment of 5 Critically Ill Patients With COVID-19 With Convalescent Plasma</a>．是前瞻性研究，样本极小且没有对照或随机化</li>
+</ul>
+
+<h1 class="hd">流行病学参数预测</h1>
+<ul class="bulletin">
+<li>Imai et al．(1-22): <a href="https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/">Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a>，英国医学研究委员会基于 IATA 数据的感染者人数预测，是 17 号 “1700人” 报告的跟进．
+</li>
+
+<li>WHO (1-23): <a href="https://www.who.int/news-room/detail/23-01-2020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)">Statement on the meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)</a>，给出了 $R_0$=1.4-2.5<sup class="note-tag"><a href="#r0-note" name="r0">注</a></sup>的预测．
+</li>
+
+<div class="notes">
+<a name="r0-note" href="#r0">注</a>：
+$R_0$ 即基本传染数（basic reproduction number）描述的是一位感染者在传染期期间将病毒传播给的期望人数．一般来说，若 $R_0&gt;1$，每个原发病例（index case）将产生更多的二代病例（secondary case），疫情将会扩散；若 $R_0&lt;1$，那么疫情在有痊愈患者的情况下会逐渐随时间消减．
+</div>
+
+
+<li>Read et al．(1-23): <a href="https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2.full.pdf">Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a> 通过流行病学中经典的 SEIR 微分方程组<sup class="note-tag"><a href="#注" name="seir">注</a></sup>给出了 $R_0$=3.8 (95% CI: 3.6-4.0) 的估计．
+</li>
+
+<div class="notes">
+<a name="seir" href="#seir">注</a>：
+SEIR （Suspected-Exposed-Infected-Recovered）模型属于流行病学建模中所谓区室模型（compartmental model）的一种．
+<ul>
+<li>设人群大小为 $N$ ，其中每一个人都属于四种组别其一：易染者 $S$、潜伏者 $E$，感染者 $I$，康复者 $R$．</li>
+<li>人群的出生率和死亡率分别是 $\tau$ 和 $\mu$，新生儿自动加入易染者 $S$．</li>
+<li> 对 $S$ 中的每位易染者，若单位时间内其遭遇任何组别的人的概率都相等，那么遭遇感染者的单位时间概率是 $\frac{I}{N}$（纲量：时间$^{-1}$），若又设其在每次遭遇中受感染的概率为 $\beta$，那么单位时间内，易染者中受感染的人的数量服从总体大小 $S$，成功概率 $\frac{\beta I}{N}$ 的二项分布，其期望为 $\frac{S\beta I}{N}$．这在模型中体现为在单位时间内，有 $\frac{S\beta I}{N}$ 人因为接触感染者，从易染者变为潜伏者．
+</li>
+<li> 假设疾病的潜伏期长为 $\frac{1}{\sigma}$，那么每单位时间内有 $\sigma E$ 名潜伏者病发成为感染者．
+</li>
+<li>假设疾病的恢复期长为 $\frac{1}{\gamma}$，那么每单位时间内有 $\gamma I$ 名感染者成为康复者．
+</li>
+
+</ul>
+用箭头表示四个类群之间人数的流动，那么我们的模型就是，
+\begin{array}{cccccccc}   
+\xrightarrow{N\tau}&amp; S &amp; \xrightarrow{\frac{S\beta I}{N}} &amp; E &amp; \xrightarrow{\sigma E} &amp; I &amp; \xrightarrow{\gamma I} &amp; R\\\
+
+&amp;\downarrow \mu S&amp;  &amp; \downarrow \mu E &amp;  &amp; \downarrow \mu I&amp;  &amp; \downarrow \mu R\\\  
+\end{array}
+
+我们感兴趣 $S, E, I, R$ 中人数随时间变化的关系．通过阅读以上简图表示的各组别流入/流出关系，我们可以直接写出微分方程组
+$$
+\begin{align}
+\dot{S}&amp;=N\tau-\frac{S\beta I}{N}-\mu S\\
+\dot{E}&amp;=\frac{S\beta I}{N}-\sigma E-\mu E\\
+\dot{I}&amp;=\sigma E-\gamma I-\mu I\\
+\dot{R}&amp;=\gamma I-\mu R\\
+\end{align}
+$$
+
+这就是 SEIR 模型的推导．因为这个方程组没有显式解，有了这个模型以后，可以用最小二乘法或者最大似然法等惯用拟合技巧，得出各个参数的估计．
+
+</div>
+
+
+
+<li>Pullano et al．(1-23): <a href="https://www.epicx-lab.com/uploads/9/6/9/4/9694133/inserm_2019ncov-importation-risk_20200123.pdf">2019-nCoV importation risk to Europe</a> SARS-CoV-2 的欧洲引入风险（risk of importation：至少一例从中国来到欧洲的概率）评估，是借助了来自 OAG 的民航数据的粗略估计．
+</li>
+
+<li>Riou &amp; Althaus (1-24): 将每个原发病例所造成的二代病例的数量视作负二项分布（期望值为 $R_0$)，将病毒的世代长度视作 gamma 分布，通过<a href="https://github.com/jriou/wcov">模拟取样</a>而计算的模型参数的概率密度函数，并选择使感染总人数在一月18日时落在 [1000, 9700] 的区间内的参数分布区间，给出了 $R_0$=2.2 (90% 高概率密度区间: 1.4-3.8) 的估计．
+</li>
+
+<li>Imai et al．(1-24): <a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf">用类似的轨迹分析方法</a>进行模拟，得出几个与一月十八日的感染人数值相容的 $R_0$ 估计．
+</li>
+
+<li>Majumder &amp; Mandl (1-24): <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3524675">Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China</a>通过拟合患病律衰减指数调整（IDEA）的单公式模型，给出 $R_0$=2.0-3.3 的估计．
+</li>
+
+<li>Qun et al．(1-29): <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2001316?url_ver=Z39.88-2003&amp;rfr_id=ori:rid:crossref.org&amp;rfr_dat=cr_pub%3dpubmed">Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia.</a>用更新方程（renewal equations）建模进行模拟，得出 $R_0$=2.2 的估计．这个就是那个最近给出 44000 武汉病例估计的港大团队．
+</li>
+
+<li>Cao et al．(1-29): <a href="https://www.medrxiv.org/content/10.1101/2020.01.27.20018952v1.full.pdf">Estimating the effective reproduction number of the 2019-nCoV in China</a> 利用 SEIRDC 模型（SEIR的变体，加入了死亡 $D$ 和总例 $C$ 两个变量），给出 6.50% 的死亡率估计．
+</li>
+
+<li>Wu et al．(1-31): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30260-9/fulltext">Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study</a> 通过 SEIR 集合种群模型估计武汉的疫情大小，再将输出的病例数量作为一个非齐次泊松过程建模，用 MCMC 计算的后验期望作为 $R_0$ 估计，得出截止1月25日武汉有 75,815 (95% CI 37,304-130,330)  人被感染，$R_0$=2.68 (95% CI: 2·47-2.86)．
+</li>
+
+<li>Verity et al．(3-30): <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext">Estimates of the severity of coronavirus disease 2019: a model-based analysis</a>．利用中国的病例数据建模，通过拟合 $\gamma$ 分布及 MCMC 模拟的方式，预估症状出现到死亡的平均时间为18.8 天 (95% CI 15.7–49.7)，症状出现到康复的平均时间 24.7 天 (95% CI 22.9-28.1)，$\geq 80$ 岁病例期望 CFR 13.4% (95% CI 11.2-15.9%)．</li>
+</ul>
+:ET

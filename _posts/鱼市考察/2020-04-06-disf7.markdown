@@ -3,14 +3,14 @@ title:  "鱼市考察（07）"
 date:   2014-01-18
 modified: 2014-03-05
 category: '｢发现｣ 鱼市考察'
-cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
+cover: 'https://lykoseremos.github.io/gmalb-04/disf7/20140118_143721.jpg'
 ---
 
 本篇发生于2014年1月18日，GMT-5，感谢微博平台上 @metrosideros @Scylla_serrata 朋友的鉴定协力
 
 封面：
 
-<img class='disc' src='https://i.postimg.cc/FzTmCVfY/1.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/1.jpg'>
 
 ---
 
@@ -22,11 +22,11 @@ cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
 
 楚蟹（*Chinopecetes opilio*）腿的熟制品非常普遍
 
-<img class='disc' src='https://i.postimg.cc/brxSZMFK/20140118-143530.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143530.jpg'>
 
 蛤蜊类海产品
 
-<img class='disc' src='https://i.postimg.cc/dtFTbshv/20140118-143532.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143532.jpg'>
 
 水煮摊
 
@@ -34,19 +34,19 @@ cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
 
 美国的斑节对虾是入侵物种，很有可能是由大西洋航线船只的压舱水从非洲带来的
 
-<img class='disc' src='https://i.postimg.cc/VsnCZrLD/20140118-143540.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143540.jpg'>
 
 排队购买处理好的熟食虾蟹的人群
 
-<img class='disc' src='https://i.postimg.cc/XYQFKR7W/20140118-143620.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143620.jpg'>
 
 蓝蟹（*Callinectes sapidus*），切萨皮克湾（Chesapeake Bay）的特产
 
-<img class='disc' src='https://i.postimg.cc/W4zZ55hk/20140118-143627.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143627.jpg'>
 
 同样是楚蟹
 
-<img class='disc' src='https://i.postimg.cc/9fk7Ky7N/20140118-143638.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143638.jpg'>
 
 鱼类一瞥
 
@@ -60,7 +60,7 @@ cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
 
 大耳马鲛（*Scomberomorus cavalla*）
 
-<img class='disc' src='https://i.postimg.cc/XqSy73xf/20140118-143656.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143656.jpg'>
 
 黑斑刺盖太阳鱼（*Pomoxis nigromaculatus*)，
 
@@ -76,7 +76,7 @@ cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
 
 条纹鲈（*Morone saxatilis*）
 
-<img class='disc' src='https://i.postimg.cc/Njf20d8z/20140118-143708.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143708.jpg'>
 
 椭斑马鲛（*Scomberomorus maculatus*），
 
@@ -86,7 +86,7 @@ cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
 
 条纹鲈
 
-<img class='disc' src='https://i.postimg.cc/vm41rDN7/20140118-143716.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143716.jpg'>
 
 卵形鲳鰺（*Trachinotus ovatus*），
 
@@ -94,7 +94,7 @@ cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
 
 石首鱼科某种（*Sciaenidae*）. 姑鱼、䱛之类不好分，可能是波纹绒须石首鱼（*Micropogonias undulatus*）
 
-<img class='disc' src='https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143721.jpg'>
 
 红长鳍鳕（*Urophycis chuss*），
 
@@ -106,7 +106,7 @@ cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
 
 佛州鲳鰺（*Trachinotus carolinus*）
 
-<img class='disc' src='https://i.postimg.cc/RVvNPgYZ/20140118-143737.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143737.jpg'>
 
 最左边的是牙鲆属某种（*Paralichthys*），最有可能是美洲牙鲆（*Paralichthys dentatus*）
 
@@ -114,7 +114,7 @@ cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
 
 大西洋鲑
 
-<img class='disc' src='https://i.postimg.cc/VL452jyB/20140118-143747.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143747.jpg'>
 
 红长鳍鳕
 
@@ -124,41 +124,41 @@ cover: 'https://i.postimg.cc/sXSvLqyv/20140118-143721.jpg'
 
 黄敏尾笛鲷（*Ocyurus chrysurus*）
 
-<img class='disc' src='https://i.postimg.cc/RhLqStWm/20140118-143849.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143849.jpg'>
 
 同一个鱼摊多拍几张
 
-<img class='disc' src='https://i.postimg.cc/nr2cbtWc/20140118-144415.jpg'>
-<img class='disc' src='https://i.postimg.cc/L8w4MDxf/20140118-144418.jpg'>
-<img class='disc' src='https://i.postimg.cc/vmnY8nKK/20140118-144425.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144415.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144418.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144425.jpg'>
 
 市场前的广场
 
-<img class='disc' src='https://i.postimg.cc/x82cV5Tg/20140118-143924.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_143924.jpg'>
 
 闲逛的紫翅椋鸟（*Sturnus vulgaris*）
 
-<img class='disc' src='https://i.postimg.cc/NjzFjBjK/20140118-144023.jpg'>
-<img class='disc' src='https://i.postimg.cc/s2GXBqMw/20140118-144025-0.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144023.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144025-0.jpg'>
 
 车下享受夕阳的一群麻雀
 
-<img class='disc' src='https://i.postimg.cc/YqXqdMgd/20140118-144052.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144052.jpg'>
 
 蓝鳕（*Micromesistius poutassou*），舌齿鲈（*Dicentrarchus labrax*），美洲牙鲆
 
-<img class='disc' src='https://i.postimg.cc/5ybNRtnR/20140118-144258.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144258.jpg'>
 
 波线马鲛和条纹狼鲈
 
-<img class='disc' src='https://i.postimg.cc/y6yNSFN4/20140118-144305.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144305.jpg'>
 
 南美白虾（*Penaeus vannamei*）和斑节对虾，以及下方的虹鳟（*Oncorhynchus mykiss*）
 
-<img class='disc' src='https://i.postimg.cc/BQZn5X88/20140118-144321.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144321.jpg'>
 
 港口风景
-<img class='disc' src='https://i.postimg.cc/0Qd9DsPd/20140118-144536.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf7/20140118_144536.jpg'>
 
 游览鱼市后，我参观了史密森尼自然史博物馆
 

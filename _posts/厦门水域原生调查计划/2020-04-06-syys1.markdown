@@ -3,7 +3,7 @@ title:  "黑壳虾的生存情况"
 date:   2011-12-04
 modified: 2020-08-02
 category: '厦门水域原生调查计划'
-cover: 'https://i.postimg.cc/C51qqYkx/image.png'
+cover: 'https://lykoseremos.github.io/gmalb-03/syys1&2/黑壳虾.png'
 ---
 
 本片拍摄于2011年11月，由于处理高清视频的技术所限，所以高清版本的视频上传于2011年12月4日，即几周之后

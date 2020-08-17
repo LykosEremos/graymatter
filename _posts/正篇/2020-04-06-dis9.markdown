@@ -5,7 +5,7 @@ date:   2012-06-03
 modified: 2014-02-16
 category: '｢发现｣ 正篇'
 col_name: 'dis9'
-cover: 'https://i.postimg.cc/VLKKXvDc/DSC02806.jpg'
+cover: 'https://lykoseremos.github.io/gmalb-01/dis9/DSC02806.jpg'
 ---
 
 本篇摄制于2012年上半年，发布于6月3日，受到多家媒体关注；于2015年夏重置
@@ -16,9 +16,11 @@ cover: 'https://i.postimg.cc/VLKKXvDc/DSC02806.jpg'
 
 优酷2012版原始片源：
 
-<iframe src='https://player.youku.com/embed/XNDA3MDY5MzQw' frameborder="0" allowfullscreen="1"></iframe>
+<div style="position: relative; padding: 30% 45%; ">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.youku.com/embed/XNDA3MDY5MzQw&as_wide=1" frameborder="no" scrolling="no"></iframe>
+</div>
 
-<a href='http://mn.sina.com.cn/video/pkyc/2012-06-14/0931119.html'>网络媒体的相关报道（新浪）</a>
+<a src='http://mn.sina.com.cn/video/pkyc/2012-06-14/0931119.html'>网络媒体的相关报道（新浪）</a>
 
 ---
 
@@ -52,7 +54,7 @@ cover: 'https://i.postimg.cc/VLKKXvDc/DSC02806.jpg'
 
 拍摄日程：
 
-<img class='disc' src='https://i.postimg.cc/CKZJFJQK/image.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/image.jpg'>
 
 
 拍摄花絮：
@@ -62,90 +64,90 @@ cover: 'https://i.postimg.cc/VLKKXvDc/DSC02806.jpg'
 3月3日
 沙坡尾避风坞的池鹭（<i>Ardeola bacchus</i>）
 
-<img class='disc' src='https://i.postimg.cc/KvG9KB7N/DSC02798.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02798.jpg'>
 
 白鹭群
 
-<img class='disc' src='https://i.postimg.cc/VLKKXvDc/DSC02806.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02806.jpg'>
 
 下午上山
 
-<img class='disc' src='https://i.postimg.cc/W1Q67kZx/DSC02881.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02881.jpg'>
 
 钟花樱（<i>Prunus campanulata</i>）花丛中的暗绿绣眼鸟（<i>Zosterops japonicus</i>）
 
-<img class='disc' src='https://i.postimg.cc/9QS1Nk68/DSC02829.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02829.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/7hxN2rz6/DSC02830.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02830.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/JhkKwqm1/DSC02831.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02831.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/tTGk9xCF/DSC02832.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02832.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/k4NcGgBz/DSC02833.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02833.jpg'>
 
 桃花
 
-<img class='disc' src='https://i.postimg.cc/y6PjzWqS/DSC02840.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02840.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/28Swjmm9/DSC02841.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02841.jpg'>
 
 
 叉尾太阳鸟（<i>Aethopyga christinae</i>）一瞥
 
-<img class='disc' src='https://i.postimg.cc/qvtxnLN8/DSC02844.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02844.jpg'>
 
 水墨画风格的剪影
 
-<img class='disc' src='https://i.postimg.cc/q7ycDvXq/DSC02876.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/DSC02876.jpg'>
 
 4月4日
 筼筜湖，照例是小白鹭（<i>Egretta garzetta</i>）的天堂
-<img class='disc' src='https://i.postimg.cc/SRCpJ8Wq/1.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/1.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/zGJ1Gy3Z/2.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/2.jpg'>
 
 朱槿（<i>Hibiscus rosa-sinensis</i>）
 
-<img class='disc' src='https://i.postimg.cc/zXwrNCzF/3.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/3.jpg'>
 
 山菅（<i>Dianella</i>）
 
-<img class='disc' src='https://i.postimg.cc/FFLvWtwq/4.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/4.jpg'>
 
 不知道是哪种广翅蜡蝉（<i>Ricania</i>）的若虫
 
-<img class='disc' src='https://i.postimg.cc/pXMH3GHd/5.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/5.jpg'>
 
 林间的黑喉噪鹛（<i>Garrulax chinensis</i>）
 
-<img class='disc' src='https://i.postimg.cc/pLqMhPn9/6.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/6.jpg'>
 
 绿意
 
-<img class='disc' src='https://i.postimg.cc/vmTF5CW0/7.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/7.jpg'>
 
 4月14日
 
 一种蝗虫的若虫及叶片下的一只斜纹猫蛛（<i>Oxyopes sertatus</i>）
 
-<img class='disc' src='https://i.postimg.cc/1zdxBMBs/8.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/8.jpg'>
 
 蝗虫若虫特写
 
-<img class='disc' src='https://i.postimg.cc/XqMRSJtP/9.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/9.jpg'>
 
 猫蛛
 
-<img class='disc' src='https://i.postimg.cc/RhcjMmBZ/10.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/10.jpg'>
 
 蜕下来的皮吧
 
-<img class='disc' src='https://i.postimg.cc/85f20WXW/11.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/11.jpg'>
 
 农家的羊
 
-<img class='disc' src='https://i.postimg.cc/pLVgt31P/12.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/12.jpg'>
 
 长鼻蜡蝉（<i>Fulfora candelaria</i>）
 
@@ -153,20 +155,20 @@ cover: 'https://i.postimg.cc/VLKKXvDc/DSC02806.jpg'
 
 没想到在此能重逢
 
-<img class='disc' src='https://i.postimg.cc/c4BV2dhD/13.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/13.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/MpsgZthV/14.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/14.jpg'>
 
 螵蛸
 
-<img class='disc' src='https://i.postimg.cc/ncJy3X4j/15.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/15.jpg'>
 
 在同一根枝条上吸食汁液的瘤缘蝽（<i>Acanthocoris </i>）
 
-<img class='disc' src='https://i.postimg.cc/7P0v132r/16.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/16.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/43mqYVgM/17.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/17.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/YSZVY02S/18.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/18.jpg'>
 
-<img class='disc' src='https://i.postimg.cc/1tFdHS4r/19.jpg'>
+<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis9/19.jpg'>

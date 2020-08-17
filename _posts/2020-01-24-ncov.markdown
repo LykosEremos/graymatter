@@ -57,7 +57,7 @@ text-indent: initial;
 <img src='https://www.cdc.gov/coronavirus/mers/images/nCoV-1.jpg' width='50%'>
 <div class='fig'>中东呼吸综合征冠状病毒（MERS-CoV）的透射电镜（TEM）照片，引自<a href='https://www.cdc.gov/coronavirus/mers/images/nCoV-1.jpg'>美国 CDC</a>．SARS-CoV-2 的结构与此类似．病毒体（球形）表面的棒状突起即是 S 蛋白．</div>
 <div class='imgcontainer'>
-<img src='https://i.postimg.cc/sXGXNr31/hgt-genome-eff2-a6a160.png' style='max-height:199px;max-width:1361px;'>
+<img src='https://lykoseremos.github.io/gmalb-04/default01/hgt-genome-eff2-a6a160.png' style='max-height:199px;max-width:1361px;'>
 </div>
 <div class='fig'>UCSC 基因组浏览器上的 SARS-CoV-2 全基因组标注，蓝色框表示从基因组表达的产物．点<a href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=wuhCor1&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=NC_045512v2%3A1%2D29903&hgsid=819614191_O8x78u6SdwLZdFfAeaUEr8LY9m27'>这里</a>使用可交互的浏览器．</div>
 

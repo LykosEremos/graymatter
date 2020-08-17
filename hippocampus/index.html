@@ -4,7 +4,7 @@ landing: hippo
 title: 海马体
 ---
 <div class="page-meta small-top-margin large-bottom-margin">共 {{ paginator.total_pages }} 页，{{ site.posts.size }} 篇文章</div>
-
+      {%- assign index = 0 -%}
       {%- for post in paginator.posts -%}
       {%- assign img_array = post.content | split: "<img" -%}
       {%- assign img_array = img_array[1] -%}
@@ -14,7 +14,15 @@ title: 海马体
       {%- assign img_array = img_array | split: '"' -%}
       {%- assign post_year = post.date | date: "%Y" -%}
       {%- assign post_month = post.date | date: "%-m" -%}
-      <div class="container">
+
+      {%- if index == 0 -%}
+      <div class="container right-margin">
+      {%- assign index = 1 -%}
+      {%- else -%}
+      <div class="container left-margin">
+      {%- assign index = 0 -%}
+      {%- endif -%}
+
       {%- if post.cover -%}
       <img class='image-box' src='{{ post.cover }}'>
       {%- elsif img_array[0] -%}

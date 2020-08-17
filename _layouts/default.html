@@ -20,6 +20,40 @@
       {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}
     {% endif %}
     </title>
+
+    {%- if page.layout == 'post' -%}
+    {%- if page.parent -%}
+    {%- for post in site.posts -%}
+      {%- if post.col_name == page.parent -%}
+        {%- assign parent_post = post -%}
+      {%- endif -%}
+    {%- endfor -%}
+      {%- assign title = '灰质 | ' | append: parent_post.title -%}
+    {% else %}
+      {%- assign title = '灰质 | ' | append: page.title -%}
+    {%- endif -%}
+    {%- if page.cover -%}
+      {%- assign pic = page.cover -%}
+    {%- else -%}
+      {%- assign img_array = page.content | split: "<img" -%}
+      {%- assign img_array = img_array[1] -%}
+      {%- assign img_array = img_array | split: 'src="' -%}
+      {%- assign img_array = img_array[1] -%}
+      {%- assign img_array = img_array | strip_html -%}
+      {%- assign img_array = img_array | split: '"' -%}
+      {%- assign pic = img_array[0] -%}
+    {%- endif -%}
+    {%- assign page_summary =  page.content | strip_html | truncatewords: 5 -%}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ page_summary }}">
+    <meta property="og:image" content="{{ pic }}">
+    <meta property="og:url" content="{{ site.baseurl }}/ {{ page.url }}">
+    {%- endif -%}
+
+
+
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">

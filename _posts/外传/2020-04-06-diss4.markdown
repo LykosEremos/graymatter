@@ -4,8 +4,9 @@ series_prefix: '第四辑'
 date:   2011-06-18
 modified: 2020-08-02
 category: '｢发现｣ 外传'
+cover: 'https://lykoseremos.github.io/gmalb-04/default01/预告.jpg'
 ---
-本篇设置于2011年6月18日，6月25日，8月1日
+本篇设置于 2011 年 6 月 18 日，6 月 25 日，8 月 1 日
 
 ---
 
@@ -17,10 +18,9 @@ category: '｢发现｣ 外传'
 
 由于实验证明我的相机拍照效果不如录像效果所以就发录像了
 
-<div style="position: relative; padding: 30% 45%;">
+<div class="video-box">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=669073117&bvid=BV1Fa4y1J7zv&cid=219462932&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
 </div>
-
 
 更新！
 
@@ -32,7 +32,7 @@ category: '｢发现｣ 外传'
 
 视频里有高清全身相
 
-<div style="position: relative; padding: 30% 45%;">
+<div class="video-box">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=669073117&bvid=BV1Fa4y1J7zv&cid=219462932&page=2&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
 </div>
 
@@ -42,6 +42,6 @@ category: '｢发现｣ 外传'
 
 尽管要拍得好有点困难
 
-<div style="position: relative; padding: 30% 45%;">
+<div class="video-box">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=669073117&bvid=BV1Fa4y1J7zv&cid=219462932&page=3&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
 </div>
