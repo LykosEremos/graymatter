@@ -1,5 +1,3 @@
-{%- assign title = '灰质 | full_title' -%}
-
 {%- if parent_post.cover -%}
   {%- assign pic = parent_post.cover -%}
 {%- else -%}
@@ -16,7 +14,7 @@
 
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ title }}">
+  <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page_summary }}">
   <meta property="og:image" content="{{ pic }}">
-  <meta property="og:url" content="{{ site.baseurl }}/ {{ page.url }}">
+  <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
