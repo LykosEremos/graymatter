@@ -1,3 +1,22 @@
+{%- if page.parent -%}
+	{%- assign page_number = page.slug | plus: 0 -%}
+	{%- for post in site.posts -%}
+  	{%- if post.col_name == page.parent -%}
+  		{%- assign parent_post = post -%}
+		{%- endif -%}
+	{%- endfor -%}
+	{%- assign collection_name = page.parent -%}
+	{%- assign page_category = parent_post.category -%}
+{%- elsif page.col_name -%}
+	{%- assign page_number = 1 -%}
+	{%- assign parent_post = page -%}
+	{%- assign collection_name = page.slug -%}
+	{%- assign page_category = page.category -%}
+{%- else  -%}
+	{%- assign parent_post = page -%}
+	{%- assign page_category = page.category -%}
+{%- endif -%}
+
 {%- if parent_post.cover -%}
 	{%- assign pic = parent_post.cover -%}
 {%- else -%}
@@ -40,32 +59,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
     <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
     <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#5bbad5">
-
 		{%- include head.html -%}
 		<div style="display: none">
 				<img style='width: 300px; height: 300px;' src="{{ pic }}" />
 		</div>
 </head>
-
-
-{%- if page.parent -%}
-	{%- assign page_number = page.slug | plus: 0 -%}
-	{%- for post in site.posts -%}
-  	{%- if post.col_name == page.parent -%}
-  		{%- assign parent_post = post -%}
-		{%- endif -%}
-	{%- endfor -%}
-	{%- assign collection_name = page.parent -%}
-	{%- assign page_category = parent_post.category -%}
-{%- elsif page.col_name -%}
-	{%- assign page_number = 1 -%}
-	{%- assign parent_post = page -%}
-	{%- assign collection_name = page.slug -%}
-	{%- assign page_category = page.category -%}
-{%- else  -%}
-	{%- assign parent_post = page -%}
-	{%- assign page_category = page.category -%}
-{%- endif -%}
 
 {%- if content contains '</h1>' -%}
 	{%- assign toc_setting = true -%}
