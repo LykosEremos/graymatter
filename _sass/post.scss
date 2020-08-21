@@ -378,8 +378,6 @@ blockquote{
 	font-family: $default-font-serif;
 }
 
-
-
 /** page template */
 
 .post-header {
@@ -516,6 +514,10 @@ img {
 			padding-top: 0px;
 			padding-bottom: 0px;
 			overflow-y: scroll;
+		}
+
+		.close {
+			position: absolute;
 		}
 
 

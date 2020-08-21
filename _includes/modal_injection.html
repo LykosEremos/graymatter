@@ -9,7 +9,7 @@
       {%- else -%}
         {%- assign img_array = node | split: 'src="' -%}
         {%- capture cont_acc -%}{{ cont_acc }}
-        <a name='img{{ index }}'></a><img{{ img_array[0] }}onclick="open_modal();current_slide({{ index }})" src="{{ img_array[1] }}
+        <a name='img-{{ index }}'></a><img{{ img_array[0] }}onclick="open_modal();current_slide({{ index }})" src="{{ img_array[1] }}
         {%- endcapture -%}
         {%- assign img_array = img_array[1] -%}
         {%- assign img_array = img_array | strip_html -%}
@@ -25,7 +25,7 @@
     {%- endif -%}
 {%- endfor -%}
 <div id="modal" class="modal">
-<span class="slide-nav close" onclick="close_modal()">&times;</span>
+<span class="slide-nav close" id='close_modal_button' onclick="close_modal()">&times;</span>
   <!-- Next/previous controls -->
 {{ modal_acc }}
 <br>
@@ -51,6 +51,7 @@ show_slides(slide_index);
 // Next/previous controls
 function plus_slides(n) {
   show_slides(slide_index += n);
+  window.location.href ='#img-' + (slide_index);
 }
 
 // Thumbnail image controls
@@ -67,6 +68,16 @@ function show_slides(n) {
     slides[i].style.display = "none";
   }
   slides[slide_index-1].style.display = "flex";
-  window.location.href ='#img' + slide_index;
 }
+
+window.addEventListener('scroll', function(e){
+  var overlay = document.getElementById('close_modal_button');
+  overlay.style.position = 'absolute';
+  overlay.style.right = '25px';
+  overlay.style.top = '10px';
+  overlay.style["-webkit-transform"] = "scale(" + window.innerWidth/document.documentElement.clientWidth + ")";
+})
+
+
+
 </script>
