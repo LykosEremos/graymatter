@@ -25,12 +25,8 @@
     {%- endif -%}
 {%- endfor -%}
 <div id="modal" class="modal">
-<span class="slide-nav close" id='close_modal_button' onclick="close_modal()">&times;</span>
   <!-- Next/previous controls -->
 {{ modal_acc }}
-<br>
-<span class="slide-nav prev-slide" onclick="plus_slides(-1)">&#10094;</span>
-<span class="slide-nav next-slide"onclick="plus_slides(1)">&#10095;</span>
 </div>
 {%- assign cont = cont_acc -%}
 <script>
@@ -41,7 +37,7 @@ function open_modal() {
 }
 
 function close_modal() {
-  document.getElementById("modal").style.transform = 'translateY(-100%)';
+  document.getElementById("modal").style.transform = 'translateY(100%)';
   document.documentElement.style.overflowY = 'auto';
 }
 
@@ -70,16 +66,63 @@ function show_slides(n) {
   slides[slide_index-1].style.display = "flex";
 }
 
-window.addEventListener('scroll', function(e){
-  var overlay = document.getElementById('close_modal_button');
-  overlay.style.position = 'absolute';
-  overlay.style.right = '25px';
-  overlay.style.top = '10px';
-  overlay.style["-webkit-transform"] = "scale(" + window.innerWidth/document.documentElement.clientWidth + ")";
+var drag_start_x;
+var drag_start_y;
 
+var drag_end_x;
+var drag_end_y;
 
-})
+function record_start(e) {
+  e.stopPropagation();
+  e.preventDefault();
+  drag_start_x = e.screenX;
+  drag_start_y = e.screenY;
+}
+function record_end(e) {
+  e.stopPropagation();
+  e.preventDefault();
+  drag_end_x = e.screenX;
+  drag_end_y = e.screenY;
+  gesture_decide();
+}
 
+function gesture_decide() {
+    var del_x = drag_end_x-drag_start_x;
+    var del_y = drag_end_y-drag_start_y;
+    var l = Math.hypot(del_x, del_y);
+    var cos_theta = del_x/l;
+    if(l > 30) {
+      if (-0.173<cos_theta && cos_theta < 0.173){
+        close_modal();
+      }
+      else if (cos_theta < 0) {
+          plus_slides(-1);
+      }
+      else {
+          plus_slides(1);
+      }
+    }
+}
 
+document.getElementById("modal").addEventListener('keydown', function(e) {
+    console.log(e.keyCode);
+    if (e.keyCode == '38') {
+        plus_slides(-1);
+    }
+    else if (e.keyCode == '40') {
+        plus_slides(1);
+    }
+    else if (e.keyCode == '37') {
+       plus_slides(-1);
+    }
+    else if (e.keyCode == '39') {
+       plus_slides(1);
+    }
+});
+
+document.getElementById("modal").addEventListener('touchstart', record_start, false);
+document.getElementById("modal").addEventListener('mousedown', record_start, false);
+document.getElementById("modal").addEventListener('touchend', record_end, false);
+document.getElementById("modal").addEventListener('mouseup', record_end, false);
 
 </script>
