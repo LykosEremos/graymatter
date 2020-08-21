@@ -4,7 +4,7 @@ series_prefix: '第六季'
 date:   2011-07-24
 modified: 2014-01-05
 category: '｢发现｣ 正篇'
-col_name: 'dis6'
+multipage: true
 cover: 'https://i.postimg.cc/HWSMx6VX/DSC_4947.jpg'
 ---
 
@@ -15,7 +15,6 @@ cover: 'https://i.postimg.cc/HWSMx6VX/DSC_4947.jpg'
 7月16日
 
 福建，厦门
-
 
 这一天淅淅沥沥，不紧不慢地下着既不使行人匆匆也不使人忽略的雨
 
@@ -35,7 +34,7 @@ cover: 'https://i.postimg.cc/HWSMx6VX/DSC_4947.jpg'
 
 可能正在穿过黄土高原，那一个个碧蓝色的高山湖泊令人神往
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/dis6/DSC_4805.jpg'>
+<img class='disc' onclick="openModal();currentSlide(4)" src='https://lykoseremos.github.io/gmalb-02/dis6/DSC_4805.jpg'>
 
 <img class='disc' src='https://lykoseremos.github.io/gmalb-02/dis6/DSC_4806.jpg'>
 
@@ -83,13 +82,13 @@ cover: 'https://i.postimg.cc/HWSMx6VX/DSC_4947.jpg'
 
 美景
 
-
 城市郊外的一片戈壁滩
 
 <img class='disc' src='https://lykoseremos.github.io/gmalb-02/dis6/DSC_4823.jpg'>
 
-到达乌鲁木齐后住的宾馆
+<h1 class="hd">乌鲁木齐</h1>
 
+到达乌鲁木齐后住的宾馆
 
 三星级的，实际上没有比厦门的三星级更好
 

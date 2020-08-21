@@ -3,14 +3,11 @@
 			 {
 			 var trigger =document.getElementById('trigger');
 			 var side_bar=document.getElementById('side-bar');
-
-
-
 				if (trigger.style.opacity == 0.50) {
- 			 				 	side_bar.style.width = 0;
+ 			 				 	side_bar.style.transform = 'translateX(-105%)';
  			 					trigger.style.opacity = 0.75;
  			 			} else {
-								side_bar.style.width = '250px';
+								side_bar.style.transform = 'translateX(0px)';
  			 					trigger.style.opacity = 0.50;
  			 			}
 		}
@@ -19,20 +16,12 @@
 		{
 		var trigger =document.getElementById('trigger-mobile');
 		var side_bar=document.getElementById('side-bar-mobile');
-
-
 		if (trigger.style.opacity == 0.50) {
-			side_bar.style.height = 0;
+			side_bar.style.transform = 'translateY(100%)';
 			trigger.style.opacity = 0.75;
-
      } else {
-			side_bar.style.height = '60%';
+			side_bar.style.transform = 'translateY(0px)';
 			trigger.style.opacity = 0.50;
 		}
  }
-
-
-
-
-
-			 </script>
+</script>

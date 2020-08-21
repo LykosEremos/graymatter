@@ -1,28 +1,56 @@
-{% capture toc_temp %}
-    {% assign nodes = include.html | split: '<h' %}
-    {% for node in nodes %}
-        {% assign headerLevel = node | replace: '"', '' | slice: 0 | plus: 0 %}
-        {% if headerLevel == 1 %}
-          {% assign left_group = 'toch1' %}
-        {% elsif headerLevel == 2 %}
-          {% assign left_group = 'toch2' %}
-        {% else %}
-         {% continue %}
-        {% endif %}
-        {% assign header_content_array = node | split: '>' %}
-        {% assign header = header_content_array[1] %}
-        {% assign header_content_array = header | split: '</h' %}
-        {% assign header = header_content_array[0] %}
-        {% capture toc_acc %}{{ toc_acc }}<div class='toc-pad'><a class='{{ left_group }}' href='#{{ header }}'> {{ header }} </a></div>{% endcapture %}
-    {% endfor %}
-    {% endcapture %}
-{% assign toc_temp = '' %}
+{%- assign nodes = parent_post.content | split: '<h' -%}
+{%- for node in nodes -%}
+      {%- assign headerLevel = node | replace: '"', '' | slice: 0 | plus: 0 -%}
+      {%- if headerLevel == 1 -%}
+        {%- assign left_group = 'toch1' -%}
+      {%- elsif headerLevel == 2 -%}
+        {% assign left_group = 'toch2' -%}
+      {%- else -%}
+       {%- continue -%}
+      {%- endif -%}
+      {%- assign header_content_array = node | split: '>' -%}
+      {%- assign header = header_content_array[1] -%}
+      {%- assign header_content_array = header | split: '</h' -%}
+      {%- assign header = header_content_array[0] -%}
+      {%- capture toc_acc -%}{{ toc_acc }}<a class='{{ left_group }}' href='{{ site.baseurl }}{{ parent_post.url }}#{{ header }}'> {{ header }} </a>{% endcapture %}
+{%- endfor -%}
+
+{%- if page.multipage or page.parent -%}
+{%- assign page_index = 0 -%}
+{%- for p in collection -%}
+    {%- assign nodes = p.content | split: '<h' -%}
+    {%- for node in nodes -%}
+          {%- assign headerLevel = node | replace: '"', '' | slice: 0 | plus: 0 -%}
+          {%- if headerLevel == 1 -%}
+            {%- assign left_group = 'toch1' -%}
+          {%- elsif headerLevel == 2 -%}
+            {% assign left_group = 'toch2' -%}
+          {%- else -%}
+           {%- continue -%}
+          {%- endif -%}
+          {%- assign header_content_array = node | split: '>' -%}
+          {%- assign header = header_content_array[1] -%}
+          {%- assign header_content_array = header | split: '</h' -%}
+          {%- assign header = header_content_array[0] -%}
+          {%- capture toc_acc -%}{{ toc_acc }}<a class='{{ left_group }}' href='{{ site.baseurl }}{{ collection[page_index].url }}#{{ header }}'> {{ header }}</a>{% endcapture %}
+    {%- endfor -%}
+    {%- assign page_index = page_index | plus: 1-%}
+{%- endfor -%}
+{%- endif -%}
 <div class='normal'>
-<div class='side-bar' id = 'side-bar'><div class='side-bar-inside'><div class='toc'>{{ toc_acc }}</div></div></div>
+<div class='side-bar' id = 'side-bar'><div class='toc'>
+  {{ toc_acc }}</div></div>
 <button class="side-bar-button" id="trigger" onclick="toggle_nav()"><div class='bar-div'></div> <div class='bar-div'></div>	<div class='bar-div'></div></button>
 </div>
 
 <div class='mobile'>
-<div class='side-bar mobile-bar' id = 'side-bar-mobile'><div class='toc'>{{ toc_acc }}</div></div>
+<div class='side-bar mobile-bar' id = 'side-bar-mobile'>
+  <div class='control-aid-box'>
+    <a class='control-aid' href='#页首'>回页首</a>
+    <a class='control-aid' href='#页尾'>去页尾</a>
+  </div>
+  <div class='toc'>{{ toc_acc }}</div>
+</div>
 <button class="side-bar-button" id="trigger-mobile" onclick="toggle_nav_mobile()"><div class='bar-div'></div> <div class='bar-div'></div>	<div class='bar-div'></div></button>
 </div>
+{%- assign toc_acc = '' -%}

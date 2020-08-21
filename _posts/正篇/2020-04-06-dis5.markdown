@@ -4,7 +4,7 @@ series_prefix: '第五季'
 date:   2011-07-11
 modified: 2014-01-05
 category: '｢发现｣ 正篇'
-col_name: 'dis5'
+multipage: true
 ---
 
 本篇发布于11年7月11日，发生于2010年春节期间

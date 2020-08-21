@@ -1,0 +1,72 @@
+{%- assign cont_acc = '' -%}
+{%- assign modal_acc = '' -%}
+{%- assign nodes = include.html | split: '<img' -%}
+{%- assign index = 1 -%}
+{%- for node in nodes -%}
+    {%- if node contains 'src="' -%}
+      {%- if node contains 'iframe' -%}
+        {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
+      {%- else -%}
+        {%- assign img_array = node | split: 'src="' -%}
+        {%- capture cont_acc -%}{{ cont_acc }}
+        <a name='img{{ index }}'></a><img{{ img_array[0] }}onclick="open_modal();current_slide({{ index }})" src="{{ img_array[1] }}
+        {%- endcapture -%}
+        {%- assign img_array = img_array[1] -%}
+        {%- assign img_array = img_array | strip_html -%}
+        {%- assign img_array = img_array | split: '"' -%}
+        {%- assign img_url = img_array[0] -%}
+        {%- capture modal_acc -%}{{ modal_acc }}
+        <div class="slide-content"><div class="slide-progress">{{ index }} / {{ nodes | size | minus: 1 }}</div><img class='slide-image' src="{{ img_url }}"></div>
+        {%- endcapture -%}
+        {%- assign index = index | plus: 1 -%}
+      {%- endif -%}
+    {%- else -%}
+      {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
+    {%- endif -%}
+{%- endfor -%}
+<div id="modal" class="modal">
+<span class="slide-nav close" onclick="close_modal()">&times;</span>
+  <!-- Next/previous controls -->
+{{ modal_acc }}
+<br>
+<span class="slide-nav prev-slide" onclick="plus_slides(-1)">&#10094;</span>
+<span class="slide-nav next-slide"onclick="plus_slides(1)">&#10095;</span>
+</div>
+{%- assign cont = cont_acc -%}
+<script>
+
+function open_modal() {
+  document.getElementById("modal").style.transform = 'translateY(0%)';
+  document.documentElement.style.overflowY = 'hidden';
+}
+
+function close_modal() {
+  document.getElementById("modal").style.transform = 'translateY(-100%)';
+  document.documentElement.style.overflowY = 'auto';
+}
+
+var slide_index = 1;
+show_slides(slide_index);
+
+// Next/previous controls
+function plus_slides(n) {
+  show_slides(slide_index += n);
+}
+
+// Thumbnail image controls
+function current_slide(n) {
+  show_slides(slide_index = n);
+}
+
+function show_slides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slide-content");
+  if (n > slides.length) {slide_index = 1}
+  if (n < 1) {slide_index = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slide_index-1].style.display = "flex";
+  window.location.href ='#img' + slide_index;
+}
+</script>

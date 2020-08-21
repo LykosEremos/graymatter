@@ -1,13 +1,14 @@
 {%- if page.parent -%}
 	{%- assign page_number = page.slug | plus: 0 -%}
 	{%- for post in site.posts -%}
-  	{%- if post.col_name == page.parent -%}
+  	{%- if post.slug == page.parent -%}
   		{%- assign parent_post = post -%}
+			{%- break -%}
 		{%- endif -%}
 	{%- endfor -%}
-	{%- assign collection_name = page.parent -%}
+	{%- assign collection_name = parent_post.slug -%}
 	{%- assign page_category = parent_post.category -%}
-{%- elsif page.col_name -%}
+{%- elsif page.multipage -%}
 	{%- assign page_number = 1 -%}
 	{%- assign parent_post = page -%}
 	{%- assign collection_name = page.slug -%}
@@ -17,20 +18,7 @@
 	{%- assign page_category = page.category -%}
 {%- endif -%}
 
-{%- if parent_post.cover -%}
-	{%- assign pic = parent_post.cover -%}
-{%- else -%}
-	{%- assign img_array = page.content | split: "<img" -%}
-	{%- assign img_array = img_array[1] -%}
-	{%- assign img_array = img_array | split: 'src="' -%}
-	{%- assign img_array = img_array[1] -%}
-	{%- assign img_array = img_array | strip_html -%}
-	{%- assign img_array = img_array | split: '"' -%}
-	{%- assign pic = img_array[0] -%}
-{%- endif -%}
-
 <!DOCTYPE html>
-
 {%- if page.landing == 'home' -%}
 <html lang="{{ page.lang | default: site.lang | default: "cn" }}" class ='{{ page.landing }}'>
 {%- else -%}
@@ -38,34 +26,13 @@
 {%- endif -%}
 
 <head>
-    <meta charset="utf-8">
+	{%- include head.html -%}
     <title>
-    {%- if page.parent -%}
-    	{%- for post in site.posts -%}
-      	{%- if post.col_name == page.parent -%}
-      		{%- assign parent_post = post -%}
-    		{%- endif %}
-    	{%- endfor -%}
       {%- if parent_post.title %}{{ parent_post.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
-    {%- elsif page.cat -%}
-      {{ page.cat | escape }}
-    {%- else -%}
-      {%- if page.title -%}{{ page.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
-    {%- endif -%}
     </title>
-		{%- include share.html -%}
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
-    <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
-    <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#5bbad5">
-		{%- include head.html -%}
-		<div style="display: none">
-				<img style='width: 300px; height: 300px;' src="{{ pic }}" />
-		</div>
 </head>
 
-{%- if content contains '</h1>' -%}
+{%- if parent_post.content contains '</h1>' -%}
 	{%- assign toc_setting = true -%}
 {%- endif -%}
 {%- if content contains '$$' or page.math == 1 -%}
@@ -75,27 +42,9 @@
 	{%- assign img_setting = true -%}
 {%- endif -%}
 
-{%- assign start = page_number | minus: 2 -%}
-{%- assign end = page_number | plus: 2 -%}
 
 {%- assign collection = site.multipage | where: 'parent', collection_name -%}
 {%- assign total_number_pages = collection.size  | plus: 1 -%}
-
-{%- if start < 1 -%}
-  {%- assign start = 1 -%}
-  {%- assign end = start | plus: 4 -%}
-{%- elsif end > total_number_pages -%}
-  {%- assign start = total_number_pages | minus: 4 -%}
-  {%- assign end = total_number_pages -%}
-{%- endif -%}
-
-{%- if start < 1 -%}
-  {%- assign start = 1 -%}
-{%- endif -%}
-{%- if end > total_number_pages -%}
-  {%- assign end = total_number_pages -%}
-{%- endif -%}
-
 
 {% include header.html %}
 
@@ -112,56 +61,54 @@
 			 {%- endif -%}
 				{{ full_title }}
 			</div>
-
-			<div class="medium-top-margin large-bottom-margin page-meta">
-				{% if page_category %}
-					{% for folder in site.folders %}
-						{% if folder.cat == page_category %}
-						{% assign fold = folder %}
-						{% endif %}
-					{% endfor %}
-					<a class='folder-link' href="{{ site.baseurl }}{{ fold.url }}">{{ fold.cat }}</a>
-				{% endif %}
-				&nbsp; &nbsp;
-				{%- if parent_post.modified -%}
-				<span class='date-button' id='toggle_date' onclick='change_date()'>首发</span>：
-				<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished">
-					<span id='time' class='serif'>{{ parent_post.date | date: "%Y/%m/%d" }}</span>
-				</time>
-				<script>
-					function change_date() {
-			  var x = document.getElementById("toggle_date");
-				var y = document.getElementById("time");
-			  if (x.innerHTML === "首发") {
-			    x.innerHTML = "修改";
-					y.innerHTML = '{{ parent_post.modified | date: "%Y/%m/%d" }}'
-			  } else {
-			    x.innerHTML = "首发";
-					y.innerHTML = '{{ parent_post.date | date: "%Y/%m/%d" }}'
-			  }
-			}
-				</script>
-				{%- else -%}
-				<span>首发</span>：
-				<time datetime="{{ parent_post.date | date_to_xmlschema }}" itemprop="datePublished">
-					<span class='serif'>{{ parent_post.date | date: "%Y/%m/%d" }}</span>
-				</time>
-			{%- endif -%}
-			</div>
+			{%- include post_meta_logic.html -%}
 			</header>
 	<body>
 
-		{%- if toc_setting -%}
-		{%- include toc_logic.html html=content -%}
+
+
+			{%- if page != parent_post -%}
+				{%- assign h_temp = parent_post.content | split: '</h1>' | size | minus: 1 -%}
+				{%- assign h_acc = h_temp -%}
+				{%- assign index = 2 -%}
+				{%- for multip in collection -%}
+					{% if index < page_number %}
+						{%- assign h_temp = multip.content | split: '</h1>' | size | minus: 1 -%}
+						{%- assign h_acc = h_acc | plus: h_temp -%}
+						{%- assign index = index | plus: 1 -%}
+					{%- else -%}
+						{%- break -%}
+					{% endif %}
+				{%- endfor -%}
+				<div style='counter-reset: h1counter {{ h_acc }}'></div>
+			{%- endif -%}
+
+			{%- if toc_setting -%}
+				{%- include toc_logic.html -%}
+			{%- endif -%}
+
+		{%- assign start = page_number | minus: 2 -%}
+		{%- assign end = page_number | plus: 2 -%}
+		{%- if page.parent or page.multipage -%}
+			{%- if start < 1 -%}
+				{%- assign start = 1 -%}
+				{%- assign end = start | plus: 4 -%}
+			{%- elsif end > total_number_pages -%}
+				{%- assign start = total_number_pages | minus: 4 -%}
+				{%- assign end = total_number_pages -%}
+			{%- endif -%}
+		{%- if start < 1 -%}
+			{%- assign start = 1 -%}
+		{%- endif -%}
+		{%- if end > total_number_pages -%}
+			{%- assign end = total_number_pages -%}
 		{%- endif -%}
 
 
-		{%- if page.parent or page.col_name -%}
 		<div class="large-bottom-margin page-block-collection">
 		{%- include post_pagination_logic.html -%}
 		</div>
 		{%- endif -%}
-
 
 	<div class="post-text" itemprop="articleBody">
 	 	{%- assign cont = content -%}
@@ -171,35 +118,37 @@
 		{%- if math_setting -%}
 			{%- include theorem_injection.html html=cont -%}
 		{%- endif -%}
+		{%- if img_setting -%}
+			{%- include modal_injection.html html=cont -%}
+		{%- endif -%}
 		{{ cont }}
 	</div>
 
-	{%- if page.parent or page.col_name -%}
+	{%- if page.parent or page.multipage -%}
 	<div class="very-large-top-margin large-bottom-margin page-block-collection">
 	{%- include post_pagination_logic.html -%}
 	</div>
 	{%- endif -%}
 
-
-	{%- if page.parent or page.col_name -%}
+	{%- if page.parent or page.multipage -%}
 	<div class = 'large-top-margin nav-box'>
 	{%- else -%}
 	<div class = 'very-large-top-margin nav-box'>
 	{%- endif -%}
 
 	{%- if parent_post.previous.url -%}
-	<a class="prev small-font page-block" href="{{ site.baseurl }}/{{page.previous.url}}">
-	前：<span class='serif'>{{parent_post.previous.title}}</span>
+	<a class="prev small-font prev-next-button" href="{{ site.baseurl }}/{{page.previous.url}}">
+	&#10094; {{parent_post.previous.title}}
 	</a>
 	{%- endif -%}
 
 	{%- if parent_post.next.url -%}
-	<a class="next small-font page-block" href="{{ site.baseurl }}/{{page.next.url}}">
-	后：<span class='serif'>{{parent_post.next.title}}</span>
+	<a class="next small-font prev-next-button" href="{{ site.baseurl }}/{{page.next.url}}">
+	{{parent_post.next.title}} &#10095;
 	</a>
 	{%- endif -%}
-
 	</div>
+
 
 	{%- if toc_setting -%}
 		{%- include toc_toggle.html -%}
@@ -213,7 +162,7 @@
 		{%- include lazyload.html -%}
 	{%- endif -%}
 
-	    {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
+	 {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
 	</body>
 
 

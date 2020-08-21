@@ -1,20 +1,29 @@
-{%- capture cont_workspace -%}
-    {%- assign nodes = include.html | split: '<h' -%}
-    {%- for node in nodes -%}
-        {%- assign headerLevel = node | replace: '"', '' | slice: 0 | plus: 0 -%}
+{%- assign nodes = include.html | split: '<h1' -%}
+{%- for node in nodes -%}
+  {%- if node contains '</h1>' -%}
+    {%- assign header_content_array = node | split: '>' -%}
+    {%- assign header = header_content_array[1] -%}
+    {%- assign header_content_array = header | split: '</h1' -%}
+    {%- assign header = header_content_array[0] -%}
+    {%- capture cont_acc -%}{{ cont_acc }}<a name='{{ header }}'></a><h1{{ node }}{%- endcapture -%}
+  {%- else -%}
+    {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign cont = cont_acc -%}
+{%- assign cont_acc = '' -%}
 
-        {%- if headerLevel == 1 or headerLevel == 2 -%}
-          {%- assign header_content_array = node | split: '>' -%}
-          {%- assign header = header_content_array[1] -%}
-          {%- assign header_content_array = header | split: '</h' -%}
-          {%- assign header = header_content_array[0] -%}
-          {%- capture cont_acc -%}{{ cont_acc }}<a name='{{ header }}'></a><h{{ node }}{%- endcapture -%}
-        {%- elsif headerLevel == 3 -%}
-          {%- capture cont_acc -%}{{ cont_acc }}<h{{ node }}{%- endcapture -%}
-          {%- continue -%}
-        {%- endif -%}
+{%- assign nodes = cont | split: '<h2' -%}
+{%- for node in nodes -%}
+  {%- if node contains '</h2>' -%}
+    {%- assign header_content_array = node | split: '>' -%}
+    {%- assign header = header_content_array[1] -%}
+    {%- assign header_content_array = header | split: '</h2' -%}
+    {%- assign header = header_content_array[0] -%}
+    {%- capture cont_acc -%}{{ cont_acc }}<a name='{{ header }}'></a><h2{{ node }}{%- endcapture -%}
+  {%- else -%}
+    {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
+  {%- endif -%}
+{%- endfor -%}
 
-    {%- endfor -%}
-    {%- endcapture -%}
-{%- assign cont_workspace = '' -%}
 {%- assign cont = cont_acc -%}

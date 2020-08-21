@@ -1,19 +1,23 @@
   {%- if start > 1 -%}
-    <a class='page-block very-small-side-margin botton-margin small-font' href="{{ site.baseurl }}{{ parent_post.url }}">1</a>
-    <div class='page-block fixed botton-margin small-font'>&middot;&middot;&middot;</div>
+    <a class='page-block small-font' href="{{ site.baseurl }}{{ parent_post.url }}">1</a>
+    <div class='page-block fixed small-font'>··</div>
   {%- endif -%}
 
   {%- for p in (start..end) -%}
-    {%- if p == page_number -%}
-        <div class="page-block focus very-small-side-margin small-font">{{ p }}</div>
-    {%- elsif p == 1 -%}
-        <a class='page-block very-small-side-margin botton-margin small-font' href="{{ site.baseurl }}{{ parent_post.url }}">{{ p }}</a>
-    {%- else -%}
-        <a class='page-block very-small-side-margin botton-margin small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ p }}">{{ p }}</a>
-    {%- endif -%}
+      {%- if p == page_number -%}
+          <div class="page-block focus small-font">{{ p }}</div>
+      {%- elsif p == 1 -%}
+          <a class='page-block small-font' href="{{ site.baseurl }}{{ parent_post.url }}">{{ p }}</a>
+      {%- else -%}
+        {%- if p > 10 -%}
+            <a class='page-block small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ p }}">{{ p }}</a>
+        {%- else -%}
+                <a class='page-block small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/0{{ p }}">{{ p }}</a>
+        {%- endif -%}
+      {%- endif -%}
   {%- endfor -%}
 
   {%- if end < total_number_pages -%}
-    <div class='page-block fixed small-font'>&middot;&middot;&middot;</div>
-    <a class='page-block very-small-side-margin botton-margin small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ total_number_pages }}">{{ total_number_pages }}</a>
+    <div class='page-block fixed small-font'>··</div>
+    <a class='page-block small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ total_number_pages }}">{{ total_number_pages }}</a>
   {%- endif -%}

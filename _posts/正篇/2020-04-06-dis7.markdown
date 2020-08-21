@@ -4,7 +4,7 @@ series_prefix: '第七季'
 date:   2011-10-01
 modified: 2014-01-05
 category: '｢发现｣ 正篇'
-col_name: 'dis7'
+multipage: true
 cover: 'https://i.postimg.cc/MZFG83f9/350.jpg'
 ---
 
@@ -75,6 +75,8 @@ cover: 'https://i.postimg.cc/MZFG83f9/350.jpg'
 <img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis7/14.jpg'>
 
 <img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis7/15.jpg'>
+
+<h1>新加坡</h1>
 
 搭上前往酒店的出租车
 

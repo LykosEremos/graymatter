@@ -7,28 +7,12 @@
 {%- endif -%}
 
 <head>
-    <meta charset="utf-8">
-    <title>
-    {%- if page.parent -%}
-    	{%- for post in site.posts -%}
-      	{%- if post.col_name == page.parent -%}
-      		{%- assign parent_post = post -%}
-    		{%- endif %}
-    	{%- endfor -%}
-      {%- if parent_post.title %}{{ parent_post.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
-    {%- elsif page.cat -%}
-      {{ page.cat | escape }}
-    {%- else -%}
-      {%- if page.title -%}{{ page.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
-    {%- endif -%}
-    </title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
-    <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
-    <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#5bbad5">
     {% include head.html %}
+    <title>{%- if page.cat -%}
+          {{ page.cat | escape }}
+        {%- else -%}
+          {%- if page.title -%}{{ page.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
+        {%- endif -%}</title>
 </head>
 
   {% if page.landing != 'home' %}

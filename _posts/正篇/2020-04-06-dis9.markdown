@@ -4,7 +4,7 @@ series_prefix: '第九季'
 date:   2012-06-03
 modified: 2014-02-16
 category: '｢发现｣ 正篇'
-col_name: 'dis9'
+multipage: true
 cover: 'https://lykoseremos.github.io/gmalb-01/dis9/DSC02806.jpg'
 ---
 

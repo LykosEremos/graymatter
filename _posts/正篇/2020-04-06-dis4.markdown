@@ -4,7 +4,7 @@ series_prefix: '第四季'
 date:   2011-05-14
 modified: 2014-01-05
 category: '｢发现｣ 正篇'
-col_name: 'dis4'
+multipage: true
 cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 ---
 

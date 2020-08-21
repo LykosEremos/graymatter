@@ -4,7 +4,7 @@ series_prefix: '第八季'
 date:   2012-02-01
 modified: 2014-02-15
 category: '｢发现｣ 正篇'
-col_name: 'dis8'
+multipage: true
 cover: 'https://i.postimg.cc/tTCkyh9s/237.jpg'
 ---
 

@@ -22,7 +22,7 @@ title: 齿状回
 </header>
 <div>
 
-
+  {%- assign index = 0 -%}
   {%- for post in categ[1] -%}
   {%- assign img_array = post.content | split: "<img" -%}
   {%- assign img_array = img_array[1] -%}
@@ -32,7 +32,13 @@ title: 齿状回
   {%- assign img_array = img_array | split: '"' -%}
   {%- assign post_year = post.date | date: "%Y" -%}
   {%- assign post_month = post.date | date: "%-m" -%}
-  <div class="container">
+  {%- if index == 0 -%}
+  <div class="container right-margin">
+  {%- assign index = 1 -%}
+  {%- else -%}
+  <div class="container left-margin">
+  {%- assign index = 0 -%}
+  {%- endif -%}
     {%- if post.cover -%}
     <img class='image-box' src='{{ post.cover }}'>
     {%- elsif img_array[0] -%}
