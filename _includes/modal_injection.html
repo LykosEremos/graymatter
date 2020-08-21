@@ -73,8 +73,8 @@ function show_slides(n) {
 window.addEventListener('scroll', function(e){
   var overlay = document.getElementById('close_modal_button');
   overlay.style.position = 'absolute';
-  overlay.style.right = '25px';
-  overlay.style.top = '10px';
+  overlay.style.left = window.pageXOffset + 'px';
+  overlay.style.bottom = document.documentElement.clientHeight - (window.pageYOffset + window.innerHeight) + 'px';
   overlay.style["-webkit-transform"] = "scale(" + window.innerWidth/document.documentElement.clientWidth + ")";
 })
 
