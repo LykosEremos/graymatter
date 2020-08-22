@@ -8,15 +8,12 @@
         {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
       {%- else -%}
         {%- assign img_array = node | split: 'src="' -%}
+        {%- assign image_url = img_array[1] | split: '"' -%}
+        {%- assign rest_of_the_node = img_array[1] | split: '/>' -%}
         {%- capture cont_acc -%}{{ cont_acc }}
-        <a name='img-{{ index }}'></a><img{{ img_array[0] }}onclick="open_modal();current_slide({{ index }})" src="{{ img_array[1] }}
-        {%- endcapture -%}
-        {%- assign img_array = img_array[1] -%}
-        {%- assign img_array = img_array | strip_html -%}
-        {%- assign img_array = img_array | split: '"' -%}
-        {%- assign img_url = img_array[0] -%}
-        {%- capture modal_acc -%}{{ modal_acc }}
-        <div class="slide-content"><div class="slide-progress">{{ index }} / {{ nodes | size | minus: 1 }}</div><img class='slide-image' src="{{ img_url }}"></div>
+        <a href="{{ image_url[0] }}" class="glightbox">
+        <img{{ img_array[0] }} src="{{ rest_of_the_node[0] }}></a>
+        {{ rest_of_the_node | shift | join:'/>' }}
         {%- endcapture -%}
         {%- assign index = index | plus: 1 -%}
       {%- endif -%}
@@ -24,101 +21,5 @@
       {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
     {%- endif -%}
 {%- endfor -%}
-<div id="modal" ondblclick="close_modal_down();" class="modal">
-  <!-- Next/previous controls -->
-{{ modal_acc }}
 
-</div>
 {%- assign cont = cont_acc -%}
-
-<script>
-
-function open_modal() {
-  document.getElementById("modal").style.transform = 'translateY(0%)';
-  document.documentElement.style.overflowY = 'hidden';
-}
-
-function close_modal_up() {
-  document.getElementById("modal").style.transform = 'translateY(-100%)';
-  document.documentElement.style.overflowY = 'auto';
-}
-
-function close_modal_down() {
-  document.getElementById("modal").style.transform = 'translateY(100%)';
-  document.documentElement.style.overflowY = 'auto';
-}
-
-var slide_index = 1;
-show_slides(slide_index);
-
-// Next/previous controls
-function plus_slides(n) {
-  show_slides(slide_index += n);
-  window.location.href ='#img-' + (slide_index);
-}
-
-// Thumbnail image controls
-function current_slide(n) {
-  show_slides(slide_index = n);
-}
-
-function show_slides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slide-content");
-  if (n > slides.length) {slide_index = 1}
-  if (n < 1) {slide_index = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slide_index-1].style.display = "flex";
-}
-
-
-var drag_start_x;
-var drag_start_y;
-
-var drag_end_x;
-var drag_end_y;
-
-
-function gesture_decide() {
-    var del_x = drag_end_x-drag_start_x;
-    var del_y = drag_end_y-drag_start_y;
-    var l = Math.hypot(del_x, del_y);
-    var cos_theta = del_x/l;
-    if(l > 30) {
-      if (-0.173<cos_theta && cos_theta < 0.173){
-        if(del_y > 0) {
-          close_modal_down();
-        }
-        else {
-          close_modal_up();
-        }
-      }
-      else if (cos_theta < 0) {
-          plus_slides(1);
-      }
-      else {
-
-          plus_slides(-1);
-      }
-    }
-}
-
-var finger_registered = 0;
-
-document.getElementById("modal").addEventListener('mousedown', function(e) {
-  e.stopPropagation();
-  drag_start_x = e.screenX;
-  drag_start_y = e.screenY;
-}, {passive: true});
-
-document.getElementById("modal").addEventListener('mouseup', function(e) {
-  e.stopPropagation();
-  drag_end_x = e.screenX;
-  drag_end_y = e.screenY;
-  gesture_decide();
-}, {passive: true});
-
-
-</script>
