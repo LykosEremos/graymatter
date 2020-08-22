@@ -95,13 +95,15 @@ function gesture_decide() {
         }
       }
       else if (cos_theta < 0) {
-          plus_slides(-1);
+          plus_slides(1);
       }
       else {
-          plus_slides(1);
+
+          plus_slides(-1);
       }
     }
 }
+
 
 
 document.getElementById("modal").addEventListener('mousedown', function(e) {
@@ -119,17 +121,21 @@ document.getElementById("modal").addEventListener('mouseup', function(e) {
 
 document.getElementById("modal").addEventListener('touchstart', function(e) {
   e.stopPropagation();
+  if(changedTouches.length == 1) {
   var touchobj = e.changedTouches[0];
   drag_start_x = parseInt(touchobj.clientX);
   drag_start_y = parseInt(touchobj.clientY);
+  }
 }, {passive: true});
 
 document.getElementById("modal").addEventListener('touchend', function(e) {
   e.stopPropagation();
+  if(changedTouches.length == 1) {
   var touchobj = e.changedTouches[0];
   drag_end_x = parseInt(touchobj.clientX);
   drag_end_y = parseInt(touchobj.clientY);
   gesture_decide();
+  }
 },{passive: true});
 
 
