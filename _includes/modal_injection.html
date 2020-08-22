@@ -81,5 +81,66 @@ window.addEventListener('scroll', function(e){
 })
 
 
+var drag_start_x;
+var drag_start_y;
+
+var drag_end_x;
+var drag_end_y;
+
+function record_start(e) {
+  e.stopPropagation();
+  e.preventDefault();
+  drag_start_x = e.screenX;
+  drag_start_y = e.screenY;
+}
+function record_end(e) {
+  e.stopPropagation();
+  e.preventDefault();
+  drag_end_x = e.screenX;
+  drag_end_y = e.screenY;
+  gesture_decide();
+}
+
+function gesture_decide() {
+    var del_x = drag_end_x-drag_start_x;
+    var del_y = drag_end_y-drag_start_y;
+    var l = Math.hypot(del_x, del_y);
+    var cos_theta = del_x/l;
+    if(l > 30) {
+      if (-0.173<cos_theta && cos_theta < 0.173){
+        close_modal();
+      }
+      else if (cos_theta < 0) {
+          plus_slides(-1);
+      }
+      else {
+          plus_slides(1);
+      }
+    }
+}
+
+document.getElementById("modal").addEventListener('keydown', function(e) {
+    console.log(e.keyCode);
+    if (e.keyCode == '38') {
+        plus_slides(-1);
+    }
+    else if (e.keyCode == '40') {
+        plus_slides(1);
+    }
+    else if (e.keyCode == '37') {
+       plus_slides(-1);
+    }
+    else if (e.keyCode == '39') {
+       plus_slides(1);
+    }
+});
+
+document.getElementById("modal").addEventListener('touchstart', record_start, false);
+document.getElementById("modal").addEventListener('mousedown', record_start, false);
+document.getElementById("modal").addEventListener('touchend', record_end, false);
+document.getElementById("modal").addEventListener('mouseup', record_end, false);
+
+
+
 
 </script>
