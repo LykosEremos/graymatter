@@ -48,7 +48,7 @@ hr {
 	display: block;
 	transition: 0.3s;
 	text-align: center;
-	transform: translateY(100%);
+	transform: translateY(-100%);
 }
 
 .slide-content {
@@ -64,6 +64,62 @@ hr {
 	max-height: 100%;
 }
 
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.slide-nav {
+	  color: $demph-col;
+}
+
+.slide-nav:hover,
+.slide-nav:focus {
+  color: $hl-col;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev-slide,
+.next-slide {
+	cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: $demph-col;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-slide {
+	right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev-slide {
+	left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-slide:hover,
+.next-slide:hover {
+  background-color: $hl-col;
+	color: $bg-col;
+}
+
 .slide-progress {
   color: $tx-col;
 	font-family: $default-font-serif;
@@ -71,24 +127,6 @@ hr {
   padding: 10px 20px;
   position: absolute;
   top: 0;
-}
-
-.modal-background {
-	z-index: 3;
-}
-
-.left-touch {
-	position: relative;
-	left: 0;
-	width: 50%;
-	height: 100%;
-}
-
-.right-touch {
-	position: relative;
-	right: 0;
-	width: 50%;
-	height: 100%;
 }
 
 i {
