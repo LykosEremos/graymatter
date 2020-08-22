@@ -24,13 +24,10 @@
       {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
     {%- endif -%}
 {%- endfor -%}
-<div id="modal" class="modal">
-<span class="slide-nav close" id='close_modal_button' onclick="close_modal()">&times;</span>
+<div id="modal" ondblclick="close_modal_down();" class="modal">
   <!-- Next/previous controls -->
 {{ modal_acc }}
-<br>
-<span class="slide-nav prev-slide" onclick="plus_slides(-1)">&#10094;</span>
-<span class="slide-nav next-slide"onclick="plus_slides(1)">&#10095;</span>
+
 </div>
 {%- assign cont = cont_acc -%}
 <script>
@@ -40,8 +37,13 @@ function open_modal() {
   document.documentElement.style.overflowY = 'hidden';
 }
 
-function close_modal() {
+function close_modal_up() {
   document.getElementById("modal").style.transform = 'translateY(-100%)';
+  document.documentElement.style.overflowY = 'auto';
+}
+
+function close_modal_down() {
+  document.getElementById("modal").style.transform = 'translateY(100%)';
   document.documentElement.style.overflowY = 'auto';
 }
 
@@ -77,19 +79,6 @@ var drag_start_y;
 var drag_end_x;
 var drag_end_y;
 
-function record_start(e) {
-  e.stopPropagation();
-  e.preventDefault();
-  drag_start_x = e.screenX;
-  drag_start_y = e.screenY;
-}
-function record_end(e) {
-  e.stopPropagation();
-  e.preventDefault();
-  drag_end_x = e.screenX;
-  drag_end_y = e.screenY;
-  gesture_decide();
-}
 
 function gesture_decide() {
     var del_x = drag_end_x-drag_start_x;
@@ -98,7 +87,12 @@ function gesture_decide() {
     var cos_theta = del_x/l;
     if(l > 30) {
       if (-0.173<cos_theta && cos_theta < 0.173){
-        close_modal();
+        if(del_y > 0) {
+          close_modal_down();
+        }
+        else {
+          close_modal_up();
+        }
       }
       else if (cos_theta < 0) {
           plus_slides(-1);
@@ -110,10 +104,33 @@ function gesture_decide() {
 }
 
 
-document.getElementById("modal").addEventListener('mousedown', record_start);
-document.getElementById("modal").addEventListener('mouseup', record_end);
-document.getElementById("modal").addEventListener('touchstart', record_start);
-document.getElementById("modal").addEventListener('touchend', record_end);
+document.getElementById("modal").addEventListener('mousedown', function(e) {
+  e.stopPropagation();
+  drag_start_x = e.screenX;
+  drag_start_y = e.screenY;
+}, {passive: true});
+
+document.getElementById("modal").addEventListener('mouseup', function(e) {
+  e.stopPropagation();
+  drag_end_x = e.screenX;
+  drag_end_y = e.screenY;
+  gesture_decide();
+}, {passive: true});
+
+document.getElementById("modal").addEventListener('touchstart', function(e) {
+  e.stopPropagation();
+  var touchobj = e.changedTouches[0];
+  drag_start_x = parseInt(touchobj.clientX);
+  drag_start_y = parseInt(touchobj.clientY);
+}, {passive: true});
+
+document.getElementById("modal").addEventListener('touchend', function(e) {
+  e.stopPropagation();
+  var touchobj = e.changedTouches[0];
+  drag_end_x = parseInt(touchobj.clientX);
+  drag_end_y = parseInt(touchobj.clientY);
+  gesture_decide();
+},{passive: true});
 
 
 </script>
