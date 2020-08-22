@@ -25,11 +25,16 @@
     {%- endif -%}
 {%- endfor -%}
 <div id="modal" ondblclick="close_modal_down();" class="modal">
+  <div class='mobile'>
+  <span class="slide-nav prev-slide" onclick="plus_slides(-1)">&#10094;</span>
+  <span class="slide-nav next-slide"onclick="plus_slides(1)">&#10095;</span>
+  </div>
   <!-- Next/previous controls -->
 {{ modal_acc }}
 
 </div>
 {%- assign cont = cont_acc -%}
+
 <script>
 
 function open_modal() {
@@ -118,37 +123,6 @@ document.getElementById("modal").addEventListener('mouseup', function(e) {
   drag_end_y = e.screenY;
   gesture_decide();
 }, {passive: true});
-
-document.getElementById("modal").addEventListener('touchstart', function(e) {
-  e.stopPropagation();
-  finger_registered += 1;
-  console.log(finger_registered);
-  if(finger_registered > 1) {
-    console.log('multitouch on')
-    multitouch = true;
-  }
-  else {
-  var touchobj = e.changedTouches[0];
-  drag_start_x = parseInt(touchobj.clientX);
-  drag_start_y = parseInt(touchobj.clientY);
-  }
-}, {passive: true});
-
-document.getElementById("modal").addEventListener('touchend', function(e) {
-  e.stopPropagation();
-  finger_registered -= 1;
-  console.log(finger_registered);
-  if(finger_registered == 0 && !multitouch) {
-  var touchobj = e.changedTouches[0];
-  drag_end_x = parseInt(touchobj.clientX);
-  drag_end_y = parseInt(touchobj.clientY);
-  gesture_decide();
-  }
-  else if(finger_registered == 0) {
-    console.log('multitouch off')
-    multitouch = false;
-  }
-},{passive: true});
 
 
 </script>
