@@ -121,7 +121,7 @@ document.getElementById("modal").addEventListener('mouseup', function(e) {
 
 document.getElementById("modal").addEventListener('touchstart', function(e) {
   e.stopPropagation();
-  if(changedTouches.length == 1) {
+  if(e.changedTouches.length == 1) {
   var touchobj = e.changedTouches[0];
   drag_start_x = parseInt(touchobj.clientX);
   drag_start_y = parseInt(touchobj.clientY);
@@ -130,7 +130,7 @@ document.getElementById("modal").addEventListener('touchstart', function(e) {
 
 document.getElementById("modal").addEventListener('touchend', function(e) {
   e.stopPropagation();
-  if(changedTouches.length == 1) {
+  if(e.changedTouches.length == 1) {
   var touchobj = e.changedTouches[0];
   drag_end_x = parseInt(touchobj.clientX);
   drag_end_y = parseInt(touchobj.clientY);
