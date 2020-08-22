@@ -104,7 +104,7 @@ function gesture_decide() {
     }
 }
 
-
+var finger_registered = 0;
 
 document.getElementById("modal").addEventListener('mousedown', function(e) {
   e.stopPropagation();
@@ -121,7 +121,13 @@ document.getElementById("modal").addEventListener('mouseup', function(e) {
 
 document.getElementById("modal").addEventListener('touchstart', function(e) {
   e.stopPropagation();
-  if(e.changedTouches.length == 1) {
+  finger_registered += 1;
+  console.log(finger_registered);
+  if(finger_registered > 1) {
+    console.log('multitouch on')
+    multitouch = true;
+  }
+  else {
   var touchobj = e.changedTouches[0];
   drag_start_x = parseInt(touchobj.clientX);
   drag_start_y = parseInt(touchobj.clientY);
@@ -130,11 +136,17 @@ document.getElementById("modal").addEventListener('touchstart', function(e) {
 
 document.getElementById("modal").addEventListener('touchend', function(e) {
   e.stopPropagation();
-  if(e.changedTouches.length == 1) {
+  finger_registered -= 1;
+  console.log(finger_registered);
+  if(finger_registered == 0 && !multitouch) {
   var touchobj = e.changedTouches[0];
   drag_end_x = parseInt(touchobj.clientX);
   drag_end_y = parseInt(touchobj.clientY);
   gesture_decide();
+  }
+  else if(finger_registered == 0) {
+    console.log('multitouch off')
+    multitouch = false;
   }
 },{passive: true});
 
