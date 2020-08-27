@@ -3,7 +3,7 @@ title:  "观鸟日记（2）"
 date:   2014-03-03
 modified: 2014-03-07
 category: '｢发现｣ 观鸟日记'
-col_name: 'disw2'
+multipage: true
 cover: 'https://lykoseremos.github.io/gmalb-04/disw2/DSC_8376.JPG'
 ---
 

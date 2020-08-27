@@ -3,9 +3,9 @@
   {%- if node contains '</h1>' -%}
     {%- assign header_content_array = node | split: '>' -%}
     {%- assign header = header_content_array[1] -%}
-    {%- assign header_content_array = header | split: '</h1' -%}
-    {%- assign header = header_content_array[0] -%}
-    {%- capture cont_acc -%}{{ cont_acc }}<a name='{{ header }}'></a><h1{{ node }}{%- endcapture -%}
+    {%- assign header = header | split: '</h1' -%}
+    {%- assign header = header[0] -%}
+    {%- capture cont_acc -%}{{ cont_acc }}<h1{{ header_content_array[0] }}><a name='{{ header }}'></a>{{ header_content_array | shift | join: '>' }}{%- endcapture -%}
   {%- else -%}
     {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
   {%- endif -%}
@@ -18,9 +18,9 @@
   {%- if node contains '</h2>' -%}
     {%- assign header_content_array = node | split: '>' -%}
     {%- assign header = header_content_array[1] -%}
-    {%- assign header_content_array = header | split: '</h2' -%}
-    {%- assign header = header_content_array[0] -%}
-    {%- capture cont_acc -%}{{ cont_acc }}<a name='{{ header }}'></a><h2{{ node }}{%- endcapture -%}
+    {%- assign header = header | split: '</h2' -%}
+    {%- assign header = header[0] -%}
+    {%- capture cont_acc -%}{{ cont_acc }}<h2{{ header_content_array[0] }}><a name='{{ header }}'></a>{{ header_content_array | shift | join: '>' }}{%- endcapture -%}
   {%- else -%}
     {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
   {%- endif -%}

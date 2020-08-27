@@ -3,10 +3,13 @@ title:  "特区行记"
 date:   2013-11-29
 modified: 2013-12-09
 category: '｢发现｣ 小传'
-col_name: 'disx12'
+multipage: true
 ---
+
 本篇发生于11月29日
+
 ---
+
 正值感恩节假期，和几个同学一起约着去华盛顿哥伦比亚特区市中心参观间谍博物馆以及国会图书馆
 
 封面：<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/fm.png'>

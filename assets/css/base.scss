@@ -1,43 +1,6 @@
-@charset "utf-8";
-
-$bg-col: #272727;
-$lk-col: #5eb5ed;
-$lk-hov-col: #5eb5ed;
-$lk-vst-col: #5eb5ed;
-$tx-col: whitesmoke;
-$bx-col: #303030;
-$em-col: #eda15e;
-$nv-col: rgba(49, 49, 49, 0.6);
-$nv-solid-col: #313131;
-$demph-col: #a3a3a3;
-$menu-col: #313131;
-$hl-col:#dcdcdc;
-$ctr-col:#a4a4a4;
-$default-font-sans: 'Arial',"Microsoft YaHei", "PingFang SC";
-$default-font-serif: 'EB Garamond', 'Noto Serif SC';
-$spacing-unit:     30px !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
-$grey-color:       #828282 !default;
-$content-width:    1000px !default;
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
-
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
-
-@font-face {
-	font-family: sans-serif;
-	src: local("Microsoft YaHei");
-	unicode-range: U+0020-201B, U+201E-FFFF;
-	font-size: 1em;
-}
-
+---
+---
+@import "variables";
 
 body, h1, h2, h3, h4, h5, h6,
 p, ol, ul {
@@ -65,9 +28,6 @@ li {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
-}
 
 html {
 	position: relative;
@@ -81,10 +41,6 @@ html {
 .signature {
 	color: $demph-col;
 	font-family: $default-font-serif;
-}
-
-.serif {
-  font-family: $default-font-serif;
 }
 
 
@@ -117,7 +73,7 @@ body {
 
 a {
 	color:$ctr-col;
-	transition: 0.25s;
+	transition: 0.3s;
 	text-decoration: none;
 	&:hover {
 		color: $tx-col;
@@ -129,6 +85,28 @@ a {
 	&:visited{
 	  color:$ctr-col;
 	}
+
+  &:visited:hover{
+    color: $ctr-col;
+  }
+}
+
+
+.post-text a {
+	color: $lk-col;
+	transition: 0.3s;
+	text-decoration: none;
+	&:hover {
+		color: $lk-hov-col;
+		text-decoration: none;
+	}
+	&:link{
+	  color: $lk-col;
+	}
+	&:visited{
+	  color: $lk-vst-col;
+	}
+
 }
 
 @media (hover: hover) {
@@ -139,37 +117,8 @@ a {
 	a:visited:hover{
 		color:$tx-col;
 	}
-
-	.maintext a:hover {
-		color: $lk-hov-col;
-		text-decoration: none;
-	}
-
-	.post-listing:hover{
-		background-color: $hl-col;
-	}
-
-	.citation a:hover {
-		color: $lk-hov-col;
-		text-decoration: none;
-	}
-
-	.post-listing:hover .post-title,.post-listing:hover .post-meta {
-		color: $bg-col;
-	}
-
-	a.focus:hover {
-		color: $bg-col;
-		background-color: $tx-col;
-	}
-	a.fixed:hover {
-		color: $demph-col;
-	}
-	.post-meta a:hover {
-		color: $tx-col;
-	}
-
 }
+
 
 
 .wrapper {
@@ -324,7 +273,6 @@ a {
 		margin-left: 10px;
 		margin-right: 10px;
 }
-
 
 .float-right {
 	float: right;

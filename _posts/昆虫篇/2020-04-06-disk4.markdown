@@ -4,7 +4,7 @@ series_prefix: '第三章'
 date:   2011-08-23
 modified: 2014-01-31
 category: '｢发现｣ 昆虫篇'
-col_name: 'disk4'
+multipage: true
 cover: 'https://lykoseremos.github.io/gmalb-01/disk4/13.jpg'
 ---
 本篇发生于2011年8月21日一周前

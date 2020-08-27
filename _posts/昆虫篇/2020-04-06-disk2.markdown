@@ -4,7 +4,7 @@ series_prefix: '第一章'
 date:   2011-07-07
 modified: 2014-01-05
 category: '｢发现｣ 昆虫篇'
-col_name: 'disk2'
+multipage: true
 ---
 本篇发生于2011年7月7日左右，是参加中学组织的竹坝夏令营活动时的故事
 

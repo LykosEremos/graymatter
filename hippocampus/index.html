@@ -4,7 +4,9 @@ landing: hippo
 title: 海马体
 ---
 <div class="page-meta small-top-margin large-bottom-margin">共 {{ paginator.total_pages }} 页，{{ site.posts.size }} 篇文章</div>
+      {%- assign right = 0 -%}
       {%- assign index = 0 -%}
+
       {%- for post in paginator.posts -%}
       {%- assign img_array = post.content | split: "<img" -%}
       {%- assign img_array = img_array[1] -%}
@@ -14,19 +16,18 @@ title: 海马体
       {%- assign img_array = img_array | split: '"' -%}
       {%- assign post_year = post.date | date: "%Y" -%}
       {%- assign post_month = post.date | date: "%-m" -%}
-
-      {%- if index == 0 -%}
+      {%- if right -%}
       <div class="container right-margin">
-      {%- assign index = 1 -%}
+      {%- assign right = 1 -%}
       {%- else -%}
       <div class="container left-margin">
-      {%- assign index = 0 -%}
+      {%- assign right = 0 -%}
       {%- endif -%}
 
       {%- if post.cover -%}
-      <img class='image-box' src='{{ post.cover }}'>
+      <img class='image-box lazyload' src='{{ post.cover }}'>
       {%- elsif img_array[0] -%}
-      <img class='image-box' src='{{ img_array[0] }}'>
+      <img class='image-box lazyload' src='{{ img_array[0] }}'>
       {%- endif -%}
 
       <div class='post-info'>
@@ -38,7 +39,9 @@ title: 海马体
       </div>
       </div>
       </div>
+      {%- assign index = index | plus: 1 -%}
       {%- endfor -%}
+
 
 {%- if paginator.total_pages > 1 -%}
   {%- assign start = paginator.page | minus: 2 -%}
@@ -58,6 +61,7 @@ title: 海马体
   {%- if end > paginator.total_pages -%}
     {%- assign end = paginator.total_pages -%}
   {%- endif -%}
+
 
 <div class="clear"></div>
 <!-- Pagination links -->

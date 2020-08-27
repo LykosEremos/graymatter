@@ -3,7 +3,7 @@ title:  "大秦留痕记"
 date:   2014-02-28
 modified: 2014-03-05
 category: '｢发现｣ 小传'
-col_name: 'disx16'
+multipage: true
 ---
 
 本篇发生于2014年2月28日，GMT-5

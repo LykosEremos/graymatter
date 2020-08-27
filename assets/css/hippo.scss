@@ -1,0 +1,65 @@
+---
+---
+@import "variables";
+
+@for $i from 1 through 24 {
+    .container:nth-child(24n + #{$i}) {
+        animation-delay: $i * 0.1s;
+    }
+}
+
+.image-box {
+	object-fit: cover;
+	min-width: 105%;
+	height: 160px;
+	filter: brightness(60%);
+	-webkit-filter: brightness(60%);
+	margin-bottom: -10%;
+}
+
+
+.container {
+	width: 49%;
+	min-height: 160px;
+	text-align: center;
+	background-color: $nv-col;
+  position: relative;
+	display: flex;
+	float: left;
+	margin-bottom: 5px;
+	overflow: hidden;
+	opacity: 0;
+}
+
+.left-margin {
+	margin-left: 2.5px;
+}
+.right-margin {
+	margin-right: 2.5px;
+}
+
+.container .post-title {
+	font-size: 1.4em;
+}
+
+.folder-link {
+	font-size: 0.8em;
+	margin-right: 10px;
+	color: $tx-col;
+	border: 1px solid $tx-col;
+	padding: 2px 4px;
+	border-radius: 3px;
+}
+
+@media screen and (max-width: $content-width * 0.6) {
+  .container {
+		width: 100%;
+	}
+
+	.left-margin {
+		margin-left: 0;
+	}
+	.right-margin {
+		margin-right: 0;
+	}
+}

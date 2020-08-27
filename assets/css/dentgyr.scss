@@ -1,0 +1,60 @@
+---
+---
+@import "variables";
+
+.preview-box  {
+  animation: fadeInAnimation 0.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+@for $i from 1 through 20 {
+    .preview-box:nth-child(20n + #{$i}) {
+        animation-delay: $i * 0.2s;
+    }
+}
+
+@for $i from 1 through 3 {
+    .preview-box:nth-child(#{$i}) {
+        animation-delay: $i * 0.2s;
+    }
+}
+
+.preview-box {
+		width: 100%;
+		min-height: 160px;
+		text-align: center;
+		background-color: $nv-col;
+		position: relative;
+		display: flex; /* add -webkit and -ms prefixes yourself */
+	  flex-direction: row;
+		margin-bottom: 1%;
+		overflow: hidden;
+}
+
+.preview-box .post-title {
+	font-size: 1.8em;
+}
+.preview-box .post-meta-button {
+	margin-top: 0px;
+	font-size: 1em;
+}
+
+.post-count {
+	font-size: 1.2em;
+	font-family: $default-font-serif;
+}
+
+.preview-block {
+	display: inline-block;
+	object-fit: cover;
+	height: 200px;
+	min-width: 25%;
+	max-width: 100%;
+	flex-grow: 1;
+	filter: brightness(60%);
+	-webkit-filter: brightness(60%);
+	margin-bottom: -50px;
+}

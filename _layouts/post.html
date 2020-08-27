@@ -25,13 +25,6 @@
 <html lang="{{ page.lang | default: site.lang | default: "cn" }}">
 {%- endif -%}
 
-<head>
-	{%- include head.html -%}
-    <title>
-      {%- if parent_post.title %}{{ parent_post.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
-    </title>
-</head>
-
 {%- if parent_post.content contains '</h1>' -%}
 	{%- assign toc_setting = true -%}
 {%- endif -%}
@@ -43,6 +36,13 @@
 {%- endif -%}
 
 
+<head>
+	{%- include head.html -%}
+    <title>
+      {%- if parent_post.title %}{{ parent_post.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
+    </title>
+</head>
+
 {%- assign collection = site.multipage | where: 'parent', collection_name -%}
 {%- assign total_number_pages = collection.size  | plus: 1 -%}
 
@@ -51,8 +51,8 @@
 <main class="page-content" aria-label="Content">
 <div class="wrapper">
 	<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-		<header class="small-bottom-margin post-header">
-			<a class='page-heading-nav' href="{{ site.baseurl }}/hippocampus">海马体</a><span class='page-heading-nav'> /</span>
+
+			<a class='page-heading-nav' href="{{ site.baseurl }}/hippocampus">海马体<span class='page-heading-nav'> / </span></a>
 			<div class="post-title" itemprop="name headline">
 	     {%- if parent_post.series_prefix -%}
 					{%- assign full_title = parent_post.series_prefix | append: ' · ' | append:  parent_post.title | escape -%}
@@ -62,7 +62,7 @@
 				{{ full_title }}
 			</div>
 			{%- include post_meta_logic.html -%}
-			</header>
+
 	<body>
 
 
@@ -153,9 +153,6 @@
 	 	{%- include math.html -%}
 	{%- endif -%}
 
-	{% if img_setting %}
-		{%- include lazyload.html -%}
-	{%- endif -%}
 
 	 {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
 	</body>

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+$bg-col: #272727;
+$lk-col: #5eb5ed;
+$lk-hov-col: #5eb5ed;
+$lk-vst-col: #5eb5ed;
+$tx-col: whitesmoke;
+$bx-col: #303030;
+$em-col: #eda15e;
+$nv-col: rgba(49, 49, 49, 0.6);
+$nv-solid-col: #313131;
+$demph-col: #a3a3a3;
+$menu-col: #313131;
+$hl-col:#dcdcdc;
+$ctr-col:#a4a4a4;
+$default-font-sans: 'Arial',"Microsoft YaHei", "PingFang SC";
+$default-font-serif: 'EB Garamond', 'Noto Serif SC', 'SimSun', 'STSong';
+$spacing-unit:     30px !default;
+$base-font-size:   16px !default;
+$base-font-weight: 300 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.618 !default;
+$grey-color:       #828282 !default;
+$content-width:    1000px !default;
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+$main-size:   12pt !default;
+$title-size:  $main-size * 2 !default;
+$line-height: 1.618 * $main-size;
+$h1-size:  $title-size *7/8 !default;
+$h2-size:  $h1-size * 7/8 !default;
+$h3-size:  $h2-size * 7/8 !default;
+$meta-size:  $main-size !default;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}

@@ -4,7 +4,7 @@ date:   2014-01-18T10:20:00Z
 modified: 2014-03-05
 category: '｢发现｣ 小传'
 cover: 'https://lykoseremos.github.io/gmalb-01/disx15/20140118_161636.jpg'
-col_name: 'disx15'
+multipage: true
 ---
 
 本篇发生于2014年1月18日，GMT-5，紧接鱼市考察（07）

@@ -1,5 +1,6 @@
+<script src="{{ site.baseurl }}/assets/lazysizes.min.js" async=""></script>
 <script src="{{ site.baseurl }}/assets/glightbox.js"></script>
-   <script>
+<script>
        var lightbox = GLightbox();
        lightbox.on('open', (target) => {
            console.log("lightbox opened");
@@ -10,6 +11,12 @@
        var lightboxVideo = GLightbox({
            selector: '.glightbox3'
        });
+
+
+       lightbox.on('slide_changed', ({ prev, current }) => {
+           window.location.href ='#img-' + (current['index'] + 1);
+         });
+
        lightboxVideo.on('slide_changed', ({ prev, current }) => {
            console.log("Prev slide", prev);
            console.log("Current slide", current);

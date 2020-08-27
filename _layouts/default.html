@@ -15,26 +15,26 @@
         {%- endif -%}</title>
 </head>
 
-  {% if page.landing != 'home' %}
-  {% include header.html %}
-  {% endif %}
-
+  {%- if page.landing != 'home' -%}
+  {%- include header.html -%}
+  {%- endif -%}
 	<body>
-      {% if page.landing != 'home' %}
+      {%- if page.landing != 'home' -%}
       <main class="page-content" aria-label="Content">
       <div class="wrapper">
       {{ content }}
       </div>
       </main>
-      {% else %}
+      {%- else -%}
       {{ content }}
-      {% endif %}
+      {%- endif -%}
 	</body>
 
-  {% if page.landing != 'home' %}
-    {% include footer.html %}
-  {% endif %}
+  {%- if page.layout == 'folder' or page.landing == 'dentgyr' or page.landing == 'hippo' -%}
+  <script src="{{ site.baseurl }}/assets/lazysizes.min.js" async=""></script>
+  {%- endif -%}
 
-
-
+  {%- if page.landing != 'home' -%}
+    {%- include footer.html -%}
+  {%- endif -%}
   </html>

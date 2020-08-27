@@ -4,7 +4,7 @@ series_prefix: '贺岁'
 date:   2011-01-01
 modified: 2014-01-02
 category: '｢发现｣ 外传'
-col_name: 'diss1'
+multipage: true
 ---
 本篇发生于2011年1月1日
 

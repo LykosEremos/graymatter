@@ -1,6 +1,6 @@
 ---
 layout: default
-landing: dentgyr
+landing: folder
 title: 齿状回
 ---
 {%- for category in site.categories -%}
@@ -13,14 +13,11 @@ title: 齿状回
 <img class='page-art' src='{{site.baseurl}}/assets/{{ page.landing }}.png'></img>
 {%- endif -%}
 
-<a class='page-heading-nav' href="{{ site.baseurl }}/dentgyr">齿状回</a><span class='page-heading-nav'> /</span>
-<header class="post-header">
-  <div class="post-title" itemprop="name headline">
-    {{ categ[0] | escape }}
-  </div>
-  <span class="page-meta">共 {% if categ[1].size != 0 %}{{ categ[1].size }}{% else %}0{% endif %} 篇文章<span>
-</header>
-<div>
+
+
+  <a class='page-heading-nav' href="{{ site.baseurl }}/dentgyr">齿状回</a><span class='page-heading-nav'> / </span>
+  <span class="post-title" itemprop="name headline">{{ categ[0] | escape }}</span>
+  <div class="small-top-margin large-bottom-margin page-meta">共 {% if categ[1].size != 0 %}{{ categ[1].size }}{% else %}0{% endif %} 篇文章</div>
 
   {%- assign index = 0 -%}
   {%- for post in categ[1] -%}
@@ -40,9 +37,9 @@ title: 齿状回
   {%- assign index = 0 -%}
   {%- endif -%}
     {%- if post.cover -%}
-    <img class='image-box' src='{{ post.cover }}'>
+    <img class='image-box lazyload' data-src='{{ post.cover }}'>
     {%- elsif img_array[0] -%}
-    <img class='image-box' src='{{ img_array[0] }}'>
+    <img class='image-box lazyload' data-src='{{ img_array[0] }}'>
     {%- endif -%}
 
     <div class='post-info'>

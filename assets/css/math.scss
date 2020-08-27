@@ -1,6 +1,6 @@
-@charset "utf-8";
-
-//math environments
+---
+---
+@import "variables";
 
 .corollary:before {
 	content: "结论 " counter(theorem) "." counter(corollary) ". ";

@@ -1,4 +1,51 @@
-@charset "utf-8";
+---
+---
+@import "variables";
+
+.date-button {
+	border-bottom: 1px dotted $demph-col;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.folder-link {
+	padding: 2px 4px;
+	color: $demph-col;
+	border-radius: 3px;
+	border: 1px solid $demph-col;
+}
+
+.folder-link:hover {
+	border: 1px solid $tx-col;
+	color: $tx-col;
+}
+
+.prev-next-button {
+	color: $demph-col;
+	display: inline-block;
+  text-decoration: none;
+	padding: 1px 8px;
+}
+
+.prev {
+  position: relative;
+	display: flex;
+	float: left;
+
+}
+.next {
+  position: relative;
+	float: right;
+	display: flex;
+}
+
+
+.quote {
+	border-left: 5px solid $em-col;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
 
 .post-text {
 	line-height: 165%;
@@ -120,16 +167,6 @@ hr {
 	color: $bg-col;
 }
 
-.slide-progress {
-  color: $tx-col;
-	font-family: $default-font-serif;
-  font-size: 1em;
-  padding: 10px 20px;
-  position: absolute;
-  top: 0;
-}
-
-
 i {
 	font-family: $default-font-serif;
 	font-style: italic;
@@ -137,16 +174,18 @@ i {
 
 h1 {
 	counter-increment: h1counter;
-	font-size: 1.6em;
+	font-size: $h1-size;
+	line-height: $base-line-height;
 	font-weight: 700;
 	counter-reset: h2counter;
-	margin-top: 1.4em;
-	margin-bottom: 1em;
 	font-family: $default-font-serif;
+	margin-top: $h1-size * 2;
+	margin-bottom: 0;
 }
 
-h1:nth-child(2) {
-	margin-top: 0em;
+
+h1:first-of-type {
+	margin-top: 0;
 }
 
 h1:before {
@@ -156,11 +195,12 @@ h1:before {
 h2 {
 	counter-increment: h2counter;
 	font-weight: 700;
-	font-size: 1.3em;
-	margin-top: 1.4em;
+	font-size: $h2-size;
+	line-height: $base-line-height;
 	font-family: $default-font-serif;
+	margin-top: $h2-size * 2;
+	margin-bottom: 0;
 }
-
 
 h2:before {
 	content: '§' counter(h1counter) "." counter(h2counter) ".\0000a0\0000a0 ";
@@ -168,10 +208,37 @@ h2:before {
 
 h3 {
 	font-weight: 700;
-	font-size: 1.2em;
-	margin-top: 1.4em;
+	font-size: $h3-size;
+	line-height: $base-line-height;
 	font-family: $default-font-serif;
+	margin-top: $h3-size * 3/2;
+	margin-bottom: 0;
+}
+
+	h1 + h3 {
+	  margin-top: $h3-size/4;
 	}
+
+	h1 + h2 {
+		margin-top: $h2-size/4;
+	}
+
+	h2 + h3 {
+  	margin-top: $h3-size/4;
+	}
+
+	h1 + * {
+	  margin-top: $h1-size;
+	}
+
+	h1 + * {
+		margin-top: $h2-size;
+	}
+
+	h2 + * {
+  	margin-top: $h3-size;
+	}
+
 
 
 .tg  {
@@ -325,7 +392,6 @@ blockquote{
 //header and footer
 
 .side-bar {
-	font-family: $default-font-serif;
 	position: fixed;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 8px 0 rgba(0, 0, 0, 0.19);
 	transform-origin: top left;
@@ -338,6 +404,7 @@ blockquote{
 	background-color: $menu-col;
 	z-index: 2;
 	transition: 0.3s;
+	font-family: $default-font-serif;
 	counter-reset: toch1counter;
 	a:hover, a:visited:hover{
 		color: $tx-col;
@@ -376,25 +443,9 @@ blockquote{
 	position: fixed;
 	z-index:2;
 	cursor: pointer;
-	font-family: $default-font-serif;
 }
 
 /** page template */
-
-.post-header {
-	margin-bottom: $spacing-unit;
-	line-height: 300%;
-}
-
-.post-title {
-	font-family: $default-font-serif;
-	font-weight: 700;
-	font-size: 2em;
-	color: $tx-col;
-	letter-spacing: -1px;
-}
-
-
 
 
 //cosmetics
@@ -483,13 +534,6 @@ img {
   background: #939393;
 }
 
-.bar-div {
-	width: 15px;
-	height: 3px;
-	background-color: $tx-col;
-	margin: 3px;
-}
-
 .citation {
 	list-style-type: none;
 	line-height: 150%;
@@ -514,6 +558,7 @@ img {
 			padding-top: 0px;
 			padding-bottom: 0px;
 			overflow-y: scroll;
+			font-family: $default-font-serif;
 		}
 
 		.close {

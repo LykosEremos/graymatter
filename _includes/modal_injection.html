@@ -8,11 +8,14 @@
         {%- capture cont_acc -%}{{ cont_acc }}{{ node }}{%- endcapture -%}
       {%- else -%}
         {%- assign img_array = node | split: 'src="' -%}
+        {%- assign class_array = img_array[0] | split: 'class="' -%}
+        {%- assign class_array = class_array | join:'class="lazyload ' -%}
         {%- assign image_url = img_array[1] | split: '"' -%}
         {%- assign rest_of_the_node = img_array[1] | split: '/>' -%}
         {%- capture cont_acc -%}{{ cont_acc }}
+        <a name='img-{{index}}'></a>
         <a href="{{ image_url[0] }}" class="glightbox">
-        <img{{ img_array[0] }} src="{{ rest_of_the_node[0] }}></a>
+        <img{{ class_array }}data-src="{{ rest_of_the_node[0] }}></a>
         {{ rest_of_the_node | shift | join:'/>' }}
         {%- endcapture -%}
         {%- assign index = index | plus: 1 -%}

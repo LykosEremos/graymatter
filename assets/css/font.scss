@@ -1,0 +1,14 @@
+---
+---
+
+@import "variables";
+
+@font-face {
+	font-family: sans-serif;
+	src: local("Microsoft YaHei");
+	unicode-range: U+0020-201B, U+201E-FFFF;
+	font-size: 1em;
+}
+.serif {
+  font-family: $default-font-serif;
+}
