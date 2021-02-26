@@ -10,7 +10,7 @@ col_name: 'disf6'
 
 封面：
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/cover.png'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/cover.png'>
 
 ---
 
@@ -24,7 +24,7 @@ col_name: 'disf6'
 
 在回家的飞机上复习了一下石首鱼科的分类，派上用场了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/1.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/1.jpg'>
 
 黄盒子：点带石斑鱼（<i>Epinephelus coioides</i>）
 
@@ -32,41 +32,41 @@ col_name: 'disf6'
 
 左侧：花鳗鲡（<i>Anguilla marmorata</i>），中华乌塘鳢（<i>Bostrichthys sinensis</i>）以及可能是因为挣扎而脊椎畸形的赤点石斑鱼（<i>E. akaara</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/2.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/2.jpg'>
 
 青石斑鱼（<i>Epinephelus awoara</i>），大黄鱼（<i>Pseudosciaena crocea</i>），花鲈（<i>Lateolabrax japonicus</i>），指印石斑鱼（<i>E. quoyanus</i>），黄棘鳍鲷（<i>Acanthopagrus latus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/3.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/3.jpg'>
 
 同样常见的刺鲳（<i>Psenopsis anomala</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/4.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/4.jpg'>
 
 勒氏笛鲷（<i>Lutjanus russelli</i>），褐菖鲉（<i>Sebastiscus marmoratus</i>），棘皮鲀（<i>Chaetodermis spinosissimus</i>），澎湖裸胸鳝（<i>Gymnothorax pescadoris</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/6.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/6.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/5.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/5.jpg'>
 
 布氏鲳鰺（<i>Trachinotus blochii</i>），银鲳鱼（<i>Pampus argenteus</i>），绿鳍马面鲀（<i>Navodon septentrionalis</i>）
 
 从左到右：带鱼（<i>Trichiurus haumela</i>），豹纹鳃棘鲈（<i>Plectropomus leopardus</i>），副绯鲤（<i>Parupeneus </i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/7.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/7.jpg'>
 
 三线矶鲈（<i>Parapristipoma trilineatus</i>）和日本瞳鯒（<i>Inegocia japonicus</i>），旁边又是一种姑鱼
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/9.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/9.jpg'>
 
 上：青石斑鱼和清水石斑鱼（<i>Epinephelus polyphekadion</i>）
 
 中：豹纹鳃棘鲈，褐牙鲆（<i>Paralichthys olivaceus</i>）和驼背鲈（<i>Chromileptes altivelis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/10.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/10.jpg'>
 
 褐沙蛇鳗（<i>Ophisurus serpens</i>），另一种蛇鳗，一种鰶，中华乌塘鳢（<i>Bostrichthys sinensis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/11.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/11.jpg'>
 
 左上到右下：大小黄鱼，带鱼，鰳 （<i>Tenualosa toli</i>）
 
@@ -74,89 +74,89 @@ col_name: 'disf6'
 
 多鳞鱚（<i>Sillago sihama</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/13.jpg'>
 
 
 长棘银鲈（<i>Gerres fllamentosus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/14.jpg'>
 
 马拉巴石斑鱼（<i>Epinephelus malabaricus</i>），褐牙鲆和大菱鲆（<i>Psetta maxima</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/15.jpg'>
 
 混着短尾大眼鲷（<i>Priacanthus macracanthus</i>）的新鲜的蓝圆鰺（<i>Decapterus maruadsi</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/16.jpg'>
 
 一条漂亮的眼斑拟石首鱼（<i>Sciaenops ocellatus</i>）和两条海鳗（<i>Muraenesox cinereus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/17.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/17.jpg'>
 
 除了前面提到过的鱼以外，这里有二长棘犁齿鲷（<i>Evynnis cardinalis</i>），红笛鲷（<i>Lutjanus sanguineus</i>），金线鱼（<i>Nemipterus virgatus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/18.jpg'>
 
 花鰶（<i>Clupanodon thrissa</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/19.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/19.jpg'>
 
 黄棘鳍鲷（<i>Acanthopagrus latus</i>），白姑鱼（<i>Argyrosomus </i>），隆背笛鲷（<i>Lutjanus gibbus</i>），黄斑蓝子鱼（<i>Siganus oramin</i>）和花尾胡椒鲷（<i>Plectorhinchus cinctus</i>）
 
 还有一只小关公蟹
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/20.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/20.jpg'>
 
 点带石斑鱼，棘皮鲀，青石斑鱼
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/21.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/21.jpg'>
 
 杂鱼摊
 
 正下方的是矛尾复虾虎鱼（<i>Synechogobius hasta</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/22.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/22.jpg'>
 
 乌鰺（<i>Parastromateus niger</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/23.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/23.jpg'>
 
 畸形的赤点石斑鱼
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/24.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/24.jpg'>
 
 杂鱼
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/25.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/25.jpg'>
 
 
 
 斑鱵（<i>Hemiramphus far</i>）和半滑舌鳎（<i>Cynoglossus semilaevis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/27.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/27.jpg'>
 
 画面左侧的花身鯻（<i>Terapon jarbua</i>）近年比较少见
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/28.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/28.jpg'>
 
 斑鰶（<i>Konosirus punctatus</i>），银鲈（<i>Gerreomorpha spp.</i>），点篮子鱼（<i>Siganus guttatus</i>）和火斑笛鲷（<i>Lutianus fulviflamma</i>），多鳞鱚就不提了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/30.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/30.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/34.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/34.jpg'>
 
 另外一盆银鲈
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/32.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/32.jpg'>
 
 孔鳐（<i>Raja porosa</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/31.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/31.jpg'>
 
 虎纹猫鲨（<i>Scyliorhinus torazame</i>）和一种毒鲉（Synanceiidae ）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/33.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/33.jpg'>
 
 圆翅燕鱼（<i>Platax pinnatus</i>）旁边的可能是双棘原黄姑鱼（<i>Protonibea diacanthus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf6/35.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf6/35.jpg'>

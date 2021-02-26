@@ -11,7 +11,7 @@ multipage: true
 
 封面
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_161636.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_161636.jpg'>
 
 ---
 
@@ -21,19 +21,19 @@ multipage: true
 
 枸骨（<i>Ilex cornuta</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_145308.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_145308.jpg'>
 
 火棘（<i>Pyracantha fortuneana</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_145615.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_145615.jpg'>
 
 史密森尼自然史博物馆远观，摄于史密森尼地铁站附近
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150210.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150210.jpg'>
 
 看起来方尖碑的维护工作要结束了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150259-HDR.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150259-HDR.jpg'>
 
 进入史密森尼自然史博物馆
 
@@ -41,83 +41,83 @@ multipage: true
 
 中间的是捻角羚（<i>Tragelaphus strepsiceros</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150752.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150752.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150801.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150801.jpg'>
 
 獐子（<i>Hydropotes inermis inermis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150814.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150814.jpg'>
 
 黄麂（<i>Muntiacus reevesi</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150825.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150825.jpg'>
 
 非洲哺乳动物展区
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150834.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150834.jpg'>
 
 非洲郊熊（<i>†agriotherium africanum</i>）与狮的头骨对比
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150900.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150900.jpg'>
 
 苍羚（<i>Nanger dama</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150956.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_150956.jpg'>
 
 耳廓狐（<i>Vulpes zerda</i>）和跳鼠（Dipodidae）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151009.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151009.jpg'>
 
 缟鬣狗（<i>Hyaena hyaena</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151023.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151023.jpg'>
 
 掏白蚁穴的土豚（<i>Orycteropus afer</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151056.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151056.jpg'>
 
 黑背霓羚（<i>Cephalophus dorsalis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151225.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151225.jpg'>
 
 红河猪（<i>Potamochoerus porcus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151241.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151241.jpg'>
 
 美洲獾（<i>Taxidea taxus</i>），叉角羚（<i>Antilocapra americana</i>），黑尾土拨鼠（<i>Cynomys ludovicianus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151554.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151554.jpg'>
 
 海獭（<i>Enhydra lutris</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151649.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151649.jpg'>
 
 古蹄兽（<i>Protungulatum</i>），已知最早的有蹄类动物
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151823.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151823.jpg'>
 
 黑背胡狼（<i>Canis mesomelas</i>）和白鼻浣熊（<i>Nasua narica</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151849.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151849.jpg'>
 
 变形的马来熊（<i>Helarctos malayanus</i>）标本
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151900.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_151900.jpg'>
 
 澳洲野狗（<i>Canis lupus dingo</i>）是如何打败袋狼的
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152041.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152041.jpg'>
 
 艮氏犬羚（<i>Madoqua guentheri</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152121.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152121.jpg'>
 
 出哺乳类大厅
 
 张牙舞爪的林象（<i>Loxodonta cyclotis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152427.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152427.jpg'>
 
 海洋区
 
@@ -127,24 +127,24 @@ multipage: true
 
 有黄高鳍刺尾鱼（<i>Zebrasoma flavescens</i>），黄尾副刺尾鱼（<i>Paracanthurus hepatus</i>），斑马翼塘鳢（<i>Ptereleotris zebra</i>），印尼栉刺尾鱼（<i>Ctenochaetus tominiensis</i>），侧带拟花鮨（<i>Pseudanthias pleurotaenia</i>），眼斑双锯鱼（<i>Amphiprion ocellaris</i>），丝鳍圆天竺鲷（<i>Sphaeramia nematoptera</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152551.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152551.jpg'>
 
 抢镜的高鼻鱼（<i>Naso vlamingii</i>）和丝鳍拟花鮨（<i>Pseudanthias squamipinnis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152554.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152554.jpg'>
 
 珊瑚礁下的蛇尾，扶窗观看的小孩说是蜘蛛
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152601.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152601.jpg'>
 
 斑马翼塘鳢
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152617.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152617.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152624.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152624.jpg'>
 
 鱼类简介，做的挺好，把这些鱼的特殊习性都标出来了
 
 就是尖吻䱵（<i>Oxycirrhites typus</i>）和双色异齿鳚（<i>Ecsenius bicolor</i>）这些我特别喜欢的底栖鱼不在了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152725.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx15/20140118_152725.jpg'>

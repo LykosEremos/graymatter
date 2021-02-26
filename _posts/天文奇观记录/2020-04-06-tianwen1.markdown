@@ -20,71 +20,71 @@ cover: 'https://lykoseremos.github.io/gmalb-02/tianwen1/26.jpg'
 
 担心晚上会不会有很大片的云遮住月亮。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/1.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/1.jpg'>
 
 金星一如既往很早就出来了，而且很亮
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/2.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/2.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/3.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/3.jpg'>
 
 图片右侧天空中的小亮点即是
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/4.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/4.jpg'>
 
 降低快门速度还可以发现云层后依稀还是日落的火烧云
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/5.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/5.jpg'>
 
 天渐渐暗了下来
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/6.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/6.jpg'>
 
 万家灯火
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/7.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/7.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/8.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/8.jpg'>
 
 当然，焦外成像所呈现出的则是另一类型的艺术，
 
 朦胧美
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/9.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/9.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/10.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/10.jpg'>
 
 降低快门速度查看一下天气。
 
 似乎云变少了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/11.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/11.jpg'>
 
 楼顶。
 
 月光努力刺穿厚厚的云彩穿了出来
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/12.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/12.jpg'>
 
 月亮的角度不断提升
 
 而再高一点便可以进入我家楼顶上这一小块无云的天井的范围内了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/13.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/14.jpg'>
 
 月亮终于穿出云层
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/15.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/16.jpg'>
 
 而又被阴暗的乌云吞噬
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/17.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/17.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/18.jpg'>
 
 这里我拍了一个很无聊的片子，
 
@@ -99,31 +99,31 @@ cover: 'https://lykoseremos.github.io/gmalb-02/tianwen1/26.jpg'
 
 一开始是一轮很圆的月
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/19.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/19.jpg'>
 
 然而有一团阴影遮住了月球的左下角
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/20.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/20.jpg'>
 
 然而有一团阴影遮住了月球的左下角
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/21.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/21.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/22.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/22.jpg'>
 
 阴影逐渐扩大
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/23.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/23.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/24.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/24.jpg'>
 
 占据了月亮的四分之一
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/25.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/25.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/26.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/26.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/27.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/27.jpg'>
 
 调整了一下曝光时间
 
@@ -131,72 +131,72 @@ cover: 'https://lykoseremos.github.io/gmalb-02/tianwen1/26.jpg'
 
 可以看到星空和闪耀的月亮
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/28.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/28.jpg'>
 
 画面左侧是猎户星座
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/29.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/29.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/30.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/30.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/31.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/31.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/32.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/32.jpg'>
 
 月影蔓延到三分之一处
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/33.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/33.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/34.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/34.jpg'>
 
 此时如果降低快门速度
 
 可以发现阴影部分略带暗红色
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/35.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/35.jpg'>
 
 此时月亮在一团薄云中，
 
 其周围是一圈很有意思的月晕
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/36.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/36.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/37.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/37.jpg'>
 
 阴影吞噬了半个月亮
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/38.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/38.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/39.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/39.jpg'>
 
 还是按照前面那个方法观察
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/40.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/40.jpg'>
 
 月亮现在只剩下可怜的娥眉月般的一小块了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/41.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/41.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/42.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/42.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/43.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/43.jpg'>
 
 长曝光
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/44.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/44.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/45.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/45.jpg'>
 
 可惜的是最后天空中云又多起来，将其完全掩盖
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/46.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/46.jpg'>
 
 收拾装备准备离开。
 
 几张夜景以作结尾
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/47.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/47.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/48.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/48.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen1/49.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen1/49.jpg'>

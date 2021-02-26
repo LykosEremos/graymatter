@@ -105,12 +105,12 @@
 		{%- endif -%}
 
 
-		<div class="large-bottom-margin page-block-collection">
+		<div class="page-block-collection">
 		{%- include post_pagination_logic.html -%}
 		</div>
 		{%- endif -%}
 
-	<div class="post-text" itemprop="articleBody">
+	<div class="large-top-margin post-text" itemprop="articleBody">
 	 	{%- assign cont = content -%}
 		{%- if toc_setting -%}
 			{%- include anchor_injection.html html=cont -%}
@@ -125,7 +125,7 @@
 	</div>
 
 	{%- if page.parent or page.multipage -%}
-	<div class="very-large-top-margin large-bottom-margin page-block-collection">
+	<div class="very-large-top-margin page-block-collection">
 	{%- include post_pagination_logic.html -%}
 	</div>
 	{%- endif -%}

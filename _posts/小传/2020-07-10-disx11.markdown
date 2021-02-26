@@ -10,7 +10,7 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx11/20130804-092214.jpg'
 
 封面：
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/2.png'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/2.png'>
 
 ---
 
@@ -18,21 +18,21 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx11/20130804-092214.jpg'
 
 日式装潢的酒店
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-121423.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-121423.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-121735.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-121735.jpg'>
 
 丹凤山脚下，临近阳明山
 
 这条小溪从片地热活跃区域的的山上流下，夹杂着硫化氢的味道，无鱼，但是有藻类生长
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-122534.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-122534.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-131850.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-131850.jpg'>
 
 
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-122243.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-122243.jpg'>
 
 
 
@@ -40,97 +40,97 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx11/20130804-092214.jpg'
 
 
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-124812.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-124812.jpg'>
 
 
 围绕着小溪，一座植被繁茂的街心公园正好位于两条马路之间，很令人心旷神怡
 
 来看看周围的一些植被
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-131720.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-131720.jpg'>
 
 
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132017.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132017.jpg'>
 
 含羞草亚科的一种植物（<i>Mimosoideae</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-122323.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-122323.jpg'>
 
 三角槭（<i>Acer buergerianum</i>），常见植物
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132041.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132041.jpg'>
 
 或许是五加科的吧（Araliaceae）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132333.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132333.jpg'>
 
 红千层（<i>Callistemon rigidus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132442.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132442.jpg'>
 
 桫椤（Cyatheales）在台湾野外则非常常见
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132819.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-132819.jpg'>
 
 这里有一个写着湯煙天狗（明显是日本的天狗)字样的碑，汤烟则指的是新北市的特色——温泉。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133041.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133041.jpg'>
 
 溪边的植物
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133200.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133200.jpg'>
 
 水鬼蕉（<i>Hymenocallis littoralis</i>）依旧是南方常见的引种行道植物
 
 这丛水鬼蕉里还有一棵构树（<i>Broussonetia papyrifera</i>）的苗
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133241.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133241.jpg'>
 
 树上有一只赤腹丽松鼠（<i>Callosciurus erythraeus</i>），它在东南亚并不少见，
 
 厦门的万石植物园也可以偶见它们
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-173339.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-173339.jpg'>
 
 壳斗科某种（<i>Fagaceae</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-175445.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-175445.jpg'>
 
 小型的蜥蜴在野外一直都不少，应是雌性的台湾攀蜥（<i>Japalura swinhonis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-175857.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-175857.jpg'>
 
 傍晚，不少人在溪边泡脚。
 
 不知道溪水的酸性会不会到危害皮肤健康的程度
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/IMG-20130803-180328.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/IMG-20130803-180328.jpg'>
 
 加贺屋酒店
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133349.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133349.jpg'>
 
 
 加贺娃娃，日本石川县的特产玩偶
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133618.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133618.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133624.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-133624.jpg'>
 
 日本的茶道其实和中国当今的泡茶方式有很大不同，它使用的是抹茶的方法，将茶叶研碎冲泡，类似中国在宋朝时的习惯。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-165354.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/20130803-165354.jpg'>
 
 茶点
 和果子，其实就是有各种填料的麻薯等，十分精致
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00252.jpg'>
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00254.jpg'>
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00256.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00252.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00254.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00256.jpg'>
 
 晚餐是更加精致的日式料理
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00405.jpg'>
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00411.jpg'>
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00414.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00405.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00411.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx11/DSC00414.jpg'>

@@ -14,7 +14,9 @@ p, ul, ol %vertical-rhythm {
 }
 
 ul, ol {
-  margin-left: $spacing-unit;
+  margin-left: $spacing-unit / 2;
+  margin-top: $main-size / 2;
+  margin-bottom: $main-size;
 }
 
 ol li {
@@ -28,6 +30,10 @@ li {
   }
 }
 
+
+p {
+  margin-bottom: $main-size * 1.5;
+}
 
 html {
 	position: relative;
@@ -72,12 +78,14 @@ body {
 
 
 a {
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.page-heading-nav, .page-link, .prev-next-button,.control-aid a {
 	color:$ctr-col;
-	transition: 0.3s;
-	text-decoration: none;
 	&:hover {
-		color: $tx-col;
-		text-decoration: none;
+		color: $hl-col;
 	}
 	&:link{
 	  color:$ctr-col;
@@ -85,24 +93,23 @@ a {
 	&:visited{
 	  color:$ctr-col;
 	}
-
   &:visited:hover{
-    color: $ctr-col;
+    color: $hl-col;
   }
 }
 
+.post-text {
+	line-height: 165%;
+	text-indent: 0px;
+	font-size: 12pt;
+	letter-spacing: 0.005em;
+	font-family: $default-font-serif;
+	font-weight: 200;
+	color: $tx-col;
+}
 
 .post-text a {
 	color: $lk-col;
-	transition: 0.3s;
-	text-decoration: none;
-	&:hover {
-		color: $lk-hov-col;
-		text-decoration: none;
-	}
-	&:link{
-	  color: $lk-col;
-	}
 	&:visited{
 	  color: $lk-vst-col;
 	}
@@ -110,13 +117,16 @@ a {
 }
 
 @media (hover: hover) {
-	a:hover{
-		text-decoration: none;
-		color:$tx-col;
-	}
-	a:visited:hover{
-		color:$tx-col;
-	}
+
+  .post-text a {
+    &:hover{
+      text-decoration: none;
+      color:$lk-hov-col;
+    }
+    &:visited:hover{
+      color:$lk-hov-col;
+    }
+  }
 }
 
 
@@ -169,8 +179,8 @@ a {
 .site-title-text {
 	color: $tx-col;
 	color: $tx-col;
-	font-family: $default-font-serif;
-	font-weight: bold;
+	font-family: $default-font-sans;
+	font-weight: $normal-weight;
 	display: inline-block;
 	vertical-align: middle;
   font-size: 1.5em;
@@ -272,6 +282,10 @@ a {
 .large-botton-margin {
 		margin-left: 10px;
 		margin-right: 10px;
+}
+
+.float-left {
+	float: left;
 }
 
 .float-right {

@@ -43,7 +43,7 @@ category: '｢发现｣ 鱼市考察'
 
 金䱵（<i>Cirrhitichthys aureus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/1.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/1.jpg'>
 
 从下往上：
 
@@ -57,7 +57,7 @@ category: '｢发现｣ 鱼市考察'
 
 小黄鱼（<i>Pseudosciaena polyactis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/2.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/2.jpg'>
 
 这个有许多鱼都是前文讲过的了
 
@@ -65,69 +65,69 @@ category: '｢发现｣ 鱼市考察'
 
 另外上面的鱼群中还有一只小鲀
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/3.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/3.jpg'>
 
 （除了前文讲过的），在下方有一只鬼鲉（<i>Inimicus japonicus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/4.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/4.jpg'>
 
 蓝圆鰺（<i>Decapterus maruadsi</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/5.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/5.jpg'>
 
 蓝点马鲛（<i>Scomberomorus niphonius</i>）和某鰺
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/6.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/6.jpg'>
 
 横带髭鲷（<i>Hapalogenys mucronatus</i>）与细刺鱼
 
 下方的伏氏眶棘鲈（<i>Scolopsis vosmeri</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/7.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/7.jpg'>
 
 颗粒蟳（<i>Charybdis granulata</i>），红星梭子蟹（<i>Portunus sanguinolentus</i>），三疣梭子蟹（<i>Portunus trituberculatus</i>），下方的锈斑蟳（<i>Charybdis feriatus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/8.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/8.jpg'>
 
 史氏鲟（<i>Aclpenser schrenckii</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/9.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/9.jpg'>
 
 爱洁蟹属某种（<i>Atergatis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/10.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/10.jpg'>
 
 章鱼
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/11.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/11.jpg'>
 
 斑鳢（<i>Channa maculata</i>）和左边的花鳗（<i>Anguilla marmorata</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/12.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/12.jpg'>
 
 金鼓鱼（<i>Scatophagus argus</i>），诸种裸胸鳝及虎纹猫鲨（<i>Scyliorhinus torazame</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/13.jpg'>
 
 白斑菖鲉（<i>Sebastiscus albofasciatus</i>）里混了一只革鲀，一只疑似雀鲷，一只螳螂虾
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/14.jpg'>
 
 短盖巨脂鲤（<i>Colossoma brachypomus</i>）和四大家鱼之草鳙
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/15.jpg'>
 
 背点棘赤刀鱼（<i>Acanthocepola limbata</i>）
 
 除了在资料里就没看到它的真实面貌了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/16.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/18.jpg'>
 
 尖头斜齿鲨（<i>Scoliodon sorrakowah</i>）和沙拉真鲨（<i>Carcharhinus sorrah</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/17.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/17.jpg'>
 
 从上到下：
 
@@ -139,24 +139,24 @@ category: '｢发现｣ 鱼市考察'
 
 龙头鱼（<i>Harpadon nehereus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/19.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/19.jpg'>
 
 马鲅，鳓鱼（<i>Ilisha elongata</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/21.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/21.jpg'>
 
 黑鳃兔头鲀（<i>Lagocephalus laevigatus</i>），旁边有两只鹿斑鲾（<i>Secutor ruconius</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/24.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/24.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/20.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/20.jpg'>
 
 某种长臂虾（Palaemonidae）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/22.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/22.jpg'>
 
 随拍
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-04/disf1/23.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-04/disf1/23.jpg'>
 
 （完）

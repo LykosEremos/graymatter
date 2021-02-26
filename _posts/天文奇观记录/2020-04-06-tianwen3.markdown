@@ -13,6 +13,6 @@ category: '天文奇观记录'
 这天下午，我偶然发现厦门地区的网友纷纷在论坛、微博上谈论他们发现的彩云奇观，一些网络媒体的跟踪报道也实时记叙了此事。
 由于相机近在手旁，我在家中阳台上发现了这朵彩云并记录了如下几张奇幻的图片：
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen3/DSC_1594.jpg'>
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen3/DSC_1597.jpg'>
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen3/DSC_1600.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen3/DSC_1594.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen3/DSC_1597.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen3/DSC_1600.jpg'>

@@ -12,148 +12,148 @@ multipage: true
 
 正值感恩节假期，和几个同学一起约着去华盛顿哥伦比亚特区市中心参观间谍博物馆以及国会图书馆
 
-封面：<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/fm.png'>
+封面：<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/fm.png'>
 
 早上天气还不错
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/29.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/29.jpg'>
 
 准备从华盛顿特区西北部的红线终点站 Shady Groove 站，乘地铁到市中心，史密森尼站
 
 地铁上
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/1.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/1.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/2.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/2.jpg'>
 
 到了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/30.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/30.jpg'>
 
 市中心国家广场（National Mall），因冬季将至，显得有点萧条
 
 维护中的方尖碑
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/32.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/32.jpg'>
 
 远观史密森尼自然史博物馆
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/31.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/31.jpg'>
 老邮政局
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/33.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/33.jpg'>
 
 目的地间谍博物馆
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/34.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/34.jpg'>
 
 开始参观
 
 希腊11月17日革命组织（17N）的暗杀活动，这是个反资本主义的左派极端组织，在2002年已经解体
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/35.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/35.jpg'>
 
 保护 CIA 情报工作人员人身安全的法律，禁止知情者揭露其身份
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/36.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/36.jpg'>
 
 伪装成邮箱的苏联通讯情报信箱
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/37.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/37.jpg'>
 
 锁具与开锁器
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/38.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/38.jpg'>
 
 特种照相机
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/39.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/39.jpg'>
 
 易容
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/49.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/49.jpg'>
 
 用来秘密联络的特种墨水
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/41.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/41.jpg'>
 
 电台
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/42.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/42.jpg'>
 
 用于微点照相和显示的器材
 所谓微点就是指将文件缩印成极小的墨点状斑点，使所传递情报难以被发现。有可能一篇文章中的句号就是暗藏信息的微点。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/43.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/43.jpg'>
 
 微点制作流程
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/51.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/51.jpg'>
 
 越战时越共挖的地道示意图
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/40.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/40.jpg'>
 
 特工的一些随身小工具
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/4.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/4.jpg'>
 
 炸弹，汽车油箱塞，刀等破坏性的武器
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/5.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/5.jpg'>
 
 不同触发机制的引信
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/6.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/6.jpg'>
 
 特种枪支，打火机枪，手套枪，电筒枪等
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/8.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/8.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/9.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/9.jpg'>
 
 用于特种任务的车辆装备
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/7.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/7.jpg'>
 
 各种伪装的窃听器
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/10.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/10.jpg'>
 大使馆的秘密情报收集设备
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/12.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/12.jpg'>
 
 关于二战期间英国的 SOE 特工的介绍
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/13.jpg'>
 
 二战期间，法国全民皆兵的马奇斯游击队
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/14.jpg'>
 
 盖革计数器，大老远都可以听到它的声音
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/15.jpg'>
 
 中午就近和同学在唐人街吃了顿饭
 
 唐人街的牌坊
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/46.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/46.jpg'>
 
 下午仍然是在哥伦比亚特区市中心逛
 
 到了建筑博物馆
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/47.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/47.jpg'>
 
 壮观的内部的
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/16.jpg'>
 
-科林斯柱<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/17.jpg'>
+科林斯柱<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/17.jpg'>
 
 这个博物馆没有细看，直接去国会图书馆了
 国会外部
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx12/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx12/18.jpg'>

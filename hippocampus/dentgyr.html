@@ -4,18 +4,28 @@ landing: dentgyr
 title: 齿状回
 permalink: /dentgyr/
 ---
-<div class="page-meta small-top-margin large-bottom-margin">共 {{ site.folders.size }} 个类别，{{ site.posts.size }} 篇文章
+
+{% assign folders = site.pages | where_exp: "item" , "item.dir contains 'folder'" %}
+{% assign count = 0 %}
+{%- for folder in folders -%}
+{%- if folder.autogen == nil -%}
+{% assign count = count | plus: 1 %}
+{%- endif -%}
+{%- endfor -%}
+<div class="page-meta small-top-margin large-bottom-margin">共 {{ count }} 个类别，{{ site.posts.size }} 篇文章
 </div>
 
 <div class='nav-box'>
-  {% assign first = false %}
-{% for folder in site.folders %}
+{% assign first = false %}
+{%- for folder in folders -%}
+{%- if folder.autogen == nil -%}
 {%- for category in site.categories -%}
-  {%- if category[0] == folder.cat -%}
-  {%- assign categ = category -%}
-{%- endif -%}
+  {%- if category[0] == folder.folder_name -%}
+    {%- assign categ = category -%}
+  {%- endif -%}
 {%- endfor -%}
 <div class="preview-box">
+  <div class="gradient"></div>
   {%- assign index = 1 -%}
   {%- for post in categ[1] -%}
   {%- if index <= 3 -%}
@@ -34,11 +44,10 @@ permalink: /dentgyr/
   {%- endif -%}
   {% endfor %}
   <div class='post-info'>
-  <a class='medium-font post-title' href="{{ site.baseurl }}{{ folder.url }}">{{ folder.cat }}</a>
-  <div class='post-meta-button'>共 <span class='medium-font post-count'> {{ categ[1].size }} </span>  篇文章
+  <a class='medium-font post-title' href="{{ site.baseurl }}{{ folder.url }}">{{ folder.folder_name }}</a>
+  <span class='post-detail'>共 {{ categ[1].size }} 篇文章</span>
   </div>
   </div>
-
-  </div>
+{% endif %}
 {% endfor %}
 </div>

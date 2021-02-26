@@ -5,6 +5,7 @@ date:   2020-01-23
 category: 时事
 modified: 2020-04-03
 ---
+
 <h1 class="hd">疫情监控与个人防护</h1>
 <style>
 ul.bulletin li {
@@ -12,10 +13,6 @@ ul.bulletin li {
 }
 ul.ls li {
 	padding: 0em 0em 0em 0em;
-}
-p.transl{
-margin-top:0.5em;
-text-indent: initial;
 }
 </style>
 
@@ -54,23 +51,23 @@ text-indent: initial;
 冠状病毒得名于其棘突（spike）状的包膜粒（peplomer）在电子显微镜下呈现出的冕状结构．这个结构由病毒基因组中的 S 基因编码，因此又称 S 蛋白或 spike 蛋白．
 
 
-<img src='https://www.cdc.gov/coronavirus/mers/images/nCoV-1.jpg' width='50%'/>
+<img data-src='https://www.cdc.gov/coronavirus/mers/images/nCoV-1.jpg' width='50%'/>
 <div class='fig'>中东呼吸综合征冠状病毒（MERS-CoV）的透射电镜（TEM）照片，引自<a href='https://www.cdc.gov/coronavirus/mers/images/nCoV-1.jpg'>美国 CDC</a>．SARS-CoV-2 的结构与此类似．病毒体（球形）表面的棒状突起即是 S 蛋白．</div>
 <div class='imgcontainer'>
-<img src='https://lykoseremos.github.io/gmalb-04/default01/hgt-genome-eff2-a6a160.png' style='max-height:199px;max-width:1361px;'/>
+<img data-src='https://lykoseremos.github.io/gmalb-04/default01/hgt-genome-eff2-a6a160.png' style='max-height:199px;max-width:1361px;'/>
 </div>
 <div class='fig'>UCSC 基因组浏览器上的 SARS-CoV-2 全基因组标注，蓝色框表示从基因组表达的产物．点<a href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=wuhCor1&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=NC_045512v2%3A1%2D29903&hgsid=819614191_O8x78u6SdwLZdFfAeaUEr8LY9m27'>这里</a>使用可交互的浏览器．</div>
 
 S 蛋白会识别并结合寄主细胞表面的标志（或称 “受体”）并触发病毒进入寄主细胞的过程．基于病毒学上的相似性，我们推测 SARS-CoV-2 的入侵过程类似于 SARS-CoV，如下所示：
 
-<img src='https://journals.plos.org/plospathogens/article/file?id=10.1371/journal.ppat.1007236.g006&type=medium' width='90%'/>
+<img data-src='https://journals.plos.org/plospathogens/article/file?id=10.1371/journal.ppat.1007236.g006&type=medium' width='90%'/>
 
 <div class='fig'>SARS-CoV 侵入细胞的过程示意图，引自 <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107290/'>Song (2018)</a>．图中，S 蛋白有两个亚基：花状的 S1 分为 CTD1，NTD，CTD2，CTD3 三个结构域，负责结合细胞表面的受体 ACE2（绿色西兰花状图形），而杆状的 S2 是一个三聚体（蓝绿色柱状物）．</div>
 冠状病毒的 S 蛋白往往需要蛋白酶加工，才会发挥它完整的功能．在融合前的某个时间点，S 蛋白中的两个位点，S1/S2 界面和 S2'，会被寄主细胞表面的或是细胞外的蛋白酶切割．在切割后，S1 脱落，S2 端部的融合肽（fusion peptide，图中的红色部位）暴露出来，插入寄主的细胞膜．S2 通过重新折叠，将病毒的被膜与寄主细胞膜带到一起，完成融合的过程．流感病毒或 HIV 也会利用类似的机制来进入细胞．
 
 血管紧张素 II 转化酶（ACE2）是与 SARS-CoV 结合的受体，血管紧张素I转化酶（ACE）的类似物．在正常生理功能中，ACE 和 ACE2 都是名为肾素-血管紧张素系统（RAS）的激素系统中的组成部分：ACE 会将血管紧张素 I（Ang I）转化为生理活性很强的血管紧张素 II（Ang II），而ACE2会将 Ang I 和 Ang II 分别转换为生理活性较弱的 Ang-(1-9) 和 Ang-(1-7)，起到制衡 ACE 的作用．在小鼠模型中，SARS-CoV 感染会下调 ACE2 的表达（<a href='https://jvi.asm.org/content/84/2/1198.long'>Glowacka, 2010</a>），而随之而来Ang II水平失调导致的水钠潴留和血管通透性变化可能会在病毒感染的症状之上加重肺部损伤．
 
-<img src='https://ars.els-cdn.com/content/image/1-s2.0-S1740677313000193-gr1.jpg' style='width: 80%;'/>
+<img data-src='https://ars.els-cdn.com/content/image/1-s2.0-S1740677313000193-gr1.jpg' style='width: 80%;'/>
 
 <div class='fig'>肾素-血管紧张素系统（RAS）与部分下游信号通路概图，引自 <a href='https://www.sciencedirect.com/science/article/pii/S1740677313000193'>Patel (2012)</a></div>
 下面的研究调查了 SARS-CoV-2 通过 ACE2 进入细胞的机制.

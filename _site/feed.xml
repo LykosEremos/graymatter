@@ -1,0 +1,2524 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/graymatter/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/graymatter/" rel="alternate" type="text/html" /><updated>2021-02-26T09:59:40-05:00</updated><id>http://localhost:4000/graymatter/feed.xml</id><title type="html">灰质</title><subtitle>个人博客</subtitle><entry><title type="html">SARS-Cov-2 科学信息汇总</title><link href="http://localhost:4000/graymatter/2020/01/23/ncov" rel="alternate" type="text/html" title="SARS-Cov-2 科学信息汇总" /><published>2020-01-23T00:00:00-05:00</published><updated>2020-01-23T00:00:00-05:00</updated><id>http://localhost:4000/graymatter/2020/01/23/ncov</id><content type="html" xml:base="http://localhost:4000/graymatter/2020/01/23/ncov">&lt;h1 class=&quot;hd&quot;&gt;疫情监控与个人防护&lt;/h1&gt;
+&lt;style&gt;
+ul.bulletin li {
+	padding: 0.7em 0.5em 0.7em 0.5em;
+}
+ul.ls li {
+	padding: 0em 0em 0em 0em;
+}
+&lt;/style&gt;
+
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://3g.dxy.cn/newh5/view/pneumonia&quot;&gt;丁香园全国新型肺炎疫情实时动态&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://coronavirus.1point3acres.com/zh/data&quot;&gt;一亩三分地新冠病毒肺炎疫情实时动态&lt;/a&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/&quot;&gt;中国疾控中心的 SARS-CoV-2 信息主页&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot;&gt;世卫组织（WHO）的 SARS-CoV-2 信息主页&lt;/a&gt;
+&lt;/li&gt;
+
+&lt;li&gt;约翰斯霍普金斯大学系统科学和工程中心（JHU CSSE）制作的疫情&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?utm_source=dlvr.it&amp;amp;utm_medium=twitter#/bda7594740fd40299423467b48e9ecf6&quot;&gt;GIS可视化&lt;/a&gt;．
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/index.html&quot;&gt;美国疾控中心（CDC）的 SARS-CoV-2 信息主页&lt;/a&gt;．&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;病毒检测与监控&lt;/h1&gt;
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;Corman et al．(1-13): &lt;a href=&quot;https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf&quot;&gt;Diagnostic detection of Wuhan coronavirus 2019 by real-time RT-PCR&lt;/a&gt;，从呼吸道样本中检测 SARS-CoV-2 RdRP、E、N 基因 RNA 序列的 RT-qPCR 检测方案．&lt;/li&gt;
+
+&lt;li&gt;Zhang et al．(2-4): &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/22221751.2020.1729071&quot;&gt;Molecular and serological investigation of 2019-nCoV infected patients: implication of multiple shedding routes&lt;/a&gt;．利用近似的蝙蝠类 SARS 病毒 Rp3 的核壳蛋白（NP），对抗 SARS-CoV-2 的血清 IgM 和 IgG 进行 ELISA 检测，并对口腔拭子与肛拭子进行 RT-PCR．在血清、肛拭子、口腔拭子皆发现阳性结果，指出病毒在呼吸道途径以外可能通过粪口或体液途径传播．需要注意，阳性 PCR 结果并不意味着病毒 RNA 仍具备传染性．&lt;/li&gt;
+
+&lt;li&gt;Wu (3-19)．&lt;a href=&quot;https://www.thelancet.com/journals/langas/article/PIIS2468-1253(20)30083-2/fulltext&quot;&gt;Prolonged presence of SARS-CoV-2 viral RNA in faecal samples&lt;/a&gt;．粪便样本的 PCR 阳性结果持续时间长于口腔拭子的 PCR 阳性持续时间，且有口腔阴性、粪便阳性的例子．&lt;/li&gt;
+
+&lt;li&gt;To et al．(3-23): &lt;a href=&quot;https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30196-1/fulltext&quot;&gt;Temporal profiles of viral load in posterior oropharyngeal saliva samples and serum antibody responses during infection by SARS-CoV-2: an observational cohort study&lt;/a&gt;．发病后，后口咽部唾液与气管内抽吸液的病毒载量（RT-PCR）在一周内达到峰值，在一周后随时间降低，但发病 20 天后仍可检测到．&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;致病机理研究&lt;/h1&gt;
+&lt;p&gt;冠状病毒得名于其棘突（spike）状的包膜粒（peplomer）在电子显微镜下呈现出的冕状结构．这个结构由病毒基因组中的 S 基因编码，因此又称 S 蛋白或 spike 蛋白．&lt;/p&gt;
+
+&lt;p&gt;&lt;img data-src=&quot;https://www.cdc.gov/coronavirus/mers/images/nCoV-1.jpg&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;fig&quot;&gt;中东呼吸综合征冠状病毒（MERS-CoV）的透射电镜（TEM）照片，引自&lt;a href=&quot;https://www.cdc.gov/coronavirus/mers/images/nCoV-1.jpg&quot;&gt;美国 CDC&lt;/a&gt;．SARS-CoV-2 的结构与此类似．病毒体（球形）表面的棒状突起即是 S 蛋白．&lt;/div&gt;
+&lt;div class=&quot;imgcontainer&quot;&gt;
+&lt;img data-src=&quot;https://lykoseremos.github.io/gmalb-04/default01/hgt-genome-eff2-a6a160.png&quot; style=&quot;max-height:199px;max-width:1361px;&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;fig&quot;&gt;UCSC 基因组浏览器上的 SARS-CoV-2 全基因组标注，蓝色框表示从基因组表达的产物．点&lt;a href=&quot;https://genome.ucsc.edu/cgi-bin/hgTracks?db=wuhCor1&amp;amp;lastVirtModeType=default&amp;amp;lastVirtModeExtraState=&amp;amp;virtModeType=default&amp;amp;virtMode=0&amp;amp;nonVirtPosition=&amp;amp;position=NC_045512v2%3A1%2D29903&amp;amp;hgsid=819614191_O8x78u6SdwLZdFfAeaUEr8LY9m27&quot;&gt;这里&lt;/a&gt;使用可交互的浏览器．&lt;/div&gt;
+
+&lt;p&gt;S 蛋白会识别并结合寄主细胞表面的标志（或称 “受体”）并触发病毒进入寄主细胞的过程．基于病毒学上的相似性，我们推测 SARS-CoV-2 的入侵过程类似于 SARS-CoV，如下所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img data-src=&quot;https://journals.plos.org/plospathogens/article/file?id=10.1371/journal.ppat.1007236.g006&amp;amp;type=medium&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;fig&quot;&gt;SARS-CoV 侵入细胞的过程示意图，引自 &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107290/&quot;&gt;Song (2018)&lt;/a&gt;．图中，S 蛋白有两个亚基：花状的 S1 分为 CTD1，NTD，CTD2，CTD3 三个结构域，负责结合细胞表面的受体 ACE2（绿色西兰花状图形），而杆状的 S2 是一个三聚体（蓝绿色柱状物）．&lt;/div&gt;
+&lt;p&gt;冠状病毒的 S 蛋白往往需要蛋白酶加工，才会发挥它完整的功能．在融合前的某个时间点，S 蛋白中的两个位点，S1/S2 界面和 S2'，会被寄主细胞表面的或是细胞外的蛋白酶切割．在切割后，S1 脱落，S2 端部的融合肽（fusion peptide，图中的红色部位）暴露出来，插入寄主的细胞膜．S2 通过重新折叠，将病毒的被膜与寄主细胞膜带到一起，完成融合的过程．流感病毒或 HIV 也会利用类似的机制来进入细胞．&lt;/p&gt;
+
+&lt;p&gt;血管紧张素 II 转化酶（ACE2）是与 SARS-CoV 结合的受体，血管紧张素I转化酶（ACE）的类似物．在正常生理功能中，ACE 和 ACE2 都是名为肾素-血管紧张素系统（RAS）的激素系统中的组成部分：ACE 会将血管紧张素 I（Ang I）转化为生理活性很强的血管紧张素 II（Ang II），而ACE2会将 Ang I 和 Ang II 分别转换为生理活性较弱的 Ang-(1-9) 和 Ang-(1-7)，起到制衡 ACE 的作用．在小鼠模型中，SARS-CoV 感染会下调 ACE2 的表达（&lt;a href=&quot;https://jvi.asm.org/content/84/2/1198.long&quot;&gt;Glowacka, 2010&lt;/a&gt;），而随之而来Ang II水平失调导致的水钠潴留和血管通透性变化可能会在病毒感染的症状之上加重肺部损伤．&lt;/p&gt;
+
+&lt;p&gt;&lt;img data-src=&quot;https://ars.els-cdn.com/content/image/1-s2.0-S1740677313000193-gr1.jpg&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;fig&quot;&gt;肾素-血管紧张素系统（RAS）与部分下游信号通路概图，引自 &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1740677313000193&quot;&gt;Patel (2012)&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;下面的研究调查了 SARS-CoV-2 通过 ACE2 进入细胞的机制.&lt;/p&gt;
+
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;Dong et al．(1-20): &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.20.913368v1.full.pdf&quot;&gt;Genomic and protein structure modelling analysis depicts the origin and infectivity of 2019-nCoV, a new coronavirus which caused a pneumonia outbreak in Wuhan, China&lt;/a&gt;，结构预测 SARS-CoV-2 的 Spike 蛋白对 ACE2 的亲合性．SARS-CoV-2 的 Spike 蛋白和 ACE2 的结合能力弱于 SARS-CoV、强于不具备人类感染性的蝙蝠 SARSr-CoV．
+&lt;/li&gt;
+
+&lt;li&gt;Letko &amp;amp; Munster (1-22): &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.22.915660v1.full.pdf&quot;&gt;Functional assessment of cell entry and receptor usage for lineage B β-coronaviruses, including 2019-nCoV&lt;/a&gt;．表达嵌合体 Spike 蛋白的假病毒颗粒可利用 ACE2 进入细胞，并不会利用 DPP4（MERS 病毒的受体）或 AP-N（导致普通感冒的冠状病毒 229E 的受体）．
+&lt;/li&gt;
+
+&lt;li&gt;Zhou et al．(1-23): &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf&quot;&gt;Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin&lt;/a&gt;．在表达不同物种 ACE2 的 HeLa 细胞中，对 NP-Cy3 进行免疫荧光定位分析，发现 SARS-CoV-2 的核壳蛋白（NP） 利用人、猪、菊头蝠、果子狸的 ACE2 进入细胞，但不可以利用小鼠 ACE2．这也就是说野生型小鼠不能作为研究 SARS-CoV-2 侵入的系统，而需要花时间培育表达 hACE2 的转基因小鼠．
+&lt;/li&gt;
+
+&lt;li&gt;Zhao et al．(1-26): &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.26.919985v1.full.pdf&quot;&gt;Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov&lt;/a&gt;，作者用八位肺部捐赠者的（五位非裔美国人，两位白人，一位亚洲人）单细胞 RNA-seq 数据试图说明亚洲人中 ACE2 表达的上调是感染 SARS-CoV-2 的风险因子．但样本仅含一个亚洲人，结论的说服力有限．
+&lt;/li&gt;
+
+&lt;li&gt;Chen &amp;amp; Du (1-28): &lt;a href=&quot;https://www.preprints.org/manuscript/202001.0358/v1/download&quot;&gt;Potential Natural Compounds for Preventing 2019-nCoV Infection&lt;/a&gt;． 通过分子模拟对接研究黄芩苷、灯盏花乙素、橙皮素、烟草胺、甘草酸等中草药中常见的植物化学物质与 ACE2 的结合能力．这些分子被筛入研究的标准是因为有现成证据指出它们的抗病毒性，或是可作为 ACE 或 ACE2 的抑制剂．SARS-CoV-Spike 和 ACE2 结合的地方并不是 ACE2 活性位点，且比这些植物化学物质亲和力、结合特异性更强的人造 ACE2 抑制剂不能抑制 SARS-CoV 进入细胞，因此有理由怀疑 “ACE2抑制剂” 是否也能抑制 SARS-CoV-2 进入细胞 (&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1142572/&quot;&gt;Li et al．2004&lt;/a&gt;)．
+&lt;/li&gt;
+
+&lt;li&gt;Hoffmann et al．(预印版于 1-31 发表在 BioRxiv, 于 3-5 发表于 Cell): &lt;a href=&quot;https://www.cell.com/cell/fulltext/S0092-8674(20)30229-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420302294%3Fshowall%3Dtrue&quot;&gt;SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor&lt;/a&gt;．使用表达 SARS-CoV-2 S 蛋白 的 VSV 假病毒对一组不同来源的细胞系进行侵入实验．表达 SARS-CoV-2-S 的假病毒与 SARS-S 假病毒侵入的细胞类型类似． SARS-CoV-2-S 的假病毒只侵入瞬时表达人或蝙蝠 ACE2 的细胞，而不侵入表达 DPP4 或 AP-N 的细胞，其侵入性可被抗 ACE2 抗体阻断，也可随 ACE2 的过表达提升．假病毒表面的 S 蛋白需要受细胞表面的丝氨酸蛋白酶 TMPRSS2 或组织蛋白酶 B/L（Cathepsin B/L）预处理之后才能激活其功能，但 TMPRSS2 是必要的：在低 CatB/L 水平的细胞中表达 TMPRSS2 可恢复侵入到正常水平，同时 TMPRSS2 抑制剂 Camostat 可剂量依赖性地抑制侵入．因此 TMPRSS2 是必须的．恢复期患者血清也可以阻断病毒侵入，为恢复期血清疗法提供证据支持．
+&lt;/li&gt;
+
+&lt;li&gt;Coutard et al．(2-10):&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0166354220300528?via%3Dihub&quot;&gt;The spike glycoprotein of the new coronavirus 2019-nCoV contains a furin-like cleavage site absent in CoV of the same clade&lt;/a&gt; SARS-CoV-2 的 S 蛋白含 furin 蛋白酶切点（RRAR）．包括 SARS-CoV 在内的其他 $\beta$ 冠状病毒都不含这个切点，但 MERS-CoV，OC43，HKU1的 S 蛋白有这个切点．或许 furin 也有参与到切割激活 S 蛋白的过程中．&lt;/li&gt;
+
+&lt;li&gt;Wrapp et al．(2-19) : &lt;a href=&quot;https://science-sciencemag-org.proxy.library.upenn.edu/content/367/6483/1260.long&quot;&gt; Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation&lt;/a&gt;．利用近年很火的冷冻电镜研究 S 蛋白和 ACE2 结合后的构象．&lt;/li&gt;
+
+&lt;li&gt;Wan et al．(3-17): &lt;a href=&quot;http://jvi.asm.org/cgi/pmidlookup?view=long&amp;amp;pmid=31996437&quot;&gt;Receptor Recognition by the Novel Coronavirus from Wuhan: an Analysis Based on Decade-Long Structural Studies of SARS Coronavirus&lt;/a&gt;．通过结构模型指出小/大鼠的 ACE2 不能被 S 蛋白 RBD 识别可能是因为 353 是个 His，而在人，果子狸，蝙蝠，猪等动物中是位阻小的 Lys．&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;病例和临床数据&lt;/h1&gt;
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;Huang et al．(1-24): &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext&quot;&gt;Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China&lt;/a&gt;，截至一月二日入院治疗的 $n=41$ 位武汉患者的临床特征．要点：（1）病毒并非只对高龄、有潜在疾病的人群造成威胁（近一半患者年龄在 25-49之间，仅 32% 的患者有潜在疾病），但患者入住 ICU 的比例与年龄正相关；（2）发热、咳嗽、肌肉酸痛为发作初期最常见的症状，从出现症状到急性呼吸窘迫综合征（ARDS&lt;sup class=&quot;note-tag&quot;&gt;&lt;a href=&quot;#注&quot; name=&quot;ards&quot;&gt;注&lt;/a&gt;&lt;/sup&gt;）的发展有 8-14 天．
+
+&lt;div class=&quot;notes&quot;&gt;
+&lt;a name=&quot;注&quot; href=&quot;#ards&quot;&gt;注&lt;/a&gt;：
+根据柏林定义，ARDS 有四个组分：
+&lt;ul class=&quot;ls&quot;&gt;
+&lt;li&gt;病发时间：已知临床病因后1周之内急性起病，或呼吸症状加重；&lt;/li&gt;
+&lt;li&gt;胸部影像：双侧阴影且不能完全用胸腔积液解释、肺叶/肺萎陷或结节；&lt;/li&gt;
+&lt;li&gt;肺水肿：不能通过心衰或液体负荷过多解释的呼吸衰竭；若无危险因子，需客观评估（如超声检查）排除静水压水肿；&lt;/li&gt;
+&lt;li&gt;按低血氧症（成人）的程度可分三个等级：
+&lt;ul&gt;
+&lt;li&gt;轻度 ARDS: PEEP/CPAP ≥5 cmH2O 或未通气时，200 mmHg &amp;lt; 氧合指数（PaO2/FiO2） ≤ 300 mmHg&lt;/li&gt;
+&lt;li&gt;中度 ARDS: PEEP/CPAP ≥5 cmH2O 或未通气时，100 mmHg &amp;lt; PaO2/FiO2 ≤200 mmHg&lt;/li&gt;
+&lt;li&gt;重度 ARDS: PEEP/CPAP ≥5 cmH2O 或未通气时，PaO2/FiO2 ≤ 100 mmHg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;/li&gt;
+
+&lt;li&gt;Chan et al．(1-24)：&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext&quot;&gt;A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster&lt;/a&gt;，从一个深圳家庭的案例（$n=6$）中看 SARS-CoV-2 的人际传播能力．家庭内的人际传播的防范应得到重视，存在无症状的感染者，为诊断与防疫工作带来额外的难度．
+&lt;/li&gt;
+
+&lt;li&gt;Chen et al．(1-29): &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext&quot;&gt;Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study&lt;/a&gt;，一月 1 日到 20 日之间入院治疗的 $n=99$ 位武汉患者的临床特征．99位患者有一半（49%）与华南海鲜市场有长期接触历史．ICU 入住率 23%，截止25日，57 位患者留院，31 位患者出院，11 位患者死亡，17 位发展ARDS．
+&lt;/li&gt;
+
+&lt;li&gt;Wang et al．(2-7)．&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761044&quot;&gt;Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China&lt;/a&gt;．在 $n=138$ 名武汉 COVID-19 病例（中位数 56 岁，IQR 42-68 岁，54.3%男性）中，从最早的症状到呼吸困难的中位数时间是 5 天，到住院 7天，到发展 ARDS 8 天．报告了 4.3% 的病死率&lt;/li&gt;
+
+&lt;li&gt;Chen et al．(2-12): &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30360-3/fulltext&quot;&gt;Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records&lt;/a&gt;．武大中南医院的 $n=9$ 名患有 COVID-19 的孕妇的临床特征．对羊水，脐带血，新生儿口腔拭子的检测并无发现SARS-CoV-2 宫内垂直传播的证据，孕妇的临床特征也与非孕妇女患者的类似．&lt;/li&gt;
+
+&lt;li&gt;中国疾病预防控制中心 (2-17)．&lt;a href=&quot;http://html.rhhz.net/zhlxbx/004.htm&quot;&gt;新型冠状病毒肺炎流行病学特征分析&lt;/a&gt;．分析了截至 2-11 的中国大陆共 72 314 例病例．其中 44 672 (62%) 例为核酸确诊，889 (1%) 例为无症状确诊．在确诊病患中，81% 的确诊患者体现为轻症，14%重症，5% 危重症．总病死率 2.3%，70-79岁病例病死率 8.0%，$\geq$ 80岁病例病死率14.8%，危重病死率 49%．重症比例在武汉为17.7%，湖北10.4%，全国除去湖北外为7.0%．医务人员确诊病例中，武汉有1 080例（64.0%），湖北除武汉外 394 例（23.3%），全国其他30个省（区/市）除湖北 214 例（12.7%）．&lt;/li&gt;
+
+&lt;li&gt;Yang (2-24): Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study． 分析了截至 1-26 住金银潭医院的 710 患者中 $n=52$ 位（平均年龄 59.7 岁，SD 13.3，67%男性）危重症患者的病情历程．52 位患者中，有 32 (61.5%) 位死亡（平均年龄64.6，SD 11.2，66%男性）．相较于生存者，有更多的死亡者接受了以下治疗：皮质激素（48% vs 23%），免疫球蛋白静脉注射 (67% vs 7%)，高流量鼻导管氧疗（61% vs 6%），侵入式机械通气（57% vs 1%）．从症状开始到出院的中位数时间是 22 天（IQR 18-25），到死亡的中位数时间是 18.5 天 (IQR 15-22) ．高龄，高 SOFA分数，D二聚体 &amp;gt;1 μg/mL 都增加了死亡的风险．&lt;/li&gt;
+
+&lt;li&gt;Shi et al．(2-24): &lt;a href=&quot;https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30086-4/fulltext&quot;&gt;Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study&lt;/a&gt;．分析了 $n=81$ 位 12-20 - 1-23 之间住院的武汉患者（中位数 49.5 岁，范围 25-81 岁，52% 男性）的 CT 影像．主要的影响特征为：出现症状前主要体现为单侧（60%）磨玻璃影（93%）；出现症状一周内扩散为双侧（90%）但仍以磨玻璃影为主（81%）；出现症状后 1 到 2 周之间，磨玻璃患者比例下降（57%）而实变患者比例上升（30%）；出现症状 2 周后以混合影为主．&lt;/li&gt;
+
+&lt;li&gt;Guan (2-28): &lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMoa2002032&quot;&gt;Clinical Characteristics of Coronavirus Disease 2019 in China&lt;/a&gt;．综合分析了全国 $n=1099$ 位确诊病例（中位数 47 岁，IQR 35-58）的临床特征．在所有病例中，43.9% 是武汉居民，72.3% 接触过武汉居民（其中 31.3% 到过武汉），25.9% 没有接触过武汉居民．CT 造影上，56.4% 有磨玻璃影，41.9% 双侧斑片状影，37.2% 局部斑驳影；化验结果中，61.60.7% C反应蛋白 &amp;gt; 10 mg/L, 41.0% LDH $\geq$ 250 U/L；在治疗方面，58.0% 接受静脉注射抗生素，41.3 接受氧疗，35.8% 接受奥司他韦．&lt;/li&gt;
+
+&lt;li&gt;Zhou (3-11): &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext&quot;&gt;Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study&lt;/a&gt;．武汉市肺科医院和金银潭医院的 $n=191$ 成年患者的临床特征，其中 137 (71.7%) 例出院，54 (28.3%) 例死亡．病毒脱落期中位数 20.0 天 (IQR 17.0-24.0).高龄，高 SOFA分数，D二聚体 &amp;gt;1 μg/mL 都增加了死亡的风险&lt;/li&gt;
+
+&lt;li&gt;Young et al．(3-19): &lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2762688&quot;&gt;Epidemiologic Features and Clinical Course of Patients Infected With SARS-CoV-2 in Singapore&lt;/a&gt;．新加坡 1-23rd - 2-3 之间首 $n=18$ 例 COVID-19 患者（中位数 47 岁，50% 男性）的临床特征．患者都曾到访武汉．其中 12（67%）例没有加重，6例（33%）需要输氧．6 名输氧患者中，5 名接受洛匹那韦利托那韦治疗，其中 3 名退烧并降低输氧需求，2 例恶化为进行性呼吸困难．&lt;/li&gt;
+
+&lt;li&gt;Xu et al．(3-19): &lt;a href=&quot;https://www.bmj.com/content/368/bmj.m606.long&quot;&gt;Clinical findings in a group of patients infected with the 2019 novel coronavirus (SARS-Cov-2) outside of Wuhan, China: retrospective case series&lt;/a&gt;．1-10 - 1-26 于浙江七所医院住院的 $n=62$名患者（中位数 41 岁）的临床信息．81%表现为咳嗽，77%发热，56%咳痰，34%头痛，52% 肌痛或疲劳，8% 腹泻．仅 3% 在入院时呼吸困难．接触到出现症状中位数时间 4 天（IQR: 3-5），从出现症状到住院中位数 2 天（IQR 1-4）&lt;/li&gt;
+
+&lt;li&gt;Onder et al．(3-23): &lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2763667&quot;&gt;Case-Fatality Rate and Characteristics of Patients Dying in Relation to COVID-19 in Italy&lt;/a&gt;．意大利截止 3-3 共 $n=1625$ 例死亡病例的病死率分析．其中 52.3% 例 $\geq 80$ 岁，35.6% 在 70-79 岁之间，8.6% 在 60-69 岁之间．总病死率是 7.2%，可能与意大利 23% $\geq$65 岁的人口结构有关．&lt;/li&gt;
+
+&lt;li&gt;Pung et al．(3-28): &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30528-6/fulltext&quot;&gt;Investigation of three clusters of COVID-19 in Singapore: implications for surveillance and response measures.&lt;/a&gt;新加坡三个 COVID-19 集群的 $n=36$ 例病例的临床特征．仅12% 在过去 14 天内到过中国．从出现症状到住院中位数 4 天（IQR 3-9）．大部分病例的症状在几天内解决，1 位需要输氧，2 位发展 ARDS，4 位接受洛匹那韦利托那韦治疗．&lt;/li&gt;
+
+&lt;li&gt;Luo et al．(3-30): &lt;a href=&quot;https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2763473&quot;&gt;Possible Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) in a Public Bath Center in Huai’an, Jiangsu Province, China&lt;/a&gt;．江苏的一例集群传播个案分析．共 $n=9$ 例 1-25 - 2-10 入院于淮安第四人民医院，患者（中位数 35，IQR 24-50）皆到访过同一所公共澡堂．第一位患者于 1-18 到访过澡堂并于 1-19 出现发热症状，于 1-25 确诊为 COVID-19．所有的患者 CT 造影都有磨玻璃影，并有 C 反应蛋白升高 （均值 3.34 mg/dL，SD 3.18）．&lt;/li&gt;
+
+&lt;li&gt;Spellberg et al．(3-31): &lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2764137&quot;&gt;Community Prevalence of SARS-CoV-2 Among Patients With Influenzalike Illnesses Presenting to a Los Angeles Medical Center in March 2020&lt;/a&gt;．美国洛杉矶医疗中心对 SARS-CoV-2 的检测性测试结构．在进行的 131 例测试中，有 7 例阳性（5.3%），其中 6 例表现为发热，5 例肌痛，1 例咳嗽．1 例有去佛罗里达迈阿密的旅行史.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;杂项：&lt;/p&gt;
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;http://med.china.com.cn/content/pid/157096/tid/1021&quot;&gt;国家卫生健康委公布17例新型肺炎死亡病例病情&lt;/a&gt;，有详细的患者病史、健康状况和治疗过程的信息.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;基因组/信息学&lt;/h1&gt;
+&lt;p&gt;关于病毒的寄主：&lt;/p&gt;
+
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;Ji et al．(1-22): &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/epdf/10.1002/jmv.25682&quot;&gt;Homologous recombination within the spike glycoprotein of the newly identified coronavirus 2019-nCoV may boostcross-species transmission from snake to human&lt;/a&gt;，假设病毒和寄主的相对同义密码子使用度（RSCU&lt;sup class=&quot;note-tag&quot;&gt;&lt;a href=&quot;#注&quot; name=&quot;rscu&quot;&gt;注&lt;/a&gt;&lt;/sup&gt;）类似，通过计算每个密码子的 RSCU 作为特征进行聚类分析，指出蛇是 SARS-CoV-2 的可能寄主．这篇文章的研究方法在两个层面上是有缺陷或是错的：
+&lt;ol&gt;
+&lt;li&gt;从演化生物学的角度来说，如果要假设病毒和寄主的 RSCU 是匹配的，则必须举出充分证据证明（1a）SARS-CoV-2 和蛇 RSCU 匹配的原因并不是漂变，（1b）存在迫使 SARS-CoV-2 在密码子偏好上做出适应性改变的选择压力．因此，要证明 SARS-CoV-2 在蛇的体内完成生活史的一部分（至少要在野蛇中采集到 SARS-CoV-2），而这在现在是无法做到的．&lt;/li&gt;
+&lt;li&gt;从生物信息学的角度来说，计算编码序列所编码的蛋白质的氨基酸组分，这些被采样的编码序列的整体核苷酸偏好和GC比例，甚至这些编码序列的长度都会影响到 RSCU 的计算，因此 RSCU 是一个非常糙的特征，不能依赖它来做聚类．&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;notes&quot;&gt;
+&lt;a name=&quot;注&quot; href=&quot;#rscu&quot;&gt;注&lt;/a&gt;：
+取特定氨基酸 $aa$ ，编码 $aa$ 的（同义）密码子的集合为 $S(aa)$．若 $aa$ 在基因组 $G$ 中的频数是 $n$，密码子 $s\in S(aa)$ 在 $G$ 中的频数为 $m$，那么 $RSCU(s, G)=\frac{m}{n/|S(aa)|}$．即 $s$ 的实际观测频数，与其在无使用偏好的假设下（$aa$ 的每个密码子都等概率被使用）的期望频数的比值．
+&lt;/div&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Zhou et al．(1-23): &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.22.914952v1.full.pdf&quot;&gt;Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin&lt;/a&gt;．要点：对 SARS-CoV-2 进行系统发生分析，发现其与蝙蝠 SARSr-CoV RaTG13 的高度相似性，为其蝙蝠来源提供支持．RaTG13 和 SARS-CoV-2 的 Symplot 展示了两者的整体相似性.
+&lt;/li&gt;
+
+
+&lt;li&gt;Paraskevis et al．(1-26): &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.26.920249v1.full.pdf&quot;&gt;Full-genome evolutionary analysis of the novel corona virus (2019-nCoV) rejects the hypothesis of emergence as a result of a recent recombination event&lt;/a&gt;．确认了石正丽团队得出的 SARS-CoV-2 和 RaTG13 的近缘关系，指出病毒不太可能是近期重组事件的产物.
+&lt;/li&gt;
+
+&lt;li&gt;Chen et al．(2-29): &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30251-8/fulltext&quot;&gt;Genomic characterisation and epidemiology of 2019 novel
+coronavirus: implications for virus origins and receptor binding&lt;/a&gt;，比较了从九位患者（其中 8 位和海鲜市场有接触历史）的气道上皮细胞提取的 SARS-CoV-2 样本的全基因组信息．样本间的序列同一率很高（$\geq$99.98%）．
+&lt;/li&gt;
+
+&lt;li&gt;Wahba et al．(2-8): &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.02.08.939660v2&quot;&gt;Identification of a pangolin niche for a 2019-nCoV-like coronavirus through an extensive meta-metagenomic search&lt;/a&gt;．广州野生动物救护中心营救后病死的马来穿山甲 (&lt;i&gt;Manis javanica&lt;/i&gt;) 的肺部宏病毒组数据（&lt;a href=&quot;https://www.mdpi.com/1999-4915/11/11/979&quot;&gt;Liu et al．2019&lt;/a&gt;）中发现可以映射到 SARS-CoV-2 基因组的读段，指出穿山甲是可能的中间寄主．
+&lt;/li&gt;
+
+&lt;li&gt;Lam et al．(2-13): &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.02.13.945485v1.full.pdf&quot;&gt;Identification of 2019-nCoV related coronaviruses in Malayan pangolins in southern China&lt;/a&gt;．利用 2017-2018 年广西海关收集的走私马来穿山甲的肠、肺、血液组织，组装了 6 个相对完整的类似 SARS-CoV-2 的病毒基因组．SARS-CoV-2 基因组整体与 RaTG13 近似，但 S 蛋白的 RBD 与穿山甲冠状病毒有很高的 aa 序列同一率（97.4%）．同时，利用了 &lt;a href=&quot;https://www.mdpi.com/1999-4915/11/11/979&quot;&gt;Liu et al．(2019)&lt;/a&gt; 的数据组装了两个病毒基因组，发现其与广西穿山甲属于不同的支系，但都很接近 SARS-CoV-2．&lt;/li&gt;
+
+&lt;li&gt;Xiao et al．(2-17): &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.02.17.951335v1.full.pdf&quot;&gt;Isolation and Characterization of 2019-nCoV-like Coronavirus from Malayan Pangolins&lt;/a&gt;．在 2019 年野生动物救援的马来穿山甲的肺部组织呈 $\beta$ 冠状病毒 PCR 阳性（17/25例），其中一例的血清抗 SARS-CoV-2 IgG/IgM ELISA 结果呈阳性．利用 Vero 细胞从肺部组织中分离病毒，在 TEM 照片中发现类似冠状病毒的颗粒，同时对 S 蛋白和 RdRp 的 RT-PCR 扩增，发现了与 SARS-CoV-2 同一率分别为 ~84.5% 和 92.2% 的产物．利用 RNA-seq 装配的穿山甲冠状病毒，指示该病毒 M 和 N 基因与 SARS-CoV-2 同一律 $\geq 95$%，E 为 100%，S 为 90%．&lt;/li&gt;
+
+&lt;li&gt;Tang et al．(3-3) &lt;a href=&quot;https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwaa036/5775463&quot;&gt;On the origin and continuing evolution of SARS-CoV-2&lt;/a&gt;．通过分析 $n=103$ 个 SARS-CoV-2 基因组的SNP，利用 orf1ab 和 ORF8 中两个高度连锁的 SNP 定义了病毒演化的两个子支系：L（SNP 组合为 ‘CT’，占样本 $\sim$70%）和 S（SNP组合为 ‘TC’，占样本 $\sim$30%） 两个子支系．和外群的比较发现 S 型是祖先型，但因 L 型的频率更高， 因此推测 L 型的传播率比 S 高．来自武汉的 27 个（1-7 前收集的）样本中有 26 个（96.3%）是 L 型，来自武汉外的 73 个（1-7 后收集的）样本中有 45（61.6%）是 L 型，可见随着疫情进展 S 型频率逐渐升高、L 型频率逐渐降低，作者推测这可能是因为疫情的控制对 L 的选择压力强于 S．这篇文章受媒体报道，反响很大，但是结论其实值得怀疑：并没有功能性的证据把 S、L 支序的定义（只是SNP而已）与适应度挂钩，因此 “传播性更强” 缺乏生物学佐证，也具有误导性．
+&lt;/li&gt;
+
+&lt;li&gt;Andersen et al．(3-17): &lt;a href=&quot;https://www.nature.com/articles/s41591-020-0820-9&quot;&gt;The proximal origin of SARS-CoV-2.&lt;/a&gt; 总结了之前的发现．要特别留意的是 S 蛋白的 furin 切点（RRAR）在 RaTG13 或者穿山甲序列中都不存在，指出 SARS-CoV-2 的 furin 切点可能是从动物源溢出到人类群体中后，自然选择的结果．&lt;/li&gt;
+
+&lt;li&gt;Luan et al．(3-19): &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102515/&quot;&gt;Spike protein recognition of mammalian ACE2 predicts the host range and an optimized ACE2 for SARS-CoV-2 infection.&lt;/a&gt;通过结构预测 S 蛋白与各种哺乳动物的 ACE2 的结合能力，指出东非狒狒、猫、狗、马来大狐蝠、兔、仓鼠、绵羊、穿山甲等动物的 ACE2 可能会与 S 蛋白结合，而狐獴、貉、马铁菊头蝠、大/小鼠、豚鼠、单峰驼、非洲象，狐獴，鸭嘴兽的 ACE2 不会．可见与 S 蛋白结合的能力与哺乳动物的演化关系没有特别强的相关．&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;杂项：&lt;/p&gt;
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/nuccore/1798174254&quot;&gt;GenBank 上 SARS-CoV-2 的参考基因组&lt;/a&gt;．&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gisaid.org/&quot;&gt;GISAID 上的 SARS-CoV-2 的全基因组数据&lt;/a&gt;，需要账户，使用前请参见须知．&lt;/li&gt;
+
+&lt;li&gt;Bedford et al．在
+&lt;a href=&quot;https://nextstrain.org/narratives/ncov/sit-rep/2020-01-23?n=0&quot;&gt;Nextstrain 上 对基因组的研究报告&lt;/a&gt;，含病毒支序分析的基础知识．对移动端不友好．
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;治疗与临床实验&lt;/h1&gt;
+&lt;p&gt;可前往 &lt;a href=&quot;https://clinicaltrials.gov/&quot;&gt;clinicaltrials.gov&lt;/a&gt; 以关键词 'Sars-CoV2' 查询美国正在进行的临床实验．&lt;/p&gt;
+
+&lt;p&gt;激素类药物（免疫抑制）：&lt;/p&gt;
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;
+Russell et al．(2-7): &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30317-2/fulltext&quot;&gt;Clinical evidence does not support corticosteroid treatment for 2019-nCoV lung injury&lt;/a&gt;．根据 SARS，MERS，流感，呼吸道合胞病毒（RSV）的治疗经验，现没有证据证明皮质激素类对 COVID-19 的治疗有效．&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;瑞德西威：&lt;/p&gt;
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;Agostini et al．(2018): &lt;a href=&quot;https://mbio.asm.org/content/9/2/e00221-18/figures-only&quot;&gt;Coronavirus Susceptibility to the Antiviral Remdesivir (GS-5734) Is Mediated by the Viral Polymerase and the Proofreading Exoribonuclease.&lt;/a&gt; 在 SARS-CoV，MERS-CoV 和鼠肝炎病毒（MHV）中确认了瑞德西韦的作用机制．&lt;/li&gt;
+&lt;li&gt;Wang et al．(2-4): &lt;a href=&quot;https://www.nature.com/articles/s41422-020-0282-0&quot;&gt;Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro&lt;/a&gt;．瑞德西韦和氯喹可抑制 SARS-CoV-2 进入 Vero 细胞．&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;羟氯喹/氯喹：&lt;/p&gt;
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;Gautret et al．(3-20): &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/32205204&quot;&gt;Hydroxychloroquine and azithromycin as a treatment of COVID-19: results of an open-label non-randomized clinical trial&lt;/a&gt;．这就是最近传得沸沸扬扬的羟氯喹和阿奇霉素的组合治疗．这个样本很小，又是单臂研究，结论要很慎重地看．&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;血清：&lt;/p&gt;
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;Hoffmann et al．(预印版于 1-31 发表在 BioRxiv, 于 3-5 发表于 Cell): &lt;a href=&quot;https://www.cell.com/cell/fulltext/S0092-8674(20)30229-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420302294%3Fshowall%3Dtrue&quot;&gt;SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor&lt;/a&gt;．使用表达 SARS-CoV-2 S 蛋白 的 VSV 假病毒对一组不同来源的细胞系进行侵入实验．恢复期患者血清可以阻断病毒侵入，为恢复期血清疗法提供证据支持．
+&lt;/li&gt;
+&lt;li&gt;Shen et al．(3-27): &lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2763983&quot;&gt;Treatment of 5 Critically Ill Patients With COVID-19 With Convalescent Plasma&lt;/a&gt;．是前瞻性研究，样本极小且没有对照或随机化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;流行病学参数预测&lt;/h1&gt;
+&lt;ul class=&quot;bulletin&quot;&gt;
+&lt;li&gt;Imai et al．(1-22): &lt;a href=&quot;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions&lt;/a&gt;，英国医学研究委员会基于 IATA 数据的感染者人数预测，是 17 号 “1700人” 报告的跟进．
+&lt;/li&gt;
+
+&lt;li&gt;WHO (1-23): &lt;a href=&quot;https://www.who.int/news-room/detail/23-01-2020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)&quot;&gt;Statement on the meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)&lt;/a&gt;，给出了 $R_0$=1.4-2.5&lt;sup class=&quot;note-tag&quot;&gt;&lt;a href=&quot;#r0-note&quot; name=&quot;r0&quot;&gt;注&lt;/a&gt;&lt;/sup&gt;的预测．
+&lt;/li&gt;
+
+&lt;div class=&quot;notes&quot;&gt;
+&lt;a name=&quot;r0-note&quot; href=&quot;#r0&quot;&gt;注&lt;/a&gt;：
+$R_0$ 即基本传染数（basic reproduction number）描述的是一位感染者在传染期期间将病毒传播给的期望人数．一般来说，若 $R_0&amp;gt;1$，每个原发病例（index case）将产生更多的二代病例（secondary case），疫情将会扩散；若 $R_0&amp;lt;1$，那么疫情在有痊愈患者的情况下会逐渐随时间消减．
+&lt;/div&gt;
+
+
+&lt;li&gt;Read et al．(1-23): &lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2.full.pdf&quot;&gt;Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions&lt;/a&gt; 通过流行病学中经典的 SEIR 微分方程组&lt;sup class=&quot;note-tag&quot;&gt;&lt;a href=&quot;#注&quot; name=&quot;seir&quot;&gt;注&lt;/a&gt;&lt;/sup&gt;给出了 $R_0$=3.8 (95% CI: 3.6-4.0) 的估计．
+&lt;/li&gt;
+
+&lt;div class=&quot;notes&quot;&gt;
+&lt;a name=&quot;seir&quot; href=&quot;#seir&quot;&gt;注&lt;/a&gt;：
+SEIR （Suspected-Exposed-Infected-Recovered）模型属于流行病学建模中所谓区室模型（compartmental model）的一种．
+&lt;ul&gt;
+&lt;li&gt;设人群大小为 $N$ ，其中每一个人都属于四种组别其一：易染者 $S$、潜伏者 $E$，感染者 $I$，康复者 $R$．&lt;/li&gt;
+&lt;li&gt;人群的出生率和死亡率分别是 $\tau$ 和 $\mu$，新生儿自动加入易染者 $S$．&lt;/li&gt;
+&lt;li&gt; 对 $S$ 中的每位易染者，若单位时间内其遭遇任何组别的人的概率都相等，那么遭遇感染者的单位时间概率是 $\frac{I}{N}$（纲量：时间$^{-1}$），若又设其在每次遭遇中受感染的概率为 $\beta$，那么单位时间内，易染者中受感染的人的数量服从总体大小 $S$，成功概率 $\frac{\beta I}{N}$ 的二项分布，其期望为 $\frac{S\beta I}{N}$．这在模型中体现为在单位时间内，有 $\frac{S\beta I}{N}$ 人因为接触感染者，从易染者变为潜伏者．
+&lt;/li&gt;
+&lt;li&gt; 假设疾病的潜伏期长为 $\frac{1}{\sigma}$，那么每单位时间内有 $\sigma E$ 名潜伏者病发成为感染者．
+&lt;/li&gt;
+&lt;li&gt;假设疾病的恢复期长为 $\frac{1}{\gamma}$，那么每单位时间内有 $\gamma I$ 名感染者成为康复者．
+&lt;/li&gt;
+
+&lt;/ul&gt;
+用箭头表示四个类群之间人数的流动，那么我们的模型就是，
+\begin{array}{cccccccc}   
+\xrightarrow{N\tau}&amp;amp; S &amp;amp; \xrightarrow{\frac{S\beta I}{N}} &amp;amp; E &amp;amp; \xrightarrow{\sigma E} &amp;amp; I &amp;amp; \xrightarrow{\gamma I} &amp;amp; R\\\
+
+&amp;amp;\downarrow \mu S&amp;amp;  &amp;amp; \downarrow \mu E &amp;amp;  &amp;amp; \downarrow \mu I&amp;amp;  &amp;amp; \downarrow \mu R\\\  
+\end{array}
+
+我们感兴趣 $S, E, I, R$ 中人数随时间变化的关系．通过阅读以上简图表示的各组别流入/流出关系，我们可以直接写出微分方程组
+$$
+\begin{align}
+\dot{S}&amp;amp;=N\tau-\frac{S\beta I}{N}-\mu S\\
+\dot{E}&amp;amp;=\frac{S\beta I}{N}-\sigma E-\mu E\\
+\dot{I}&amp;amp;=\sigma E-\gamma I-\mu I\\
+\dot{R}&amp;amp;=\gamma I-\mu R\\
+\end{align}
+$$
+
+这就是 SEIR 模型的推导．因为这个方程组没有显式解，有了这个模型以后，可以用最小二乘法或者最大似然法等惯用拟合技巧，得出各个参数的估计．
+
+&lt;/div&gt;
+
+
+
+&lt;li&gt;Pullano et al．(1-23): &lt;a href=&quot;https://www.epicx-lab.com/uploads/9/6/9/4/9694133/inserm_2019ncov-importation-risk_20200123.pdf&quot;&gt;2019-nCoV importation risk to Europe&lt;/a&gt; SARS-CoV-2 的欧洲引入风险（risk of importation：至少一例从中国来到欧洲的概率）评估，是借助了来自 OAG 的民航数据的粗略估计．
+&lt;/li&gt;
+
+&lt;li&gt;Riou &amp;amp; Althaus (1-24): 将每个原发病例所造成的二代病例的数量视作负二项分布（期望值为 $R_0$)，将病毒的世代长度视作 gamma 分布，通过&lt;a href=&quot;https://github.com/jriou/wcov&quot;&gt;模拟取样&lt;/a&gt;而计算的模型参数的概率密度函数，并选择使感染总人数在一月18日时落在 [1000, 9700] 的区间内的参数分布区间，给出了 $R_0$=2.2 (90% 高概率密度区间: 1.4-3.8) 的估计．
+&lt;/li&gt;
+
+&lt;li&gt;Imai et al．(1-24): &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf&quot;&gt;用类似的轨迹分析方法&lt;/a&gt;进行模拟，得出几个与一月十八日的感染人数值相容的 $R_0$ 估计．
+&lt;/li&gt;
+
+&lt;li&gt;Majumder &amp;amp; Mandl (1-24): &lt;a href=&quot;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3524675&quot;&gt;Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China&lt;/a&gt;通过拟合患病律衰减指数调整（IDEA）的单公式模型，给出 $R_0$=2.0-3.3 的估计．
+&lt;/li&gt;
+
+&lt;li&gt;Qun et al．(1-29): &lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMoa2001316?url_ver=Z39.88-2003&amp;amp;rfr_id=ori:rid:crossref.org&amp;amp;rfr_dat=cr_pub%3dpubmed&quot;&gt;Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia.&lt;/a&gt;用更新方程（renewal equations）建模进行模拟，得出 $R_0$=2.2 的估计．这个就是那个最近给出 44000 武汉病例估计的港大团队．
+&lt;/li&gt;
+
+&lt;li&gt;Cao et al．(1-29): &lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.01.27.20018952v1.full.pdf&quot;&gt;Estimating the effective reproduction number of the 2019-nCoV in China&lt;/a&gt; 利用 SEIRDC 模型（SEIR的变体，加入了死亡 $D$ 和总例 $C$ 两个变量），给出 6.50% 的死亡率估计．
+&lt;/li&gt;
+
+&lt;li&gt;Wu et al．(1-31): &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30260-9/fulltext&quot;&gt;Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study&lt;/a&gt; 通过 SEIR 集合种群模型估计武汉的疫情大小，再将输出的病例数量作为一个非齐次泊松过程建模，用 MCMC 计算的后验期望作为 $R_0$ 估计，得出截止1月25日武汉有 75,815 (95% CI 37,304-130,330)  人被感染，$R_0$=2.68 (95% CI: 2·47-2.86)．
+&lt;/li&gt;
+
+&lt;li&gt;Verity et al．(3-30): &lt;a href=&quot;https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext&quot;&gt;Estimates of the severity of coronavirus disease 2019: a model-based analysis&lt;/a&gt;．利用中国的病例数据建模，通过拟合 $\gamma$ 分布及 MCMC 模拟的方式，预估症状出现到死亡的平均时间为18.8 天 (95% CI 15.7–49.7)，症状出现到康复的平均时间 24.7 天 (95% CI 22.9-28.1)，$\geq 80$ 岁病例期望 CFR 13.4% (95% CI 11.2-15.9%)．&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="时事" /><summary type="html">疫情监控与个人防护</summary></entry><entry><title type="html">CMD001: 集论基础</title><link href="http://localhost:4000/graymatter/2019/11/20/set" rel="alternate" type="text/html" title="CMD001: 集论基础" /><published>2019-11-20T21:31:19-05:00</published><updated>2019-11-20T21:31:19-05:00</updated><id>http://localhost:4000/graymatter/2019/11/20/set</id><content type="html" xml:base="http://localhost:4000/graymatter/2019/11/20/set">&lt;h1 class=&quot;hd&quot;&gt;逻辑与证明&lt;/h1&gt;
+&lt;h2 class=&quot;hd&quot;&gt;断言&lt;/h2&gt;
+&lt;p&gt;数学是一场逻辑游戏：我们假设某些看来是基础或者自明的&lt;span class=&quot;concept&quot;&gt;公理（axiom）&lt;/span&gt;为真断言，然后利用给定的一些推理规则（rules of inference），去得到或者发现其他的真断言．因此，在撸起袖子解数学题之前，有必要先谈谈这场游戏的规则.&lt;/p&gt;
+
+&lt;p&gt;在这场游戏中，我们可以说一些句子，这些句子称为&lt;span class=&quot;concept&quot;&gt;断言（sentence）&lt;/span&gt;．每个断言要么是真的，要么是假的．可以用大写英文字母表记断言，比如 $P$，或 $Q$.&lt;/p&gt;
+
+&lt;p&gt;有的时候，我们希望把两个或者更多的断言合并起来形成新的断言，比如 “$x$ 是单数” 和 “$x$ 是双数” 可组合形成 “$x$ 是单数或 $x$ 是双数”，“明天下雪” 和 “学校停课” 可以组合成 “如果明天下雪，学校就停课”．为了不重复地说 “或”，“如果……那么……”，我们可以引入一些简写：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; “&lt;span class=&quot;concept&quot;&gt;非（not）&lt;/span&gt; $P$”，记作 $\neg P$． &lt;/li&gt;
+&lt;li&gt;“$P$ &lt;span class=&quot;concept&quot;&gt;和（and）&lt;/span&gt; $Q$”，记作 $P\wedge Q$．&lt;/li&gt;
+&lt;li&gt;“$P$ &lt;span class=&quot;concept&quot;&gt;或（or）&lt;/span&gt; $Q$”，记作 $P\vee Q$．&lt;/li&gt;
+&lt;li&gt;“$P$ &lt;span class=&quot;concept&quot;&gt;蕴含（entail）&lt;/span&gt; $Q$”，记作 $P \to Q$．$P$ 称为前件（antecedent）或者 $Q$ 的&lt;span class=&quot;concept&quot;&gt;充分条件（sufficient condition）&lt;/span&gt;, $Q$ 称为后件（consequent）或者 $P$ 的&lt;span class=&quot;concept&quot;&gt;必要条件（necessary condition）&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;“$P$ &lt;span class=&quot;concept&quot;&gt;双向蕴含/当且仅当（if and only if）&lt;/span&gt; $Q$”，记作 $P \leftrightarrow Q$.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;断言中可以包含变量，这样的断言又可以称为&lt;span class=&quot;concept&quot;&gt;谓词（predicate）&lt;/span&gt;．可以用 $P(x)$ 代表 “$x$ 是江苏省的省会” 这个谓词．我们可以选择&lt;span class=&quot;concept&quot;&gt;带入&lt;/span&gt;特定的 $x$，使 $P(x)$ 有固定的真或者假的取值．例如，如果把 “无锡” 带入 $x$，那么这个断言为假；如果把 “南京” 带入 $x$，那么为真.&lt;/p&gt;
+
+&lt;p&gt;如果我们有谓词 $P(x)$，那么必须给出它的&lt;span class=&quot;concept&quot;&gt;量词（quantifier）&lt;/span&gt;．量词限定了令谓词 $P(x)$ 为真的 $x$ 的值的范围，谓词也不能脱离量词而存在．虽然在生活中可能会有各种各样的量词，但在数学中只讨论两种量词：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; &lt;span class=&quot;concept&quot;&gt;全称量词（universal quantifier）&lt;/span&gt;，记作 $\forall$．若令 $P(x)$ 表示 “$x$ 是德国人”，而 $x$ 可以从全体作家的名字中取值，那么 $\forall x:P(x)$ 表示的是 “所有的作家都是德国人”．&lt;/li&gt;
+&lt;li&gt; &lt;span class=&quot;concept&quot;&gt;存在量词（existential quantifier）&lt;/span&gt;，记作 $\exists$．接上例，$\exists x: P(x)$ 表示，“存在作家是德国人”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的食物”（喜欢吃的东西可以是不同的）显然和 “有食物令每个人都喜欢吃”（每个人都必须喜欢吃同一种东西） 是意义上不同的两个句子．我们约定一个量词所限定的&lt;span class=&quot;concept&quot;&gt;范围（scope）&lt;/span&gt;是它的冒号右侧一直到断言句尾.&lt;/p&gt;
+
+&lt;p&gt;同时，我们约定如果量词取值的范围内不含任何物件，那么此时谓词是真的，称为&lt;span class=&quot;concept&quot;&gt;空真（vacuously true）&lt;/span&gt;的.&lt;/p&gt;
+
+&lt;h2 class=&quot;hd&quot;&gt;推理规则&lt;/h2&gt;
+&lt;p&gt;我们的游戏的主要目标是运用推理规则，从一些简单的真断言来到更加复杂的真断言．如果我们能从真断言 $P$ 和一些其他的条件推导出另一个断言 $Q$，那么可以写 $P\Rightarrow Q$．如果 $P \Rightarrow Q$ 和 $Q\Rightarrow P$，那么我们可以写 $P\Leftrightarrow Q$．注意，$\to$ 和 $\Rightarrow$、$\leftrightarrow$ 和 $\Leftrightarrow$ 并非同样的意思：$\to$ 和 $\leftrightarrow$ 是构造新断言用的连接符，$\Rightarrow$ 和 $\Leftrightarrow$ 指示的是推导过程中由一个断言得出另一个断言的逻辑先后关系.&lt;/p&gt;
+
+&lt;p&gt;我们的推理规则其实就是俗话说的逻辑思维，具体地说，有以下几个规则；为了强调这些规则并非人造的规则，我用 “日常逻辑” 来示例它们的合理之处：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\forall  x: P(x) \Leftrightarrow \neg(\exists x:  \neg P(x))$；“所有 $x$ 都有 $P$” 等价于 “不存在 $x$ 没有 $P$”&lt;/li&gt;
+&lt;li&gt;$P \Leftrightarrow \neg(\neg(P))$；俗话说的 “双重否定表示肯定”.&lt;/li&gt;
+&lt;li&gt;$P, Q \Leftrightarrow P\wedge Q$；如果 “大象有大耳朵” 和 “大象有长鼻子”，那么 “大象有大耳朵和长鼻子”；反之亦然．&lt;/li&gt;
+&lt;li&gt;$P\wedge Q \Leftrightarrow Q\wedge P$；“奶茶和咖啡是饮料” 等价于 “咖啡和奶茶是饮料”.&lt;/li&gt;
+&lt;li&gt;$P \Rightarrow P\vee Q$；如果 “明天下雨”，那么可以说 “明天下雨或明天是星期三”；“明天是星期三” 可以换成任意断言．&lt;/li&gt;
+&lt;li&gt;$P\vee Q \Leftrightarrow Q\vee P$；“奶茶或咖啡是饮料” 等价于 “咖啡或奶茶是饮料”&lt;/li&gt;
+&lt;li&gt;$\neg P \wedge (P\vee Q) \Rightarrow Q$；又称&lt;span class=&quot;concept&quot;&gt;选言三段论（disjunctive syllogism）&lt;/span&gt;．如果 “奶茶或饼干是饮料” 且 “饼干不是饮料”，那么可推断 “奶茶是饮料”&lt;/li&gt;
+&lt;li&gt;$Q \Rightarrow P\to Q$；$\neg P \Rightarrow P\to Q$；这条规则与其说是规则不如说是一个约定，如果我们知道 “奶茶是饮料” 是真的，那么可选任何断言 $P$ 构成真断言 “如果 $P$，那么奶茶是饮料”；类似地，如果我们知道 “明天天会塌下来” 是假的，那么可选任何 $Q$ 组成真断言 “如果明天天会塌下来，那么 $Q$”．这和自然语言中隐含了因果关系的表述 “如果……那么……” 稍许不同.&lt;/li&gt;
+&lt;li&gt;$P \wedge (P\to Q) \Rightarrow Q$；又称&lt;span class=&quot;concept&quot;&gt;肯定前件（modus ponens）&lt;/span&gt;规则；如果 “如果是人，那么就会死”，“苏格拉底是人”，那么可得 “苏格拉底会死”.&lt;/li&gt;
+&lt;li&gt;$\neg Q \wedge (P\to Q) \Rightarrow \neg P$；又称&lt;span class=&quot;concept&quot;&gt;否定后件（modus tollens）&lt;/span&gt;规则；如果 “如果是人，那么就会死”，“花瓶不会死”，那么可得 “花瓶不是人”.&lt;/li&gt;
+&lt;li&gt;$(P\Rightarrow Q) \Leftrightarrow (P\to Q)$；又称&lt;span class=&quot;concept&quot;&gt;条件证明律（conditional proof）&lt;/span&gt;，在数理逻辑中又称演绎定理．如果我们可以从 $P$ 得到 $Q$，那么 $P\to Q$ 是真断言.&lt;/li&gt;
+&lt;li&gt;$P\to Q, Q\to P \Leftrightarrow P\leftrightarrow Q$；“如果有考试就要熬夜” 和 “如果要熬夜就一定有考试” 可得 “熬夜当且仅当有考试”.&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;p&gt;对于复杂的断言，用括号来指定复杂断言的构成顺序：在括号里的部分需要先进行组合，其优先级由嵌入括号的深度决定：例如，$(P\vee Q)\wedge W$ 应当解读为 “$P \vee Q$ 和 $W$” 而不是 “$P$ 或 $Q\wedge W$”．若未标括号，那么默认从右往左组合.&lt;/p&gt;
+
+&lt;p&gt;推导的结果称为&lt;span class=&quot;concept&quot;&gt;定理（theorem）&lt;/span&gt;．同时，我们也通过下&lt;span class=&quot;concept&quot;&gt;定义（definition）&lt;/span&gt;的方式来简化我们的表达．定义只不过是语言上的简化，它们不需要证明.&lt;/p&gt;
+
+&lt;p&gt;我们不打算在这一节中发展数理逻辑（mathematical logic）中的任何结论，因此非正式地将逻辑作为一场“游戏”来讨论．现代的数理逻辑需要集合论为基础：函数、关系都是数理逻辑重要的部分，但是它们的严格定义只出自集论，然而集合论本身也需要逻辑的形式来严谨地定义．为了避免先有鸡还是先有蛋的问题，我们需要先像游戏一样地进行逻辑演练，在形成了一个公理系统（集合论）之后，再利用其中的工具来严谨地 “模拟” 我们走过的逻辑过程，从而反过来证明，我们的游戏中的不存在矛盾或者存在无法利用推理规则达到的真断言，而这才是数理逻辑登场的时候.&lt;/p&gt;
+
+&lt;p&gt;用电脑科学做一个比方：如果将数学比作一种程序语言，将我们的游戏比作它的编译器，那么发展数理逻辑就是用编程语言写它自己的编译器的自举（bootstrapping）的过程.&lt;/p&gt;
+
+&lt;p&gt;在游戏的开始，我们需要接受一套名为 Zermelo-Fraenkel 集合论的公理系统，这是一个由7条公理（外延、正规、配对、并集、幂集、无穷、选择公理）和2条公理模式（分类公理和置换公理；公理模式的定义会在下文解释）组成的公理系统，因为选择公理存在一定的争议，有时会把它独列在外，将含选择公理的 Zermelo-Fraenkel 集合论称作 ZFC，而将不含的称作 ZF.&lt;/p&gt;
+
+&lt;p&gt;ZFC 是德国人 Ernst Zermelo 和 Abraham Fraenkel 在认识到 Cantor 的朴素集合论的不足之后总结形成的，Zermelo (&lt;a href=&quot;#zermelo1908s&quot; name=&quot;zermelo1908&quot;&gt;1908&lt;/a&gt;，&lt;a href=&quot;#zermelo1930s&quot; name=&quot;zermelo1930&quot;&gt;1930&lt;/a&gt;) 贡献了其中的7条公理和分类公理模式，&lt;a href=&quot;#fraenkel1922s&quot; name=&quot;fraenkel1922&quot;&gt;Fraenkel (1922)&lt;/a&gt; 又添加了置换公理模式，最后形成现在的形式．这并不是唯一的集合论公理系统：类似的还有 NBG 系统和 W．V．Quine 的新基础（New Foundation，NF）系统．因 ZFC 的普适性，ZFC 是 CADMUS 选定的集论基础.&lt;/p&gt;
+
+&lt;p&gt;如果我们把 ZFC 的公理作为真断言，我们可以通过我们的数学游戏推导出大部分人在乎的大部分数学知识．在接下来的章节中我们将引入 ZFC 的公理来一步步构建数学宇宙．选择公理和置换公理在目前并无需要，因此留给将来的章节.&lt;/p&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;集论的公理基础&lt;/h1&gt;
+&lt;h2 class=&quot;hd&quot;&gt;集与元素&lt;/h2&gt;
+&lt;p&gt;想象一个数学宇宙，里面存在且仅存在一种名为 “&lt;span class=&quot;concept&quot;&gt;集合&lt;/span&gt;” 的物件．我们粗略地想象 “集合” 是一系列物件的汇集，正如现实生活中的集合一样，因此冠其名曰 “集合” ．我们不知道数学宇宙有多少个 “集合” 也不知道已经存在的 “集合” 中的物件是什么．但是在我们的假想中，这个宇宙中&lt;em&gt;存在至少一个“集合”&lt;/em&gt; ，而且&lt;em&gt;不存在集合以外的东西&lt;/em&gt; .&lt;/p&gt;
+
+&lt;p&gt;从字面上看，“集合” 往往和 “收容” 联系起来．我们希望数学宇宙和常识尽可能契合，因此给定一个集合 $a$，对于另一个集合 $A$，我们希望能够回答 “$a$ 是不是 $A$ 的&lt;span class=&quot;concept&quot;&gt;元素&lt;/span&gt;？” 这个问题．如果 $a$ 的确是 $A$ 的元素，那么表记为 $a\in A$；如果不是，表记为 $a\notin A$.&lt;/p&gt;
+
+&lt;h2 class=&quot;hd&quot;&gt;部分 ZFC 公理&lt;/h2&gt;
+&lt;h3 class=&quot;hd&quot;&gt;分类公理&lt;/h3&gt;
+&lt;p&gt;到目前为止，我们只知道数学宇宙中存在 “集合”，却缺乏构建我们想要的集合的方法．这是因为集合的构造不应该是随心所欲的——缺乏限制的集合构造容易导致悖论．假想我们可以构建任意想要的集合，并因此造出了一个 “仅包含不在集合 $A$ 中的元素” 的集合 $A$，那么有两种可能：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;若 $A\in A$，那么 $A$ 是一个 “不在集合 $A$ 中的元素”，意味着 $A\notin A$，与假设矛盾.&lt;/li&gt;
+&lt;li&gt;若 $A\notin A$，那么 $A$ 不在 $A$ 中，因此 $A$ 符合包含在 $A$ 内的标准，同样矛盾.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这就是 &lt;span class=&quot;concept&quot;&gt;Russell 悖论&lt;/span&gt;，它揭示了集合构造中自我引用的危险性． 为了避免出现这个问题，我们正式地做出以下约定：&lt;/p&gt;
+
+&lt;div class=&quot;axiom&quot;&gt;（分类公理）对任意集合 $A$ 和不含 $B$ 的逻辑谓词 $P(x)$．我们可以从 $A$ 的元素中选择一些令 $P(a)$ 为真的元素 $a$ 来构建另一个集合 $B$，即以下命题为真：
+$$\forall A : \exists B : \forall x : (x\in A\wedge P(x)) \leftrightarrow x\in B$$
+这样构成的 $B$ 可表记为 $\{x \in A \mid P(x) \}$.
+&lt;/div&gt;
+
+&lt;p&gt;分类公理是一个公理模式 (schema)：逻辑谓词 $P(x)$ 可以是含变量 $x$ 的任意逻辑公式，所以分类公理起的是模板的作用，套入不同 $P(x)$ 才形成了不同的公理.&lt;/p&gt;
+
+&lt;p&gt;可见，任何新造的集合 $B$ 的元素，在我们的约定下，必须（1）要从已经存在的集合 $A$ 中取，确保了这些元素在我们的数学宇宙中是已经存在的，且（2）$B$ 的构造不允许引用它的本身，避免了罗素悖论中的自我引用问题.&lt;/p&gt;
+
+&lt;p&gt;更一般地，如果一个集合的元素取自另一个有良好定义的集合且其构成不包含自我引用，那么我们将默认引用分类公理认为该集合存在.&lt;/p&gt;
+
+&lt;p&gt;我们可以利用分类公理定义子集的概念：&lt;/p&gt;
+
+&lt;div class=&quot;definition&quot;&gt;
+如果凡是集合 $A$ 中有的物件，集合 $B$ 中都有，那么我们称 $A$ 是 $B$ 的&lt;span class=&quot;concept&quot;&gt;子集&lt;/span&gt;，记 $A \subseteq B$，即 $A \subseteq B$ 的定义是：
+$$\forall x :x\in A\to x\in B$$
+&lt;/div&gt;
+
+&lt;p&gt;我们马上有以下的结论：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt; 存在一个不含任何元素的集合，称之为&lt;span class=&quot;concept&quot;&gt;空集&lt;/span&gt;，以 $\varnothing$ 表示．空集是所有集合的子集.
+&lt;/div&gt;
+&lt;div class=&quot;proof&quot;&gt;
+&lt;p&gt;取集合 $A$．存在至少一个集合，因此 $A$ 存在.&lt;/p&gt;
+&lt;p&gt;根据分类公理，可知存在集合 $\varnothing$，其中的元素 $a$ 满足谓词 $a\in A \wedge a\neq a$.&lt;/p&gt;
+&lt;p&gt;$b\neq b$ 是恒假的，因此 $a\in A \wedge a\neq a$ 恒假，因此不存在元素 $a$ 满足谓词．因此 $\varnothing$ 中不含任何元素．因为 $\varnothing$ 不含任何元素．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;可见通过分类公理造出的新集都是比原来的集的子集．一个特殊的子集叫做并集：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+对集合 $A$ 和集合 $B$，定义 $A$ 和 $B$ 的&lt;span class=&quot;concept&quot;&gt;并集&lt;/span&gt;为 $A\cap B=\{ x\in A \mid x\in B\}$．并集存在
+&lt;p&gt;更一般地，称一个&lt;span class=&quot;concept&quot;&gt;集合族 $\mathcal{C}$ 的交集&lt;/span&gt; $\bigcap \mathcal{C}$ 为 $\mathcal{C}$ 中所有元素的交集，即
+$$x\in \bigcap\mathcal{C} \Leftrightarrow \forall C \in \mathcal{C}: x \in C$$
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;proof&quot;&gt; 通过分类公理直接证明.
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;另一个特殊的子集叫做补集：&lt;/p&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+对集合 $A$ 和集合 $B$，定义 $B$ 相对于 $A$ 的&lt;span class=&quot;concept&quot;&gt;补集&lt;/span&gt;为$A-B=\{x \in A\mid x\notin B\}$．补集存在.
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt; 通过分类公理直接证明.
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h3 class=&quot;hd&quot;&gt;外延公理&lt;/h3&gt;
+&lt;p&gt;因为有多于一个集合存在的可能，我们需要考虑什么情况下两个集合是相等的.&lt;/p&gt;
+
+&lt;p&gt;在生活中，一些事物的相同性是由它们的内涵决定的：一瓶水终究是一瓶水，不管是喝它的人是谁．另外一些事物不但有内涵，也有外延：很多人认为他们自食其力挣到的第一张钞票对他们是有特殊意义的，尽管在内涵（在交易媒介和价值储存的意义上，而非物质组成的意义上）上这第一张钞票和接下来挣到的每一张都是相同的.&lt;/p&gt;
+
+&lt;p&gt;我们不妨假设集合的身份完全由它的外延决定（即，仅由它所包含什么样的元素决定），做出以下约定，&lt;/p&gt;
+
+&lt;div class=&quot;axiom&quot;&gt;（外延公理）集合 $A$ &lt;span class=&quot;concept&quot;&gt;等于&lt;/span&gt;集合 $B$，当且仅当它们的元素相同.
+$$A=B \Leftrightarrow \forall a:a\in A\leftrightarrow a\in B$$
+&lt;/div&gt;
+
+&lt;p&gt;马上有以下的结论：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;空集是独特的.&lt;/li&gt;
+&lt;li&gt;任何给定集合的交集是独特的.&lt;/li&gt;
+&lt;li&gt;任何给定集合的补集是独特的.&lt;/li&gt;
+&lt;li&gt;若 $A \subseteq B$ 且 $B \subseteq A$，那么 $A=B$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;假设有另一个空集 $\varnothing'$，那么断言 $\forall a:a\in \varnothing\leftrightarrow a\in \varnothing'$ 是空真的，因此有 $\varnothing'= \varnothing$.&lt;/li&gt;
+&lt;li&gt;由定义和外延公理直接证明.&lt;/li&gt;
+&lt;li&gt;由定义和外延公理直接证明.&lt;/li&gt;
+&lt;li&gt;若 $A \subseteq B$，那么 $\forall a: a\in A\to a\in B$ 为真；若 $B \subseteq A$，那么 $\forall b:b\in B\to b\in A$ 为真．因此 $\forall a:a\in A\leftrightarrow a\in B$ 为真，得 $A=B$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;p&gt;相等可让我们引入以下定义.&lt;/p&gt;
+
+&lt;div class=&quot;definition&quot;&gt;
+如果 $A\subseteq B$ 但 $A\neq B$，那么我们称 $A$ 是 $B$ 的&lt;span class=&quot;concept&quot;&gt;真子集&lt;/span&gt;，记 $A \subset B$.
+&lt;/div&gt;
+
+&lt;h3 class=&quot;hd&quot;&gt;配对公理&lt;/h3&gt;
+&lt;p&gt;分类公理只让我们构造一个给定集合的 $A$ 的子集．但是，若我们单独地知道元素 $a,b$ 的存在，但不知道它们属于什么集合，我们就无法利用分类公理构建集合 $\{a,b\}$了．配对公理正是为了弥补这一方面的缺陷而存在的：&lt;/p&gt;
+&lt;div class=&quot;axiom&quot;&gt;（配对公理）对任意集合 $A$ 和 $B$，存在仅包含 $A$ 和 $B$ 为元素的集合 $\{A, B\}$.
+&lt;/div&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt; 对任意集合 $A$，存在集合 $\{A\}$；即，给定任何集合 $A$，都存在另一个集合，使这个新集合仅包含 $A$ 为元素，称为 $A$ 的&lt;span class=&quot;concept&quot;&gt;单元素集&lt;/span&gt;.
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt; 应用配对公理，存在 $\{A,A\}=\{A\}$
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;p&gt;一个常见的误区是 $\varnothing\neq \{\varnothing\}$：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; $\varnothing$ 是根据分类公理存在且唯一的空集；&lt;/li&gt;
+&lt;li&gt;$\{\varnothing\}$ 是仅含空集为元素的单元素集，所以有 $\varnothing\in\{\varnothing\}$（注意这里 $\varnothing$ 是元素，而不是子集），因此它不是空集.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;通过配对的运用，我们可以定义有序对（ordered pair）的数学结构：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt; 对任意集合 $a, b, c$，定义
+$$\begin{align*}
+()&amp;amp;=\varnothing, \\
+(a)&amp;amp;=((),a)=\{\{()\}, \{(),a\}\}, \\
+(a,b)&amp;amp;=((a),b)\\
+(a,b,c)&amp;amp;=((a,b),c)\\
+\end{align*}
+$$
+&lt;p&gt;称 $(a,b)$ 为&lt;span class=&quot;concept&quot;&gt;有序对&lt;/span&gt;，称 $(a,b,c)$ 为3维数组．&lt;/p&gt;
+上述定义的集合都存在.
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt; &lt;p&gt;显然 $\varnothing$ 存在，那么 $()$ 是有定义的．&lt;/p&gt;
+&lt;p&gt;若 $a$ 和 $b$ 存在，那么应用配对公理，存在 $\{a,b\}$．在 $a$ 上应用配对定理两次，可见 $\{\{a\}\}$ 存在．因此二者的并集 $\{a,b\}\cup\{\{a\}\}=\{\{a\}, \{a, b\}\}$ 也存在.&lt;/p&gt;
+&lt;p&gt;那么根据定义 $(a)=((),a)$，$(a,b)=((a),b)$，$(a,b,c)=((a,b),c)$ 都存在.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt; 对任意有序对 $(a,b)$ 和 $(c,d)$，$$(a,b)=(c,d) \Leftrightarrow a=c, b=d$$
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Rightarrow$：反证法：假设 $a\neq c$，那么根据外延公理和单元素集的定义，$\{a\}\neq \{c\}$，那么通过配对公理构成的 $\{\{\varnothing\}, \{a\}\}\neq \{\{\varnothing\}, \{c\}\}$，那么 $(a)\neq (c)$．根据定义，$\{(a)\}$ 和 $\{(a),b\}$ 是 $(a,b)$ 唯二的元素，$\{(c)\}$ 和 $\{(c),d\}$ 是 $(c,d)$ 唯二的元素，必有 $\{(a)\}=\{(c),d\}$，$\{(c)\}=\{(a),b\}$，蕴含 $(c)=(a)$，矛盾．&lt;/li&gt;
+&lt;li&gt;$\Leftarrow$：显然成立.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h3 class=&quot;hd&quot;&gt;正规公理&lt;/h3&gt;
+&lt;p&gt;如果说分类公理是为了解决 Russell 悖论而生的，那么正规公理存在的目的是排除 “病态” 的元素包容关系：&lt;/p&gt;
+&lt;div class=&quot;axiom&quot;&gt;（正规公理）对任何非空的集合 $A$，都存在 $a\in A$，满足 $a\cap A=\varnothing$.&lt;/div&gt;
+&lt;p&gt;我们排除的 “病态” 包容关系是那些包含自己为元素的集合：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+&lt;ol&gt; &lt;li&gt;对任何集合 $A$ 都有 $A\notin A$；没有集合是它自己的元素.&lt;/li&gt;
+ &lt;li&gt;不存在集合满足 $A\in B$ 且 $B\in A$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt; &lt;li&gt;反证法： 假设存在集合 $A$ 满足 $A\in A$．根据配对公理，单元素集 $\{A\}$ 存在，且 $A\in \{A\}$．$\{A\}$ 显然非空，因此根据正规公理，存在一个 $a\in \{A\}$ 满足 $a\cap \{A\}=\varnothing$．因 $A$ 是单元素集，一定有 $a=A$，因此 $A=\varnothing$．但因为 $A\in A$，$A\neq \varnothing$，形成矛盾.&lt;/li&gt;
+&lt;li&gt;反证法：假设满足条件的 $A,B$ 存在．根据配对公理，集合 $C=\{A,B\}$ 存在．对 $A\in C$，根据正规公理，必有（1）$C\cap A =\varnothing$ 或（2）$C\cap B =\varnothing$．不失一般性地假设（1）为真，那么显然 $B\notin A$.
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h3 class=&quot;hd&quot;&gt;并集公理&lt;/h3&gt;
+&lt;p&gt;通过分类公理造出的新集都是比原来的集更“小”的子集；我们需要并集的概念来合并多个集合，构造更“大”的集：&lt;/p&gt;
+
+&lt;div class=&quot;axiom&quot;&gt;（并集公理）对集合 $A$ 和集合 $B$，存在它们的&lt;span class=&quot;concept&quot;&gt;并集&lt;/span&gt; $A\cup B$；$A\cup B$ 包含且仅包含 $A$ 和 $B$ 中的元素，即 $A\cup B=\{x \mid x \in A \vee x \in B\}$.
+&lt;p&gt;一般地，称一个&lt;span class=&quot;concept&quot;&gt;集合族 $\mathcal{C}$ 的并集&lt;/span&gt; $\bigcup \mathcal{C}$ 为 $\mathcal{C}$ 中所有元素的并集，即 $x\in \bigcup\mathcal{C}$ 当且仅当它是 $\mathcal{C}$ 中某些元素的元素，
+$$x\in \bigcup \mathcal{C} \Leftrightarrow  \exists C\in \mathcal{C} : x \in C$$
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;显然，&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+任何给定集合的并集是独特的.
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+由定义和外延公理直接证明.
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h3 class=&quot;hd&quot;&gt;幂集公理&lt;/h3&gt;
+&lt;p&gt;幂集公理为定义更复杂的数学结构建立了基础：&lt;/p&gt;
+&lt;div class=&quot;axiom&quot;&gt;（幂集公理）对任意集合 $A$，存在 $A$ 的&lt;span class=&quot;concept&quot;&gt;幂集 $\mathcal{P}(A)$&lt;/span&gt;．$\mathcal{P}(A)$ 包含 $A$ 所有的子集，即
+$$
+\forall a : a\subseteq A \Leftrightarrow a\in  \mathcal{P}(A)
+$$
+&lt;/div&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt; 对任意集合 $A$ 和 $B$，定义$A$ 和 $B$ 的&lt;span class=&quot;concept&quot;&gt;笛卡尔积&lt;/span&gt; $A\times B$ 为 $\{(a,b) \mid a\in A \wedge b\in B \}$．笛卡尔积存在.
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;我们需要借助分类公理证明笛卡尔积是某个集的子集.
+&lt;p&gt;我们先要证明对 $a\in A'$, $b\in B'$，$\{\{a\},\{a,b\}\} \in \mathcal{P}(\mathcal{P}(A'\cup B'))$．因 $a\in A'$，$a\in A'\cup B'$ 且有 $\{a\} \in \mathcal{P}(A'\cup B')$；类似地有 $\{a, b\} \in \mathcal{P}(A'\cup B')$．那么 $\{\{a\},\{a,b\}\} \subseteq \mathcal{P}(A'\cup B')$，或 $\{\{a\},\{a,b\}\}\in \mathcal{P}(\mathcal{P}(A'\cup B'))$．&lt;/p&gt;
+
+&lt;p&gt;可见，对 $a\in A$，$(a)=\{\{\varnothing\},\{\varnothing,a\}\}$，有 $(a)\in \mathcal{P}(\mathcal{P}(\{\varnothing\}\cup A))=T$，根据幂集公理这是一个有良好定义的集合．对 $b\in B$，$(a,b)=((a),b)=\{\{(a)\},\{(a),b\}\}$，有 $(a,b)\in \mathcal{P}(\mathcal{P}(T\cup B))$，根据幂集公理这也是一个有良好定义的集合.&lt;/p&gt;
+&lt;p&gt;因此根据分类公理该集存在.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;关系与函数&lt;/h1&gt;
+&lt;h2 class=&quot;hd&quot;&gt;基本定义&lt;/h2&gt;
+&lt;p&gt;因为笛卡尔积存在，我们可以取笛卡尔积的特定子集，并赋予它们特殊的意义：&lt;/p&gt;
+
+&lt;div class=&quot;definition&quot;&gt; 对任意集合 $A$ 和 $B$，定义 $R\subseteq A\times B$ 为&lt;span class=&quot;concept&quot;&gt;二元关系（binary relation）&lt;/span&gt;．若 $(a,b)\in R$，可以把 $R$ 作为中缀写成 $aRb$，并称 $(a, b)$ 满足 $R$.
+&lt;/div&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;给定二元关系 $R$，定义$R$ 的：
+&lt;ol&gt;
+&lt;li&gt;&lt;span class=&quot;concept&quot;&gt;定义域（domain）&lt;/span&gt;：$\mathrm{dom}(R) = \{x \mid \exists y : xRy\}$&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;concept&quot;&gt;值域（range）&lt;/span&gt;：$\mathrm{ran}(R) = \{y \mid \exists x : xRy\}$&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;concept&quot;&gt;域（field）&lt;/span&gt;：$\mathrm{fld}(R)=\mathrm{dom}(R) \cup \mathrm{ran}(R)$ &lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;concept&quot;&gt;反关系（inverse relation）&lt;/span&gt;：$R^{-1} = \{(y,x) \mid \exists x:\exists y : xRy\}$&lt;/li&gt;
+&lt;li&gt;在 $C\subseteq \mathrm{dom}(R)$ 上的&lt;span class=&quot;concept&quot;&gt;限制（restriction）&lt;/span&gt;：$R\restriction C = \{(x,y) \mid x\in C \wedge xRy\}$&lt;/li&gt;
+&lt;/ol&gt;
+$R$ 的定义域、值域、域、反关系，限制都是集合.
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;p&gt;对任意 $(a,b)\in R$，因为 $\{(a)\}\in (a,b)$，$(a,b)\in R$，有 $\{(a)\}\in \bigcup R$．又因为 $(a)\in \{(a)\}$，那么 $(a)\in \bigcup\bigcup R$．又有 $\{\varnothing,a\}\in (a)$，所以 $\{\varnothing,a\} \in \bigcup\bigcup\bigcup R$．最后，$a\in \{\varnothing,a\}$，因此 $a\in \bigcup\bigcup\bigcup\bigcup R$．类似地也有 $b\in \bigcup\bigcup\bigcup\bigcup R$．那么定义域，值域和域都是 $\bigcup\bigcup\bigcup \bigcup R$ 的子集，因此根据分类公理它们都是集合．&lt;/p&gt;
+&lt;p&gt;$R^{-1}\in \mathrm{ran}(f)\times \mathrm{dom}(f)$, $R\restriction C\subseteq R$，因此根据分类公理它们也都是集合.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;有一类特殊的二元关系是数学的学生都很熟悉的：&lt;/p&gt;
+&lt;div class=&quot;definition&quot;&gt; 若 $f$ 是二元关系，且对每个 $x\in \mathrm{dom}(f)$，仅存在一个 $y$ 满足 $xfy$，那么那么 $f$ 又称为&lt;span class=&quot;concept&quot;&gt;函数（function）或映射（mapping）&lt;/span&gt;.
+&lt;p&gt;对函数 $f$，若 $afb$，可记 $f(a)=b$.&lt;/p&gt;
+&lt;p&gt;若我们知道 $f\subseteq A\times B$，那么可以表记为 $f: A\to B$．$B$ 称作&lt;span class=&quot;concept&quot;&gt;到达域（codomain）&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;如此定义的函数 $f$，就相当于在纸上画出 $f$ 的图像（graph），然后说 $f$ 的图像就&lt;emph&gt;是&lt;/emph&gt; $f$——我们知道图像是由一个个点构成的，每一个点可以根据它在纸上的位置用一对坐标 $(x,y)$ 表示，而 $f$ 就正是全体这样的点的集合，与此处的定义吻合.&lt;/p&gt;
+
+&lt;p&gt;给定一个函数，我们可以定义以下的集合：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;给定函数 $f: A\to B$，定义
+&lt;ol&gt;
+&lt;li&gt;$f$ 在 $X\subseteq A$ 上的&lt;span class=&quot;concept&quot;&gt;像（image）&lt;/span&gt;：$f(X) = \{y \mid \exists x\in X : xfy\}$．为了避免歧义，也可以记作$\{f(x)\}_{x\in X}$.&lt;/li&gt;
+&lt;li&gt;$f$ 在 $Y\subseteq B$ 上的&lt;span class=&quot;concept&quot;&gt;原像（preimage）&lt;/span&gt;：$f^{-1}(Y) = \{x \mid \exists y\in Y :xfy\}$ &lt;/li&gt;
+&lt;li&gt;若 $g:B\to C$ 也是映射，$g$ 和 $f$ 的&lt;span class=&quot;concept&quot;&gt;复合（compound）&lt;/span&gt;是：$$g\circ f= \{(a,c) \mid \exists b\in B: afb \wedge  bgc\}$$ &lt;/li&gt;
+&lt;/ol&gt;
+像，原像，复合都是集合.
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;显然 $f(X)\subseteq \mathrm{ran}(f)$, $f^{-1}(Y)\subseteq \mathrm{dom}(f)$，因此根据分类公理它们都是集合．显然 $f\circ g \subseteq \mathrm{dom} (f) \times \mathrm{ran}(g)$
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+&lt;p&gt;给定函数 $f: A\times A\to A$，$f$ 又可称作（$A$ 上的）&lt;span class=&quot;concept&quot;&gt;二元运算（binary operation）&lt;/span&gt;．二元运算通常使用中缀的形式表示．&lt;/p&gt;
+&lt;p&gt;对任意函数 $g:B\to A$，$h:C\to A$ 可以定义 $g$ 和 $h$ 的&lt;span class=&quot;concept&quot;&gt;逐点（pointwise）的 $f$ 运算&lt;/span&gt; $gfh$ 为：
+$$(g f h)(x,y)=g(x)fh(y))$$
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;显然 $\mathbb{ran}(gfh) \subseteq \mathbb{ran}(f) \subseteq A$，且 $\mathbb{dom}(gfh)\subseteq \mathbb{dom}(g)\times \mathbb{dom}(h)\subseteq B\times C$，且 $gfh$ 的定义中不含对自身的引用．因此根据分类公理其存在.
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;有三类具有特殊性质的函数：&lt;/p&gt;
+&lt;div class=&quot;definition&quot;&gt;给定函数 $f: A\to B$，我们称 $f$ 是
+&lt;ol&gt;
+&lt;li&gt; &lt;span class=&quot;concept&quot;&gt;满射的（surjective）&lt;/span&gt;，当且仅当对每一个 $y\in \mathrm(f)$ 只存在一个 $x$ 满足 $xRy$．&lt;/li&gt;
+&lt;li&gt; &lt;span class=&quot;concept&quot;&gt;单射的（injective）&lt;/span&gt;，当且仅当对任意 $x$, $x'$，若$x\neq x'$，那么 $f(x)\neq f(x’)$&lt;/li&gt;
+&lt;li&gt; &lt;span class=&quot;concept&quot;&gt;双射的（bijective）&lt;/span&gt;，若 $f$ 既是单射也是满射的.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;p&gt;其中，双射函数可被视为一种 “一一对应” 的关系：$A$ 中的每一个元素 $a$ 都可以找到 $B$ 中相应的一个元素 $b$，不存在另一个 $A$ 的元素 $a'$ 对应 $b$，也不存在另一个 $B$ 的元素 $b'$ 对应 $a$.&lt;/p&gt;
+
+&lt;p&gt;特别地，单射函数有如下性质：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+&lt;ol&gt;&lt;li&gt;
+对单射函数 $f: A\to B$，称 $f$ 的反关系为&lt;span class=&quot;concept&quot;&gt;反函数（inverse）&lt;/span&gt; $f^{-1}$ ．$f^{-1}$ 是函数，也是单射函数.&lt;/li&gt;
+&lt;li&gt;对单射函数 $f: A\to B$，对 $C\subseteq A$, $f\restriction C$ 也是单射.&lt;/li&gt;
+&lt;li&gt;对单射函数 $f: A\to B$ 和 $g: B\to C$，$g\circ f$ 也是单射.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt;&lt;li&gt;反证法：假设 $f^{-1}$ 不是函数，那么对 $y\in \mathrm{dom}(f^{-1})$，存在 $x, x'\in\mathrm{ran}(f^{-1})$，$x\neq x'$ 满足 $yf^{-1}x$ 和 $yf^{-1}x'$，即 $xfy$ 和 $x'fy$，与 $f$ 的单射性矛盾.&lt;/li&gt;
+&lt;li&gt;反证法易证若 $f\restriction C$ 不是单射那么 $f$ 也不是单射，与假设相悖.&lt;/li&gt;
+&lt;li&gt;显然对 $x,x'\in A$，若 $x\neq x'$，$f(x)\neq f(x')$，$g(f(x))\neq g(f(x'))$，因此 $g\circ f$ 也是单射.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h2 class=&quot;hd&quot;&gt;等价关系&lt;/h2&gt;
+&lt;p&gt;在函数之外，还有一类特殊的二元关系：&lt;/p&gt;
+&lt;div class=&quot;definition&quot;&gt;若 $R\subseteq X \times X$ 是二元关系且满足以下性质：对任意 $a,b,c\in X$
+&lt;ol&gt;
+&lt;li&gt;反身性：$aRa$&lt;/li&gt;
+&lt;li&gt;对称性：若 $aRb$ 则 $bRa$&lt;/li&gt;
+&lt;li&gt;传递性：若 $aRa$, $bRc$, 则 $aRc$&lt;/li&gt;
+&lt;/ol&gt;
+那么我们称 $R$ 为&lt;span class=&quot;concept&quot;&gt;等价关系（equivalence relation）&lt;/span&gt;.
+&lt;/div&gt;
+
+&lt;p&gt;相等和等价，可类比于几何上的全等与相似．和相等不同，等价关系更松散地定义了一种“相等”的概念．它目的不在于比较两个物件是不是同一件物件（这是相等的功能），而是比较两件物体是不是在某种意义上是属于同一类的．而这种由等价关系而诱导产生的“类”允许我们作一下定义：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;若 $R\subseteq X \times X$ 是等价关系，对任意 $a\in R \times R$ 都可以定义 $a$ 的&lt;span class=&quot;concept&quot;&gt;等价类（equivalence class）&lt;/span&gt; $$[a]=\{b\in X \mid aRb \}$$ &lt;/li&gt;
+&lt;li&gt;由 $R$ 所有等价类的集合 $\mathcal{C}=\{[x] \mid x\in X\}$． $\mathcal{C}$  称作 $X$ 相对于 $R$ 的&lt;span class=&quot;concept&quot;&gt;商集（quotient set）&lt;/span&gt;，记作 $X/R$．&lt;/li&gt;
+&lt;li&gt;每一个 $[x] \in X/R$ 都非空且两两不相交，并有 $\bigcup X/R =X$．因此我们说 $X/R$ 是 $X$ 的&lt;span class=&quot;concept&quot;&gt;划分（partition）&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;映射 $\pi(x)=[x]$ 存在，称为 $R$ 的&lt;span class=&quot;concept&quot;&gt;规范投影映射（canonical projection map）&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;对任意 $x\in X$, 每一个等价类 $[x]$ 都是 $\mathrm{ran} R=X$ 的子集，因此据分类公理是集合．&lt;/li&gt;
+&lt;li&gt;因为每个 $[x]\in X/R$ 都是集合，根据配对公理，$X/R$ 也是集合．&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;显然 $\bigcup X/R  \subseteq X$． 等价类是非空的，因为对每个 $x\in X$，根据等价关系的反身性有 $x\in [x]$，因此又有 $X\subseteq \bigcup X/R$，得 $X = \bigcup X/R$．&lt;/p&gt;
+&lt;p&gt;反证等价类不相交：假设有相交的独特等价类 $[a]$ 和 $[b]$，存在 $c\in [a]\cap [b]$．那么必有 $aRc$ 和 $bRc$，根据传递性，有 $aRb$，也就是说 $b\in [a]$，$a\in [b]$，$[a]=[b]$，与独特性假设矛盾．&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;显然映射 $\pi \subseteq X\times X/R$ 是集合．假设存在独特的 $[x]'$, $[x]$ 满足 $\pi(x)=[x]$, $\pi(x)= [x]'$，那么根据 $3$ 有 $[x]\cap [x]'=\varnothing'$，这与 $x\in[x]$, $x\in[x]'$ 相悖.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;div class=&quot;definition&quot;&gt; 若 $R\subseteq X \times X$ 是等价关系，
+&lt;ol&gt;
+&lt;li&gt;映射 $f:X\to Y$ 和 $R$ 称作&lt;span class=&quot;concept&quot;&gt;态射（morphism）&lt;/span&gt;，当且仅当对 $a,b\in X$，$aRb$ 蕴含 $f(a)=f(b)$ &lt;/li&gt;
+&lt;li&gt;映射 $f:X\to X$ 和 $R$ 是&lt;span class=&quot;concept&quot;&gt;相容（compatible）的&lt;/span&gt;，当且仅当对 $a,b\in X$，$aRb$ 蕴含 $f(a)Rf(b)$&lt;/li&gt;
+&lt;li&gt;映射 $f:(X\times X)\to X$ 和 $R$ 是相容的，当且仅当对 $a,b,c,d\in X$，$aRb$ 和 $cRd$ 蕴含 $f(a,c)Rf(b,d)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;p&gt;相容性的意思是，如果一个映射 $f$ 和一个等价关系 $R$ 相容，若它的所有自变量都被等价的元素替代，它的像仍然会落在原来的像的等价类中．这似乎意味着 $f$ 在某种意义上似乎起到了一个从等价类到等价类的映射的作用．自然，$f$ 本身并不是这样的函数，但是下面这条定理告诉我们确实可以利用 $f$ 构造一个符合条件的等价类到等价类的映射 $g$：&lt;/p&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;若 $R\subseteq X \times X$ 是等价关系且函数 $f:X\to X$ 与 $R$ 相容，那么存在映射 $g:X/R\to X/R$，其定义如下：
+$$g=\{([x], [f(x)])\mid x\in X\}$$
+类似地，若函数 $f:X \times X\to X$ 与 $R$ 相容，那么存在映射 $g:(X/R\times X/R)\to X/R$，其定义如下：
+$$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;p&gt;显然 $g\subseteq X/R \times X/R$ 根据分类公理是集合.&lt;/p&gt;
+&lt;p&gt;须反证 $g$ 是映射．若 $g$ 不是映射，那么对某个 $[x]$，存在 $[f(x)]\neq [f(x)]'$，满足 $([x],[f(x)]), ([x],[f(x)])\in g$．$[f(x)]\neq [f(x)]'$ 蕴含 $[f(x)]\cap [f(x)]' =\varnothing$，蕴含存在独特的 $y\in [f(x)]$ 和 $y'\in [f(x)]'$ 满足 $xfy$, $xfy'$．这和 $f$ 是映射的前提相悖．因此 $[f(x)]=[f(x)]'$.&lt;/p&gt;
+&lt;p&gt;$f:(X \times X)\to X$ 的情况的证明完全类似.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h2 class=&quot;hd&quot;&gt;排序关系&lt;/h2&gt;
+&lt;p&gt;还有第三种常见二元关系．同样也是延展相等的概念，排序关系的目的是在两个元素的比较中引入 “大” 和 “小” 的相对概念.&lt;/p&gt;
+&lt;div class=&quot;definition&quot;&gt;若 $R\subseteq X \times X$ 是二元关系且满足以下性质：对任意 $a,b,c\in X$
+&lt;ol&gt;
+&lt;li&gt;三分性（trichotomous）：$aRb$, $bRa$ 和 $a=b$ 中只有一个是真断言．&lt;/li&gt;
+&lt;li&gt;传递性（transitive）：若 $aRb$, $bRc$, 那么 $aRc$&lt;/li&gt;
+&lt;/ol&gt;
+我们称 $R$ 为&lt;span class=&quot;concept&quot;&gt;排序关系（order）&lt;/span&gt;．排序关系 $R$ 一般用符号 $&amp;lt;$ 或 $&amp;gt;$ 表示：若 $R$ 是排序关系，那么 $a&amp;lt;b$ 或 $b&amp;gt;a$ 的意思是 $aRb$．类似地，$a\leq b$ 和 $b\geq a$ 表示 $aRb$ 或 $a=b$.
+&lt;/div&gt;
+
+&lt;p&gt;排序关系有以下性质.&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt; 若 $R\subseteq X \times X$ 是排序关系，那么它有&lt;span class=&quot;concept&quot;&gt;反反身性（irreflexive）&lt;/span&gt;；那么对任意 $a\in R$，$aRa$ 恒假．&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;反证法：显然 $a=a$ 恒真．若 $aRa$ 为真，那么根据三分性 $a=a$ 为假，显然矛盾.
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;对于一个集合 $A$，若能找到并找到 $A$ 上的一个排序关系，就可以称它是有序的．一个集合可能有多个排序关系，但一般来说，我们不会同时研究同一个集合中一个以上的排序关系，因此 “有序集” 中具体指的是哪个排序关系是由上下文指明的.&lt;/p&gt;
+&lt;div class=&quot;definition&quot;&gt;
+若存在集合 $A$ 上的排序关系 $&amp;lt;$，那么称 $A$ 是&lt;span class=&quot;concept&quot;&gt;有序的（ordered）&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;对于一个有序集 $A$，我们可以研究那些在大小上是极值的元素：&lt;/p&gt;
+&lt;div class=&quot;definition&quot;&gt;
+对于有序集 $A$ 和其上的排序关系 $&amp;lt;$，有如下定义：
+&lt;ol&gt;
+&lt;li&gt;若有 $m\in A$，对任意 $a\in A$ 都满足 $a\leq m$，那么称 $m$ 为 $A$ 的&lt;span class=&quot;concept&quot;&gt;最大值（maximum）&lt;/span&gt;，记作 $\max A = m$&lt;/li&gt;
+&lt;li&gt;若有 $m\in A$，对任意 $a\in A$ 都满足 $m \leq a$，那么称 $m$ 为 $A$ 的&lt;span class=&quot;concept&quot;&gt;最小值（minimum）&lt;/span&gt;，记作 $\min A = m$&lt;/li&gt;
+&lt;li&gt;若有 $m\in A$，对 $S\subseteq A$，对任意 $s\in S$ 都满足 $a \leq s$，那么称 $s$ 为 $S$ 的&lt;span class=&quot;concept&quot;&gt;上界（upper bound）&lt;/span&gt;．令 $M$ 表记 $S$ 所有的上界的集合，那么称 $\min M$ 为 $S$ 的&lt;span class=&quot;concept&quot;&gt;最小上界（supremum）&lt;/span&gt;，记作 $\sup S$.&lt;/li&gt;
+&lt;li&gt;若有 $m\in A$，对 $S\subseteq A$，对任意 $s\in S$ 都满足 $s \leq a$，那么称 $s$ 为 $S$ 的&lt;span class=&quot;concept&quot;&gt;下界（lower bound）&lt;/span&gt;．令 $M$ 表记 $S$ 所有的下界的集合，那么称 $\max M$ 为 $S$ 的&lt;span class=&quot;concept&quot;&gt;最大下界（infimum）&lt;/span&gt;，记作 $\inf S$.&lt;/li&gt;
+&lt;li&gt;若有 $S\subseteq A$ 有上界以及下界，那么称 $S$ 是&lt;span class=&quot;concept&quot;&gt;有界的（bounded）&lt;/span&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;自然数 $\mathbb{N}$&lt;/h1&gt;
+&lt;h2 class=&quot;hd&quot;&gt;Peano 算数公理&lt;/h2&gt;
+&lt;p&gt;目前，我们的数学宇宙中已经有各种各样的集了，但是还没有一种能代表数的概念．最简单的一种数是 “自然数”．我们希望能用集合表示 “自然数”.&lt;/p&gt;
+
+&lt;p&gt;在构造自然数之前，我们需要先反思我们期望一个 “自然数” 应该具有什么样的性质．面对 “'3' 是什么？” 这个问题时，一个普通人往往会给出近似以下三个观点之一的答复：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;竖起三根指头，示意 “3” 是竖起的指头.&lt;/li&gt;
+&lt;li&gt;用算筹摆出 “|||” 的形状，示意 “3” 是 “把算筹 | 放在桌上” 这个动作重复的次数代表的概念.&lt;/li&gt;&lt;li&gt;“3” 是三个苹果，三个人和三分钟的抽象共性（&lt;a href=&quot;#russell1919s&quot; name=&quot;russell1919&quot;&gt;Russell 1919&lt;/a&gt;）．&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;从这些例子不难看出，不管是实物的数量、某个过程的特征还是某种抽象的性质，常识上自然数 “3” 的概念都与某些可以用人类心智的常识可以理解的概念相照应．更基础地说，你的中文&lt;sup class=&quot;note-tag&quot;&gt;&lt;a href=&quot;#注&quot; name=&quot;lg&quot;&gt;注&lt;/a&gt;&lt;/sup&gt;语言能力也是拜你的常识中对 “自然数” 的理解所赐的：为了读懂汉字，你必须能够 “理解” 不同的汉字有不同的笔画；如果让 “日” 代表自然数 $4$，让 “目” 代表 $5$，那么能读或写这两个字，并且能认识到这是两个因为笔画而不同的字，意味着你具备对自然数 $4$ 和 $5$ 的理解．可见，如果你能看懂这个网页上的东西的话，那么 “自然数” 的概念就已经弥散在我们的讨论中了.&lt;/p&gt;
+
+&lt;div class=&quot;notes&quot;&gt;
+&lt;a name=&quot;注&quot; href=&quot;#lg&quot;&gt;注&lt;/a&gt;：
+世界上的各种语言对数字的表现力不尽相同．亚马逊的 Pirahã 部落的语言缺乏描述准确数字的词语，甚至连表示 “1” 的词语都没有，只依靠 “一些” 之类的模糊称谓来表达数量．不仅如此，Pirahã 人普遍存在对准确数字的理解困难，尤其是当要记忆准确数量的时候．但就算如此，如果给一位 Pirahã 人一些算筹和一些苹果，让他/她摆出和苹果一样多的算筹，他/她仍然是可以做到的（&lt;a href=&quot;#frank2008s&quot; name=&quot;frank2008&quot;&gt;Frank et al．2008&lt;/a&gt;）．这某种意义上意味着通过答复（2）所定义的自然数对 Pirahã 人是有意义的.
+
+&lt;p&gt;总之，这里要表达的意思是对有限数字的理解对人类来说是泛有而基本的.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;既然 “自然数” 的概念这么基本，那么为什么还要浪费时间从集合构建自然数呢？因为我们感兴趣的问题往往涉及研究&lt;em&gt;全体&lt;/em&gt;自然数所具有的特点．一个人可以问 “所有的自然数 $a$ 都可以写成另一个自然数 $b$ 加 $0$ 的形式吗？” 为了回答这个问题，我们可以朴素地枚举写出我们知道的所有自然数并一一带入这个谓词中验证，直到谓词对所有的自然数都成立或者找到一个反例为止，但是显然这是不合实际的，因为永远也无法完成逐个验证自然数的任务：常识告诉我们自然数是无穷无尽的.&lt;/p&gt;
+
+&lt;p&gt;以上的讨论指出，人类有结合直觉理解一个给定的自然数 $n$ 的心智能力，但是因为没有人真正 “体验” 过无限是什么，因此人类心智无法准确地描述 “全体自然数” 这个无限的概念，更不用说能够证明关于全体自然数的性质了．换句话说，我们连在我们的数学宇宙中能否不出悖论地存在 “全体自然数” 这个集合都无法证明.&lt;/p&gt;
+
+&lt;p&gt;虽然我们无法用枚举的形式来定义自然数，我们可以避开提及无穷枚举而试用以下的描述：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;0 是自然数.&lt;/li&gt;
+&lt;li&gt;如果 $k$ 是自然数，那么 $k$ 的 “下一个元素” $\sigma(k)$ 也是自然数.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这个描述看似是可行的，但是考虑以下的例子：对于 $A=\{a,b\}$，如果定义 $0=a$ 以及 $\sigma(a)=b$ 和 $\sigma(b)=a$，那么 $A$ 显然符合以上的条件，但它显然不是我们想象中 “全体自然数” 的样子——“全体自然数”显然不仅仅只有两个元素．因此，我们需要采用更加严谨的定义：这一次，&lt;/p&gt;
+
+&lt;div class=&quot;definition&quot;&gt;若对集合 $A$，存在&lt;span class=&quot;concept&quot;&gt;单位元&lt;/span&gt; $e\in A$ 和&lt;span class=&quot;concept&quot;&gt;后继映射&lt;/span&gt; $\sigma:A\to A$ 满足 &lt;span class=&quot;concept&quot;&gt;Peano 算数公理&lt;/span&gt;：
+&lt;ol&gt;
+&lt;li&gt;$\sigma$ 是单射函数.&lt;/li&gt;
+&lt;li&gt;$e \notin \mathrm{ran}(\sigma)$&lt;/li&gt;
+&lt;li&gt;对任意集合 $S\subseteq A$，若 $e\in S$ 且对任意 $k\in S$ 都有 $\sigma(k)\in S$，那么有 $S=A$；$S$ 称为归纳集.&lt;/li&gt;
+&lt;/ol&gt;
+那么 $A$ 可认为是全体&lt;span class=&quot;concept&quot;&gt;自然数&lt;/span&gt;的集合，可记作 $\mathbb{N}$.
+&lt;/div&gt;
+
+&lt;p&gt;自然数是通过 Peano 算数公理定义的，任何符合这套公理的集合都可以认为是全体自然数的集合；这比定义一个特定的集合为自然数更有灵活性．对满足 Peano 公理的任何集合，如果我们表记 $e$ 为 $0$，$\sigma(0)$ 为 $1$，$\sigma(\sigma(0))=\sigma(1)$ 为 $2$ ..．那么我们得到的就是我们习以为常的用阿拉伯数字表现的自然数了.&lt;/p&gt;
+
+&lt;p&gt;Peano 公理定义的自然数是从 $0$ 而不是 $1$ 开始的．你或许会说，把 $e$ 记成 $1$ 和记成 $0$ 有什么区别？其实是没有区别的．只不过，从 $1$ 开始的自然数缺乏一个加法零元：缺乏一个令 “任何自然数 $n$ 加 $x$ 仍等于 $n$” 的自然数 $x$．如果我们要让自然数成为一个完整的代数结构（幺半群，见下文），那么在定义自然数加法和乘法的时候 $1$ 就得起 $0$ 的作用．我们自然不希望形如 “任何自然数 $n$ 加 $1$ 仍等于 $n$” 这样的算数定律，因此把 $0$ 算作自然数都是一个更加合理的选择.&lt;/p&gt;
+
+&lt;p&gt;同时，这样的定义让那些类似 “‘3’ 的本质是什么？” 的看似深刻的哲学命题失去了意义：如果我们把 “是” 解读为形而上的本质（ontology），那么这个问题的答案是简单干脆的 “集合”，因为我们约定数学宇宙中存在且仅存在集合，不存在什么模糊神秘的宇宙奥妙；如果把它解读为 “‘3’ 的数学定义是什么？”，那么上述定义就是答案.&lt;/p&gt;
+
+&lt;h2 class=&quot;hd&quot;&gt;构建自然数&lt;/h2&gt;
+&lt;p&gt;目前，我们只定义了自然数需要满足什么性质，还不确定有没有满足这个性质的集合．所以接下来， 我们要通过集论公理构建出一个满足 Peano 公理的自然数模型（model）．首先，我们需要一些辅助的概念：&lt;/p&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt; 一个集合 $A$ 的&lt;span class=&quot;concept&quot;&gt;后继集&lt;/span&gt;为 $A\cup \{A\}$，记 $$A^+=A\cup \{A\}$$
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt; 对给定集合 $A\in \mathcal{A}$，显然 $a\in \mathcal{P}(A)$，$\{A\} \subseteq \mathcal{P}$ 或 $\{A\} \in \mathcal{P}(\mathcal{P}(A))$，因此 $f\subseteq \mathcal{P}\times \{A\} \in \mathcal{P}(\mathcal{P}(A))$，根据分类公理 $f$ 是集合.
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;对于归纳集 $N$，映射 $\sigma=\{ (n,n^+) \mid n\in N\}$ 满足
+&lt;ol&gt;
+&lt;li&gt;$\sigma$ 是单射函数.&lt;/li&gt;
+&lt;li&gt;$\varnothing \notin \mathrm{ran}(\sigma)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;我们首先需要证明 $\sigma$ 是映射．显然给定 $n\in\mathbb{N}$，根据配对公理和并集公理，其后继集是独特的，因此 $\sigma$ 是映射．&lt;/p&gt;
+&lt;p&gt;$\sigma$ 也是单射的；若存在 $n_1\neq n_2$ 有 $\sigma(n_1)=\{n_1,n_1^+\}=\sigma(n_2)=\{n_2,n_2^+\}$，因为后继集只含两个元素，必有 $n_1=n_2^+=\{n_2,\{n_2\}\}$，因此 $n_2\in n_1$；类似地有 $n_2=n_1^+=\{n_1,\{n_1\}\}$ 且 $n_1\in n_2$．但根据定理 8.2 这是不可能的．因此 $\sigma$ 是单射的．&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;根据后继集定义，对任意 $n^+\in \sigma$，显然 $n\in n^+$，$n^+\neq \varnothing$．因此（2）显然成立.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;归纳集似乎有希望满足 Peano 公理．归纳集存在吗？目前我们的公理系统无法给出明确答案．因此我们需要一条新的公理.&lt;/p&gt;
+&lt;div class=&quot;axiom&quot;&gt;（无穷公理）存在集合 $N$ 具备两个性质：$\varnothing \in N$，并且 $A\in N$ 蕴含 $A^+\in N$；即 $N$ 是归纳集.
+&lt;/div&gt;
+
+&lt;p&gt;无穷公理其实是比我们需要的更强的命题：它保证了归纳集的存在，但是可能存在许许多多结构臃肿的归纳集．这些归纳集不一定都能满足 Peano 公理．所以，不妨考虑以下这个 “最小” 的归纳集：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;所有归纳集的集合 $\mathcal{N}$ 的交集 $\omega =\bigcap\mathcal{N}$ 也是归纳集．$\omega$ 满足 Peano 公理.&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;p&gt;根据无穷公理，$\mathcal{N}$ 非空．根据归纳集定义，任意归纳集都含 $\omega$ 为元素，因此必有 $\varnothing\in \omega$.&lt;/p&gt;
+
+&lt;p&gt;假设 $n\in \omega$，那么 $n$ 必在所有归纳集内，根据归纳集定义, $n^+$ 也在所有归纳集内，因此 $n^+\in\omega$．因此 $\omega$ 也是归纳集.&lt;/p&gt;
+&lt;p&gt;为证明 $\omega$ 满足 Peano 公理，我们首先定义 $e=\varnothing \in \omega$ 和 $\sigma=\{ (n,n^+) \mid n\in \omega\}$．显然根据定理 19，$\sigma$ 满足 Peano 公理的前两条．考虑任意 $S\subseteq \omega$．如果 $S$ 满足 $e\in S$ 且对任意 $k\in S$, $\sigma(k)\in S$，那么 $S$ 是归纳集；又因为 $\omega$ 是所有归纳集的并集，有 $\omega\subseteq S$，因此 $\omega=S$.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;$\omega$ 之所以 “最小”，是因为它是所有归纳集的交集．定理 20 证明了 $\omega$ 是一个符合 Peano 公理的集合，即它是自然数的模型．在这个模型中， $\varnothing$ 代表了自然数 $0$，$\varnothing^+=\{\varnothing, \{\varnothing\}\}$ 代表自然数 $1$，$(\varnothing^+)^+=\{\varnothing, \{\varnothing\},\{\varnothing, \{\varnothing\}\}\}$ 代表自然数 $2$……以此类推.&lt;/p&gt;
+
+&lt;p&gt;在下文中，我们将讨论自然数的泛有性质，而并非模型 $\omega$ 的特殊性质．因此在下文中，“自然数”或 $\mathbb{N}$ 将表示满足 Peano 公理的任意集合，不一定是 $\omega$.&lt;/p&gt;
+
+&lt;h2 class=&quot;hd&quot;&gt;数学归纳法与递归定义&lt;/h2&gt;
+&lt;p&gt;Peano 公理的第三则描述的是自然数的&lt;span class=&quot;concept&quot;&gt;数学归纳性质（property of induction）&lt;/span&gt;，它有着深远的实际意义．如果我们需要证明某性质 $P(n)$ 对全体自然数成立，那么我们只需要证明子集 $S=\{n\mid n\in\mathbb{N} \wedge P(n)\}$ 是归纳集就行了，而证明 $S$ 是归纳集有两个充要的步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$P(0)$ 成立&lt;/li&gt;
+&lt;li&gt;对自然数 $k$，若 $P(k)$ 成立，那么 $P(\sigma(k))$ 也成立&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这就是数学归纳证明法，它是证明自然数性质最强有力的证明工具．对于归纳法，有两点值得强调：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;归纳法并不是哲学意义上的归纳（根据有限的样本对无法直接观察的整体进行推断），它是依赖自然数的定义进行的严谨的演绎证明.&lt;/li&gt;
+&lt;li&gt;在很多场合下，大小为 $\sigma(k)$ 的问题能被拆解成大小为 $k$ 的子问题，使推导步能被应用（在图论中尤其常见）．从 $k$ 问题倒着复原 $\sigma(k)$ 问题的倒着解题的方式在这种情况下往往会出错．&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;作为练习和示范，让我们试着证明 “$n$维有序数组是有定义的.” 这一断言对全体自然数 $n$ 都成立.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;显然当 $n=0$，$0$ 维有序数组即 $()=\varnothing$ 是有定义的&lt;/li&gt;
+&lt;li&gt;假设 $k$ 维有序数组是有定义的.&lt;/li&gt;
+&lt;li&gt;给定一个 $k$ 维有序数组 $a$ 和一个元素 $b$，根据定理 6，我们知道 $((a),b)$ 是有定义的，那么 $k+1$ 维有序数组是有定义的.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;因此，我们可以定义 $n$ 维的有序数组，简写为 $(x_1,x_2,x_3,…,x_n)$.&lt;/p&gt;
+
+&lt;p&gt;目前，$\mathbb{N}$ 还没有后继函数以外的任何结构．为了在做其上做基本的算数，我们需要借助数学归纳证明一个新的定理，使我们可以通过递归（recursion）来严谨地定义相关的函数.&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;对集合 $A$, 给定一个元素 $a \in A$, 对映射 $f: A \to A$，存在唯一的函数 $h: \mathbb{N} \to A$ 满足
+&lt;ol&gt;
+&lt;li&gt;$h(0) = a$，&lt;/li&gt;
+&lt;li&gt;对所有 $n\in \mathbb{N}$, $h(\sigma(n)) = f(h(n))$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;我们不知道有没有类似的函数存在，因此最好的证明 $h$ 存在的方式是构造法．因此定义一系列辅助函数 $h_k: \mathbb{N}\to \mathbb{N}$, $k\in\mathbb{N}$ 满足以下性质：
+
+&lt;ol&gt;
+&lt;li&gt;$h_0=\{(0,a)\}$&lt;/li&gt;
+&lt;li&gt;$h_{\sigma(k)}=h_k\cup \{(\sigma(k),f(h_k(k))\}$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;可以通过归纳法证明，对任意自然数 $k\in\mathbb{N}$，$h_k$ 都满足 $h_k \in \mathbb{N}\times A$，因此是因分类公理良好定义的集合
+
+&lt;ul&gt;
+&lt;li&gt;$h_0$ 显然是集合．&lt;/li&gt;
+&lt;li&gt;假设 $h_k$ 是集合．&lt;/li&gt;
+&lt;li&gt;根据配对定理 $h_{\sigma(k)}$ 是 $h_k$ 和另一个良好定义集合的并集，也是集合.&lt;/li&gt;
+&lt;/ul&gt;
+那么，考虑 $h=\bigcup_{k\in \mathbb{N}} h_k$，因为 $h$ 是集合的并集，所以根据并集公理也是集合．并且，因为每一个 $h_k$ 都是有序对的集合，$h$ 也是有序对的集合，因此它是一个二元关系，因此 $\mathrm{dom}(h)$，$\mathrm{ran}(h)$ 都是集合.
+&lt;/p&gt;
+
+&lt;p&gt;我们需要证明 $\mathrm{dom}(h)=\mathbb{N}$，用归纳法结合定义证明非常简单：
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;对 $0\in \mathbb{N}$，有 $h_0\in h$，所以显然 $0\in \mathrm{dom}(h)$．&lt;/li&gt;
+&lt;li&gt;假设对 $k\in \mathbb{N}$，有 $k\in \mathrm{dom}(h)$ &lt;/li&gt;
+&lt;li&gt;我们要反证 $k\in \mathrm{dom} (h)$．若 $\sigma(k)\notin \mathrm{dom}(h)$，这意味不存在 $h_{\sigma(k)}\in h$ 满足 $h_{\sigma(k)}(\sigma(k))=f(h(k))$．但是我们知道 $h_{\sigma(k)}$ 被定义为 $h_{\sigma(k)}=h_k\cup \{(\sigma(k),f(h_k(k))\}$ 且根据公理存在．所以一定有 $\sigma(k)\in \mathrm{dom}(h)$.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;接下来需用归纳法证明 $h$ 在全体自然数上是函数（注意，我们并不是证明每个 $h_k$ 都是函数，而只是证明它们的并集 $h$ 是）．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对 $0\in \mathbb{N}$，显然仅存在 $y$ 满足 $0hy$；若存在 $y\neq y'$ 满足 $0hy'$，那么 $(0,y)$, $(0,y')$ 中必有一个是 $(\sigma(k), f(h(k)))$ 的形式，即 $0=\sigma(k)$ 对某 $k\in\mathbb{N}$；这是不可能的，因为 $0\notin \mathrm{ran}(\sigma)$ &lt;/li&gt;
+&lt;li&gt;假设对 $k\in \mathbb{N}$，仅存在一个 $y'$ 满足 $h(k)=y'$．&lt;/li&gt;
+&lt;li&gt;我们用反证证明 $\sigma(k)$ 的情况．假设存在 $y\neq y'$ 满足 $h(\sigma(k))=y$ 及 $h(\sigma(k))=y'$，那么必存在 $h_{\sigma(a)}$, $h_{\sigma(b)} \in h$ 使得 $h_{\sigma(a)}(\sigma(k))=y=f(h_a(k))$，$h_{\sigma(b)}(\sigma(k))=y'=f(h_b(k))$．若 $h_a(k)\neq h_b(k)$，那么和归纳假设是矛盾的．因此必有 $h_a(k)=h_b(k)$，因为 $f$ 是函数，蕴含 $y=f(h_a(k))=f(h_b(k))=y'$，与 $y\neq y'$ 的假说矛盾，因此仅存在独特的 $y$ 满足 $h(\sigma(k))=y$.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+因为 $h$ 是函数，且每一个组成 $h$ 的 $h_k$ 都有 $h_k\in \mathbb{N}\times A$，因此我们可以写作 $h:\mathbb{N}\to A$．到此，我们已经证明了 $h$ 的存在性．为反证唯一性，假设存在同样满足条件的函数 $h'\neq h$．我们再一次用归纳法，证明 $h$ 和 $h'$ 在全体自然数上取同样的值：
+&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;对 $0\in \mathbb{N}$，显然必有 $(0,a)\in h'$, $(0,a)\in h$，又因为它们都是函数，所以不能在 $0$ 取其他的值，所以 $h(0)=h'(0$．&lt;/li&gt;
+&lt;li&gt;假设对 $k\in \mathbb{N}$，有 $h(k)=h'(k)$．&lt;/li&gt;
+&lt;li&gt;我们用反证证明 $\sigma(k)$ 的情况．假设 $h(\sigma(k))\neq h'(\sigma(k))$，那么根据定义有 $f(h(k))\neq f(h'(k))$，可根据归纳假说 $h(k)=h'(k)$，因此与 $f$ 是函数的条件矛盾．所以一定有 $h(\sigma(k))= h'(\sigma(k))$
+&lt;/li&gt;
+&lt;/ul&gt;
+因为对任意 $n\in\mathbb{N}$，$h(n)=h'(n)$，它们一定包含相同的有序对，根据集合相等的定义有 $h=h'$.
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;这条定理非常重要：当我们需要以递归的形式定义任何函数时，构造出来的函数的良好定义性与唯一性都依赖这条定理.&lt;/p&gt;
+
+&lt;h2 class=&quot;hd&quot;&gt;$\mathbb{N}$ 的代数结构&lt;/h2&gt;
+&lt;p&gt;在自然数上定义我们熟知的加法和乘法的算数法则，就需要递归定义.&lt;/p&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;给定一个自然数 $n$，都存在一个独特的映射 $+_n: \mathbb{N} \to \mathbb{N}$ 满足对任意 $m\in\mathbb{N}$，
+$$+_n(0)=n$$
+$$+_n(\sigma(m))=\sigma(+_n(m))$$
+以及 $\cdot_n: \mathbb{N}\to \mathbb{N}$，满足对任意 $m\in\mathbb{N}$，
+$$\cdot_n(0)=0$$
+$$\cdot_n(\sigma(m))=+_n(\cdot_n(m))$$
+
+利用 $+_n$，可定义映射&lt;span class=&quot;concept&quot;&gt;自然数加法 $+: \mathbb{N}\times \mathbb{N} \to \mathbb{N}$&lt;/span&gt;  和&lt;span class=&quot;concept&quot;&gt;自然数乘法 $\cdot:  \mathbb{N}\times \mathbb{N}\to \mathbb{N}$&lt;/span&gt; ，对 $m,n\in\mathbb{N}$ 有
+
+$$m+n=+(m,n)=+_m(n)$$
+$$m\cdot n=\cdot(m,n)=\cdot_m(n)$$
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt; &lt;p&gt; $+_n$ 的存在性和独特性只需要在定理 22 中带入 $f(n)=\sigma(n)$ 就可以直接得出．因为 $+_n$ 是映射，$+$ 也是映射.&lt;/p&gt;
+&lt;p&gt; $\cdot_n$ 的存在性和独特性只在定理 22 中带入 $f(m)=+_n$ 就可以直接得出．类似地 $\cdot$ 也是映射.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;p&gt;$+_n(m)$ 和 $+(n, m)$ 之间的关系近似于函数式语言中柯里化的概念．$+_n(m)$ 像一个叫 $\mathtt{addOne(m)}$ 的递归程序．这个程序在 $m\neq 0$ 时返还 $\mathtt{addOne(m)}=1+\mathtt{addOne(m-1)}$，当 $m= 0$ 时返还 $\mathtt{addOne(0)}=0$．因此 $\mathtt{addOne(m)}$ 的最终返还的结果会是 $n$ 加上 $m$ 个 1，因此等于 $m+n$．而 $+(n, m)$ 则是“包装”$+_n(m)$ 的一个母函数，后者是前者第一个变量赋值 $n$ 柯里化的结果.&lt;/p&gt;
+
+&lt;p&gt;自然数上的加和乘的运算符合一些代数规律．代数指的是集合中的元素在二元运算下具有的性质．集合以及集合上的二元运算一并构成了代数结构（algebraic structure），通常以有序对的方式写出来．如果说 Peano 公理是 “自然数” 这个概念的抽象的话，那么代数结构的公理就是 “加减乘除” 的概念的抽象.&lt;/p&gt;
+
+&lt;p&gt;代数结构的定义同样也是外延性的：如果一个集合和运算的组合满足某个代数结构的定义，那么就可以说它就 “是” 那个代数结构．这正如那句著名的英谚：&lt;/p&gt;
+&lt;blockquote&gt;If it looks like a duck, swims like a duck, and quacks like a duck, then it is a duck.&lt;/blockquote&gt;
+&lt;p&gt;当然，这里的 “是” 并非集论的 “相等”，因为代数结构是概念，而不是具体的集合，所以不能说集合等于它.&lt;/p&gt;
+
+&lt;p&gt;我们可以定义一些基本代数结构的名称和它们相应的公理：&lt;/p&gt;
+&lt;div class=&quot;definition&quot;&gt;对集合 $G$ 和二元运算 $\phi:G \times G\to G$，$\phi$ 可能满足以下代数规律：
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&quot;concept&quot;&gt;结合律&lt;/span&gt;：对任意 $a,b,c\in G$，都有 $$a\phi(b\phi c)=(a\phi b) \phi c$$&lt;/li&gt;
+&lt;li&gt;存在&lt;span class=&quot;concept&quot;&gt;单位元&lt;/span&gt; $e\in G$，令对任何 $a\in G$，都有 $$a\phi e=e\phi a=a$$&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;concept&quot;&gt;交换律&lt;/span&gt;：对任意 $a,b\in G$ 都有 $$a\phi b=b\phi a$$&lt;/li&gt;
+&lt;/ul&gt;
+根据下表，可依 $\phi$ 所满足的性质，将 $(G,\phi)$ 称为&lt;span class=&quot;concept&quot;&gt;原群（magma）&lt;/span&gt;，&lt;span class=&quot;concept&quot;&gt;半群（semigroup）&lt;/span&gt;，&lt;span class=&quot;concept&quot;&gt;幺半群（monoid）&lt;/span&gt;，或&lt;span class=&quot;concept&quot;&gt;交换幺半群（commutative monoid）&lt;/span&gt;.
+
+&lt;style type=&quot;text/css&quot;&gt;
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	display: block;
+	width:300px;
+	margin-left:auto;
+ 	margin-right:auto;
+	text-align:center;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+.tg td{
+	font-size:14px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#484848;
+}
+.tg th{
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#484848;
+}
+.tg .cell-no
+{
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top
+}
+.tg .cell-yes
+{
+	border-color:inherit;
+	background-color:#3f3f3f;
+	text-align:left;
+	vertical-align:top
+}
+&lt;/style&gt;
+
+
+&lt;table class=&quot;tg&quot;&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;原群&lt;/td&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;半群&lt;/td&gt;
+    &lt;td class=&quot;cell-yes&quot;&gt;是&lt;/td&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;幺半群&lt;/td&gt;
+    &lt;td class=&quot;cell-yes&quot;&gt;是&lt;/td&gt;
+    &lt;td class=&quot;cell-yes&quot;&gt;是&lt;/td&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;cell-no&quot;&gt;交换幺半群&lt;/td&gt;
+    &lt;td class=&quot;cell-yes&quot;&gt;是&lt;/td&gt;
+    &lt;td class=&quot;cell-yes&quot;&gt;是&lt;/td&gt;
+    &lt;td class=&quot;cell-yes&quot;&gt;是&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;cell-no&quot;&gt;是否满足：&lt;/th&gt;
+    &lt;th class=&quot;cell-no&quot;&gt;结合律&lt;/th&gt;
+    &lt;th class=&quot;cell-no&quot;&gt;单位元&lt;/th&gt;
+    &lt;th class=&quot;cell-no&quot;&gt;交换律&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+此外，$(G,\phi,\psi)$ 是&lt;span class=&quot;concept&quot;&gt;半环（semiring）&lt;/span&gt;若有另一二元运算 $\psi:G \times G\to G$，令 $(G,\phi)$ 为交换幺半群，$(G, \psi)$ 为幺半群，且 $\psi$ 在 $\phi$ 上&lt;span class=&quot;concept&quot;&gt;分配（distribute）&lt;/span&gt;：对任意 $a,b, c\in G$ 都有 $$c \psi (a\phi b)=(c\psi a)\phi(c\psi b)$$
+&lt;/div&gt;
+
+&lt;p&gt;正因为代数结构是从算数的特性抽象得来的，对于半环 $(R, \phi, \psi)$，一般会把 $\phi$ 称作加法 $+$，其单位元记作 $0$；把 $\psi$ 称为乘法 $\cdot$，其单位元记作 $1$.&lt;/p&gt;
+
+&lt;p&gt;通过幺半群的公理，我们可以得到以下定理：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;对幺半群 $(G,\phi)$，$\phi$ 的单位元是唯一的&lt;/div&gt;
+&lt;div class=&quot;proof&quot;&gt;若 $\phi$ 有独特单位元 $e, e'$，对任意 $a\in A$ 满足 $\phi(a,e)=\phi(e,a)=\phi(a,e')=\phi(e',a)=a$．那么一定 $\phi(e,e')=\phi(e',e)=e=e'$，那么 $e=e'$，和独特性假设相悖.
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;不难发现，上一节中定义的自然数加、乘法，就是自然数上的二元运算．自然数、自然数加、自然数乘构成半环的代数结构.&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+$(\mathbb{N},+)$ 和 $(\mathbb{N},\cdot)$ 都是交换幺半群．$(\mathbb{N},+,\cdot)$ 是半环.
+&lt;/div&gt;
+&lt;div class=&quot;proof&quot;&gt;
+证明加法的代数规律：
+&lt;ol&gt;
+&lt;li&gt;
+证明加法单位元是 $0$：归纳证明对任意 $n\in \mathbb{N}$，$0+n=n+0=n$：
+&lt;ul&gt;
+&lt;li&gt;显然对$n=0$, $+_0(0)=+_0(0)=0$．&lt;/li&gt;
+&lt;li&gt;若对 $+_0(k)$ 有 $+_0(k)=+_k(0)=k$，那么根据 $+_0$ 的定义，$+_0(\sigma(k))=\sigma(+_0(k))=\sigma(+_k(0))=\sigma(k)=\sigma(k)+0=+_{\sigma(k)}(0)$.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+归纳证明任意 $a,b,c\in \mathbb{N}$ 的加法都符合结合律：$(a+b)+c=a+(b+c)$．固定 $a, b$，在 $c$ 的取值上归纳：
+&lt;ul&gt;
+&lt;li&gt;若 $c=0$，那么根据0的加法规律显然有 $(a+b)+0=a+b=a+(b+0)$．&lt;/li&gt;
+&lt;li&gt;若 $c=k$ 时有 $(a+b)+k=a+(b+k)$，那么根据 $+_{a+b}$ 的定义有 $(a+b)+\sigma(k)=+_{a+b}(\sigma(k))=+_{a+b}(\sigma(k))=\sigma((a+b)+k)$, 根据归纳假说 $\sigma((a+b)+k)=\sigma(a+(b+k))=a+\sigma(b+k)=a+(b+\sigma(k))$．&lt;/li&gt;
+&lt;/ul&gt;
+因此加法满足结合律.
+&lt;/li&gt;
+&lt;li&gt;
+归纳证明任意 $n, m\in \mathbb{N}$ 的加法都是交换的：$+_m(n)=+_n(m)$．固定 $m$，在 $n$ 的取值上归纳：
+&lt;ul&gt;
+&lt;li&gt;若 $n=0$，那么根据上条显然有 $+_m(0)=+_0(m)$．&lt;/li&gt;
+&lt;li&gt;若 $n=k$ 时有 $+_m(k)=+_k(m)$，那么根据定义 $+_m(\sigma(k))=\sigma(+_m(k))=+_k(\sigma(m))$．&lt;/li&gt;
+&lt;/ul&gt;
+因此加法满足交换律.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;因此 $(\mathbb{N},+)$ 是交换幺半群．乘法的规律的证明是完全相似的．乘法的单位元是 $\sigma(0)=1$．&lt;/p&gt;
+&lt;p&gt;证明乘法在加法上分配：给定 $b,c$，在 $a$ 的取值上归纳: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当 $a=0$，显然 $0(b+c)=0=0+0=0b+0c$．&lt;/li&gt;
+&lt;li&gt;假设当 $a=k$，$k(b+c)=kb+kc$ 成立，那么对 $a=\sigma(k)$，有 $\sigma(k)(b+c)=(b+c)\sigma(k)=\cdot_{b+c}\sigma(k)=\cdot_{b+c}\sigma(k)=\sigma(kb+kc)=\sigma(k)b+\sigma(k)c$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;定理 25.2 和 25.3 通常称为消除率．或许你会认为这两条定律是稀松平常的，但并非所有的幺半群都满足这两条定律．这体现在我们无法通过幺半群的公理达到这两条定理，而必须通过 Peano 系统的特性来证明.&lt;/p&gt;
+
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;对任意 $a\in\mathbb{N}$，有 $\sigma(a)=a+1$&lt;/li&gt;
+&lt;li&gt;对任意 $a,b,c\in\mathbb{N}$，$a+c=b+c$ 当且仅当 $a=b$&lt;/li&gt;
+&lt;li&gt;对任意 $a,b \in\mathbb{N}$ 和 $c\neq 0$，$ac=bc$ 当且仅当 $a=b$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;在 $a$ 的取值上归纳：
+&lt;ul&gt;
+&lt;li&gt;显然对 $a=0$, 根据定义有 $\sigma(0)=1=0+1$．&lt;/li&gt;
+&lt;li&gt;若对 $k\in\mathbb{N}$ 有 $\sigma(k)=k+1$，那么对 $\sigma(k)$，有 $\sigma(\sigma(k))=\sigma(k+1)=\sigma(k)+1$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$\Leftarrow$: 显然成立．$\Rightarrow$: 在 $c$ 的取值上归纳：
+&lt;ul&gt;
+&lt;li&gt;当 $c=0$，对任意 $a, b$ 显然 $a+0=b+0$ 蕴含 $a=b$ &lt;/li&gt;
+&lt;li&gt;假设当 $c=k$，对任意 $a, b$，有 $a+k=b+k$ 蕴含 $a=b$ &lt;/li&gt;
+&lt;li&gt;考虑 $c=\sigma(k)=k+1$，对任意 $a, b$，有 $a+k+1=b+k+1$．运用交换律和结合律得 $(a+1)+k=(b+1)+k$，运用归纳假设显然有 $\sigma(a)=a+1=b+1=\sigma(b)$，根据 $\sigma$ 的单射性有 $a=b$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$\Leftarrow$: 显然成立．$\Rightarrow$: 固定 $c\neq 0$，在 $a$ 的取值上归纳：
+&lt;ul&gt;
+&lt;li&gt;当 $a=0$，显然成立.&lt;/li&gt;
+&lt;li&gt;假设 $kc=bc$ 蕴含 $a=0$ 或 $k=b$.&lt;/li&gt;
+&lt;li&gt;考虑当 $a=\sigma(k)=k+1$，假设有 $(k+1)c=kc+c=bc$．显然 $b\neq 0$，那么存在 $b'$ 满足 $b=b'+1$，那么有 $kc=b'c$．应用归纳假设有 $k=b'$，那么 $a=k+1=b$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h2 class=&quot;hd&quot;&gt;$\mathbb{N}$ 上的序关系&lt;/h2&gt;
+&lt;p&gt;为了在自然数上建立序关系，我们作以下的观察：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;$\mathbb{N}$ 有如下性质：
+&lt;ol&gt;
+&lt;li&gt;对任意 $x\in \mathbb{N}$，若 $x\neq 0$，那么存在 $k$ 满足 $x = \sigma(k)$.&lt;/li&gt;
+&lt;li&gt;对任意 $x\in \mathbb{N}$，$x\neq \sigma(x)$.&lt;/li&gt;
+&lt;li&gt;对任意 $x, y\in \mathbb{N}$，若 $y\neq 0$，$x\neq x+y$.&lt;/li&gt;
+&lt;li&gt;对任意 $x, y\in \mathbb{N}$，若 $x\neq y$，那么存在自然数 $m\neq 0$ 满足 $x+m=y$ 或 $y+m=x$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt;
+
+&lt;li&gt;令 $S=\{x\in \mathbb{N}\mid \exists k: x=0\vee x= \sigma(k) \}$.
+&lt;ul&gt;
+&lt;li&gt;显然 $0\in S$.&lt;/li&gt;
+&lt;li&gt;若 $k \in S$.&lt;/li&gt;
+&lt;li&gt;考虑 $x=\sigma(k)$．显然存在 $k$ 使得 $\sigma(k)=x$.&lt;/li&gt;
+&lt;/ul&gt;
+因此 $S=\mathbb{N}$.
+&lt;/li&gt;
+
+&lt;li&gt;令 $S=\{x\in \mathbb{N}\mid x\neq \sigma(x) \}$.
+&lt;ul&gt;
+&lt;li&gt;显然 $0\notin \mathbb{ran}(\sigma)$，因此 $0\neq \sigma(0)$．&lt;/li&gt;
+&lt;li&gt;若 $k \neq \sigma(k)$.&lt;/li&gt;
+&lt;li&gt;考虑那么对 $\sigma(k)$．若有 $\sigma(\sigma(k))=\sigma(k)$，与 $\sigma$ 是单射函数的事实矛盾，因此必有 $\sigma(\sigma(k))\neq \sigma(k)$&lt;/li&gt;
+&lt;/ul&gt;
+因此 $S=\mathbb{N}$.
+&lt;/li&gt;
+
+&lt;li&gt;欲证 $S=\{x\in\mathbb{N}\mid \forall y\neq 0 : x\neq x+y \}=\mathbb{N}$.
+&lt;ul&gt;
+&lt;li&gt;显然对任意 $y\neq 0$ 都有 $0\neq 0+y=y$，因此 $0\in T$．&lt;/li&gt;
+&lt;li&gt;若 $k \in S$．那么对任意 $y\neq 0$ 都有 $k\neq k+y$&lt;/li&gt;
+&lt;li&gt;考虑 $\sigma(k)=k+1$．显然根据 2 有 $k\neq k+1$，根据 $\sigma$ 的单射性有 $\sigma(k)\neq \sigma(k+y)$ 即 $k+1\neq k+1+y$，那么 $\sigma(k)\in S$.&lt;/li&gt;
+&lt;/ul&gt;
+因此 $S=\mathbb{N}$.
+&lt;/li&gt;
+
+&lt;li&gt;对任意一个自然数 $x$，我们都可以研究和 $x$ 可以 “相比” 的自然数 $y$ 的集合：$S(x)=\{y\in \mathbb{N}\mid \exists m\neq 0: x=y\vee x+m=y \vee y+m=x \}$．我们希望证明对任意 $x$，$S(x)=\mathbb{N}$.
+&lt;ul&gt;
+&lt;li&gt;显然 $0=0$，因此 $0\in S(0)$．若 $y\in S(0)$，那么有三种可能：
+&lt;ol&gt;
+&lt;li&gt;$y=0$，那么 $\sigma(y)=1$，存在自然数 $1$ 有 $0+1=1$，因此 $\sigma(y)\in S(0)$；&lt;/li&gt;
+&lt;li&gt;存在自然数 $m\neq 0$ 有 $y+m=0$．这是不可能的，因为对 $m\neq 0$，$m$ 可写成 $\sigma(k)$，令 $0=y+m=\sigma(+_{y}(k))$，而 $0\notin \mathrm{ran}(\sigma)$&lt;/li&gt;
+&lt;li&gt;要么（3）存在自然数 $m\neq 0$，$y=m+0=m$，那么 $\sigma(y)=\sigma(m)=0+\sigma(m)$，有 $\sigma(y)\in S(0)$．&lt;/li&gt;
+&lt;/ol&gt;
+那么 $S(0)=\mathbb{N}$.&lt;/li&gt;
+&lt;li&gt;$S(k)=\mathbb{N}$．&lt;/li&gt;
+&lt;li&gt;考虑 $S(\sigma(k))$．因为 $\sigma(k)=k+1$，对任意 $y \in S(k)$，有三种可能：
+&lt;ol&gt;
+&lt;li&gt;$y=k$，那么存在自然数 $1$ 有 $\sigma(k)=y+1$，因此 $y\in S(\sigma(k))$；&lt;/li&gt;
+&lt;li&gt;存在自然数 $m\neq 0$ 有 $y+m=k$，那么存在自然数 $m+1$ 有 $\sigma(k)=y+(m+1)$，因此 $y\in S(\sigma(k))$；&lt;/li&gt;
+&lt;li&gt;存在自然数 $m\neq 0$ 有 $y=m+k$, 因为 $m\neq 0$，那么根据 2 存在自然数 $l$ 令 $m=l+1$．那么存在自然数 $l$ 有 $y=\sigma(k)+l$，因此 $y\in S(\sigma(k))$；&lt;/li&gt;
+&lt;/ol&gt;
+因此$S(\sigma(k))=\mathbb{N}$.
+&lt;/li&gt;
+&lt;/ul&gt;
+因此对任意自然数 $k$，$S(k)=\mathbb{N}$.
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;借此，我们可以严格地定义排序关系：称一个自然数 $a$ 小于另一个自然数 $b$，当且仅当存在另一个非零的自然数 $k$，使得 $a$ 还要 “增长” $k$，才会达到 $b$.&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;存在关系 $&amp;lt; \subseteq \mathbb{N}\times \mathbb{N}$，对任意 $x, y\in\mathbb{N}$，有 $x&amp;lt;y$ 当且仅当存在 $k\in \mathbb{N}$，$k\neq 0$，满足
+$$x +k = y$$
+&lt;p&gt;$&amp;lt;$ 是排序关系.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;三分性：对任意自然数 $x, y$，根据定理 26.2，$m=n$，$m&amp;lt;n$，$n&amp;lt;m$ 至少有一个为真．&lt;/p&gt;
+&lt;p&gt;为证明三个关系中最多一个为真，不失一般性地，假设 $m=n$ 且 $m&amp;lt;n$．那么存在自然数 $m+k=n=m$，这与但因定理 25.2 相悖.&lt;/p&gt;
+
+&lt;p&gt;假设 $m&amp;lt;n$ 且 $m&amp;gt;n$，那么存在非零自然数 $i, j$ 满足 $m+i=n$，$n+j=m$，那么有 $n+i+j=n$，因定理 25.3 有 $i+j=0$，显然是不可能的．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;传递性：若 $a&amp;lt;b$，$b&amp;lt;c$，那么存在自然数 $m,n\neq 0$ 满足 $a+n=b$，$b+m=c$，那么 $a+(m+n)=c$，即 $a&amp;lt;c$.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;很容易得到以下结论；易见 28.2 和 28.3 是 25.2 和 25.3 的不等式版本：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;$0&amp;lt;1$&lt;/li&gt;
+&lt;li&gt;对任意 $a,b,c\in\mathbb{N}$，$a+c&amp;lt; b+c$ 当且仅当 $a&amp;lt;b$&lt;/li&gt;
+&lt;li&gt;对任意 $a,b\in\mathbb{N}$ 和自然数 $c\neq 0$，$ac&amp;lt; bc$  当且仅当 $a&amp;lt;b$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;显然存在 $1=\sigma(0)\neq 0$ 有 $0 + 1= 1$&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Rightarrow$: 若 $a+c&amp;lt;b+c$，那么存在 $m\neq 0$ 使得 $a+c+m=b+c$．假设 $a&amp;gt;b$，那么存在 $m' \neq 0$ 使得 $a=b+m'$．那么有 $b+m'+c+m=b+c$，由定理 25.2 得 $m'+m=0$，由 $+$ 的定义知这是不可能的．因此必有 $a\leq b$．假设 $a=b$，那么 $a+c=b+c$，矛盾，因此 $a\neq b$．因此必有 $a&amp;lt;b$.&lt;/li&gt;
+&lt;li&gt; $\Leftarrow$：由定理 25.2 直接得．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Rightarrow$: 若 $ac&amp;lt;bc$，那么存在 $m\neq 0$ 使得 $ac+m=bc$．假设 $a&amp;gt;b$，那么存在 $m' \neq 0$ 使得 $a=b+m'$．那么有 $bc+m'c+m=bc$，由定理 25.2 得 $m'c+m=0$，由 $+$ 的定义知这是不可能的．因此必有 $a\leq b$．假设 $a=b$，那么 $a+c=b+c$，矛盾，因此 $a\neq b$．因此必有 $a&amp;lt;b$.&lt;/li&gt;
+&lt;li&gt; $\Leftarrow$：由定理 25.2 直接得．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h2 class=&quot;hd&quot;&gt;有限和无限&lt;/h2&gt;
+&lt;p&gt;既然自然数是无限的，那么也就代表着我们有了区分有限和无限的基准：：&lt;/p&gt;
+
+&lt;div class=&quot;definition&quot;&gt;一个非空集合 $A$ 是
+&lt;ol&gt;
+&lt;li&gt;&lt;span class=&quot;concept&quot;&gt;有限的（finite）&lt;/span&gt;，当且仅当存在自然数 $n\in\mathbb{N}$ 以及双射函数 $f: A\to n$．$n$ 称为集合 $A$ 的&lt;span class=&quot;concept&quot;&gt;势（cardinality）&lt;/span&gt;，记作 $|A|$.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;concept&quot;&gt;可数无限的（countably infinite）&lt;/span&gt;，当且仅当存在双射函数 $f:  A\to \mathbb{N}$.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;concept&quot;&gt;不可数无限的（uncountably infinite）&lt;/span&gt;，当且仅当上两点为假.&lt;/li&gt;
+&lt;/ol&gt;
+空集合 $\varnothing$ 常规上认为是有限的.
+&lt;/div&gt;
+
+&lt;p&gt;根据自然数的定义，每个自然数都含比它小的所有自然数为元素；因为我们的自然数含 0，因此有 $n$ 个比 $n$ 小的元素．那么，存在双射函数 $f:A\to n$ 的意思 $A$ 中的元素可以通过 $f$ 和 $n$ 个元素一一对应，即被这 $n$ 个元素 “编号”．因此，称 $A$ 含 $n$ 个元素.&lt;/p&gt;
+
+&lt;p&gt;可数无限的意思是，如果给集合 $A$ 中的每一个元素编号，自然数是够用的．虽然这听起来不是很合常理（毕竟无限的东西有什么不够用的？）但在将来，我们会遇到自然数不够用的情况，即不可数无限的集合.&lt;/p&gt;
+
+&lt;p&gt;对于自然数来说，每个给定的自然数都是有限的，但是全体自然数的集合是可数无限的．这可以用归纳法证明：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;对任意非零自然数 $n\in\mathbb{N}$，$n$ 是有限的，有 $|n|=n$.&lt;/li&gt;
+&lt;li&gt;全体自然数的集合 $\mathbb{N}$ 是可数无限的.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;显然 $\{(k, k)\mid k\in n \}$ 是一个 $n\to n$ 的双射函数.&lt;/li&gt;
+&lt;li&gt;显然 $\{(n, n)\mid n\in\mathbb{N} \}$ 是一个 $\mathbb{N}\to \mathbb{N}$ 的双射函数.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;组合计数学（enumerative combinatorics）研究的主要内容就是用有创意的方法来证明一些有限集合的大小．例如，我们可以研究从不相交的有限集合 $A$ 和 $B$ 中各抽一个元素有多少抽法，而这个问题要求的就是笛卡尔积 $A\times B$ 的势，$|A\times B|$．我们在组合数学的章节里会回到这个话题上来.&lt;/p&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;附录&lt;/h1&gt;
+&lt;h2 class=&quot;hd&quot;&gt;集合代数的常见规律&lt;/h2&gt;
+&lt;p&gt;定义了并集后，交、并、补后，常用集合代数的运算就已经齐全了．在将来的章节中，我们会用到以下的常用关系：&lt;/p&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;
+对集合 $A, B, C, \mathcal{B}, \mathcal{C}$,
+&lt;ol&gt;
+&lt;li&gt;交和并的交换律
+$$A\cup B=B\cup A$$
+$$A \cap B = B \cap A$$
+&lt;/li&gt;
+&lt;li&gt; 交和并的结合律
+$$A \cup (B \cup C) = (A \cup B) \cup C$$
+$$A \cap (B \cap C) = (A \cap B) \cap C$$
+&lt;/li&gt;
+&lt;li&gt; 交和并的分配律 ($\mathcal{D}\neq \varnothing$)
+$$A \cap \bigcup \mathcal{C} =\bigcup_{C\in \mathcal{C}} A\cap C$$
+$$A \cup \bigcap \mathcal{D} = \bigcap_{D\in \mathcal{D}} A\cup D$$
+&lt;/li&gt;
+&lt;li&gt;补的德摩根律
+$$B - \bigcup \mathcal{A} = \bigcap_{A\in \mathcal{A}} B -A$$
+$$B - \bigcap \mathcal{A} = \bigcup_{A \in \mathcal{A}}B - A$$
+&lt;/li&gt;
+&lt;li&gt;子集的性质
+&lt;ol&gt;
+&lt;li&gt;若 $A\subseteq B$，那么 $A \cup C \subseteq B \cup C$&lt;/li&gt;
+&lt;li&gt;若 $A\subseteq B$，那 么$A \cap C \subseteq B \cap C$&lt;/li&gt;
+&lt;li&gt;若 $A\subseteq B$，那么 $C-B \subseteq C-A$&lt;/li&gt;
+&lt;li&gt;若 $\mathcal{B}\subseteq  \mathcal{C}$，那么 $ \bigcup \mathcal{B} \subseteq  \bigcup \mathcal{C}$&lt;/li&gt;
+&lt;li&gt;若 $\mathcal{B}\subseteq  \mathcal{C}$ 且 $\mathcal{B}\neq \varnothing$，那么 $ \bigcap \mathcal{C} \subseteq  \bigcap \mathcal{B}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;所有运算关系都可以用交、并、补的定义及 “逻辑与证明” 中的相应规律证明.
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;h2 class=&quot;hd&quot;&gt;函数复合集合代数的运算规律&lt;/h2&gt;
+&lt;section class=&quot;theorem-macro&quot;&gt;
+&lt;div class=&quot;theorem&quot;&gt;给定函数 $f$ 和集合 $A, B, \mathcal{C}$
+&lt;ol&gt;
+&lt;li&gt;并集的像等于像的并集：$$f(\bigcup \mathcal{C}) = \bigcup_{C \in \mathcal{C}} f(C)$$&lt;/li&gt;
+&lt;li&gt;交集的像是像的交集的子集，若 $f$ 单射，那么两者相等：$$f(\bigcap \mathcal{C}) \subseteq \bigcap_{C \in \mathcal{C}} f(C)$$&lt;/li&gt;
+&lt;li&gt;补集的像是像的补集的子集，若 $f$ 单射，那么两者相等：$$f(B)-f(A) \subseteq f(B-A)$$&lt;/li&gt;
+&lt;li&gt;并集的原像等于原像的并集：$$f^{-1}(\bigcup \mathcal{C}) = \bigcup_{C \in \mathcal{C}} f^{-1}(C)$$&lt;/li&gt;
+&lt;li&gt;交集的原像等于原像的交集：$$f^{-1}(\bigcap \mathcal{C}) = \bigcap_{C \in \mathcal{C}} f^{-1}(C)$$&lt;/li&gt;
+&lt;li&gt;补集的原像等于原像的补集：$$f^{-1}(B)-f^{-1}(A) = f^{-1}(B-A)$$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;proof&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;根据定义，$y\in f(\bigcup \mathcal{C})$ 当且仅当存在 $x\in \bigcup \mathcal{C}$ 满足 $f(x)=y$，当且仅当存在 $C\in \mathcal{C}$ 令 $x\in C$ 满足 $f(x)=y$，当且仅当 $y\in f(C)$ 对某 $C\in \mathcal{C}$．&lt;/li&gt;
+&lt;li&gt;根据定义，$y\in f(\bigcap \mathcal{C})$ 当且仅当存在 $x\in \bigcap \mathcal{C}$ 满足 $f(x)=y$，当且仅当对所有 $C\in \mathcal{C}$ 都存在 $x\in C$ 满足 $f(x)=y$，蕴含 $y\in f(C)$ 对所有的 $C\in \mathcal{C}$．若 $f$ 单射，$y\in \bigcap_{C\in \mathcal{C}}f(C)$ 当且仅当对所有 $C\in \mathcal{C}$ 对所有 $C\in \mathcal{C}$ 都存在唯一的 $x'\in C$ 满足 $f(x')=y$，蕴含 $x'\in\bigcap \mathcal{C}$，蕴含 $y\in f(\bigcap \mathcal{C})$&lt;/li&gt;
+&lt;li&gt;根据定义，$y\in f(B)-f(A)$ 当且仅当存在 $b\in B$ 满足 $f(b)=y$ 但不存在 $a\in A$ 满足 $f(a)=y$，蕴含 $b\notin A$，蕴含 $b\in B-A$，蕴含 $y\in f(B-A)$．若 $f$ 单射，$y\in f(B-A)$ 当且仅当存在唯一的 $x'\in B-A$满足 $f(x')=y$，蕴含不存在 $x\in A$ 满足 $f(x)=y$，蕴含 $y\notin f(A)$，蕴含 $f(B)-f(A)$&lt;/li&gt;
+&lt;li&gt;根据定义，$x\in f^{-1}(\bigcup \mathcal{C})$ 当且仅当存在 $y\in \bigcup \mathcal{C}$ 满足 $f(x)=y$，当且仅当存在 $C\in \mathcal{C}$ 令 $x\in C$ 满足 $f(x)=y$，当且仅当 $x\in f^{-1}(C)$ 对某 $C\in \mathcal{C}$．&lt;/li&gt;
+&lt;li&gt;根据定义，$x\in f^{-1}(\bigcap \mathcal{C})$ 当且仅当存在 $y\in \bigcap \mathcal{C}$ 满足 $f(x)=y$，当且仅当对所有 $C\in \mathcal{C}$ 都存在 $y\in C$ 满足 $f(x)=y$，当且仅当 $x\in f^{-1}(C)$ 对所有的 $C\in \mathcal{C}$&lt;/li&gt;
+&lt;li&gt;根据定义，$x\in f^{-1}(B)-f^{-1}(A)$ 当且仅当存在 $b\in B$ 满足 $f(b)=y$ 但不存在 $a\in A$ 满足 $f(a)=y$，当且仅当存在 $x\in B-A$ 满足 $f(x)=y$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h1 class=&quot;hd&quot;&gt;参考文献&lt;/h1&gt;
+&lt;ul class=&quot;citation&quot;&gt;
+
+&lt;li&gt;Enderton, H．B．1977．Elements of set theory．1st ed．Cambridge: Academic Press.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;#fraenkel1922&quot; name=&quot;fraenkel1922s&quot;&gt;Fraenkel, A．1922．Zu den grundlagen der cantor-zermeloschen mengenlehre．Mathematische Annalen 86 (3) (09/01): 230-7.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;#frank2008&quot; name=&quot;frank2008s&quot;&gt;Frank, M．C., Daniel L．Everett, Evelina Fedorenko, and Edward Gibson．2008．Number as a cognitive technology: Evidence from Pirahã language and cognition．Cognition 108 (3) (09/01): 819-24.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Halmos, P．R．1960．Naive set theory．1st ed．Princeton, NJ: D．Van Nostrand Company.&lt;/li&gt;
+
+&lt;li&gt;Jech, T．2002．Set theory．The Third Millennium ed．New York: Springger.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;#russell1919&quot; name=&quot;russell1919s&quot;&gt;Russell, B．1919．Introduction to mathematical philosophy．London: George Allen &amp;amp; Unwin, Ltd.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;#zermelo1908&quot; name=&quot;zermelo1908s&quot;&gt;Zermelo, E．1908．Untersuchungen Über die grundlagen der mengenlehre．I．Mathematische Annalen 65 (2) (06/01): 261-81.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;#zermelo1930&quot; name=&quot;zermelo1930s&quot;&gt;Zermelo, E．1930．Über grenzzahlen und mengenbereiche．Fundamenta Mathematicae 16 (1): 29-47.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="CADMUS" /><summary type="html">逻辑与证明 断言 数学是一场逻辑游戏：我们假设某些看来是基础或者自明的公理（axiom）为真断言，然后利用给定的一些推理规则（rules of inference），去得到或者发现其他的真断言．因此，在撸起袖子解数学题之前，有必要先谈谈这场游戏的规则.</summary></entry><entry><title type="html">华府樱记</title><link href="http://localhost:4000/graymatter/2014/04/13/disx17" rel="alternate" type="text/html" title="华府樱记" /><published>2014-04-13T00:00:00-04:00</published><updated>2014-04-13T00:00:00-04:00</updated><id>http://localhost:4000/graymatter/2014/04/13/disx17</id><content type="html" xml:base="http://localhost:4000/graymatter/2014/04/13/disx17">&lt;p&gt;封面：&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/L.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;从日本引进樱花，植于哥伦比亚特区波多马克河（Potomac River）畔的提议，在二十世纪初就已经诞生了。&lt;/p&gt;
+
+&lt;p&gt;在美日两国的合作下，多于三千株的樱花终于在华盛顿落户。&lt;/p&gt;
+
+&lt;p&gt;时至如今，这些樱树的子代仍然散落在哥伦比亚特区的市中心，依旧是日美友谊的写照。&lt;/p&gt;
+
+&lt;p&gt;4月13日，在结束了周六的一次模拟阿拉伯联盟的活动后，我才得以抽出时间来到哥伦比亚特区市中心观赏这场樱花盛放&lt;/p&gt;
+
+&lt;p&gt;不论是在地铁站里还是樱花树下，都是游人如织。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8926.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;华盛顿的樱花多为山樱花（&lt;i&gt;Prunus serrulata&lt;/i&gt;）的栽培变种，多为染井吉野（Somei-Yushino）和关山（Kwan-zan）。&lt;/p&gt;
+
+&lt;p&gt;深粉色、重瓣的关山的花季比较晚。因此淡粉色的吉野是本次记录的主题。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8927.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8928.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8929.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8930.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;树下的小道人来人往&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8931.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;初春的风褪去了冬日的寒气，在树下降下一阵樱花雨。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8932.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8933.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8935.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;染井吉野樱&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8934.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8938.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8958.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8959.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;纪念碑后面的加拿大紫荆（&lt;i&gt;Cercis canadensis&lt;/i&gt;）也在这时冒出了花蕾&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8939.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;背景即是华盛顿纪念碑&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8940.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8941.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8942.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;潮汐湖（Tidal Basin）边樱花正旺&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8943.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8946.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;水中落满了花瓣&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8944.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8945.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;又是人山人海&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8947.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;樱花粉红色的色调为马里兰州的这个长久冬天画上句号。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8949.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8951.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在路旁可见一个画着日式佛塔的环保宣传告示&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8952.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;樱花簇拥的潮汐湖和泛舟的人们&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8953.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;潮汐湖对岸的如同粉云一般的樱花&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8954.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;水面上常有环嘴鸥（&lt;i&gt;Larus delawarensis&lt;/i&gt;）掠过&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8955.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8956.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;纪念碑与樱花的组合是 DC 明信片的常见的主题&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8957.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这颗樱花树老茎生花&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8964.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;湖边，背景是杰斐逊纪念堂（Thomas Jefferson Memorial）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8960.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8963.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;以标志性的纪念碑与樱花结束&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx17/DSC-8969.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;终于，我从赏樱的人群中脱出。当我向回走向地铁站时，地铁站旁的弗里尔与萨克勒艺术博物馆吸引了我的目光。我并不常来哥伦比亚特区的市中心，自然不会放过这个接触历史文物的机会。我决定去这个以亚洲古文物为主题的博物馆看一看。&lt;/p&gt;
+
+&lt;p&gt;（完）&lt;/p&gt;</content><author><name></name></author><category term="｢发现｣ 小传" /><summary type="html">封面：</summary></entry><entry><title type="html">东方遗痕记</title><link href="http://localhost:4000/graymatter/2014/04/13/disx18" rel="alternate" type="text/html" title="东方遗痕记" /><published>2014-04-13T00:00:00-04:00</published><updated>2014-04-13T00:00:00-04:00</updated><id>http://localhost:4000/graymatter/2014/04/13/disx18</id><content type="html" xml:base="http://localhost:4000/graymatter/2014/04/13/disx18">&lt;p&gt;在参观完樱花盛放之后，我返回地铁站，在路上见到了隶属于史密森尼博物馆（Smithsonian Museums）的弗瑞尔艺廊（Freer Gallery of Art），走进去了解了才知道这是一个主要藏品是亚洲古文物的博物馆。&lt;/p&gt;
+
+&lt;p&gt;鉴于上次去国家艺廊鲜有千年以上的藏品，这次的参观想必能补充介绍丝绸之路另一端的灿烂文化。&lt;/p&gt;
+
+&lt;p&gt;由文明古国印度的藏品开始。&lt;/p&gt;
+
+&lt;p&gt;巴尔胡佛塔（Bharhut）的栏杆，来自于公元前 2 世纪早期印度（巽伽王朝），&lt;/p&gt;
+
+&lt;p&gt;印度早期的佛教艺术代表，描绘的是信众参拜佛塔内的舍利子的画面。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8974.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;一组石浮雕，来自公元前 2-3 世纪的犍陀罗地区（贵霜帝国），&lt;/p&gt;
+
+&lt;p&gt;先来讲讲贵霜帝国的建国吧。初中历史学过，汉武帝时的卫青、霍去病驱逐匈奴，然而匈奴人的迁徙扰动了周围民族，也开始进行迁徙。大夏地区（Bactria）的希腊化王国被迁移的斯基泰（Scythia，塞种）人重创，最后被月氏人占领，后者建立了贵霜帝国，成为丝绸之路上的一霸。&lt;/p&gt;
+
+&lt;p&gt;用希腊的工艺，诠释印度婆罗门的题材，犍陀罗地区的艺术特征鲜明，独树一帜，在下面这组浮雕中，以欧洲面孔勾勒的印度人像，流畅写实的衣装纹路，将此体现得淋漓尽致。&lt;/p&gt;
+
+&lt;p&gt;这组浮雕描绘佛祖释迦牟尼一生中的几个重要事件，下面这块板描绘着释迦牟尼的降生。相传迦毘罗卫城（Kapilavastu，印度-尼泊尔边境）净饭王的摩诃夫人，一夜梦见白象进入她的左肋而受孕。摩诃夫人在蓝毗尼的花园中，手扶娑罗树（&lt;i&gt;Shorea robusta&lt;/i&gt;）树枝欣然赏景，而释迦牟尼即从她的右肋而出&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8976.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这里描绘的是佛祖的参悟。&lt;/p&gt;
+
+&lt;p&gt;身为王子的释迦摩尼，在领会老、病、死的苦恼后舍弃富贵的宫中生活转向苦修，在菩提树下觉悟成为佛陀（Buddha）或觉者的故事，想必已经是极广为人知的了。&lt;/p&gt;
+
+&lt;p&gt;释迦摩尼所作的动作叫做触地印（Bhumyakramana-Mudra）。释迦摩尼觉悟的时候，手指触地以证明他参悟的修行，赶走了魔罗（Mara）派来阻止他参禅的小兵（在他的座位下）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8978.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;佛祖在鹿野苑（sarnath，北方邦）的第一次讲道（初转法论），他讲的内容载于《转法轮经》（Dhammacakkappavattana Sutta）中，主要是对四谛和中道的阐述，是佛教教义和修行观念基础的基础。&lt;/p&gt;
+
+&lt;p&gt;数百年后，阿育王在血腥征服了羯陵伽后，在鹿野苑树立了著名的阿育王柱，以示皈依佛教。现在被采用为印度国徽的图案。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8979.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;佛陀的圆寂。佛陀超脱了生死循环，而得到涅槃。围绕着佛陀涅槃发生的事，在《大般涅槃经》（上座）/《游行经》（大乘）中有载。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8980.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;那伽王（nagaraja）的下半身，公元 1-2 世纪贵霜帝国。&lt;/p&gt;
+
+&lt;p&gt;梵语中 naga意思是蛇或龙，塑像背后的弧形设计其实代表的是眼镜蛇张开的颈部，而 raja 意思是王。“那伽王” 并非神明，而是一个称号，具此称号的神祇有数位。&lt;/p&gt;
+
+&lt;p&gt;那伽王在古印度的传说故事中是神明的随从、护驾，在佛教文化中顺理成章地成为了佛陀的护法。在佛教传入中国以后，又成了古典奇幻小说中各路龙王的原型。&lt;/p&gt;
+
+&lt;p&gt;这座塑像则代表了贵霜帝国在犍陀罗之外的另一大艺术风格——恒河地区的秣菟罗（Mathura）风格。秣菟罗塑像多用红砂岩，造型更加粗犷但不失逼真。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8981.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;舞神（Nataraja）像，公元 10 世纪印度南部（朱罗王朝），&lt;/p&gt;
+
+&lt;p&gt;朱罗王朝是自孔雀王朝（公元前 3 世纪）就盘踞南印的泰米尔三古国（哲罗，潘地亚）之一，青铜造像技术起源北印度，南传至泰米尔三国，在中世纪时达到最高水准。&lt;/p&gt;
+
+&lt;p&gt;舞神是湿婆（Shiva）的一个化身，也是湿婆神破坏的象征。他右手上持的小鼓叫做 damaru，传说中这个鼓所发出的声音就是梵语音韵的来源；左手的火能毁灭宇宙；其余两只手臂结作无畏印（abhayamudra）；脚下踩的是妖怪 Apasmara，是无知与迷惘的象征；而这个舞蹈名为 Tandava，象征印度教宇宙诞生，运行与毁灭的循环。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8983.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;南迪牛像，来自 12 世纪朱罗王朝&lt;/p&gt;
+
+&lt;p&gt;南迪（Nandi，“欢喜者”）是湿婆神（以及雪山神女的化身，Shailaputri）的坐骑，在这里端坐于莲叶上。&lt;/p&gt;
+
+&lt;p&gt;南迪普遍的形象是南亚土生的瘤牛（&lt;i&gt;Bos primigenius indicus&lt;/i&gt;），身上的珠宝饰物指示了牛在印度教中神圣的地位。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8985.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;湿婆神化身 Vinadhara “持有维纳琴的者” 像，来自公元 10 世纪，朱罗王朝。&lt;/p&gt;
+
+&lt;p&gt;维纳（Veena或者Vina）是一种七弦琴，在这里并没有描绘出实体，不过湿婆神的手臂摆成的姿势就是弹奏这种乐器的方式。&lt;/p&gt;
+
+&lt;p&gt;他一手手持战斧 parashu，代表毁灭之神的大能，《摩诃婆罗多》中的武艺大师持斧罗摩，所持兵器即为此斧，为湿婆所赐；另一手捧一只残缺的羚羊，因为湿婆也有百兽之王（Pashupati）的名号。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8989.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;巴湿伐那陀（Parshvanatha）神龛，11 世纪印度西部，&lt;/p&gt;
+
+&lt;p&gt;这是件耆那教文物。巴湿伐那陀是耆那教在筏驮摩那（Mahavira。即大雄尊者）之前的一届蒂尔丹嘉拉（Tirthankara），耆那教第二十三祖。&lt;/p&gt;
+
+&lt;p&gt;耆那教供奉共二十四祖师，不过只有巴湿伐那陀和筏驮摩那有史载。筏驮摩那和释迦摩尼约莫是同时期的人，他们的际遇、理念相似。耆那教是佛经中的外道之一，佛经中称耆那教徒为尼犍佗 Nigantha “'无结”，并多加贬低。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8993.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8995.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;耆那教《劫波经》（Kalpa sutra）手抄本，15 世纪印度西部&lt;/p&gt;
+
+&lt;p&gt;此经记载二十四蒂尔丹嘉拉的生平。15 世纪印度最普遍的书写载体仍然是贝叶或桦皮，这部精装经虽然是纸质本，但书页仍裁成长条，模仿贝叶的形制&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_8997.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;17 世纪印度莫卧尔朝的一些工艺品&lt;/p&gt;
+
+&lt;p&gt;莫卧尔王朝是突厥化蒙古人入侵北印度建立的，手工艺品颇具西亚风格。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;上&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;珠宝饰匕首&lt;/li&gt;
+  &lt;li&gt;珐琅四叶盒&lt;/li&gt;
+  &lt;li&gt;金银玫瑰水洒瓶&lt;/li&gt;
+  &lt;li&gt;狮头柄匕首&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;下&lt;/strong&gt;：贾汉吉尔（Jahangir）皇帝的御制陨铁匕首。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9000.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;木笔盒，1587 莫卧尔朝，古吉拉邦&lt;/p&gt;
+
+&lt;p&gt;古吉拉特邦地处印度次大陆西岸，位于此处的卡奇湾（Gulf of Kutch）是印度两大珍珠产地之一（另一大是泰米尔南德和斯里兰卡接洽处的马纳尔 Gulf of Mannar）。此外，古吉拉特邦自古就是印度对西亚，尤其是是波斯湾开放的海上门户&lt;/p&gt;
+
+&lt;p&gt;这个柚木笔盒上用珍珠母镶嵌波斯体（Nastaliq）的阿拉伯文字，也体现了波斯艺术对古吉拉特邦艺术的影响&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9003.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;同样来自古吉拉邦的珍珠母碗，17世纪&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9004.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;王座椅腿，来自 13 世纪羯陵伽（东恒伽王朝）。&lt;/p&gt;
+
+&lt;p&gt;攀爬其上的生物叫做象狮兽（gajasimha，gaja意为象，simha为狮）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9006.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;不空羂索观音像，来自 14 世纪尼泊尔&lt;/p&gt;
+
+&lt;p&gt;观音菩萨的化身有许多，不空羂索观音（Amoghapasa Lokeshvara）是其中之一，有八臂（遗失了一对手臂），“不空羂索” 谕指他救世劝化的功力如不会落空的绳套。&lt;/p&gt;
+
+&lt;p&gt;他的身体和手臂形成三屈（tribhanga）的姿势，这种姿势类似于西方造像中的对立平衡姿（contrapposto），也是印度传统舞姿，体现了人体的线条美。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9007.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;离开印度区&lt;/p&gt;
+
+&lt;p&gt;尼婆罗式菩萨像，13 世纪（元朝），可能出自阿尼哥工坊&lt;/p&gt;
+
+&lt;p&gt;元时，蒙古朝廷重用色目人，中亚、藏地文化借机输入中土，八思八征八十尼婆罗番匠，为忽必烈在藏修塔，阿尼哥（Araniko）即为其一。后来他重修了北京妙应寺，设计的藏式佛塔今天仍能见到。&lt;/p&gt;
+
+&lt;p&gt;这位菩萨手结耐心印，高鼻浓眉，是藏式的风格，而塑像则使用了汉地的脱活干漆造像技术&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9010.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;观音菩萨像，11 世纪克什米尔地区&lt;/p&gt;
+
+&lt;p&gt;此处观音手执念珠与莲花，体现出莲花手菩萨（Padmapani）的化身。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9011.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;日本区&lt;/p&gt;
+
+&lt;p&gt;《住吉的神社与海滩》屏风，17世纪（江户时代），&lt;/p&gt;
+
+&lt;p&gt;画面上的鸟居即是大阪的住吉大社（Sumiyoshi Taisha）。《日本书记》传，古坟时代的神功皇后为了庆祝入侵朝鲜半岛的胜利，在此处供奉住吉三神，为底筒男命（Sokotsutsu no O no Mikoto）、中筒男命（Nakatsutsu no O no Mikoto）、表筒男命（Uwatsutsu no O no Mikoto），他们是海员，渔人与商人的保护神。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9013.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;禽鸟景物图，17世纪&lt;/p&gt;
+
+&lt;p&gt;原是明石（Akashi）城中的一个推拉门（fusuma），因此这种推拉门彩绘也称为襖障子絵（fusuma shouji-e）&lt;/p&gt;
+
+&lt;p&gt;风格属长谷川画派（Hasegawa school）。这种金箔为背景，颜色浓郁的风格称为金碧画（kinpeki-ga），是受唐朝屏风画影响的产物；另一种屏风/推门画的风格则是借鉴宋元水墨的水墨画（suiboku-ga）风格&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9016.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;四时牧景，17世纪（江户时代）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9018.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;（左）镀金青铜佛陀像，7 世纪（飞鸟时代），&lt;/p&gt;
+
+&lt;p&gt;（右）观世音菩萨像，8 世纪晚期（奈良时代）的，仿唐式样&lt;/p&gt;
+
+&lt;p&gt;佛教的到来对日本社会有着深远的影响。《日本书纪》载，538年，百济圣明王遣僧侣使团于钦明天皇，标志着古坟时代的终结与飞鸟时代的开始。&lt;/p&gt;
+
+&lt;p&gt;到了圣德太子的时代，佛教又与儒学作为中央集权的统治工具发扬光大。到大和迁都奈良的时候，日本的佛教已有中国、高丽输入的华严、唯识等六宗。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9020.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;华鬘（kusumamala），13世纪左右（镰仓时代）&lt;/p&gt;
+
+&lt;p&gt;这是用金属或木材制造的装饰物。顾名思义，是来替代印度佛教徒祭神所用的花环。&lt;/p&gt;
+
+&lt;p&gt;在它表面的两边的图案是梵语字母भै（bhai）的书写体，代表着药师如来（bhaiṣajyaguru）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9023.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;释迦摩尼与阿罗汉像，14世纪（南北朝时代），水墨画僧良全（Ryozen）作。&lt;/p&gt;
+
+&lt;p&gt;左侧的是十六罗汉位列第四的托塔罗汉，苏频陀尊者（Subinda），肖像一般是持经或托塔，然而这里手执金刚杵和法铃，不是很寻常&lt;/p&gt;
+
+&lt;p&gt;中间的是释迦摩尼，作阿罗汉装束&lt;/p&gt;
+
+&lt;p&gt;而右侧的是十六罗汉位列第二的欢喜罗汉，迦诺迦伐蹉尊者（Kanaka-vatsa），手持珠宝念珠串，是龙族的礼物。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9025.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;四天王像，镰仓时代&lt;/p&gt;
+
+&lt;p&gt;《世纪经》所载的佛教宇宙观衍生自古印度人的宇宙观，认为世界的中心是须弥山，围绕着须弥山有人居住的四大部洲。&lt;/p&gt;
+
+&lt;p&gt;而守护四个部洲的天神，便是最出名的佛教护法，四大天王了&lt;/p&gt;
+
+&lt;p&gt;左起是镇守南方的增长天王（Virudhaka），青面持三叉戟，镇守南瞻部洲&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9027.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;左是镇守西方的广目天王（Virupaksha），白面，手持经与笔，镇守西牛贺洲&lt;/p&gt;
+
+&lt;p&gt;右是镇守北方的多闻天王（Vaishravana），托塔，镇守北俱芦洲&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9029.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;右边的是镇守东方的持国天王（Dhritarashtra），舞剑作忿怒相，镇守东胜神洲（孙猴子的老家）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9030.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;《佛说观普贤菩萨行法经》，12世纪（平安时代）&lt;/p&gt;
+
+&lt;p&gt;这是法华三经之一，而法华/天台宗于平安时代早期传入日本，&lt;/p&gt;
+
+&lt;p&gt;经卷用金泥墨书于磁青纸上，非常雅致&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9033.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;离开日本区&lt;/p&gt;
+
+&lt;p&gt;走廊里有些一些埃及的展品&lt;/p&gt;
+
+&lt;p&gt;公元前 16 世纪，当时古埃及正处于新王国时期的第 18 王朝，也就是宗教改革者埃赫那吞（Akhenaten）与少年法老图坦卡蒙（Tutankhamun）的朝代&lt;/p&gt;
+
+&lt;p&gt;在公元前 26 世纪，古埃及手工艺人就会使用玻璃镶嵌来制作工艺品和首饰了，然而第 18 王朝见证了古埃及玻璃艺术产量与质量的高峰&lt;/p&gt;
+
+&lt;p&gt;图中的即是在这一时期制作的玻璃制品，双耳罐和具有睡莲形的顶部的化妆品、香水容器。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-03/disx18/DSC_9035.jpg&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="｢发现｣ 小传" /><summary type="html">在参观完樱花盛放之后，我返回地铁站，在路上见到了隶属于史密森尼博物馆（Smithsonian Museums）的弗瑞尔艺廊（Freer Gallery of Art），走进去了解了才知道这是一个主要藏品是亚洲古文物的博物馆。</summary></entry><entry><title type="html">观鸟日记（2）</title><link href="http://localhost:4000/graymatter/2014/03/03/disw2" rel="alternate" type="text/html" title="观鸟日记（2）" /><published>2014-03-03T00:00:00-05:00</published><updated>2014-03-03T00:00:00-05:00</updated><id>http://localhost:4000/graymatter/2014/03/03/disw2</id><content type="html" xml:base="http://localhost:4000/graymatter/2014/03/03/disw2">&lt;p&gt;本篇发生于2014年2月到3月初&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2月2日&lt;/p&gt;
+
+&lt;p&gt;家朱雀（&lt;i&gt;Carpodacus mexicanus&lt;/i&gt;）在二月变的常见，雄性个体的红色羽毛也为雪日增加了几分生机&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8313.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8314.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一只雌鸟&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8317.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2月3日&lt;/p&gt;
+
+&lt;p&gt;由于泛滥的灰松鼠（&lt;i&gt;Sciurus carolinensis&lt;/i&gt;）喜欢偷吃鸟食，有一些喂鸟器设有防松鼠的机关&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8318.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;白喉带鵐（&lt;i&gt;Zonotrichia albicollis&lt;/i&gt;）在裸露的草地上觅食&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8320.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8321.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;黑头山雀（&lt;i&gt;Poecile atricapillus&lt;/i&gt;）也没有缺席&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8323.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2月6日&lt;/p&gt;
+
+&lt;p&gt;晚间的冻雨使树枝挂上了凇&lt;/p&gt;
+
+&lt;p&gt;但是这并未吓退白胸鳾（&lt;i&gt;Sitta carolinensis&lt;/i&gt;）在树干上的敲敲打打&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8328.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8330.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8331.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;大量的主红雀（&lt;i&gt;Cardinalis cardinalis&lt;/i&gt;）是二月的一景&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8332.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;白喉带鵐&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8333.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;白胸鳾&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8334.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8335.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8336.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;站在远处树顶的短嘴鸦（&lt;i&gt;Corvus brachyrhynchos&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8337.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;凇中的主红雀&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8338.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8339.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8340.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;黑头山雀因其花色和体形则容易被忽略&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8341.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;雌性主红雀&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8342.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8348.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8349.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8350.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;一对家朱雀&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8351.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8352.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8353.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;家朱雀&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8356.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8357.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;及主红雀的红色&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8358.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8359.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw2/DSC_8360.JPG&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="｢发现｣ 观鸟日记" /><summary type="html">本篇发生于2014年2月到3月初</summary></entry><entry><title type="html">大秦留痕记</title><link href="http://localhost:4000/graymatter/2014/02/28/disx16" rel="alternate" type="text/html" title="大秦留痕记" /><published>2014-02-28T00:00:00-05:00</published><updated>2014-02-28T00:00:00-05:00</updated><id>http://localhost:4000/graymatter/2014/02/28/disx16</id><content type="html" xml:base="http://localhost:4000/graymatter/2014/02/28/disx16">&lt;p&gt;本篇发生于2014年2月28日，GMT-5&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;学校拉丁语部在2月28日组织了一场去美国国家艺术画廊（National Gallery of Art）的 field trip，主要是看巡展到此处的意大利的拜占庭艺术展。&lt;/p&gt;
+
+&lt;p&gt;不过这里也有相当一部分有意思的文艺复兴/中世纪画作与雕塑&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_095230.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;进门第一眼看到的画是 Martha Tennent Rogers and Her Son，1788 年美国肖像画家 Ralph Earl 作，&lt;/p&gt;
+
+&lt;p&gt;其实欧美艺术中妇人抱子的母题延续自中世纪的圣母玛丽抱子形象，这个我们一会还会看到很多&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_100416.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;美国家具收藏区，&lt;/p&gt;
+
+&lt;p&gt;桃花心木柜 High Chest，1765~70 年代来自美国罗德岛纽波特市。可能是当时的纽波特名匠 John Townsend 所制&lt;/p&gt;
+
+&lt;p&gt;旁边是胡桃木椅，来自费城&lt;/p&gt;
+
+&lt;p&gt;从弯脚 cabriole，用贝壳纹作装饰等特征可看出，这一整套家具都是安妮皇后时期风格，&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_100434.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;酱菜瓷坛 Pickle Stands，1770 年代费城的美国瓷器制造厂 American China Manufactory 制&lt;/p&gt;
+
+&lt;p&gt;在这个时期欧美人仿制中国瓷，做的是软质瓷 soft-paste porcelain，虽然看起来和中国瓷有点像&lt;/p&gt;
+
+&lt;p&gt;但在用料（利用玻璃料）和烧制过程（低温）上有天差地别，质量自然也不能和国瓷相比&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_100450.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_100453.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;赌桌 Gaming Table，桃花心木和缎木质地，来自 18 世纪末波士顿，可能是 Seymours 木匠父子的作品&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_100509.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;离开美国家具收藏区&lt;/p&gt;
+
+&lt;p&gt;大理石大卫像 The David of the Casa Martelli，文艺复兴时期 Bernardo Rossellino &amp;amp; Antonio Rossellino 兄弟作品，&lt;/p&gt;
+
+&lt;p&gt;这就是旧约中打败歌利亚的以色列大卫王&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_100628.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;海豚型面甲的钢盔，铁匠 Giovanni Paolo Negroli 作，1525 年或 1545 年意大利米兰&lt;/p&gt;
+
+&lt;p&gt;Negroli 家族也是米兰的铠甲制作名家&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_100645.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;卡皮托利狼为罗穆路斯和雷慕斯哺乳 The Capitoline Wolf Suckling Romulus and Remus，15 或 16 世纪中意大利&lt;/p&gt;
+
+&lt;p&gt;这座铜像描绘的是罗马建城的故事。一只母狼养大了被遗弃于台伯河的弃婴罗穆路斯 Romulus 和雷慕斯 Remus；之后罗穆路斯杀了雷慕斯，成了罗马的建立者&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_100952.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;牧羊人朝圣 Adoration of the Shephards，Francesco di Simone Ferrucci 作，1475/1485年。&lt;/p&gt;
+
+&lt;p&gt;这是《路加福音》 2:8-20 特有的耶稣降生故事的桥段。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_100959.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;年轻的施洗者约翰 The Young Saint John the Baptist，来自 15 世纪佛罗伦萨&lt;/p&gt;
+
+&lt;p&gt;施洗者约翰传统上认为是耶稣的先行者（《约翰福音》4:28），也是他为耶稣施的洗（《马太福音》3:13-17）&lt;/p&gt;
+
+&lt;p&gt;如果这种观念符合史实，那么洗礼的习俗先于基督教产生，后者吸收了这种仪式&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101017.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;圣母和圣婴 Madonna and Child，1430 年左右意大利托斯卡纳&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101027.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;年轻的基督 The Young Christ，赤陶制，Giovanni della Robbia 作，1469 年佛罗伦萨&lt;/p&gt;
+
+&lt;p&gt;和青铜和大理石相比，赤陶并不是最高档的塑像材料，&lt;/p&gt;
+
+&lt;p&gt;而在佛罗伦萨大师 Della Robbia 的手下，上釉赤陶像仍然能称为杰出艺术的载体&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101035.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;耶稣的降生 The Nativity，Domenico Gagini 作来自 1460 年意大利伦巴第&lt;/p&gt;
+
+&lt;p&gt;Gagini 家族是起源于热那亚的雕塑名家&lt;/p&gt;
+
+&lt;p&gt;Domenico 主要的作品是一些浮雕，至今在热那亚和西西里的一些教堂里还可以见到&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101055.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;萨提尔 Satyr 头部形状的油灯，来自 16 世纪早期意大利帕多瓦&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101116.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;欧罗巴 Europa，16 世纪早期，来自帕多瓦；以及来自公元前 4-2 世纪的非洲人头部式样盛具&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101121.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;坐姿女像 Seated Female Figure，来自 16 世纪早期北意大利&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101135.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;慈善女神 Charity，来自 1530 年威尼斯&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101150.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;摩尔人的头 Head of a Moor，来自 16 世纪威尼斯&lt;/p&gt;
+
+&lt;p&gt;正如唐朝艺术在三彩中描绘了西域胡商，流露出接触异国文化时的新奇，&lt;/p&gt;
+
+&lt;p&gt;意大利人刻画北非的摩尔人，也体现了文艺复兴时期威尼斯文化的国际性，&lt;/p&gt;
+
+&lt;p&gt;但这并不意味着各个族裔都能融洽地相处。读过莎士比亚的《奥赛罗》想必就会明白了&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101201.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;蟹捕蟾蜍 A Crab on a Toad，16 世纪早期&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101220.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;萨提尔跪姿手捧皇帝像，Severo Calzetta da Ravenna 所作，来自 16 世纪初的意大利，&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101235.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这里我最喜欢的艺术品，塞壬灯架 Siren Candleholder，同样也是 Severo Calzetta da Ravenna 所作&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101244.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;圣塞巴斯蒂安 Saint Sebastian，也是 Severo Calzetta da Ravenna 的作品&lt;/p&gt;
+
+&lt;p&gt;基督教作为起源于近东的一神宗教，与希腊-罗马的多神的宗教习惯有很大的不同。&lt;/p&gt;
+
+&lt;p&gt;因不参与主流社会的宗教活动，罗马帝国中的基督徒往往被敌视、边缘化，被视为不服从帝国统治的人民&lt;/p&gt;
+
+&lt;p&gt;直到公元 313 年君士坦丁颁布米兰敕令将基督信仰合法化为止，帝国对基督徒的迫害一再发生，&lt;/p&gt;
+
+&lt;p&gt;圣塞巴斯蒂安就是在戴克里先的迫害下殉教的人之一，相传他是戴克里先的御前侍卫，被发现是基督徒后&lt;/p&gt;
+
+&lt;p&gt;被绑在树上用箭射处死，不过有信仰的加持，被射成刺猬都还没死&lt;/p&gt;
+
+&lt;p&gt;他的造像也多描绘他受刑的形象&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101252.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;年轻的施洗者约翰 The Young Saint John the Baptist 像，卡拉拉大理石材质&lt;/p&gt;
+
+&lt;p&gt;如果了解过家装就知道卡拉拉大理石至今仍是最高档的大理石材之一&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101329.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;法尼斯的海格力斯 Farnese Hercules，来自 16 世纪的佛罗伦萨&lt;/p&gt;
+
+&lt;p&gt;海格力斯在这里倚靠的是他的象征性武器，木棒，披着他杀死的涅莫亚狮子的皮。&lt;/p&gt;
+
+&lt;p&gt;所谓“法尼斯的”指的就是倚靠树桩歇息的海格力斯形象。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101340.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;小孩骑海豚 A Child on a Dolphin，青铜上漆 17 世纪中期 Francesco Fanelli 所作，&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101354.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;丘比特骑海豚 Cupid on a Dolphin，16 世纪晚期威尼斯的&lt;/p&gt;
+
+&lt;p&gt;小孩或者丘比特骑海豚是古典塑像中的经典题材，有点像中国民间艺术中童子抱鲤鱼的母题。&lt;/p&gt;
+
+&lt;p&gt;丘比特的母亲阿芙罗蒂特从海中出生，因此丘比特与海也有某种意义上的联系。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101402.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;墨丘利 Mercury，也就是希腊神话中的赫尔墨斯 Hermes。&lt;/p&gt;
+
+&lt;p&gt;他步履如飞，因此是四处云游的商人、旅行者的保护神&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101432.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;三个丘比特 Three Cupids，16 世纪弗莱芒地区&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101446.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;描绘着圣人的椴木像，18 世纪中期德国&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx16/20140228_101520.jpg&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="｢发现｣ 小传" /><summary type="html">本篇发生于2014年2月28日，GMT-5</summary></entry><entry><title type="html">观鸟日记（1）</title><link href="http://localhost:4000/graymatter/2014/01/31/disw1" rel="alternate" type="text/html" title="观鸟日记（1）" /><published>2014-01-31T00:00:00-05:00</published><updated>2014-01-31T00:00:00-05:00</updated><id>http://localhost:4000/graymatter/2014/01/31/disw1</id><content type="html" xml:base="http://localhost:4000/graymatter/2014/01/31/disw1">&lt;p&gt;“观鸟日记”是我在2014年新开设的栏目，&lt;/p&gt;
+
+&lt;p&gt;受房东在门前挂上喂鸟器启发，我决定开始对野生鸟类的专栏记录&lt;/p&gt;
+
+&lt;p&gt;在零下十数度下，这个喂鸟器自然成了食物补给站，并吸引了各种各样的鸟类前来&lt;/p&gt;
+
+&lt;p&gt;本篇发生于2014年1月&lt;/p&gt;
+
+&lt;p&gt;封面：
+&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/小传格式（L）.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;雅努斯（Janus是罗马神话中的双面神。他的一面向前，一面向后，预示着一年的开始的承上启下，同时也是 January 的来源）是2014年席卷美国东部的一场雪暴&lt;/p&gt;
+
+&lt;p&gt;在这场雪暴的影响下，华盛顿积了将近一英尺的雪，至今都没化完&lt;/p&gt;
+
+&lt;p&gt;这是在雪暴当天，也就是1月22日，在外拍摄的照片&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8134.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;作为行道树的枸骨叶冬青（&lt;i&gt;Ilex aquifolium&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8135.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8136.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8137.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;大雪覆盖的街道&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8138.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8140.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;被雪覆盖的森林&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8141.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8142.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;短嘴鸦（&lt;i&gt;Corvus brachyrhynchos&lt;/i&gt;）在附近数量非常大，在早上经常看见它们集群活动&lt;/p&gt;
+
+&lt;p&gt;在雪天，有时他们会成大群聚在附近的树林里&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8143.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8144.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1月25日，大雪已止。房东在屋外挂上了新买的防松鼠喂鸟器，马上就有多种鸟类被吸引而来&lt;/p&gt;
+
+&lt;p&gt;可爱的簇山雀（&lt;i&gt;Parus bicolor&lt;/i&gt;）是常见的鸟类之一&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8152.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;暗眼灯草鵐（&lt;i&gt;Junco hyemalis&lt;/i&gt;）是一种常见的鵐类，它们也会集群活动&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8153.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8154.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;体型小巧的黑头山雀（&lt;i&gt;Poecile atricapillus&lt;/i&gt;）在有阳光的日子更为多见，在阴天它们也同样外出，只不过&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8155.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1月25日，周六&lt;/p&gt;
+
+&lt;p&gt;这天傍晚的时候，夕阳的照在积雪上，使灰白的冬日增添了许多暖意&lt;/p&gt;
+
+&lt;p&gt;黑头山雀也趁此时外出觅食&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8157.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8158.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8159.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8161.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8162.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8166.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8167.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;白喉带鵐（&lt;i&gt;Zonotrichia albicollis&lt;/i&gt;）在雪中挖掘，应该是在贮存喂鸟器中的葵花籽以备未来之需&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8168.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;常客簇山雀&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8170.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;暗眼灯草鵐也在雪上蹦跳，圆滚的体形与单纯的灰黑色调使它格外滑稽&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8171.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;过了一会儿，更多的阳光从云缝漏出&lt;/p&gt;
+
+&lt;p&gt;悬吊喂鸟器的树已经被黑头山雀，簇山雀和暗眼灯草鵐占领了&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8172.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8174.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8180.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8183.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8185.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;远处的一棵树上停着一只卡罗苇鹪鹩（&lt;i&gt;Thryothorus ludovicianus&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;虽然它的数量不小，但也是这里的稀客之一&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8186.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disw1/DSC_8187.JPG&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="｢发现｣ 观鸟日记" /><summary type="html">“观鸟日记”是我在2014年新开设的栏目，</summary></entry><entry><title type="html">博物馆记</title><link href="http://localhost:4000/graymatter/2014/01/18/disx15" rel="alternate" type="text/html" title="博物馆记" /><published>2014-01-18T05:20:00-05:00</published><updated>2014-01-18T05:20:00-05:00</updated><id>http://localhost:4000/graymatter/2014/01/18/disx15</id><content type="html" xml:base="http://localhost:4000/graymatter/2014/01/18/disx15">&lt;p&gt;本篇发生于2014年1月18日，GMT-5，紧接鱼市考察（07）&lt;/p&gt;
+
+&lt;p&gt;封面&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_161636.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;在缅因州大道的鱼市考察之后，我折回哥伦比亚特区市中心，参观史密森尼自然史博物馆（Smithsonian Natural History Museum）&lt;/p&gt;
+
+&lt;p&gt;以路边的灌木启头&lt;/p&gt;
+
+&lt;p&gt;枸骨（&lt;i&gt;Ilex cornuta&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_145308.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;火棘（&lt;i&gt;Pyracantha fortuneana&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_145615.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;史密森尼自然史博物馆远观，摄于史密森尼地铁站附近&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_150210.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看起来方尖碑的维护工作要结束了&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_150259-HDR.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;进入史密森尼自然史博物馆&lt;/p&gt;
+
+&lt;p&gt;哺乳动物展示窗&lt;/p&gt;
+
+&lt;p&gt;中间的是捻角羚（&lt;i&gt;Tragelaphus strepsiceros&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_150752.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_150801.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;獐子（&lt;i&gt;Hydropotes inermis inermis&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_150814.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;黄麂（&lt;i&gt;Muntiacus reevesi&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_150825.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;非洲哺乳动物展区&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_150834.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;非洲郊熊（&lt;i&gt;†agriotherium africanum&lt;/i&gt;）与狮的头骨对比&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_150900.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;苍羚（&lt;i&gt;Nanger dama&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_150956.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;耳廓狐（&lt;i&gt;Vulpes zerda&lt;/i&gt;）和跳鼠（Dipodidae）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151009.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;缟鬣狗（&lt;i&gt;Hyaena hyaena&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151023.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;掏白蚁穴的土豚（&lt;i&gt;Orycteropus afer&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151056.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;黑背霓羚（&lt;i&gt;Cephalophus dorsalis&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151225.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;红河猪（&lt;i&gt;Potamochoerus porcus&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151241.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;美洲獾（&lt;i&gt;Taxidea taxus&lt;/i&gt;），叉角羚（&lt;i&gt;Antilocapra americana&lt;/i&gt;），黑尾土拨鼠（&lt;i&gt;Cynomys ludovicianus&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151554.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;海獭（&lt;i&gt;Enhydra lutris&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151649.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;古蹄兽（&lt;i&gt;Protungulatum&lt;/i&gt;），已知最早的有蹄类动物&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151823.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;黑背胡狼（&lt;i&gt;Canis mesomelas&lt;/i&gt;）和白鼻浣熊（&lt;i&gt;Nasua narica&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151849.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;变形的马来熊（&lt;i&gt;Helarctos malayanus&lt;/i&gt;）标本&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_151900.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;澳洲野狗（&lt;i&gt;Canis lupus dingo&lt;/i&gt;）是如何打败袋狼的&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_152041.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;艮氏犬羚（&lt;i&gt;Madoqua guentheri&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_152121.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;出哺乳类大厅&lt;/p&gt;
+
+&lt;p&gt;张牙舞爪的林象（&lt;i&gt;Loxodonta cyclotis&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_152427.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;海洋区&lt;/p&gt;
+
+&lt;p&gt;因为哺乳动物太大实在不能养在馆里，海洋厅倒是有可以展示的活物&lt;/p&gt;
+
+&lt;p&gt;这个热带鱼缸就是个好例子&lt;/p&gt;
+
+&lt;p&gt;有黄高鳍刺尾鱼（&lt;i&gt;Zebrasoma flavescens&lt;/i&gt;），黄尾副刺尾鱼（&lt;i&gt;Paracanthurus hepatus&lt;/i&gt;），斑马翼塘鳢（&lt;i&gt;Ptereleotris zebra&lt;/i&gt;），印尼栉刺尾鱼（&lt;i&gt;Ctenochaetus tominiensis&lt;/i&gt;），侧带拟花鮨（&lt;i&gt;Pseudanthias pleurotaenia&lt;/i&gt;），眼斑双锯鱼（&lt;i&gt;Amphiprion ocellaris&lt;/i&gt;），丝鳍圆天竺鲷（&lt;i&gt;Sphaeramia nematoptera&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_152551.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;抢镜的高鼻鱼（&lt;i&gt;Naso vlamingii&lt;/i&gt;）和丝鳍拟花鮨（&lt;i&gt;Pseudanthias squamipinnis&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_152554.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;珊瑚礁下的蛇尾，扶窗观看的小孩说是蜘蛛&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_152601.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;斑马翼塘鳢&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_152617.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_152624.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;鱼类简介，做的挺好，把这些鱼的特殊习性都标出来了&lt;/p&gt;
+
+&lt;p&gt;就是尖吻䱵（&lt;i&gt;Oxycirrhites typus&lt;/i&gt;）和双色异齿鳚（&lt;i&gt;Ecsenius bicolor&lt;/i&gt;）这些我特别喜欢的底栖鱼不在了&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx15/20140118_152725.jpg&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="｢发现｣ 小传" /><summary type="html">本篇发生于2014年1月18日，GMT-5，紧接鱼市考察（07）</summary></entry><entry><title type="html">鱼市考察（07）</title><link href="http://localhost:4000/graymatter/2014/01/18/disf7" rel="alternate" type="text/html" title="鱼市考察（07）" /><published>2014-01-18T00:00:00-05:00</published><updated>2014-01-18T00:00:00-05:00</updated><id>http://localhost:4000/graymatter/2014/01/18/disf7</id><content type="html" xml:base="http://localhost:4000/graymatter/2014/01/18/disf7">&lt;p&gt;本篇发生于2014年1月18日，GMT-5，感谢微博平台上 @metrosideros @Scylla_serrata 朋友的鉴定协力&lt;/p&gt;
+
+&lt;p&gt;封面：&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;在得知哥伦比亚特区的这个鱼市场后，马上就来到这里进行考察&lt;/p&gt;
+
+&lt;p&gt;此处有不少大西洋的高纬度鱼类，以及很多熟制品店&lt;/p&gt;
+
+&lt;p&gt;进行这次考察的目的同时在于增进我个人对前者的了解，同时也是对美国人海鲜饮食偏好的一个侧面反映&lt;/p&gt;
+
+&lt;p&gt;楚蟹（&lt;em&gt;Chinopecetes opilio&lt;/em&gt;）腿的熟制品非常普遍&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143530.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;蛤蜊类海产品&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143532.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;水煮摊&lt;/p&gt;
+
+&lt;p&gt;克氏原螯虾（&lt;em&gt;Procambarus clarkii&lt;/em&gt;）和斑节对虾（&lt;em&gt;Penaeus monodon&lt;/em&gt;），&lt;/p&gt;
+
+&lt;p&gt;美国的斑节对虾是入侵物种，很有可能是由大西洋航线船只的压舱水从非洲带来的&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143540.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;排队购买处理好的熟食虾蟹的人群&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143620.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;蓝蟹（&lt;em&gt;Callinectes sapidus&lt;/em&gt;），切萨皮克湾（Chesapeake Bay）的特产&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143627.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;同样是楚蟹&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143638.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;鱼类一瞥&lt;/p&gt;
+
+&lt;p&gt;牛胭脂鱼（&lt;em&gt;Ictiobus&lt;/em&gt; sp.），&lt;/p&gt;
+
+&lt;p&gt;长鳍真鮰（&lt;em&gt;Ictalurus furcatus&lt;/em&gt;)，&lt;/p&gt;
+
+&lt;p&gt;大西洋鲑（&lt;em&gt;Salmo salar&lt;/em&gt;)，&lt;/p&gt;
+
+&lt;p&gt;小鲔（&lt;em&gt;Euthynnus alletteratus&lt;/em&gt;)，&lt;/p&gt;
+
+&lt;p&gt;大耳马鲛（&lt;em&gt;Scomberomorus cavalla&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143656.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;黑斑刺盖太阳鱼（&lt;em&gt;Pomoxis nigromaculatus&lt;/em&gt;)，&lt;/p&gt;
+
+&lt;p&gt;鲻鱼，可能是指名种扁头鲻（&lt;em&gt;Mugilidae cephalus&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;条纹锯鮨（&lt;em&gt;Centropristis striata&lt;/em&gt;），&lt;/p&gt;
+
+&lt;p&gt;金眼狼鲈（&lt;em&gt;Morone chrysops&lt;/em&gt;），&lt;/p&gt;
+
+&lt;p&gt;黄尾平口石首鱼（&lt;em&gt;Leiostomus xanthurus&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;西鲱（&lt;em&gt;Alosa alosa&lt;/em&gt;），&lt;/p&gt;
+
+&lt;p&gt;条纹鲈（&lt;em&gt;Morone saxatilis&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143708.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;椭斑马鲛（&lt;em&gt;Scomberomorus maculatus&lt;/em&gt;），&lt;/p&gt;
+
+&lt;p&gt;云纹犬牙石首鱼（&lt;em&gt;Cynoscion nebulosus&lt;/em&gt;）,&lt;/p&gt;
+
+&lt;p&gt;条纹锯鮨，&lt;/p&gt;
+
+&lt;p&gt;条纹鲈&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143716.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;卵形鲳鰺（&lt;em&gt;Trachinotus ovatus&lt;/em&gt;），&lt;/p&gt;
+
+&lt;p&gt;大西洋滨鲷（&lt;em&gt;Etelis oculatus&lt;/em&gt;)，&lt;/p&gt;
+
+&lt;p&gt;石首鱼科某种（&lt;em&gt;Sciaenidae&lt;/em&gt;）. 姑鱼、䱛之类不好分，可能是波纹绒须石首鱼（&lt;em&gt;Micropogonias undulatus&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143721.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;红长鳍鳕（&lt;em&gt;Urophycis chuss&lt;/em&gt;），&lt;/p&gt;
+
+&lt;p&gt;西大西洋笛鲷（&lt;em&gt;Lutjanus campechanus&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;可能是波纹绒须石首鱼&lt;/p&gt;
+
+&lt;p&gt;赤鲷（&lt;em&gt;Pagrus pagrus&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;佛州鲳鰺（&lt;em&gt;Trachinotus carolinus&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143737.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最左边的是牙鲆属某种（&lt;em&gt;Paralichthys&lt;/em&gt;），最有可能是美洲牙鲆（&lt;em&gt;Paralichthys dentatus&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;大西洋滨鲷（&lt;em&gt;Etelis oculatus&lt;/em&gt;）,&lt;/p&gt;
+
+&lt;p&gt;大西洋鲑&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143747.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;红长鳍鳕&lt;/p&gt;
+
+&lt;p&gt;北美狼鲈（&lt;em&gt;Pagrus pagrus&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;可能是波纹绒须石首鱼&lt;/p&gt;
+
+&lt;p&gt;黄敏尾笛鲷（&lt;em&gt;Ocyurus chrysurus&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143849.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;同一个鱼摊多拍几张&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144415.jpg&quot; /&gt;
+&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144418.jpg&quot; /&gt;
+&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144425.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;市场前的广场&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_143924.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;闲逛的紫翅椋鸟（&lt;em&gt;Sturnus vulgaris&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144023.jpg&quot; /&gt;
+&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144025-0.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;车下享受夕阳的一群麻雀&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144052.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;蓝鳕（&lt;em&gt;Micromesistius poutassou&lt;/em&gt;），舌齿鲈（&lt;em&gt;Dicentrarchus labrax&lt;/em&gt;），美洲牙鲆&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144258.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;波线马鲛和条纹狼鲈&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144305.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;南美白虾（&lt;em&gt;Penaeus vannamei&lt;/em&gt;）和斑节对虾，以及下方的虹鳟（&lt;em&gt;Oncorhynchus mykiss&lt;/em&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144321.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;港口风景
+&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-04/disf7/20140118_144536.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;游览鱼市后，我参观了史密森尼自然史博物馆&lt;/p&gt;
+
+&lt;p&gt;（完）&lt;/p&gt;</content><author><name></name></author><category term="｢发现｣ 鱼市考察" /><summary type="html">本篇发生于2014年1月18日，GMT-5，感谢微博平台上 @metrosideros @Scylla_serrata 朋友的鉴定协力</summary></entry><entry><title type="html">冬日小记</title><link href="http://localhost:4000/graymatter/2014/01/12/disx14" rel="alternate" type="text/html" title="冬日小记" /><published>2014-01-12T00:00:00-05:00</published><updated>2014-01-12T00:00:00-05:00</updated><id>http://localhost:4000/graymatter/2014/01/12/disx14</id><content type="html" xml:base="http://localhost:4000/graymatter/2014/01/12/disx14">&lt;p&gt;本篇发生于2014年1月12日&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;一个天气还不错的周日下午，不如上周冷&lt;/p&gt;
+
+&lt;p&gt;出门买包给Ti-83用的3A电池，顺便在回去看了一下夏天常去的几个点，走走去过的地方&lt;/p&gt;
+
+&lt;p&gt;行道的枸骨叶冬青（&lt;i&gt;Ilex aquifolium&lt;/i&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_152629.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;空气质量还是相当不错的&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_152652.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_152655.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_152905.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;便利店门口&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_153112.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;居民区的人行道&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_153643.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在路边的绿化区里有一丛可能是素馨（&lt;i&gt;Jasminum &lt;/i&gt;）的植物从枯萎的灌木中爬了出来&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_153813.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;萧条&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_153953.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;道旁的冬青树&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_154001.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;小檗（&lt;i&gt;Berberis &lt;/i&gt;）同样也有红色的果子&lt;/p&gt;
+
+&lt;p&gt;不过落叶后的光景比起秋天也有几分惨淡&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_154008.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;插一张我在万圣节前几天在别处拍的小檗&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/DSC-7941.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;道路&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_154015.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_154517.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;路边的一条小溪，夏天的时候这边有美洲鱥还有粘杜父鱼（&lt;i&gt;Cottus cognatus&lt;/i&gt;），非常有趣&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_154649.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_154729.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;全貌&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_154654.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是溪流从路下的水管流向路的另一边&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_154819.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;人行道涂鸦&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_155220.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;菌类靠着融雪带来的湿度生活&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_155427.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_155748.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;匍匐的积雪草&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_155537.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;林中的一个小水洼，应该是融雪积成的。&lt;/p&gt;
+
+&lt;p&gt;如果是在国内没准还会有些匙指虾和食蚊&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;disc&quot; data-src=&quot;https://lykoseremos.github.io/gmalb-01/disx14/20140112_155546.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;（完）&lt;/p&gt;</content><author><name></name></author><category term="｢发现｣ 小传" /><summary type="html">本篇发生于2014年1月12日</summary></entry></feed>

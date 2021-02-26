@@ -1,11 +1,11 @@
 <div class="medium-top-margin large-bottom-margin page-meta">
   {% if page_category %}
-    {% for folder in site.folders %}
-      {% if folder.cat == page_category %}
+    {% for folder in site.pages %}
+      {% if folder.folder_name == page_category %}
       {% assign fold = folder %}
       {% endif %}
     {% endfor %}
-    <a class='folder-link' href="{{ site.baseurl }}{{ fold.url }}">{{ fold.cat }}</a>
+    <a class='folder-link' href="{{ site.baseurl }}/folder/{{ fold.folder_slug }}">{{ fold.folder_name }}</a>
   {% endif %}
   &nbsp; &nbsp;
   {%- if parent_post.modified -%}

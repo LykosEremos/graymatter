@@ -1,0 +1,36 @@
+var h1c = document.getElementsByClassName("hd");
+var str = "";
+var ifnested = false;
+for (i=0;i<h1c.length;i++)
+{
+
+if(ifnested)
+{
+if(h1c[i].tagName==="H1")
+  {
+  ifnested=false;
+  str+="</ul>";
+  str+="<li>"+h1c[i].innerHTML+"</li>";
+  }
+else
+  {
+  str+="<li>"+h1c[i].innerHTML+"</li>";
+  }
+}
+
+else
+{
+if(h1c[i].tagName==="H1")
+  {
+  str+="<li>"+h1c[i].innerHTML+"</li>";
+  }
+else
+  {
+  ifnested=true;
+  str+="<ul>";
+  str+="<li>"+h1c[i].innerHTML+"</li>";
+  }
+}
+
+}
+document.getElementById("toc").innerHTML =str;

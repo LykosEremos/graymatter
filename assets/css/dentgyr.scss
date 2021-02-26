@@ -10,13 +10,13 @@
   transition: 0.3s;
 }
 
-@for $i from 1 through 20 {
+@for $i from 0 through 19 {
     .preview-box:nth-child(20n + #{$i}) {
         animation-delay: $i * 0.2s;
     }
 }
 
-@for $i from 1 through 3 {
+@for $i from 0 through 2 {
     .preview-box:nth-child(#{$i}) {
         animation-delay: $i * 0.2s;
     }
@@ -54,7 +54,5 @@
 	min-width: 25%;
 	max-width: 100%;
 	flex-grow: 1;
-	filter: brightness(60%);
-	-webkit-filter: brightness(60%);
 	margin-bottom: -50px;
 }

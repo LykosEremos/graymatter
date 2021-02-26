@@ -1,52 +1,95 @@
 ---
 layout: default
 landing: folder
-title: 齿状回
 ---
-{%- for category in site.categories -%}
-  {%- if category[0] == page.cat -%}
-  {%- assign categ = category -%}
-{%- endif -%}
-{%- endfor -%}
 
 {%- if page.landing -%}
 <img class='page-art' src='{{site.baseurl}}/assets/{{ page.landing }}.png'></img>
 {%- endif -%}
 
-
-
   <a class='page-heading-nav' href="{{ site.baseurl }}/dentgyr">齿状回</a><span class='page-heading-nav'> / </span>
-  <span class="post-title" itemprop="name headline">{{ categ[0] | escape }}</span>
-  <div class="small-top-margin large-bottom-margin page-meta">共 {% if categ[1].size != 0 %}{{ categ[1].size }}{% else %}0{% endif %} 篇文章</div>
+  <span class="post-title" itemprop="name headline">{{ page.folder_name }}</span>
+  <div class="small-top-margin large-bottom-margin page-meta">共 {{ paginator.total_posts }} 篇文章</div>
 
-  {%- assign index = 0 -%}
-  {%- for post in categ[1] -%}
-  {%- assign img_array = post.content | split: "<img" -%}
-  {%- assign img_array = img_array[1] -%}
-  {%- assign img_array = img_array | split: 'src="' -%}
-  {%- assign img_array = img_array[1] -%}
-  {%- assign img_array = img_array | strip_html -%}
-  {%- assign img_array = img_array | split: '"' -%}
-  {%- assign post_year = post.date | date: "%Y" -%}
-  {%- assign post_month = post.date | date: "%-m" -%}
-  {%- if index == 0 -%}
-  <div class="container right-margin">
-  {%- assign index = 1 -%}
-  {%- else -%}
-  <div class="container left-margin">
-  {%- assign index = 0 -%}
+{%- assign right = 0 -%}
+{%- for post in paginator.posts -%}
+{%- assign img_array = post.content | split: "<img" -%}
+{%- assign img_array = img_array[1] -%}
+{%- assign img_array = img_array | split: 'src="' -%}
+{%- assign img_array = img_array[1] -%}
+{%- assign img_array = img_array | strip_html -%}
+{%- assign img_array = img_array | split: '"' -%}
+{%- assign post_year = post.date | date: "%Y" -%}
+{%- assign post_month = post.date | date: "%-m" -%}
+{%- if right == 1 -%}
+<div class="container left-margin">
+{%- assign right = 0 -%}
+{%- else -%}
+<div class="container right-margin">
+{%- assign right = 1 -%}
+{%- endif -%}
+
+{%- if post.cover -%}
+<div class="gradient"></div>
+<img class='image-box' src='{{ post.cover }}'>
+{%- elsif img_array[0] -%}
+<div class="gradient"></div>
+<img class='image-box' src='{{ img_array[0] }}'>
+{%- endif -%}
+<div class='post-info'>
+<a class="medium-font post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+<span class='post-detail'>{{ post.date | date: "%Y/%m/%d" }}&nbsp;&nbsp;&nbsp;{{ post.category }}
+{%- if post.series_prefix -%} {{ post.series_prefix | prepend: ' · '}} {%- endif -%}</span>
+</div>
+</div>
+{%- endfor -%}
+
+{%- if paginator.total_pages > 1 -%}
+  {%- assign start = paginator.page | minus: 2 -%}
+  {%- assign end = paginator.page | plus: 2 -%}
+
+  {%- if start < 1 -%}
+    {%- assign start = 1 -%}
+    {%- assign end = start | plus: 4 -%}
+  {%- elsif end > paginator.total_pages -%}
+    {%- assign start = paginator.total_pages | minus: 4 -%}
+    {%- assign end = paginator.total_pages -%}
   {%- endif -%}
-    {%- if post.cover -%}
-    <img class='image-box lazyload' data-src='{{ post.cover }}'>
-    {%- elsif img_array[0] -%}
-    <img class='image-box lazyload' data-src='{{ img_array[0] }}'>
+
+  {%- if start < 1 -%}
+  {%- assign start = 1 -%}
+  {%- endif -%}
+  {%- if end > paginator.total_pages -%}
+  {%- assign end = paginator.total_pages -%}
+  {%- endif -%}
+  <div class="clear"></div>
+  <!-- Pagination links -->
+  <div class="large-top-margin no-bottom-margin page-block-collection">
+
+    {%- if start >= 2 -%}
+      <a class='page-block small-font' href="{{ site.baseurl }}/folder/{{ page.folder_slug }}">1</a>
+    {%- endif -%}
+    {%- if start > 2 -%}
+      <div class='page-block small-width fixed small-font'>&middot;</div>
     {%- endif -%}
 
-    <div class='post-info'>
-    <a class="medium-font post-title" href="{{ post.url | relative_url }}">{%- if post.series_prefix -%} {{ post.series_prefix | append: ' · '}} {%- endif -%}
-      {{ post.title }}</a>
-    <div class='post-meta-button serif'><span>{{ post.date | date: "%Y/%m/%d" }}</span> </div>
-    </div>
+  {%- for page in (start..end) -%}
+    {%- if page == paginator.page -%}
+        <div class="page-block focus small-side-margin small-font">{{ page }}</div>
+    {%- elsif page == 1 -%}
+        <a class='page-block small-side-margin small-font' href="{{site.baseurl}}/folder/{{ page.folder_slug }}">{{ page }}</a>
+    {%- else -%}
+        <a class='page-block small-side-margin small-font' href="{{site.baseurl}}/folder/{{ page.folder_slug }}/{{ page }}">{{ page }}</a>
+    {%- endif -%}
+  {%- endfor -%}
 
-  </div>
-{%- endfor -%}
+  {%- assign t_minus_three = paginator.total_pages | minus: 3 -%}
+  {%- if end < t_minus_three -%}
+  <div class='page-block small-width fixed small-font'>&middot;</div>
+  {%- endif -%}
+
+  {%- if end <= t_minus_three -%}
+  <a class='page-block small-side-margin small-font' href="{{ site.baseurl }}/folder/{{ page.folder_slug }}/{{ paginator.total_pages }}">{{ paginator.total_pages }}</a>
+  {%- endif -%}
+{%- endif -%}
+</div>

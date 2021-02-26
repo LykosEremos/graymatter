@@ -10,16 +10,14 @@
 }
 
 .folder-link {
-	padding: 2px 4px;
-	color: $demph-col;
-	border-radius: 3px;
-	border: 1px solid $demph-col;
+	padding: 2px 6px;
+	color: $grey-color-light-dark;
+	background-color: $grey-color-extra-light;
+	&:hover {
+		color: $grey-color-dark;
+	}
 }
 
-.folder-link:hover {
-	border: 1px solid $tx-col;
-	color: $tx-col;
-}
 
 .prev-next-button {
 	color: $demph-col;
@@ -47,14 +45,7 @@
 	margin-bottom: 1em;
 }
 
-.post-text {
-	line-height: 165%;
-	text-indent: 0px;
-	font-size: 12pt;
-	letter-spacing: 0.005em;
-	font-family: $default-font-serif;
-	font-weight: 200;
-}
+
 
 p {
 	text-indent: 2em;
@@ -478,9 +469,8 @@ blockquote{
 	float: right;
 	font-size: 0.75em;
 	border: 1px solid $demph-col;
-	color: $ctr-col;
+	color: $grey-color-dark;
 	font-family: $default-font-sans;
-	background-color: $bx-col;
 	radius: 5px;
 	padding: 2.5px 5px;
 	margin-right: 10px;
@@ -488,7 +478,6 @@ blockquote{
 .control-aid-box {
 	color: $ctr-col;
 	font-family: $default-font-sans;
-	background-color: $bx-col;
 	margin-top:15px;
 	margin-bottom: 15px;
 }

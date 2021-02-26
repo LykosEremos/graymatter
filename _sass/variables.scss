@@ -1,37 +1,59 @@
 @charset "utf-8";
 
-$bg-col: #272727;
-$lk-col: #5eb5ed;
-$lk-hov-col: #5eb5ed;
-$lk-vst-col: #5eb5ed;
-$tx-col: whitesmoke;
-$bx-col: #303030;
-$em-col: #eda15e;
-$nv-col: rgba(49, 49, 49, 0.6);
-$nv-solid-col: #313131;
-$demph-col: #a3a3a3;
-$menu-col: #313131;
-$hl-col:#dcdcdc;
-$ctr-col:#a4a4a4;
+/*$tx-col: #162227;
+$bg-col: #DDE0E4;*/
+$tx-col: #1B0E14;
+$bg-col: #F5F5F5;
+$lk-col: #305288;
+$em-col: #A30015;
+$shadow-col: black;
+$shadow-trans-col: rgba(0, 0, 0,0.3);
+$light-col: whitesmoke;
+$demph-col: darken($tx-col, 10%);
+
+$lk-hov-col: lighten($lk-col, 5%);
+$lk-vst-col: $lk-col;
+
+$bx-col: darken($bg-col, 5%);
+$nv-col: darken($bg-col, 2%) 60%;
+$nv-solid-col: darken($bg-col, 2%);
+$menu-col: darken($bg-col,5%);
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 20%) !default;
+$grey-color-extra-light: lighten($grey-color, 35%) !default;
+$grey-color-light-dark:  darken($grey-color, 10%) !default;
+$grey-color-dark:  darken($grey-color, 30%) !default;
+
+$ctr-col: $grey-color-light-dark;
+$hl-col: $grey-color-dark;
+
 $default-font-sans: 'Arial',"Microsoft YaHei", "PingFang SC";
-$default-font-serif: 'EB Garamond', 'Noto Serif SC', 'SimSun', 'STSong';
+$default-font-serif: 'Times New Roman','SimSun','STSong';
 $spacing-unit:     30px !default;
 $base-font-size:   16px !default;
 $base-font-weight: 300 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.618 !default;
-$grey-color:       #828282 !default;
 $content-width:    1000px !default;
+$content-width-ext:    1200px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
 $main-size:   12pt !default;
 $title-size:  $main-size * 2 !default;
 $line-height: 1.618 * $main-size;
-$h1-size:  $title-size *7/8 !default;
+$h1-size:  $title-size * 3/4 !default;
 $h2-size:  $h1-size * 7/8 !default;
 $h3-size:  $h2-size * 7/8 !default;
 $meta-size:  $main-size !default;
+$mini-size:  0.75*$main-size !default;
+
+$thin-weight: 200;
+$text-weight: 300;
+$normal-weight: 400;
+$medium-weight: 500;
+$thick-weight: 700;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {

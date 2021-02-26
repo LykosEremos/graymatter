@@ -1,7 +1,9 @@
-  {%- if start > 1 -%}
-    <a class='page-block small-font' href="{{ site.baseurl }}{{ parent_post.url }}">1</a>
-    <div class='page-block fixed small-font'>··</div>
-  {%- endif -%}
+{%- if start >= 2 -%}
+  <a class='page-block small-font' href="{{ site.baseurl }}{{ parent_post.url }}">1</a>
+{%- endif -%}
+{%- if start > 2 -%}
+<div class='page-block small-width fixed small-font'>&middot;</div>
+{%- endif -%}
 
   {%- for p in (start..end) -%}
       {%- if p == page_number -%}
@@ -9,15 +11,18 @@
       {%- elsif p == 1 -%}
           <a class='page-block small-font' href="{{ site.baseurl }}{{ parent_post.url }}">{{ p }}</a>
       {%- else -%}
-        {%- if p > 10 -%}
+        {%- if p >= 10 -%}
             <a class='page-block small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ p }}">{{ p }}</a>
         {%- else -%}
-                <a class='page-block small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/0{{ p }}">{{ p }}</a>
+            <a class='page-block small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/0{{ p }}">{{ p }}</a>
         {%- endif -%}
       {%- endif -%}
   {%- endfor -%}
 
-  {%- if end < total_number_pages -%}
-    <div class='page-block fixed small-font'>··</div>
-    <a class='page-block small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ total_number_pages }}">{{ total_number_pages }}</a>
+  {%- assign t_minus_one = total_number_pages | minus: 1 -%}
+  {%- if end < t_minus_one -%}
+  <div class='page-block small-width fixed small-font'>&middot;</div>
+  {%- endif -%}
+  {%- if end <= t_minus_one -%}
+  <a class='page-block small-font' href="{{ site.baseurl }}/multipage/{{collection_name}}/{{ total_number_pages }}">{{ total_number_pages }}</a>
   {%- endif -%}

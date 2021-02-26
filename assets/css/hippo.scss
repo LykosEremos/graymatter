@@ -2,8 +2,8 @@
 ---
 @import "variables";
 
-@for $i from 1 through 24 {
-    .container:nth-child(24n + #{$i}) {
+@for $i from 0 through 5 {
+    .container:nth-child(6n + #{$i}) {
         animation-delay: $i * 0.1s;
     }
 }
@@ -12,9 +12,8 @@
 	object-fit: cover;
 	min-width: 105%;
 	height: 160px;
-	filter: brightness(60%);
-	-webkit-filter: brightness(60%);
-	margin-bottom: -10%;
+
+  margin-bottom: -10%;
 }
 
 
@@ -45,8 +44,8 @@
 .folder-link {
 	font-size: 0.8em;
 	margin-right: 10px;
-	color: $tx-col;
-	border: 1px solid $tx-col;
+	color: $light-col;
+	border: 1px solid $light-col;
 	padding: 2px 4px;
 	border-radius: 3px;
 }

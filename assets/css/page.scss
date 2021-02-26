@@ -36,8 +36,7 @@
 }
 
 
-.header-lh .page-link {
-	color: $ctr-col;
+.page-link {
 	text-align: justify;
 	font-size: 1.1em;
 	font-weight: 300;
@@ -154,7 +153,12 @@ footer {
 
 .page-heading-nav {
 	font-size: $title-size;
-	color: $demph-col;
+	font-weight: 300;
+}
+
+.page-heading-divider {
+	font-size: $title-size;
+	color: $grey-color-light;
 	font-weight: 300;
 }
 
@@ -170,8 +174,9 @@ footer {
 	color: $demph-col;
 }
 
+
 .post-info a {
-	color: $tx-col;
+  color: $light-col;
 }
 
 .post-info .post-title {
@@ -183,11 +188,24 @@ footer {
 	white-space: nowrap;
 }
 
+
 .post-info {
 	position: absolute;
-	bottom: 10%;
-	left: 4%;
-	text-shadow: 0px 0px 2px $bg-col;
+	bottom: 5px;
+	left: 5px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.post-detail
+{
+  font-size: $mini-size;
+  position: relative;
+  float:left;
+  color: $light-col;
 }
 
 .post-meta-button {
@@ -198,17 +216,21 @@ footer {
 
 .page-block {
 	color: $demph-col;
+  font-weight: $thin-weight;
 	display: inline-block;
   text-decoration: none;
 	width: 35px;
-	overflow: hidden;
 	text-align: center;
-	padding-top: 4px;
 }
 
 
 .page-block.focus {
-	color: $tx-col;
+	font-weight: bold;
+}
+
+.small-width {
+  margin: 0;
+  width: 5px;
 }
 
 .page-block.fixed {
@@ -221,14 +243,11 @@ footer {
 }
 
 .page-block-collection {
+  position: relative;
+  right: 0;
 	font-size: 0.9em;
 	display: inline-block;
-	padding-top:5px;
-	padding-bottom:5px;
-	border-radius: 5px;
-	background-color: $bx-col;
-	padding-left: 5px;
-	padding-right: 10px;
+	padding: 3px;
 }
 
 

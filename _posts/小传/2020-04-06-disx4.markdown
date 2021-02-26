@@ -16,11 +16,11 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx4/23.jpg'
 
 这是大门
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/10.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/10.jpg'>
 
 虞美人（<i>Papaver rhoeas</i>）？与罂粟花着实相像，可能是同属的原因吧
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/11.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/11.jpg'>
 
 某个小池子
 
@@ -30,11 +30,11 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx4/23.jpg'
 
 还是算了吧
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/12.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/12.jpg'>
 
 白鹭（<i>Egretta</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/13.jpg'>
 
 荷塘
 
@@ -42,29 +42,29 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx4/23.jpg'
 
 并且水重度爆藻
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/14.jpg'>
 
 福寿螺的卵
 
 这又是一大入侵物种
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/15.jpg'>
 
 下雨了
 
 桥底下隐约有几只罗非
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/16.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/17.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/17.jpg'>
 
 一片菜花
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/18.jpg'>
 
 雕塑
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/19.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/19.jpg'>
 
 摇蚊（Chironomidae）
 
@@ -76,35 +76,35 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx4/23.jpg'
 
 是前几天不小心弄的
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/20.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/20.jpg'>
 
 孔雀（<i>Pavo cristatus</i>）
 
 对于那些说是山鸡的同学我不说什么了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/21.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/21.jpg'>
 
 金坷垃
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/22.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/22.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/23.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/23.jpg'>
 
 杏林阁
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/24.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/24.jpg'>
 
 丰收摇蚊的某蜘蛛
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/25.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/25.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/26.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/26.jpg'>
 
 画面中间那个白色物体就是蜘蛛（的腹部）了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/27.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/27.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/28.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/28.jpg'>
 
 摇蚊虽然是吸食植物汁液为生
 
@@ -112,9 +112,9 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx4/23.jpg'
 
 还是很令人烦恼的
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/29.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/29.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/30.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/30.jpg'>
 
 某个划船的小池子里有些食蚊鱼（<i>Gambusia afinis</i>）
 
@@ -124,9 +124,9 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx4/23.jpg'
 
 倒不是什么好事
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/31.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/31.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx4/32.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx4/32.jpg'>
 
 就这些了
 

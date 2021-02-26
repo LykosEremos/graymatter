@@ -25,25 +25,25 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disk4/13.jpg'
 
 当然只是过客而已
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/1.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/1.jpg'>
 
 中华扁锹（<i>Dorcus titanus</i>）
 
 据说岛外就有 可是我一直是没发现
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/2.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/2.jpg'>
 
 尸体
 
 应该属正常死亡无误
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/3.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/3.jpg'>
 
 继续逛
 
 螵蛸
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/4.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/4.jpg'>
 
 再把刚刚的锹尸拿上来拍张照
 
@@ -53,21 +53,21 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disk4/13.jpg'
 
 所以没有捡回去 入土为安
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/5.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/5.jpg'>
 
 某盾蝽（Scutelleridae）
 
 肩上有两个绿色的斑点，如果是活的观赏价值肯定不小
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/6.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/6.jpg'>
 
 车祸现场
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/7.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/7.jpg'>
 
 业务员
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/8.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/8.jpg'>
 
 抵达时，已是中午，吃饭
 
@@ -75,21 +75,21 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disk4/13.jpg'
 
 不是特色不过是非常名有名的观赏鱼（商品名叫大白鲨或者蓝鲨）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/9.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/9.jpg'>
 
 正片开始
 
 上山道旁的黄蜻（<i>Pantala flavescens</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/10.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/10.jpg'>
 
 可能是扬眉线蛱蝶（<i>Limenitis helmanni</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/11.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/11.jpg'>
 
 小豹蛱蝶（<i>Brenthis daphne</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/12.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/12.jpg'>
 
 水中的某幼虫
 
@@ -99,62 +99,62 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disk4/13.jpg'
 
 PS：旁边的一块石头下有三根须，有可能是蜉蝣（Ephemeroptera）若虫
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/13.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/14.jpg'>
 
 溪水里有一条厚唇光唇鱼（<i>Acrossocheilus labiatus</i>）的幼鱼
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/15.jpg'>
 
 捞上来是这样的
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/16.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/17.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/17.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/18.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/19.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/19.jpg'>
 
 又是一只 不过隐没于砾石中
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/20.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/20.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/21.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/21.jpg'>
 
 大翅绢粉蝶（<i>Aporia largeteaui</i>）和宽边黄粉蝶（<i>Eurema hecabe</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/22.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/22.jpg'>
 
 扬眉线蛱蝶（<i>Limenitis helmanni</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/23.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/23.jpg'>
 
 粗纹尾尺蛾（<i>Ourapteryx inspersa</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/24.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/24.jpg'>
 
 封面的青纹细蟌（<i>Ischnura senegalensis</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/25.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/25.jpg'>
 
 网丝蛱蝶（<i>Cyrestis thyodamas</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/26.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/26.jpg'>
 
 园蛛（Araneidae）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/27.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/27.jpg'>
 
 很大的菌
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/28.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/28.jpg'>
 
 某粉蝶（Pieridae）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/29.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/29.jpg'>
 
 铁线蕨（<i>Adiantum capillus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk4/30.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk4/30.jpg'>

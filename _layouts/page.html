@@ -8,9 +8,9 @@ layout: default
   {%- endif -%}
 
   {%- if page.title == '海马体' -%}
-  <span class="page-heading">{{ page.title | escape }}</span><span class='page-heading-nav'> / </span><a class="page-heading-nav" href="{{site.baseurl}}/dentgyr">齿状回</a>
+  <span class="page-heading">{{ page.title | escape }}</span><span class='page-heading-divider'> / </span><a class="page-heading-nav" href="{{site.baseurl}}/dentgyr">齿状回</a>
   {%- elsif page.title == '齿状回' -%}
-  <span class="page-heading">{{ page.title | escape }}</span><span class='page-heading-nav'> / </span><a class="page-heading-nav" href="{{site.baseurl}}/hippocampus">海马体</a>
+  <span class="page-heading">{{ page.title | escape }}</span><span class='page-heading-divider'> / </span><a class="page-heading-nav" href="{{site.baseurl}}/hippocampus">海马体</a>
   {%- else -%}
   <div class="page-heading">{{ page.title | escape }}</div>
   {%- endif -%}

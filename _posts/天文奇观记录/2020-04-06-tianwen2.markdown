@@ -12,55 +12,55 @@ cover: 'https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1563.jpg'
 
 早上六点多钟，初亏开始
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1562.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1562.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1563.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1563.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1566.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1566.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1568.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1568.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1569.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1569.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1570.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1570.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1571.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1571.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1572.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1572.jpg'>
 
 环食开始
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1573.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1573.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1574.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1574.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1575.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1575.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1576.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1576.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1577.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1577.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1578.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1578.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1579.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1579.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1580.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1580.jpg'>
 
 在一般的曝光条件下拍摄的照片
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1582.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1582.jpg'>
 
 生光开始
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1583.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1583.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1584.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1584.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1586.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1586.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1587.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1587.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1588.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-02/tianwen2/DSC_1588.jpg'>
 
 由于学业所限，复原未作记录
 

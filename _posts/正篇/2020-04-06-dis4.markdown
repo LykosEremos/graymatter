@@ -20,14 +20,14 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 浮雕挺漂亮的
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/1.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/1.jpg'>
 
 拍摄地点
 
 
 正值退潮，这次行动我筹划很久了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/2.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/2.jpg'>
 
 潮池
 
@@ -37,7 +37,7 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 养过海水的鱼友们都不喜欢
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/3.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/3.jpg'>
 
 退潮露出了许多礁石
 
@@ -47,7 +47,7 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 上面常常沾有许多污泥以及一些不速之客的孢子/卵
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'>
 
 海滩上很多苦螺
 
@@ -60,18 +60,18 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 弱肉强食的法则使寄居蟹的数量比螺多也不足为奇
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/5.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/5.jpg'>
 
 这只寄居蟹露出了白色的脚和触须
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/6.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/6.jpg'>
 
 水中的柱状物我个人认为是巢沙蚕的窝
 
 
 在水下发生折射以后柱状物失去了立体感
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/7.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/7.jpg'>
 
 打捞上来是这样的
 
@@ -81,7 +81,7 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 可能是巢沙蚕的分泌物
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/8.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/8.jpg'>
 
 涨潮后总是有一些动物不能及时迁走
 
@@ -97,27 +97,27 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 而这些水分在它受到外界刺激时（比如我们用手碰它）会喷出
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/9.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/9.jpg'>
 
 绿海葵（<i>Anthopleura midori</i>）实际上是潮汐区域的常住居民
 
 
 它们已经早已习惯了潮汐之间的变化
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/11.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/11.jpg'>
 
 淹没在水中的海葵是比较幸福的
 
 
 因为它们可以摄食而且不会脱水
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/12.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/12.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/13.jpg'>
 
 可以看到这只海葵鼓足了水后的模样
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/14.jpg'>
 
 小螃蟹是海滩的常客
 
@@ -130,23 +130,23 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 （看到了吗?在画面中央。）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/15.jpg'>
 
 寄居蟹是很可爱的
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/16.jpg'>
 
 这只小蟹从覆盖着贝壳的沙层中钻出来
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/17.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/17.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/18.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/19.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/19.jpg'>
 
 没有精神的海葵
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/20.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/20.jpg'>
 
 海边常可以看到这样的小溪
 
@@ -156,7 +156,7 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 所以不怎么可能有鱼居住
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/21.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/21.jpg'>
 
 大家想必看到了上图中的那堵墙了吧？
 
@@ -166,7 +166,7 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 螺卵
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/22.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/22.jpg'>
 
 石鳖（画面中央）
 
@@ -176,7 +176,7 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 活石上的常见种
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/23.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/23.jpg'>
 
 他们是素食的
 
@@ -186,32 +186,32 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 图为石鳖和帽贝停在被撬开的海蛎壳上
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/24.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/24.jpg'>
 
 这一只正在藻丛中狼吞虎咽
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/25.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/25.jpg'>
 
 直径约有2.5cm的海葵
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/26.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/26.jpg'>
 
 看到画面中央石头右侧在水中摇摆的絮状物了吗？
 
 
 那其实上是缨鳃虫正在滤食
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/27.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/27.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/28.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/28.jpg'>
 
 海葵
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/29.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/29.jpg'>
 
 小螃蟹
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/30.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/30.jpg'>
 
 潮池里最常见的小鱼莫过于虾虎了
 
@@ -225,8 +225,8 @@ cover: 'https://lykoseremos.github.io/gmalb-01/dis4/4.jpg'
 
 像是黄鳍刺虾虎（<i>Acanthogobius flavimanus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/31.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/31.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/32.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/32.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis4/33.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis4/33.jpg'>

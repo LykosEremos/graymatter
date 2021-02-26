@@ -44,29 +44,29 @@ cover: 'https://i.postimg.cc/TwDkVPt3/38.jpg'
 
 值得一提的是，这个小型湿地被当成生态教育的课本，这个犀金龟雕塑就在其旁
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/1.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/1.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/2.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/2.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/3.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/3.jpg'>
 
 园内的行道树江边刺葵（<i>Phoenix roebelenii</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/4.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/4.jpg'>
 
 花坛里的姜荷（<i>Curcuma alismatifolia</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/5.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/5.jpg'>
 
 回酒店途中看到的仍保留旋翼的 ATR 72 型客机，属台湾的民航公司复兴航空（TransAsia）的机队
 
 （复兴航空已于 2016 年解散）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/6.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/6.jpg'>
 
 焦外，台北夜景，车上拍的
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/7.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/7.jpg'>
 
 第二天
 
@@ -76,29 +76,29 @@ cover: 'https://i.postimg.cc/TwDkVPt3/38.jpg'
 
 公路有一种日式的感觉，在半山的盘回的公路上眺望大海的视角很棒，甚至有人在路基旁的凸出出搭凉伞和塑料桌观海
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/8.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/8.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/9.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/9.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/10.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/10.jpg'>
 
 渔者
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/11.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/11.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/12.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/12.jpg'>
 
 野柳地质公园
 
 这里千奇百怪的岸边岩石是风化造成的，换句话说，是由常年强劲的海风剥蚀而成的
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/13.jpg'>
 
 这种蜂窝状的凹陷结构随处可见
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/14.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/15.jpg'>
 
 这块名为“女王头”的风化石柱一度是景区的亮点
 
@@ -108,47 +108,47 @@ cover: 'https://i.postimg.cc/TwDkVPt3/38.jpg'
 
 当然，来往的游人也遵循这不成文的规定，从不越过那一颗石子宽的禁区
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/16.jpg'>
 
 这种植物爬满了海边岩壁
 
 看叶形想必也是一种耐盐耐晒的植物
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/17.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/17.jpg'>
 
 台北的阳明山和海很近，台北人常自夸的“半个小时上山下海”也并非笑谈
 
 其实厦门也是能半个小时上山下海，但是海是真的海，货真价实的东中国海；山却不是真的“山”
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/18.jpg'>
 
 午饭后，山间溪边
 
 台湾溪蟌（<i>Euphaea formosa</i>）在我拍摄水下视频的时候蹲在旁边的树荫覆盖的蕨类叶片上
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/20.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/20.jpg'>
 
 蓝天映衬下的鬼针草（<i>Bidens pilosa</i>）
 
 进入灌木的时候其带倒钩的种子尤其烦人
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/21.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/21.jpg'>
 
 溪水相当清澈
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/19.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/19.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/22.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/22.jpg'>
 
 工作照
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/23.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/23.jpg'>
 
 午后的山坡，
 
 虽说海拔并不是很高，但林木线已经可以很清楚地体现出来了
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/24.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/24.jpg'>
 
 小油坑，阳明山
 
@@ -158,24 +158,24 @@ cover: 'https://i.postimg.cc/TwDkVPt3/38.jpg'
 
 它们是条斑虎甲（<i>Cosmodela virgula</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/25.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/25.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/26.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/26.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/27.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/27.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/28.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/28.jpg'>
 
 山坡上的硫磺，因为高温，周围寸草不生
 
 但是上个世纪还有人冒着危险来此采掘硫磺矿
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/29.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/29.jpg'>
 
 一种蛱蝶（Nymphalidae）的幼虫栖息在苔藓上
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/30.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/30.jpg'>
 
 桫椤在阳明山上随处可见，完全没有大陆桫椤“珍稀”的标签
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/dis10/32.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/dis10/32.jpg'>

@@ -17,69 +17,69 @@ category: '｢发现｣ 昆虫篇'
 
 从小蝽开始
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/1.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/1.jpg'>
 
 棘缘蝽（<i>Cletus </i>）在草堆里非常非常常见
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/2.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/2.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/3.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/3.jpg'>
 
 池塘里全是蝌蚪
 
 用网捞上来后拍照放生
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/4.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/4.jpg'>
 
 广翅蜡蝉（<i>Ricanoides flabellum</i>）很常见
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/5.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/5.jpg'>
 
 交配的缘蝽（<i>Coreidae </i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/6.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/6.jpg'>
 
 纺星花金龟（<i>Potosia fusca</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/7.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/7.jpg'>
 
 隔壁人家的丝瓜爬到我家的院子里了
 
 丝瓜皮破了后引来前来吸食汁液的瓜实蝇（<i>Bactrocera </i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/8.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/8.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/9.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/9.jpg'>
 
 一只象甲，
 
 可惜太小了，相机的焦对不到
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/10.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/10.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/11.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/11.jpg'>
 
 叶背上的瓢甲
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/12.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/12.jpg'>
 
 翻过来看其实是正在交配的两只瓢虫
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/13.jpg'>
 
 斜纹猫蛛（<i>Oxyopes sertatus</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/14.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/15.jpg'>
 
 叶蝉或是蜡蝉吧
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/16.jpg'>
 
 某蜂
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/17.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/17.jpg'>
 
 今天最大的收获
 
@@ -87,52 +87,52 @@ category: '｢发现｣ 昆虫篇'
 
 一反人们平常对双翅目蝇虻的偏见
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/18.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/19.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/19.jpg'>
 
 略带金色光泽的个体
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/20.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/20.jpg'>
 
 棘缘蝽特写
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/21.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/21.jpg'>
 
 斜纹猫蛛特写
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/22.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/22.jpg'>
 
 植物间的捕食者
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/23.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/23.jpg'>
 
 又是另一种叶蝉
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/24.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/24.jpg'>
 
 正在吸食野果的巨蝽（<i>Eusthenes</i>）若虫
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/25.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/25.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/26.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/26.jpg'>
 
 葡萄十星叶甲（<i>Oides decempunctata</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/27.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/27.jpg'>
 
 还是那只蝽若
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/28.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/28.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/29.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/29.jpg'>
 
 绿翅木蜂（<i>Xylocopa tenuiscapa</i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/30.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/30.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/31.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/31.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disk3/32.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disk3/32.jpg'>
 
 （完）

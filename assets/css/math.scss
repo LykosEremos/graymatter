@@ -84,7 +84,7 @@
 
 .definition::before {
 	content: "定义 " counter(definition) ". ";
-	font-weight: bold;
+	font-weight: $thick-weight;
 }
 
 .axiom {
@@ -105,7 +105,7 @@
 
 .axiom::before {
 	content: "公理 " counter(axiom) ". ";
-	font-weight: bold;
+	font-weight: $thick-weight;
 }
 
 
@@ -126,7 +126,7 @@
 
 .theorem:before {
 	content: "定理 " counter(theorem) ". ";
-	font-weight: bold;
+	font-weight: $thick-weight;
 	font-style: normal;
 }
 
@@ -171,7 +171,7 @@
 .theorem-macro label {
   cursor: pointer;
 	color: $demph-col;
-  font-weight: normal;
+  font-weight: $normal-weight;
   padding: 3px;
 	display: block;
 }

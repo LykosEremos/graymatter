@@ -14,62 +14,62 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx7/6.jpg'
 
 阴暗角落中的低矮植物，在昆虫篇第三章也见到过
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/1.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/1.jpg'>
 
 一个水洼
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/2.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/2.jpg'>
 
 溺水的昆虫
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/3.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/3.jpg'>
 
 大概是一种山椒鸟（<i>Pericrocotus </i>）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/4.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/4.jpg'>
 
 植物
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/5.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/5.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/6.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/6.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/7.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/7.jpg'>
 
 鸟
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/8.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/8.jpg'>
 
 各种各样的苔藓和菌类在阴暗潮湿的角落滋生
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/9.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/9.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/10.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/10.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/11.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/11.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/12.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/12.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/13.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/13.jpg'>
 
 地钱
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/14.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/14.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/15.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/15.jpg'>
 
 蕨类植物
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/16.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/16.jpg'>
 
 林中随拍
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/17.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/17.jpg'>
 
 草蛛的网
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/18.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/18.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx7/19.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx7/19.jpg'>
 
 （完）

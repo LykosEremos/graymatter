@@ -17,7 +17,7 @@ multipage: true
 
 印度早期的佛教艺术代表，描绘的是信众参拜佛塔内的舍利子的画面。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8974.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8974.jpg'>
 
 一组石浮雕，来自公元前 2-3 世纪的犍陀罗地区（贵霜帝国），
 
@@ -27,7 +27,7 @@ multipage: true
 
 这组浮雕描绘佛祖释迦牟尼一生中的几个重要事件，下面这块板描绘着释迦牟尼的降生。相传迦毘罗卫城（Kapilavastu，印度-尼泊尔边境）净饭王的摩诃夫人，一夜梦见白象进入她的左肋而受孕。摩诃夫人在蓝毗尼的花园中，手扶娑罗树（<i>Shorea robusta</i>）树枝欣然赏景，而释迦牟尼即从她的右肋而出
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8976.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8976.jpg'>
 
 这里描绘的是佛祖的参悟。
 
@@ -35,17 +35,17 @@ multipage: true
 
 释迦摩尼所作的动作叫做触地印（Bhumyakramana-Mudra）。释迦摩尼觉悟的时候，手指触地以证明他参悟的修行，赶走了魔罗（Mara）派来阻止他参禅的小兵（在他的座位下）。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8978.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8978.jpg'>
 
 佛祖在鹿野苑（sarnath，北方邦）的第一次讲道（初转法论），他讲的内容载于《转法轮经》（Dhammacakkappavattana Sutta）中，主要是对四谛和中道的阐述，是佛教教义和修行观念基础的基础。
 
 数百年后，阿育王在血腥征服了羯陵伽后，在鹿野苑树立了著名的阿育王柱，以示皈依佛教。现在被采用为印度国徽的图案。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8979.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8979.jpg'>
 
 佛陀的圆寂。佛陀超脱了生死循环，而得到涅槃。围绕着佛陀涅槃发生的事，在《大般涅槃经》（上座）/《游行经》（大乘）中有载。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8980.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8980.jpg'>
 
 那伽王（nagaraja）的下半身，公元 1-2 世纪贵霜帝国。
 
@@ -55,7 +55,7 @@ multipage: true
 
 这座塑像则代表了贵霜帝国在犍陀罗之外的另一大艺术风格——恒河地区的秣菟罗（Mathura）风格。秣菟罗塑像多用红砂岩，造型更加粗犷但不失逼真。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8981.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8981.jpg'>
 
 舞神（Nataraja）像，公元 10 世纪印度南部（朱罗王朝），
 
@@ -63,7 +63,7 @@ multipage: true
 
 舞神是湿婆（Shiva）的一个化身，也是湿婆神破坏的象征。他右手上持的小鼓叫做 damaru，传说中这个鼓所发出的声音就是梵语音韵的来源；左手的火能毁灭宇宙；其余两只手臂结作无畏印（abhayamudra）；脚下踩的是妖怪 Apasmara，是无知与迷惘的象征；而这个舞蹈名为 Tandava，象征印度教宇宙诞生，运行与毁灭的循环。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8983.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8983.jpg'>
 
 南迪牛像，来自 12 世纪朱罗王朝
 
@@ -71,7 +71,7 @@ multipage: true
 
 南迪普遍的形象是南亚土生的瘤牛（<i>Bos primigenius indicus</i>），身上的珠宝饰物指示了牛在印度教中神圣的地位。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8985.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8985.jpg'>
 
 湿婆神化身 Vinadhara “持有维纳琴的者” 像，来自公元 10 世纪，朱罗王朝。
 
@@ -79,7 +79,7 @@ multipage: true
 
 他一手手持战斧 parashu，代表毁灭之神的大能，《摩诃婆罗多》中的武艺大师持斧罗摩，所持兵器即为此斧，为湿婆所赐；另一手捧一只残缺的羚羊，因为湿婆也有百兽之王（Pashupati）的名号。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8989.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8989.jpg'>
 
 巴湿伐那陀（Parshvanatha）神龛，11 世纪印度西部，
 
@@ -87,15 +87,15 @@ multipage: true
 
 耆那教供奉共二十四祖师，不过只有巴湿伐那陀和筏驮摩那有史载。筏驮摩那和释迦摩尼约莫是同时期的人，他们的际遇、理念相似。耆那教是佛经中的外道之一，佛经中称耆那教徒为尼犍佗 Nigantha “'无结”，并多加贬低。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8993.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8993.jpg'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8995.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8995.jpg'>
 
 耆那教《劫波经》（Kalpa sutra）手抄本，15 世纪印度西部
 
 此经记载二十四蒂尔丹嘉拉的生平。15 世纪印度最普遍的书写载体仍然是贝叶或桦皮，这部精装经虽然是纸质本，但书页仍裁成长条，模仿贝叶的形制
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8997.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_8997.jpg'>
 
 17 世纪印度莫卧尔朝的一些工艺品
 
@@ -110,7 +110,7 @@ multipage: true
 
 **下**：贾汉吉尔（Jahangir）皇帝的御制陨铁匕首。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9000.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9000.jpg'>
 
 木笔盒，1587 莫卧尔朝，古吉拉邦
 
@@ -118,17 +118,17 @@ multipage: true
 
 这个柚木笔盒上用珍珠母镶嵌波斯体（Nastaliq）的阿拉伯文字，也体现了波斯艺术对古吉拉特邦艺术的影响
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9003.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9003.jpg'>
 
 同样来自古吉拉邦的珍珠母碗，17世纪
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9004.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9004.jpg'>
 
 王座椅腿，来自 13 世纪羯陵伽（东恒伽王朝）。
 
 攀爬其上的生物叫做象狮兽（gajasimha，gaja意为象，simha为狮）。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9006.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9006.jpg'>
 
 不空羂索观音像，来自 14 世纪尼泊尔
 
@@ -136,7 +136,7 @@ multipage: true
 
 他的身体和手臂形成三屈（tribhanga）的姿势，这种姿势类似于西方造像中的对立平衡姿（contrapposto），也是印度传统舞姿，体现了人体的线条美。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9007.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9007.jpg'>
 
 离开印度区
 
@@ -146,13 +146,13 @@ multipage: true
 
 这位菩萨手结耐心印，高鼻浓眉，是藏式的风格，而塑像则使用了汉地的脱活干漆造像技术
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9010.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9010.jpg'>
 
 观音菩萨像，11 世纪克什米尔地区
 
 此处观音手执念珠与莲花，体现出莲花手菩萨（Padmapani）的化身。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9011.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9011.jpg'>
 
 日本区
 
@@ -160,7 +160,7 @@ multipage: true
 
 画面上的鸟居即是大阪的住吉大社（Sumiyoshi Taisha）。《日本书记》传，古坟时代的神功皇后为了庆祝入侵朝鲜半岛的胜利，在此处供奉住吉三神，为底筒男命（Sokotsutsu no O no Mikoto）、中筒男命（Nakatsutsu no O no Mikoto）、表筒男命（Uwatsutsu no O no Mikoto），他们是海员，渔人与商人的保护神。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9013.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9013.jpg'>
 
 禽鸟景物图，17世纪
 
@@ -168,11 +168,11 @@ multipage: true
 
 风格属长谷川画派（Hasegawa school）。这种金箔为背景，颜色浓郁的风格称为金碧画（kinpeki-ga），是受唐朝屏风画影响的产物；另一种屏风/推门画的风格则是借鉴宋元水墨的水墨画（suiboku-ga）风格
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9016.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9016.jpg'>
 
 四时牧景，17世纪（江户时代）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9018.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9018.jpg'>
 
 （左）镀金青铜佛陀像，7 世纪（飞鸟时代），
 
@@ -182,7 +182,7 @@ multipage: true
 
 到了圣德太子的时代，佛教又与儒学作为中央集权的统治工具发扬光大。到大和迁都奈良的时候，日本的佛教已有中国、高丽输入的华严、唯识等六宗。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9020.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9020.jpg'>
 
 华鬘（kusumamala），13世纪左右（镰仓时代）
 
@@ -190,7 +190,7 @@ multipage: true
 
 在它表面的两边的图案是梵语字母भै（bhai）的书写体，代表着药师如来（bhaiṣajyaguru）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9023.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9023.jpg'>
 
 释迦摩尼与阿罗汉像，14世纪（南北朝时代），水墨画僧良全（Ryozen）作。
 
@@ -200,7 +200,7 @@ multipage: true
 
 而右侧的是十六罗汉位列第二的欢喜罗汉，迦诺迦伐蹉尊者（Kanaka-vatsa），手持珠宝念珠串，是龙族的礼物。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9025.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9025.jpg'>
 
 四天王像，镰仓时代
 
@@ -210,17 +210,17 @@ multipage: true
 
 左起是镇守南方的增长天王（Virudhaka），青面持三叉戟，镇守南瞻部洲
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9027.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9027.jpg'>
 
 左是镇守西方的广目天王（Virupaksha），白面，手持经与笔，镇守西牛贺洲
 
 右是镇守北方的多闻天王（Vaishravana），托塔，镇守北俱芦洲
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9029.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9029.jpg'>
 
 右边的是镇守东方的持国天王（Dhritarashtra），舞剑作忿怒相，镇守东胜神洲（孙猴子的老家）
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9030.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9030.jpg'>
 
 《佛说观普贤菩萨行法经》，12世纪（平安时代）
 
@@ -228,7 +228,7 @@ multipage: true
 
 经卷用金泥墨书于磁青纸上，非常雅致
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9033.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9033.jpg'>
 
 离开日本区
 
@@ -240,4 +240,4 @@ multipage: true
 
 图中的即是在这一时期制作的玻璃制品，双耳罐和具有睡莲形的顶部的化妆品、香水容器。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9035.jpg'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-03/disx18/DSC_9035.jpg'>

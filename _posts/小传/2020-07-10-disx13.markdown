@@ -11,127 +11,127 @@ cover: 'https://lykoseremos.github.io/gmalb-01/disx13/IMG_0300.JPG'
 
 将此处称作为桃源，一是显出这个隐秘山村与城市共存的奇妙，二则是感慨最初发现此处时，误入桃花源之感。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/psb.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/psb.JPG'>
 
 ---
 
 普通的街道
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0282.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0282.JPG'>
 
 被碾死的麻雀
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0283.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0283.JPG'>
 
 上山的道路。
 
 从金鸡南路上山会经过东山水库，也就是《鹭岛之殇》中子陵吻鰕虎鱼的拍摄处。
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0284.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0284.JPG'>
 
 上山的路
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0285.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0285.JPG'>
 
 大坝已可见，与两年前《采虎记》的小传呼应
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0286.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0286.JPG'>
 
 大坝上和从大坝向下望的景色
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0287.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0287.JPG'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0288.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0288.JPG'>
 
 水库的水量格外地充沛，远高于《采虎记》和《鹭岛之殇》
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0289.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0289.JPG'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0290.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0290.JPG'>
 
 水库边的农家菜园和一个酒店后院的观景台
 
 倒也惬意
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0291.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0291.JPG'>
 
 路依旧伸向远方
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0292.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0292.JPG'>
 
 果树
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0293.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0293.JPG'>
 
 去年4月14日在此写过生（见《鹭岛之殇》的花絮），如今已被淹没
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0294.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0294.JPG'>
 
 这里一座桥，原先桥下只是一条小溪，
 
 不过现在高涨的水位和我之前对此的印象毫不相符
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0295.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0295.JPG'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0296.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0296.JPG'>
 
 在走了一段路后，公路并非伸展至密林中
 
 相反，集中的民居开始出现
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0297.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0297.JPG'>
 
 先是一条小溪从上游的田间潺潺而过，流至村口
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0298.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0298.JPG'>
 
 一个水塘，水比较脏，也就只有些罗非鱼
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0299.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0299.JPG'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0300.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0300.JPG'>
 
 小径，旁边是苗圃
 
 《鹭岛之殇》中拍摄长鼻蜡蝉时，我走的是相同的路线
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0301.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0301.JPG'>
 
 再向高处走，便可赏阡陌纵横
 
 一片标准的乡村景色
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0302.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0302.JPG'>
 
 棚架下的溪流
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0303.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0303.JPG'>
 
 几张风景
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0304.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0304.JPG'>
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0305.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0305.JPG'>
 
 小溪从村庄中穿过
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0306.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0306.JPG'>
 
 苗圃
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0307.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0307.JPG'>
 
 在村庄的另一头，是山坡下的一片片菜畦
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0308.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0308.JPG'>
 
 山坡上的巨石很是显眼
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0310.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0310.JPG'>
 
 站在上坡的路上回望刚才拍照的地点
 
-<img class='disc' src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0311.JPG'>
+<img class='disc' data-src='https://lykoseremos.github.io/gmalb-01/disx13/IMG_0311.JPG'>
 
 
 由于下午还有事的缘故，就没有继续向上攀登，只是重新访问了这个地方便离开了
