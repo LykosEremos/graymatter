@@ -98,24 +98,23 @@
     
     <a class='folder-link' href="/graymatter/folder/faxian">｢发现｣ 正篇</a>
   
-  &nbsp; &nbsp;<span class='date-button' id='toggle_date' onclick='change_date()'>首发</span>：
-  <time datetime="2012-02-01T00:00:00-05:00" itemprop="datePublished">
-    <span id='time' class='serif'>2012/02/01</span>
-  </time>
+  &nbsp; &nbsp;<span class='date-button focus' id='date_button' onclick='change_date()'>首发 2012-02-01
+  </span>
   <script>
+    is_mod = 0;
+    var date_button = document.getElementById("date_button");
     function change_date() {
-  var x = document.getElementById("toggle_date");
-  var y = document.getElementById("time");
-  if (x.innerHTML === "首发") {
-    x.innerHTML = "修改";
-    y.innerHTML = '2014/02/15'
-  } else {
-    x.innerHTML = "首发";
-    y.innerHTML = '2012/02/01'
-  }
-}
+    if (!is_mod) {
+    date_button.innerText = '修改 2014-02-15';
+    date_button.className = 'date-button alt';
+    } else {
+    date_button.innerText = '首发 2012-02-01';
+    date_button.className = 'date-button';
+    }
+    is_mod = !is_mod;
+    }
   </script></div>
-<body><div style='counter-reset: h1counter 0'></div><div class="page-block-collection"><a class='page-block small-font' href="/graymatter/2012/02/01/dis8">1</a><a class='page-block small-font' href="/graymatter/multipage/dis8/02">2</a><div class="page-block focus small-font">3</div><a class='page-block small-font' href="/graymatter/multipage/dis8/04">4</a><a class='page-block small-font' href="/graymatter/multipage/dis8/05">5</a><div class='page-block small-width fixed small-font'>&middot;</div><a class='page-block small-font' href="/graymatter/multipage/dis8/26">26</a></div><div class="large-top-margin post-text" itemprop="articleBody"><p>游泳的蟹</p>
+<body><div style='counter-reset: h1counter 0'></div><div class="page-block-collection"><a class='page-block small-font' href="/graymatter/2012/02/01/dis8">1</a><a class='page-block small-font' href="/graymatter/multipage/dis8/02">2</a><div class="page-block focus small-font">3</div><a class='page-block small-font' href="/graymatter/multipage/dis8/04">4</a><a class='page-block small-font' href="/graymatter/multipage/dis8/05">5</a><div class='page-block fixed small-width small-font'>&middot;</div><a class='page-block small-font' href="/graymatter/multipage/dis8/26">26</a></div><div class="large-top-margin post-text" itemprop="articleBody"><p>游泳的蟹</p>
 
 <p>
     <a name='img-1'></a>
@@ -325,14 +324,13 @@
     <a href="https://lykoseremos.github.io/gmalb-01/dis8/90.jpg" class="glightbox"><img class="lazyload disc" data-src="https://lykoseremos.github.io/gmalb-01/dis8/90.jpg" ></a>
     </p>
 
-	</div><div class="very-large-top-margin page-block-collection"><a class='page-block small-font' href="/graymatter/2012/02/01/dis8">1</a><a class='page-block small-font' href="/graymatter/multipage/dis8/02">2</a><div class="page-block focus small-font">3</div><a class='page-block small-font' href="/graymatter/multipage/dis8/04">4</a><a class='page-block small-font' href="/graymatter/multipage/dis8/05">5</a><div class='page-block small-width fixed small-font'>&middot;</div><a class='page-block small-font' href="/graymatter/multipage/dis8/26">26</a></div><div class = 'large-top-margin nav-box'><a class="prev small-font prev-next-button" href="/graymatter//multipage/dis8/02/">
+	</div><div class="very-large-top-margin page-block-collection"><a class='page-block small-font' href="/graymatter/2012/02/01/dis8">1</a><a class='page-block small-font' href="/graymatter/multipage/dis8/02">2</a><div class="page-block focus small-font">3</div><a class='page-block small-font' href="/graymatter/multipage/dis8/04">4</a><a class='page-block small-font' href="/graymatter/multipage/dis8/05">5</a><div class='page-block fixed small-width small-font'>&middot;</div><a class='page-block small-font' href="/graymatter/multipage/dis8/26">26</a></div><div class = 'large-top-margin nav-box'><a class="prev small-font prev-next-button" href="/graymatter//multipage/dis8/02/">
 	&#10094; 水库里的子陵吻虾虎鱼
 	</a><a class="next small-font prev-next-button" href="/graymatter//multipage/dis8/04/">
 	山溪里的黑壳虾 &#10095;
 	</a></div></body>
 
-
-		</article>
+</article>
 </div>
 </main>
 

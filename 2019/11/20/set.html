@@ -98,10 +98,7 @@
     
     <a class='folder-link' href="/graymatter/folder/cadmus">CADMUS</a>
   
-  &nbsp; &nbsp;<span>首发</span>：
-  <time datetime="2019-11-20T21:31:19-05:00" itemprop="datePublished">
-    <span class='serif'>2019/11/20</span>
-  </time></div>
+  &nbsp; &nbsp;<span class='date-button fixed'>首发 2019-11-20</span></div>
 <body><div class='normal'>
 <div class='side-bar' id = 'side-bar'><div class='toc'>
   <a class='toch1' href='/graymatter/2019/11/20/set#逻辑与证明'> 逻辑与证明 </a><a class='toch2' href='/graymatter/2019/11/20/set#断言'> 断言 </a><a class='toch2' href='/graymatter/2019/11/20/set#推理规则'> 推理规则 </a><a class='toch1' href='/graymatter/2019/11/20/set#集论的公理基础'> 集论的公理基础 </a><a class='toch2' href='/graymatter/2019/11/20/set#集与元素'> 集与元素 </a><a class='toch2' href='/graymatter/2019/11/20/set#部分 ZFC 公理'> 部分 ZFC 公理 </a><a class='toch1' href='/graymatter/2019/11/20/set#关系与函数'> 关系与函数 </a><a class='toch2' href='/graymatter/2019/11/20/set#基本定义'> 基本定义 </a><a class='toch2' href='/graymatter/2019/11/20/set#等价关系'> 等价关系 </a><a class='toch2' href='/graymatter/2019/11/20/set#排序关系'> 排序关系 </a><a class='toch1' href='/graymatter/2019/11/20/set#自然数 $\mathbb{N}$'> 自然数 $\mathbb{N}$ </a><a class='toch2' href='/graymatter/2019/11/20/set#Peano 算数公理'> Peano 算数公理 </a><a class='toch2' href='/graymatter/2019/11/20/set#构建自然数'> 构建自然数 </a><a class='toch2' href='/graymatter/2019/11/20/set#数学归纳法与递归定义'> 数学归纳法与递归定义 </a><a class='toch2' href='/graymatter/2019/11/20/set#$\mathbb{N}$ 的代数结构'> $\mathbb{N}$ 的代数结构 </a><a class='toch2' href='/graymatter/2019/11/20/set#$\mathbb{N}$ 上的序关系'> $\mathbb{N}$ 上的序关系 </a><a class='toch2' href='/graymatter/2019/11/20/set#有限和无限'> 有限和无限 </a><a class='toch1' href='/graymatter/2019/11/20/set#附录'> 附录 </a><a class='toch2' href='/graymatter/2019/11/20/set#集合代数的常见规律'> 集合代数的常见规律 </a><a class='toch2' href='/graymatter/2019/11/20/set#函数复合集合代数的运算规律'> 函数复合集合代数的运算规律 </a><a class='toch1' href='/graymatter/2019/11/20/set#参考文献'> 参考文献 </a></div></div>
@@ -193,19 +190,25 @@ trigger.style.opacity = 0.50;
 <li>“$P$ <span class="concept">双向蕴含/当且仅当（if and only if）</span> $Q$”，记作 $P \leftrightarrow Q$.</li>
 </ol>
 
+<p>这里特地解释一下 “蕴含” 这个概念的含义：虽然 “蕴含” 形似我们日常语言中用 “因为…所以..” 表达的因果关系，但这种相似仅限于形似．“蕴含” 代表的并不是因果关系，也不是逻辑递进的关系，而仅仅是在形式上把两个断言连接起来的连接符．你也可以把 $P \to Q$ 当做 $\neg P \vee Q$ 的另一种表达形式．</p>
+
 <p>断言中可以包含变量，这样的断言又可以称为<span class="concept">谓词（predicate）</span>．可以用 $P(x)$ 代表 “$x$ 是江苏省的省会” 这个谓词．我们可以选择<span class="concept">带入</span>特定的 $x$，使 $P(x)$ 有固定的真或者假的取值．例如，如果把 “无锡” 带入 $x$，那么这个断言为假；如果把 “南京” 带入 $x$，那么为真.</p>
 
-<p>如果我们有谓词 $P(x)$，那么必须给出它的<span class="concept">量词（quantifier）</span>．量词限定了令谓词 $P(x)$ 为真的 $x$ 的值的范围，谓词也不能脱离量词而存在．虽然在生活中可能会有各种各样的量词，但在数学中只讨论两种量词：</p>
+<p>如果我们有谓词 $P(x)$，那么必须给出它的<span class="concept">量词（quantifier）</span>．量词限定了令谓词 $P(x)$ 为真的 $x$ 的取值范围；同时，谓词也不能脱离量词而存在．虽然在生活中可能会有各种各样的量词，但在数学中只讨论两种量词：</p>
 <ol>
 <li> <span class="concept">全称量词（universal quantifier）</span>，记作 $\forall$．若令 $P(x)$ 表示 “$x$ 是德国人”，而 $x$ 可以从全体作家的名字中取值，那么 $\forall x:P(x)$ 表示的是 “所有的作家都是德国人”．</li>
 <li> <span class="concept">存在量词（existential quantifier）</span>，记作 $\exists$．接上例，$\exists x: P(x)$ 表示，“存在作家是德国人”</li>
 </ol>
-<p>$\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的食物”（喜欢吃的东西可以是不同的）显然和 “有食物令每个人都喜欢吃”（每个人都必须喜欢吃同一种东西） 是意义上不同的两个句子．我们约定一个量词所限定的<span class="concept">范围（scope）</span>是它的冒号右侧一直到断言句尾.</p>
+<p>$\exists$ 和 $\forall$ 的顺序不能调换：“每个人都有喜欢吃的食物”（喜欢吃的东西可以是不同的）显然和 “有食物令每个人都喜欢吃”（每个人都必须喜欢吃同一种东西） 是意义上不同的两个句子．我们约定一个量词所限定的<span class="concept">范围（scope）</span>是它的冒号右侧一直到断言的句尾.</p>
 
 <p>同时，我们约定如果量词取值的范围内不含任何物件，那么此时谓词是真的，称为<span class="concept">空真（vacuously true）</span>的.</p>
 
 <h2 class="hd"><a name='推理规则'></a>推理规则</h2>
-<p>我们的游戏的主要目标是运用推理规则，从一些简单的真断言来到更加复杂的真断言．如果我们能从真断言 $P$ 和一些其他的条件推导出另一个断言 $Q$，那么可以写 $P\Rightarrow Q$．如果 $P \Rightarrow Q$ 和 $Q\Rightarrow P$，那么我们可以写 $P\Leftrightarrow Q$．注意，$\to$ 和 $\Rightarrow$、$\leftrightarrow$ 和 $\Leftrightarrow$ 并非同样的意思：$\to$ 和 $\leftrightarrow$ 是构造新断言用的连接符，$\Rightarrow$ 和 $\Leftrightarrow$ 指示的是推导过程中由一个断言得出另一个断言的逻辑先后关系.</p>
+<p>我们的游戏的主要目标是运用推理规则，从一些简单的真断言来到更加复杂的真断言．如果我们能从真断言 $P$ 和一些其他的条件推导出另一个断言 $Q$，那么可以写 $P\Rightarrow Q$．</p>
+
+<p>如果 $P \Rightarrow Q$ 和 $Q\Rightarrow P$，那么我们可以写 $P\Leftrightarrow Q$．</p>
+
+<p>注意，$\to$ 和 $\Rightarrow$、$\leftrightarrow$ 和 $\Leftrightarrow$ 并非同样的意思：$\to$ 和 $\leftrightarrow$ 是构造新断言用的连接符，$\Rightarrow$ 和 $\Leftrightarrow$ 指示的是推导过程中由一个断言得出另一个断言的逻辑先后关系.</p>
 
 <p>我们的推理规则其实就是俗话说的逻辑思维，具体地说，有以下几个规则；为了强调这些规则并非人造的规则，我用 “日常逻辑” 来示例它们的合理之处：</p>
 <ol>
@@ -684,7 +687,7 @@ $$(g f h)(x,y)=g(x)fh(y))$$
           <div class="theorem">
           
 <ol>
-<li>若 $R\subseteq X \times X$ 是等价关系，对任意 $a\in R \times R$ 都可以定义 $a$ 的<span class="concept">等价类（equivalence class）</span> $$[a]=\{b\in X \mid aRb \}$$ </li>
+<li>若 $R\subseteq X \times X$ 是等价关系，对任意 $a\in X$ 都可以定义 $a$ 的<span class="concept">等价类（equivalence class）</span> $$[a]=\{b\in X \mid aRb \}$$ </li>
 <li>由 $R$ 所有等价类的集合 $\mathcal{C}=\{[x] \mid x\in X\}$． $\mathcal{C}$  称作 $X$ 相对于 $R$ 的<span class="concept">商集（quotient set）</span>，记作 $X/R$．</li>
 <li>每一个 $[x] \in X/R$ 都非空且两两不相交，并有 $\bigcup X/R =X$．因此我们说 $X/R$ 是 $X$ 的<span class="concept">划分（partition）</span></li>
 <li>映射 $\pi(x)=[x]$ 存在，称为 $R$ 的<span class="concept">规范投影映射（canonical projection map）</span></li>
@@ -800,17 +803,19 @@ $$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
 <p>总之，这里要表达的意思是对有限数字的理解对人类来说是泛有而基本的.</p>
 </div>
 
-<p>既然 “自然数” 的概念这么基本，那么为什么还要浪费时间从集合构建自然数呢？因为我们感兴趣的问题往往涉及研究<em>全体</em>自然数所具有的特点．一个人可以问 “所有的自然数 $a$ 都可以写成另一个自然数 $b$ 加 $0$ 的形式吗？” 为了回答这个问题，我们可以朴素地枚举写出我们知道的所有自然数并一一带入这个谓词中验证，直到谓词对所有的自然数都成立或者找到一个反例为止，但是显然这是不合实际的，因为永远也无法完成逐个验证自然数的任务：常识告诉我们自然数是无穷无尽的.</p>
+<p>既然 “自然数” 的概念这么基本，那么为什么还要浪费时间从集合构建自然数呢？因为我们感兴趣的数学问题往往涉及研究<em>全体</em>自然数所具有的特点．</p>
+
+<p>比如，一个人可以问 “所有的自然数 $a$ 都可以写成另一个自然数 $b$ 加 $0$ 的形式吗？” 为了回答这个问题，我们可以朴素地枚举写出我们知道的所有自然数并一一带入这个谓词中验证，直到谓词对所有的自然数都成立或者找到一个反例为止.显然这是不合实际的，因为我们永远也无法完成逐个验证自然数的任务：.</p>
 
 <p>以上的讨论指出，人类有结合直觉理解一个给定的自然数 $n$ 的心智能力，但是因为没有人真正 “体验” 过无限是什么，因此人类心智无法准确地描述 “全体自然数” 这个无限的概念，更不用说能够证明关于全体自然数的性质了．换句话说，我们连在我们的数学宇宙中能否不出悖论地存在 “全体自然数” 这个集合都无法证明.</p>
 
-<p>虽然我们无法用枚举的形式来定义自然数，我们可以避开提及无穷枚举而试用以下的描述：</p>
+<p>虽然我们无法用枚举的形式来定义自然数，我们可以避开提及无穷枚举，而试用以下的描述：</p>
 <ol>
 <li>0 是自然数.</li>
 <li>如果 $k$ 是自然数，那么 $k$ 的 “下一个元素” $\sigma(k)$ 也是自然数.</li>
 </ol>
 
-<p>这个描述看似是可行的，但是考虑以下的例子：对于 $A=\{a,b\}$，如果定义 $0=a$ 以及 $\sigma(a)=b$ 和 $\sigma(b)=a$，那么 $A$ 显然符合以上的条件，但它显然不是我们想象中 “全体自然数” 的样子——“全体自然数”显然不仅仅只有两个元素．因此，我们需要采用更加严谨的定义：这一次，</p>
+<p>这个描述看似是可行的，但是考虑以下的例子：对于 $A=\{a,b\}$，如果定义 $0=a$ 以及 $\sigma(a)=b$ 和 $\sigma(b)=a$．$A$ 显然符合以上的条件，但它显然不是我们想象中 “全体自然数” 的样子——“全体自然数”显然不仅只有两个元素．因此，我们需要采用更加严谨的定义：这一次，</p>
 
 <div class="definition">若对集合 $A$，存在<span class="concept">单位元</span> $e\in A$ 和<span class="concept">后继映射</span> $\sigma:A\to A$ 满足 <span class="concept">Peano 算数公理</span>：
 <ol>
@@ -821,14 +826,16 @@ $$g=\{([x], [y], [f(x,y)])\mid x,y\in X\}$$
 那么 $A$ 可认为是全体<span class="concept">自然数</span>的集合，可记作 $\mathbb{N}$.
 </div>
 
-<p>自然数是通过 Peano 算数公理定义的，任何符合这套公理的集合都可以认为是全体自然数的集合；这比定义一个特定的集合为自然数更有灵活性．对满足 Peano 公理的任何集合，如果我们表记 $e$ 为 $0$，$\sigma(0)$ 为 $1$，$\sigma(\sigma(0))=\sigma(1)$ 为 $2$ ..．那么我们得到的就是我们习以为常的用阿拉伯数字表现的自然数了.</p>
+<p>自然数是通过 Peano 算数公理定义的，任何符合这套公理的集合都可以认为是全体自然数的集合；这比定义一个特定的集合为自然数更有灵活性．对满足 Peano 公理的任何集合，如果我们表记 $e$ 为 $0$，$\sigma(0)$ 为 $1$，$\sigma(\sigma(0))=\sigma(1)$ 为 $2$ … 那么我们得到的就是我们习以为常的用阿拉伯数字表现的自然数了.</p>
 
-<p>Peano 公理定义的自然数是从 $0$ 而不是 $1$ 开始的．你或许会说，把 $e$ 记成 $1$ 和记成 $0$ 有什么区别？其实是没有区别的．只不过，从 $1$ 开始的自然数缺乏一个加法零元：缺乏一个令 “任何自然数 $n$ 加 $x$ 仍等于 $n$” 的自然数 $x$．如果我们要让自然数成为一个完整的代数结构（幺半群，见下文），那么在定义自然数加法和乘法的时候 $1$ 就得起 $0$ 的作用．我们自然不希望形如 “任何自然数 $n$ 加 $1$ 仍等于 $n$” 这样的算数定律，因此把 $0$ 算作自然数都是一个更加合理的选择.</p>
+<p>Peano 公理定义的自然数是从 $0$ 而不是 $1$ 开始的．你或许会说，把 $e$ 记成 $1$ 和记成 $0$ 有什么区别？其实是没有区别的．只不过，从 $1$ 开始的自然数缺乏一个加法零元：缺乏一个令 “任何自然数 $n$ 加 $x$ 仍等于 $n$” 的自然数 $x$．如果我们要让自然数成为一个完整的代数结构（幺半群，见下文），那么在定义自然数加法和乘法的时候 $1$ 就得起 $0$ 的作用．我们自然不希望形如 “任何自然数 $n$ 加 $1$ 仍等于 $n$” 这样的算数定律，因此把 $0$ 算作自然数是一个更加合理的选择.</p>
 
-<p>同时，这样的定义让那些类似 “‘3’ 的本质是什么？” 的看似深刻的哲学命题失去了意义：如果我们把 “是” 解读为形而上的本质（ontology），那么这个问题的答案是简单干脆的 “集合”，因为我们约定数学宇宙中存在且仅存在集合，不存在什么模糊神秘的宇宙奥妙；如果把它解读为 “‘3’ 的数学定义是什么？”，那么上述定义就是答案.</p>
+<p>同时，这样的定义让像 “‘3’ 的本质是什么？” 的哲学命题失去了意义：如果问的是形而上的数学本体（ontology），那么显然这个问题的答案是简单干脆的 “集合”，因为我们约定数学宇宙中存在且仅存在集合，不存在什么模糊神秘的宇宙奥妙．</p>
 
 <h2 class="hd"><a name='构建自然数'></a>构建自然数</h2>
-<p>目前，我们只定义了自然数需要满足什么性质，还不确定有没有满足这个性质的集合．所以接下来， 我们要通过集论公理构建出一个满足 Peano 公理的自然数模型（model）．首先，我们需要一些辅助的概念：</p>
+<p>目前，我们只定义了自然数需要满足什么性质，还不确定有没有满足这个性质的集合．所以接下来， 我们要通过集论公理，构建出一个满足 Peano 公理的自然数模型（model）．</p>
+
+<p>首先，我们需要一些辅助的概念：</p>
 
 
         
@@ -1539,8 +1546,7 @@ $$B - \bigcap \mathcal{A} = \bigcup_{A \in \mathcal{A}}B - A$$
 </script>
 </body>
 
-
-		</article>
+</article>
 </div>
 </main>
 

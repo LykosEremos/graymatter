@@ -98,22 +98,21 @@
     
     <a class='folder-link' href="/graymatter/folder/tianwen">天文奇观记录</a>
   
-  &nbsp; &nbsp;<span class='date-button' id='toggle_date' onclick='change_date()'>首发</span>：
-  <time datetime="2012-06-08T00:00:00-04:00" itemprop="datePublished">
-    <span id='time' class='serif'>2012/06/08</span>
-  </time>
+  &nbsp; &nbsp;<span class='date-button focus' id='date_button' onclick='change_date()'>首发 2012-06-08
+  </span>
   <script>
+    is_mod = 0;
+    var date_button = document.getElementById("date_button");
     function change_date() {
-  var x = document.getElementById("toggle_date");
-  var y = document.getElementById("time");
-  if (x.innerHTML === "首发") {
-    x.innerHTML = "修改";
-    y.innerHTML = '2014/02/16'
-  } else {
-    x.innerHTML = "首发";
-    y.innerHTML = '2012/06/08'
-  }
-}
+    if (!is_mod) {
+    date_button.innerText = '修改 2014-02-16';
+    date_button.className = 'date-button alt';
+    } else {
+    date_button.innerText = '首发 2012-06-08';
+    date_button.className = 'date-button';
+    }
+    is_mod = !is_mod;
+    }
   </script></div>
 <body><div class="large-top-margin post-text" itemprop="articleBody"><p>本篇记录了发生于2012年6月8日，出现于厦门地区的彩色云彩现象。光的衍射与干涉，使原本白色的云显出光谱上的不同颜色。</p>
 
@@ -141,8 +140,7 @@
 	蒹葭漫记 &#10095;
 	</a></div></body>
 
-
-		</article>
+</article>
 </div>
 </main>
 
